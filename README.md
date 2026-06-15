@@ -15,17 +15,18 @@ Hinweis: Die Aussage skos:exactMatch trifft nicht unbedingt immer zu. Bei einer 
 
 vocabularies for https://arkumu.nrw
 
-As part of a restructuring process in 2026, all vocabularies will be consolidated, logically validate and converted to SKOS. 
+As part of a restructuring process in 2026, all vocabularies will be consolidated, logically validated and converted to SKOS. 
 
-Separate vocabularies can be maintained as .xlsx files and converted to .ttl using a tool such as https://xls2rdf.sparna.fr/web/convert. They are published via this repository at https://skohub.io, where they are available for automated use.
+Vocabularies can be maintained as .xlsx files and converted to .ttl using a tool such as https://xls2rdf.sparna.fr/web/convert. They are published via this repository at https://skohub.io, where they are available for automated use.
 
-NB: The skos:exactMatch property does not necessarily always apply. During an editorial review of all entries, it would likely become apparent for some that skos:closeMatch is a better fit.
+NB: The skos:exactMatch property does not necessarily always apply. During an editorial review of all entries, it would likely become apparent that skos:closeMatch is a better fitfor some.
 
 
 
 ---
 
 </br></br></br>
+README from the original repository https://github.com/skohub-io/skohub-vocabs. See also https://blog.skohub.io/2024-03-21-skohub-pages.
 
 
 # SkoHub Pages
