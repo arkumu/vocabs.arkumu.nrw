@@ -1,1 +1,1 @@
-{"data":{"allConceptScheme":{"edges":[{"node":{"id":"https://example.org/colour/","fields":{"languages":["en","de"]}}},{"node":{"id":"https://example.org/colour-with-hierarchy/","fields":{"languages":["en","de"]}}}]}}}
+{"data":{"allConceptScheme":{"edges":[{"node":{"id":"http://w3id.org/arkumu/roles","fields":{"languages":["en","de"]}}}]}}}
