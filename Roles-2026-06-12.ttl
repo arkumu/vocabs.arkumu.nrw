@@ -1,0 +1,4492 @@
+@base <http://w3id.org/arkumu/roles> .
+@prefix schema: <http://schema.org/> .
+@prefix role: <http://w3id.org/arkumu/roles/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<> dct:title "Roles"@en, "Rollen"@de;
+  dct:description "Rollen, die Akteur:innen in Ereignissen haben können"@de, "Roles that Actors can have in Events"@en;
+  dct:created "2026-06-12"^^xsd:date;
+  skos:editorialNote "URI noch abschließend zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+role:role-1 skos:notation "1";
+  skos:prefLabel "1. Kameraassistenz"@de, "1st assistant camera"@en;
+  skos:altLabel "1. Kameraassistentin"@de, "1. Kameraassistent"@de, "camera operator"@en,
+    "focus puller"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1639269>, <https://d-nb.info/gnd/1037660862>,
+    <https://d-nb.info/gnd/1037660951> .
+
+role:role-2 skos:notation "2";
+  skos:prefLabel "2. Kameraassistenz"@de, "2nd assistant camera"@en;
+  skos:altLabel "2. Kamerassistentin"@de, "2. Kamerassistent"@de, "clapper loader"@en,
+    "film loader"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q834381>, <https://d-nb.info/gnd/1037660862>,
+    <https://d-nb.info/gnd/1037660951> .
+
+role:role-3 skos:notation "3";
+  skos:prefLabel "Absolvent:in"@de, "graduate"@en;
+  skos:altLabel "Absolventin"@de, "Absolvent"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q508719>, <https://d-nb.info/gnd/4191664-5>,
+    <https://d-nb.info/gnd/4273631-6>, <https://vocab.getty.edu/aat/300197559> .
+
+role:role-4 skos:notation "4";
+  skos:prefLabel "Agent:in"@de, "agent"@en;
+  skos:altLabel "Künstleragentin"@de, "Künstleragent"@de, "Musikagentin"@de, "Musikagent"@de,
+    "Agentin"@de, "Agent"@de, "booking agent"@en, "talent agent"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1344174>, <https://vocab.getty.edu/aat/300443852> .
+
+role:role-5 skos:notation "5";
+  skos:prefLabel "Amateur:in"@de, "amateur"@en;
+  skos:altLabel "Amateurin"@de, "Amateur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q455595>, <https://d-nb.info/gnd/4142161-9> .
+
+role:role-6 skos:notation "6";
+  skos:prefLabel "Animation"@de, "animation"@en;
+  skos:altLabel "Animator"@de, "Animateurin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q266569>, <https://d-nb.info/gnd/1037485300>,
+    <https://d-nb.info/gnd/1037485815>, <https://vocab.getty.edu/aat/300025646> .
+
+role:role-7 skos:notation "7";
+  skos:prefLabel "Anthropolog:in"@de, "anthropologist"@en;
+  skos:altLabel "Menschenkundlerin"@de, "Menschenkundler"@de, "Anthropologin"@de, "Anthropologe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4773904>, <https://d-nb.info/gnd/4142642-3>,
+    <https://d-nb.info/gnd/4254397-6> .
+
+role:role-8 skos:notation "8";
+  skos:prefLabel "Archäolog:in"@de, "archaeologist"@en;
+  skos:altLabel "Archäologin"@de, "Archäologe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3621491>, <https://d-nb.info/gnd/4191824-1>,
+    <https://d-nb.info/gnd/4361365-2>, <https://vocab.getty.edu/aat/300025486> .
+
+role:role-9 skos:notation "9";
+  skos:prefLabel "Archivar:in"@de, "archivist"@en;
+  skos:altLabel "Archivarin"@de, "Archivar"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q635734>, <https://d-nb.info/gnd/4002865-3>,
+    <https://d-nb.info/gnd/4874302-1>, <https://vocab.getty.edu/aat/300162133> .
+
+role:role-10 skos:notation "10";
+  skos:prefLabel "Arrangeur:in"@de, "music arranger"@en;
+  skos:altLabel "Arrangeurin"@de, "Arrangeur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1643514>, <https://d-nb.info/gnd/4604119-9>,
+    <https://d-nb.info/gnd/7712885-0> .
+
+role:role-11 skos:notation "11";
+  skos:prefLabel "Arzt/Ärztin"@de, "physician"@en;
+  skos:altLabel "Medizinerin"@de, "Mediziner"@de, "medical doctor"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q39631>, <https://d-nb.info/gnd/4003157-3>,
+    <https://d-nb.info/gnd/4140665-5>, <https://vocab.getty.edu/aat/300025809> .
+
+role:role-12 skos:notation "12";
+  skos:broader role:role-11;
+  skos:prefLabel "Augenarzt/Augenärztin"@de, "ophthalmologist"@en;
+  skos:altLabel "Ophthalmologin"@de, "Ophthalmologe"@de, "oculist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12013238>, <https://d-nb.info/gnd/4003579-7>,
+    <https://d-nb.info/gnd/7555959-6>, <https://vocab.getty.edu/aat/300237241> .
+
+role:role-13 skos:notation "13";
+  skos:prefLabel "Assistent:in"@de, "assistant"@en;
+  skos:altLabel "Assistentin"@de, "Assistent"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q23835475>, <https://d-nb.info/gnd/4348052-4>,
+    <https://d-nb.info/gnd/1077104391> .
+
+role:role-14 skos:notation "14";
+  skos:prefLabel "Aufnahmeexpert:in"@de, "recording expert"@en;
+  skos:altLabel "Aufnahmeexpertin"@de, "Aufnahmeexperte"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123096251> .
+
+role:role-15 skos:notation "15";
+  skos:prefLabel "Aufnahmeleiter:in"@de, "recording supervisor"@en;
+  skos:altLabel "Aufnahmeleitung"@de, "Aufnahmeleiterin"@de, "Aufnahmeleiter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q18535215>, <https://d-nb.info/gnd/4402399-6>,
+    <https://d-nb.info/gnd/1031802835> .
+
+role:role-16 skos:notation "16";
+  skos:broader role:role-15;
+  skos:prefLabel "Tonmeister:in"@de, "tonmeister"@en;
+  skos:altLabel "Tonmeisterin"@de, "Tonmeister"@de, "recording producer"@en, "balance engineer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2442108>, <https://d-nb.info/gnd/4375554-9>,
+    <https://d-nb.info/gnd/7859952-0> .
+
+role:role-17 skos:notation "17";
+  skos:prefLabel "Auftraggeber:in"@de, "commissioner"@en;
+  skos:altLabel "Auftraggeberin"@de, "Auftraggeber"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q760086>, <https://d-nb.info/gnd/4143425-0>,
+    <https://d-nb.info/gnd/1097662985>, <https://vocab.getty.edu/aat/300400903> .
+
+role:role-18 skos:notation "18";
+  skos:prefLabel "Autor:in"@de, "author"@en;
+  skos:altLabel "Verfasserin"@de, "Verfasser"@de, "Buchautorin"@de, "Buchautor"@de,
+    "Schriftstellerin"@de, "Schriftsteller"@de, "Autorin"@de, "Autor"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q482980>, <https://d-nb.info/gnd/4003982-1>,
+    <https://d-nb.info/gnd/4258697-5>, <https://vocab.getty.edu/aat/300025492> .
+
+role:role-19 skos:notation "19";
+  skos:broader role:role-18;
+  skos:prefLabel "Dramatiker:in"@de, "playwright"@en;
+  skos:altLabel "Theaterautorin"@de, "Theaterautor"@de, "Dramenschreiberin"@de, "Dramenschreiber"@de,
+    "Dramatikerin"@de, "Dramatiker"@de, "dramatist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q214917>, <https://d-nb.info/gnd/4140241-8>,
+    <https://d-nb.info/gnd/4123077-2>, <https://vocab.getty.edu/aat/300417553> .
+
+role:role-20 skos:notation "20";
+  skos:broader role:role-18;
+  skos:prefLabel "Romanautor:in"@de, "novelist"@en;
+  skos:altLabel "Romancière"@de, "Romancier"@de, "Romanautorin"@de, "Romanautor"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6625963>, <https://d-nb.info/gnd/4124076-5>,
+    <https://d-nb.info/gnd/4178446-7>, <https://vocab.getty.edu/aat/300179382> .
+
+role:role-21 skos:notation "21";
+  skos:prefLabel "Ballettmeister:in"@de, "ballet master"@en;
+  skos:altLabel "Maître de Ballet"@de, "Directeur da la Danse"@de, "Ballettmeisterin"@de,
+    "Ballettmeister"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q805253> .
+
+role:role-22 skos:notation "22";
+  skos:prefLabel "Bankbeamt:in"@de, "bank officer"@en;
+  skos:altLabel "Bankerin"@de, "Banker"@de, "Bankbeamtin"@de, "Bankbeamter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q806717> .
+
+role:role-23 skos:notation "23";
+  skos:prefLabel "Barbetreiber:in"@de, "bar manager"@en;
+  skos:altLabel "Barbetreiberin"@de, "Barbetreiber"@de, "bar owner"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q87282152> .
+
+role:role-24 skos:notation "24";
+  skos:prefLabel "Beleuchter:in"@de, "lighting technician"@en;
+  skos:altLabel "Oberbeleuchterin"@de, "Oberbeleuchter"@de, "Beleuchterin"@de, "Beleuchter"@de,
+    "gaffer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1424726>, <https://d-nb.info/gnd/1037661850>,
+    <https://d-nb.info/gnd/1037661907> .
+
+role:role-25 skos:notation "25";
+  skos:prefLabel "Bergbauingenieur:in"@de, "mining engineer"@en;
+  skos:altLabel "Bergingenieurin"@de, "Bergingenieur"@de, "Bergbauingenieurin"@de, "Bergbauingenieur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q18524075>, <https://d-nb.info/gnd/4548714-5>,
+    <https://d-nb.info/gnd/1163485624>, <https://vocab.getty.edu/aat/300417568> .
+
+role:role-26 skos:notation "26";
+  skos:prefLabel "Besitzer:in"@de, "possessor"@en;
+  skos:altLabel "Besitzerin"@de, "Besitzer"@de, "owner"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q57575097>, <https://d-nb.info/gnd/4144900-9>,
+    <https://d-nb.info/gnd/1207770906>, <https://vocab.getty.edu/aat/300203630> .
+
+role:role-27 skos:notation "27";
+  skos:prefLabel "Betreuer:in"@de, "academic supervisor"@en;
+  skos:altLabel "Betreuerin"@de, "Betreuer"@de, "betreuende Hochschullehrerin"@de, "betreuender Hochschullehrer"@de,
+    "akademische Betreuung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1622272> .
+
+role:role-28 skos:notation "28";
+  skos:prefLabel "Bibliothekar:in"@de, "librarian"@en;
+  skos:altLabel "Bibliothekarin"@de, "Bibliothekar"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q182436>, <https://d-nb.info/gnd/4145258-6>,
+    <https://d-nb.info/gnd/4145264-1>, <https://vocab.getty.edu/aat/300025555> .
+
+role:role-29 skos:notation "29";
+  skos:prefLabel "Bildgestalter:in"@de, "cinematographer"@en;
+  skos:altLabel "Kameramann"@de, "Kamerafrau"@de, "Bildgestalterin"@de, "Bildgestalter"@de,
+    "DoP"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q222344>, <https://d-nb.info/gnd/4029412-2>,
+    <https://d-nb.info/gnd/4493238-8>, <https://vocab.getty.edu/aat/300025650> .
+
+role:role-30 skos:notation "30";
+  skos:prefLabel "Blechbläser:in"@de, "brass player"@en;
+  skos:altLabel "Blechbläserin"@de, "Blechbläser"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q25829748>, <https://d-nb.info/gnd/4126730-8>,
+    <https://d-nb.info/gnd/7852283-3> .
+
+role:role-31 skos:notation "31";
+  skos:broader role:role-30;
+  skos:prefLabel "Hornist:in"@de, "hornist"@en;
+  skos:altLabel "Hornistin"@de, "Hornist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q19729565>, <https://d-nb.info/gnd/4712307-2>,
+    <https://d-nb.info/gnd/7553331-5> .
+
+role:role-32 skos:notation "32";
+  skos:broader role:role-30;
+  skos:prefLabel "Kornettist:in"@de, "cornetist"@en;
+  skos:altLabel "Kornettistin"@de, "Kornettist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q24574678>, <https://d-nb.info/gnd/7553341-8>,
+    <https://d-nb.info/gnd/7553340-6> .
+
+role:role-33 skos:notation "33";
+  skos:broader role:role-30;
+  skos:prefLabel "Posaunist:in"@de, "trombonist"@en;
+  skos:altLabel "Posaunistin"@de, "Posaunist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q544972>, <https://d-nb.info/gnd/4351420-0>,
+    <https://d-nb.info/gnd/7540272-5> .
+
+role:role-34 skos:notation "34";
+  skos:broader role:role-30;
+  skos:prefLabel "Trompeter:in"@de, "trumpeter"@en;
+  skos:altLabel "Trompeterin"@de, "Trompeter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12377274>, <https://d-nb.info/gnd/4462762-2>,
+    <https://d-nb.info/gnd/7553287-6>, <https://vocab.getty.edu/aat/300235064> .
+
+role:role-35 skos:notation "35";
+  skos:broader role:role-30;
+  skos:prefLabel "Tubist:in"@de, "tuba player"@en;
+  skos:altLabel "Tubaspielerin"@de, "Tubaspieler"@de, "Tubistin"@de, "Tubist"@de, "tubist"@en,
+    "tubaist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q16156383>, <https://d-nb.info/gnd/7553291-8>,
+    <https://d-nb.info/gnd/7553290-6> .
+
+role:role-36 skos:notation "36";
+  skos:broader role:role-30;
+  skos:prefLabel "Zinkenist:in"@de, "cornettist"@en;
+  skos:altLabel "Zinkenistin"@de, "Zinkenist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q59139094>, <https://d-nb.info/gnd/7628941-2> .
+
+role:role-37 skos:notation "37";
+  skos:prefLabel "Buchhalter:in"@de, "bookkeeper"@en;
+  skos:altLabel "Buchhalterin"@de, "Buchhalter"@de, "accounting clerk"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q56224063>, <https://d-nb.info/gnd/4122969-1>,
+    <https://d-nb.info/gnd/7586536-1>, <https://vocab.getty.edu/aat/300024985> .
+
+role:role-38 skos:notation "38";
+  skos:prefLabel "Bühnenbildner:in"@de, "scenographer"@en;
+  skos:altLabel "Szenograf"@de, "Bühnenbildnerin"@de, "Bühnenbildner"@de, "stage designer"@en,
+    "set designer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2707485>, <https://d-nb.info/gnd/4122089-4>,
+    <https://d-nb.info/gnd/7614391-0>, <https://vocab.getty.edu/aat/300025681> .
+
+role:role-39 skos:notation "39";
+  skos:prefLabel "Bühnenregisseur:in"@de, "theatrical director"@en;
+  skos:altLabel "Bühnenregisseurin"@de, "Bühnenregisseur"@de, "Theaterregisseurin"@de,
+    "Theaterregisseur"@de, "stage director"@en, "theatre director"@en, "theater director"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3387717>, <https://d-nb.info/gnd/4185053-1>,
+    <https://d-nb.info/gnd/4469908-6> .
+
+role:role-40 skos:notation "40";
+  skos:prefLabel "Bühnentechniker:in"@de, "theatrical technician"@en;
+  skos:altLabel "Bühnentechnikerin"@de, "Bühnentechniker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1020621>, <https://d-nb.info/gnd/4485037-2> .
+
+role:role-41 skos:notation "41";
+  skos:prefLabel "Choreograf:in"@de, "choreographer"@en;
+  skos:altLabel "Choreografin"@de, "Choreograf"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2490358>, <https://d-nb.info/gnd/4277171-7>,
+    <https://d-nb.info/gnd/4637659-8>, <https://vocab.getty.edu/aat/300025649> .
+
+role:role-42 skos:notation "42";
+  skos:prefLabel "Co-Autor:in"@de, "co-author"@en;
+  skos:altLabel "Co-Autorin"@de, "Co-Autor"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15735983> .
+
+role:role-43 skos:notation "43";
+  skos:prefLabel "Colour Grading"@de, "colour grading"@en;
+  skos:altLabel "Farbkorrektur"@de, "color grading"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1396390> .
+
+role:role-44 skos:notation "44";
+  skos:prefLabel "Designer:in"@de, "designer"@en;
+  skos:altLabel "Gestalter"@de, "Gestalterin"@de, "Designerin"@de, "Designer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5322166>, <https://d-nb.info/gnd/4149173-7>,
+    <https://d-nb.info/gnd/4425811-2>, <https://vocab.getty.edu/aat/300025190> .
+
+role:role-45 skos:notation "45";
+  skos:prefLabel "Dichterkomponist:in"@de, "poet-composer"@en;
+  skos:altLabel "Dichterkomponistin"@de, "Dichterkomponist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q104704532> .
+
+role:role-46 skos:notation "46";
+  skos:prefLabel "Digitalisierer:in"@de, "digitisation officer"@en;
+  skos:altLabel "Digitalisiererin"@de, "Digitalisierer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123094923> .
+
+role:role-47 skos:notation "47";
+  skos:prefLabel "Diplomat:in"@de, "diplomat"@en;
+  skos:altLabel "Diplomatin"@de, "Diplomat"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q193391>, <https://d-nb.info/gnd/4012401-0>,
+    <https://d-nb.info/gnd/4392605-8>, <https://vocab.getty.edu/aat/300025462> .
+
+role:role-48 skos:notation "48";
+  skos:prefLabel "Dirigent:in"@de, "conductor"@en;
+  skos:altLabel "Dirigentin"@de, "Dirigent"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q158852>, <https://d-nb.info/gnd/4012434-4>,
+    <https://d-nb.info/gnd/4648823-6>, <https://vocab.getty.edu/aat/300025672> .
+
+role:role-49 skos:notation "49";
+  skos:broader role:role-48;
+  skos:prefLabel "Chorleiter:in"@de, "choir director"@en;
+  skos:altLabel "Chordirektorin"@de, "Chordirektor"@de, "Chorleiterin"@de, "Chorleiter"@de,
+    "choirmaster"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1076502>, <https://d-nb.info/gnd/4443068-1>,
+    <https://d-nb.info/gnd/7553296-7>, <https://vocab.getty.edu/aat/300264212> .
+
+role:role-50 skos:notation "50";
+  skos:broader role:role-48;
+  skos:prefLabel "Ensembleleiter:in"@de, "ensemble leader"@en;
+  skos:altLabel "Ensembleleiterin"@de, "Ensembleleiter"@de, "ensemble director"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1344301>, <https://d-nb.info/gnd/4408122-4> .
+
+role:role-51 skos:notation "51";
+  skos:broader role:role-48;
+  skos:prefLabel "Generalmusikdirektor:in"@de, "general music director"@en;
+  skos:altLabel "Generalmusikdirektorin"@de, "Generalmusikdirektor"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q48995718>, <https://d-nb.info/gnd/4398808-8> .
+
+role:role-52 skos:notation "52";
+  skos:broader role:role-48;
+  skos:prefLabel "Kantor:in (christlich)"@de, "cantor"@en;
+  skos:altLabel "Kantorin (christlich)"@de, "Kantor (christlich)"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q330679>, <https://d-nb.info/gnd/4163221-7>,
+    <https://d-nb.info/gnd/7590418-4> .
+
+role:role-53 skos:notation "53";
+  skos:broader role:role-48;
+  skos:prefLabel "Orchesterleiter:in"@de, "band leader"@en;
+  skos:altLabel "Orchesterleiterin"@de, "Orchesterleiter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q215793>, <https://d-nb.info/gnd/7524748-3>,
+    <https://vocab.getty.edu/aat/300025668> .
+
+role:role-54 skos:notation "54";
+  skos:prefLabel "DJ"@de, "DJ"@en;
+  skos:altLabel "disc jockey"@de, "djane"@de, "disc jockey"@en, "djane"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q130857>, <https://d-nb.info/gnd/4380204-7>,
+    <https://d-nb.info/gnd/7553303-0>, <https://vocab.getty.edu/aat/300265803> .
+
+role:role-55 skos:notation "55";
+  skos:prefLabel "Dramaturg:in"@de, "dramaturge"@en;
+  skos:altLabel "Dramaturgin"@de, "Dramaturg"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q487596>, <https://d-nb.info/gnd/4398838-6>,
+    <https://d-nb.info/gnd/4750929-6>, <https://vocab.getty.edu/aat/300403978> .
+
+role:role-56 skos:notation "56";
+  skos:prefLabel "Drehbuchautor:in"@de, "screen writer"@en;
+  skos:altLabel "Buch"@de, "Drehbuchautorin"@de, "Drehbuchautor"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q28389>, <https://d-nb.info/gnd/4294338-3>,
+    <https://d-nb.info/gnd/4302523-7>, <https://vocab.getty.edu/aat/300025515> .
+
+role:role-57 skos:notation "57";
+  skos:prefLabel "Durchschlagzungeninstrumenten-Spieler:in"@de, "free-reed player"@en;
+  skos:altLabel "Durchschlagzungeninstrumenten-Spielerin"@de, "Durchschlagzungeninstrumenten-Spieler"@de,
+    "free reed player"@en, "free reed aerophone player"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123106465> .
+
+role:role-58 skos:notation "58";
+  skos:broader role:role-57;
+  skos:prefLabel "Akkordeonist:in"@de, "accordionist"@en;
+  skos:altLabel "Akkordeonistin"@de, "Akkordeonist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1863064>, <https://d-nb.info/gnd/4776375-9>,
+    <https://d-nb.info/gnd/7553267-0> .
+
+role:role-59 skos:notation "59";
+  skos:broader role:role-57;
+  skos:prefLabel "Konzertinaspieler:in"@de, "concertina player"@en;
+  skos:altLabel "Konzertinaspielerin"@de, "Konzertinaspieler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q88105790> .
+
+role:role-60 skos:notation "60";
+  skos:broader role:role-57;
+  skos:prefLabel "Mundharmonikaspieler:in"@de, "harmonica player"@en;
+  skos:altLabel "Mundharmonikaspielerin"@de, "Mundharmonikaspieler"@de, "harmonicist"@en,
+    "mouth organist"@en, "mouth harpist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q20850090>, <https://d-nb.info/gnd/7553350-9>,
+    <https://d-nb.info/gnd/7553348-0> .
+
+role:role-61 skos:notation "61";
+  skos:prefLabel "Eigentümer:in"@de, "owner"@en;
+  skos:altLabel "Eigentümerin"@de, "Eigentümer"@de, "proprietor"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12794619>, <https://d-nb.info/gnd/4151183-9>,
+    <https://d-nb.info/gnd/7819368-0> .
+
+role:role-62 skos:notation "62";
+  skos:prefLabel "Erfinder:in"@de, "inventor"@en;
+  skos:altLabel "Erfinderin"@de, "Erfinder"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q205375>, <https://d-nb.info/gnd/4015222-4>,
+    <https://d-nb.info/gnd/4218749-7>, <https://vocab.getty.edu/aat/300025845> .
+
+role:role-63 skos:notation "63";
+  skos:prefLabel "erwähnte:r Akteur:in"@de, "mentioned actor"@en;
+  skos:altLabel "erwähnte Akteurin"@de, "erwähnter Akteur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123095131> .
+
+role:role-64 skos:notation "64";
+  skos:prefLabel "Ethnolog:in"@de, "ethnologist"@en;
+  skos:altLabel "Völkerkundlerin"@de, "Völkerkundler"@de, "Ethnologin"@de, "Ethnologe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1371378>, <https://d-nb.info/gnd/4153098-6>,
+    <https://d-nb.info/gnd/4202034-7> .
+
+role:role-65 skos:notation "65";
+  skos:broader role:role-64;
+  skos:prefLabel "Ethnograph:in"@de, "ethnographer"@en;
+  skos:altLabel "Ethnographin"@de, "Ethnograph"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12347522>, <https://d-nb.info/gnd/4153098-6>,
+    <https://d-nb.info/gnd/4202034-7> .
+
+role:role-66 skos:notation "66";
+  skos:prefLabel "Fernsehmoderator:in"@de, "television presenter"@en;
+  skos:altLabel "TV-Moderatorin"@de, "TV-Moderator"@de, "TV host"@de, "Fernsehmoderatorin"@de,
+    "Fernsehmoderator"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q947873> .
+
+role:role-67 skos:notation "67";
+  skos:prefLabel "Filmförderung"@de, "film funding"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1341445>, <https://d-nb.info/gnd/4017117-6> .
+
+role:role-68 skos:notation "68";
+  skos:prefLabel "Filmproduzent:in"@de, "film producer"@en;
+  skos:altLabel "Produzentin"@de, "Produzent"@de, "Filmproduzentin"@de, "Filmproduzent"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3282637>, <https://d-nb.info/gnd/4324247-9>,
+    <https://d-nb.info/gnd/4472639-9> .
+
+role:role-69 skos:notation "69";
+  skos:prefLabel "Folkloremusiker:in"@de, "folk musician"@en;
+  skos:altLabel "Folkloremusikerin"@de, "Folkloremusiker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q101084010> .
+
+role:role-70 skos:notation "70";
+  skos:prefLabel "Fotograf:in"@de, "photographer"@en;
+  skos:altLabel "Fotografin"@de, "Fotograf"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q33231>, <https://d-nb.info/gnd/4045893-3>,
+    <https://d-nb.info/gnd/4262252-9>, <https://vocab.getty.edu/aat/300025687> .
+
+role:role-71 skos:notation "71";
+  skos:broader role:role-70;
+  skos:prefLabel "Fotograf:in (Film)"@de, "still photographer"@en;
+  skos:altLabel "Fotografin (Film)"@de, "Fotograf (Film)"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q20743434>, <https://vocab.getty.edu/aat/300025699> .
+
+role:role-72 skos:notation "72";
+  skos:broader role:role-70;
+  skos:prefLabel "Foto-Künstler:in"@de, "art photographer"@en;
+  skos:altLabel "Foto-Künstlerin"@de, "Foto-Künstler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12166078>, <https://vocab.getty.edu/aat/300435143> .
+
+role:role-73 skos:notation "73";
+  skos:prefLabel "Gerichtsvollzieher:in"@de, "bailiff"@en;
+  skos:altLabel "Betreibungsbeamtin"@de, "Betreibungsbeamter"@de, "Gerichtsvollzieherin"@de,
+    "Gerichtsvollzieher"@de, "court bailiff"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2005653>, <https://d-nb.info/gnd/4020360-8> .
+
+role:role-74 skos:notation "74";
+  skos:prefLabel "Gesangslehrer:in"@de, "voice teacher"@en;
+  skos:altLabel "Gesangslehrerin"@de, "Gesangslehrer"@de, "Gesangspädagog:in"@de, "Gesangspädagogin"@de,
+    "Gesangspädagoge"@de, "singing teacher"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7939609>, <https://d-nb.info/gnd/7628966-7>,
+    <https://d-nb.info/gnd/7628964-3> .
+
+role:role-75 skos:notation "75";
+  skos:prefLabel "Gewandmeister:in"@de, "wardrobe master"@en;
+  skos:altLabel "Gewandmeisterin"@de, "Gewandmeister"@de, "wardrobe supervisor"@en,
+    "head of wardrobe department"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q96036333> .
+
+role:role-76 skos:notation "76";
+  skos:prefLabel "Grip"@de, "grip"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3274496> .
+
+role:role-77 skos:notation "77";
+  skos:prefLabel "Händler:in"@de, "trader"@en;
+  skos:altLabel "Kaufmann"@de, "Kauffrau"@de, "Händlerin"@de, "Händler"@de, "dealer"@en,
+    "merchant"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3704253>, <https://d-nb.info/gnd/4221401-4>,
+    <https://d-nb.info/gnd/4158695-5>, <https://vocab.getty.edu/aat/300025236> .
+
+role:role-78 skos:notation "78";
+  skos:broader role:role-77;
+  skos:prefLabel "Autohändler:in"@de, "car dealer"@en;
+  skos:altLabel "Autohändlerin"@de, "Autohändler"@de, "car salesperson"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21422876> .
+
+role:role-79 skos:notation "79";
+  skos:broader role:role-77;
+  skos:prefLabel "Fahrradhändler:in"@de, "bicycle dealer"@en;
+  skos:altLabel "Fahrradhändlerin"@de, "Fahrradhändler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123095338> .
+
+role:role-80 skos:notation "80";
+  skos:broader role:role-77;
+  skos:prefLabel "Musikalienhändler:in"@de, "music dealer"@en;
+  skos:altLabel "Musikalienhändlerin"@de, "Musikalienhändler"@de, "music merchant"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1955056> .
+
+role:role-81 skos:notation "81";
+  skos:broader role:role-77;
+  skos:prefLabel "Schreibwarenhändler:in"@de, "stationer"@en;
+  skos:altLabel "Schreibwarenhändlerin"@de, "Schreibwarenhändler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q24309558>, <https://vocab.getty.edu/aat/300312195> .
+
+role:role-82 skos:notation "82";
+  skos:prefLabel "Hersteller:in"@de, "manufacturer"@en;
+  skos:altLabel "Herstellerin"@de, "Hersteller"@de, "Produzentin"@de, "Produzent"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q13235160>, <https://d-nb.info/gnd/4175820-1>,
+    <https://d-nb.info/gnd/4465426-1>, <https://vocab.getty.edu/aat/300025230> .
+
+role:role-83 skos:notation "83";
+  skos:prefLabel "Historiker:in"@de, "historian"@en;
+  skos:altLabel "Historiografin"@de, "Historiograf"@de, "Geschichtswissenschaftlerin"@de,
+    "Geschichtswissenschaftler"@de, "Geschichtsforscherin"@de, "Geschichtsforscher"@de,
+    "Historikerin"@de, "Historiker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q201788>, <https://d-nb.info/gnd/4025098-2>,
+    <https://d-nb.info/gnd/4333423-4>, <https://vocab.getty.edu/aat/300025539> .
+
+role:role-84 skos:notation "84";
+  skos:prefLabel "Holzbläser:in"@de, "woodwind player"@en;
+  skos:altLabel "Holzbläserin"@de, "Holzbläser"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q25616474> .
+
+role:role-85 skos:notation "85";
+  skos:broader role:role-84;
+  skos:prefLabel "Blockflötist:in"@de, "recorder player"@en;
+  skos:altLabel "Blockflötistin"@de, "Blockflötist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3074722>, <https://d-nb.info/gnd/7591635-6>,
+    <https://d-nb.info/gnd/7622250-0> .
+
+role:role-86 skos:notation "86";
+  skos:broader role:role-84;
+  skos:prefLabel "Dudelsackspieler:in"@de, "bagpiper"@en;
+  skos:altLabel "Sackpfeifenspielerin"@de, "Sackpfeifenspieler"@de, "Dudelsackspielerin"@de,
+    "Dudelsackspieler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21550382>, <https://d-nb.info/gnd/4387942-1> .
+
+role:role-87 skos:notation "87";
+  skos:broader role:role-84;
+  skos:prefLabel "Fagottist:in"@de, "bassoonist"@en;
+  skos:altLabel "Fagottistin"@de, "Fagottist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12310971>, <https://d-nb.info/gnd/4738419-0>,
+    <https://d-nb.info/gnd/7553307-8> .
+
+role:role-88 skos:notation "88";
+  skos:broader role:role-84;
+  skos:prefLabel "Flötist:in"@de, "flutist"@en;
+  skos:altLabel "Flötistin"@de, "Flötist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12902372>, <https://d-nb.info/gnd/4126534-8>,
+    <https://d-nb.info/gnd/7553310-8>, <https://vocab.getty.edu/aat/300235053> .
+
+role:role-89 skos:notation "89";
+  skos:broader role:role-88;
+  skos:prefLabel "Piccoloflötist:in"@de, "piccolo player"@en;
+  skos:altLabel "Piccoloflötistin"@de, "Piccoloflötist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q107888647> .
+
+role:role-90 skos:notation "90";
+  skos:broader role:role-84;
+  skos:prefLabel "Klarinettist:in"@de, "clarinetist"@en;
+  skos:altLabel "Klarinettistin"@de, "Klarinettist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q118865>, <https://d-nb.info/gnd/4749746-4>,
+    <https://d-nb.info/gnd/7553335-2>, <https://vocab.getty.edu/aat/300235050> .
+
+role:role-91 skos:notation "91";
+  skos:broader role:role-84;
+  skos:prefLabel "Oboist:in"@de, "oboist"@en;
+  skos:altLabel "Oboistin"@de, "Oboist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q16003954>, <https://d-nb.info/gnd/4442748-7>,
+    <https://d-nb.info/gnd/4842456-0>, <https://vocab.getty.edu/aat/300235062> .
+
+role:role-92 skos:notation "92";
+  skos:broader role:role-84;
+  skos:prefLabel "Saxofonist:in"@de, "saxophonist"@en;
+  skos:altLabel "Saxofonistin"@de, "Saxofonist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12800682>, <https://d-nb.info/gnd/4179251-8>,
+    <https://d-nb.info/gnd/4688165-7> .
+
+role:role-93 skos:notation "93";
+  skos:broader role:role-92;
+  skos:prefLabel "Altsaxofonist:in"@de, "alto saxophonist"@en;
+  skos:altLabel "Altsaxofonistin"@de, "Altsaxofonist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123095690> .
+
+role:role-94 skos:notation "94";
+  skos:broader role:role-92;
+  skos:prefLabel "Baritonsaxofonist:in"@de, "baritone saxophonist"@en;
+  skos:altLabel "Baritonsaxofonistin"@de, "Baritonsaxofonist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21504965> .
+
+role:role-95 skos:notation "95";
+  skos:broader role:role-92;
+  skos:prefLabel "Basssaxofonist:in"@de, "bass saxophonist"@en;
+  skos:altLabel "Basssaxofonistin"@de, "Basssaxofonist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123095868> .
+
+role:role-96 skos:notation "96";
+  skos:broader role:role-92;
+  skos:prefLabel "Mezzosopran-Saxofonist:in"@de, "mezzo-soprano saxophonist"@en;
+  skos:altLabel "Mezzosopran-Saxofonistin"@de, "Mezzosopran-Saxofonist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123096026> .
+
+role:role-97 skos:notation "97";
+  skos:broader role:role-92;
+  skos:prefLabel "Sopransaxofonist:in"@de, "soprano saxophonist"@en;
+  skos:altLabel "Sopransaxofonistin"@de, "Sopransaxofonist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123095821> .
+
+role:role-98 skos:notation "98";
+  skos:broader role:role-92;
+  skos:prefLabel "Tenorsaxofonist:in"@de, "tenor saxophonist"@en;
+  skos:altLabel "Tenorsaxofonistin"@de, "Tenorsaxofonist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21504960> .
+
+role:role-99 skos:notation "99";
+  skos:prefLabel "Impressario"@de, "impresario"@en;
+  skos:altLabel "talent manager"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q943995> .
+
+role:role-100 skos:notation "100";
+  skos:prefLabel "Ingenieur:in"@de, "engineer"@en;
+  skos:altLabel "Ingenieurin"@de, "Ingenieur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q81096>, <https://d-nb.info/gnd/4026955-3>,
+    <https://d-nb.info/gnd/4192847-7>, <https://vocab.getty.edu/aat/300025063> .
+
+role:role-101 skos:notation "101";
+  skos:broader role:role-100;
+  skos:prefLabel "Elektroingenieur:in"@de, "electrical engineer"@en;
+  skos:altLabel "Elektroingenieurin"@de, "Elektroingenieur"@de, "electric engineer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1326886>, <https://d-nb.info/gnd/4151815-9>,
+    <https://d-nb.info/gnd/7627832-3>, <https://vocab.getty.edu/aat/300025079> .
+
+role:role-102 skos:notation "102";
+  skos:prefLabel "Instrumentalist:in"@de, "instrumentalist"@en;
+  skos:altLabel "Instrumentalistin"@de, "Instrumentalist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1278335>, <https://vocab.getty.edu/aat/300162131> .
+
+role:role-103 skos:notation "103";
+  skos:prefLabel "Intendant:in"@de, "intendant"@en;
+  skos:altLabel "Künstlerische Leiterin"@de, "Künstlerischer Leiter"@de, "Intendantin"@de,
+    "Intendant"@de, "artistic director"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q60687737>, <https://vocab.getty.edu/aat/300386786> .
+
+role:role-104 skos:notation "104";
+  skos:prefLabel "Interpret:in"@de, "performing artist"@en;
+  skos:altLabel "Aufführende"@de, "Aufführender"@de, "Darstellerin"@de, "Darsteller"@de,
+    "Interpretin"@de, "Interpret"@de, "performer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q713200>, <https://d-nb.info/gnd/4162124-4>,
+    <https://d-nb.info/gnd/1042343527>, <https://vocab.getty.edu/aat/300068931> .
+
+role:role-105 skos:notation "105";
+  skos:prefLabel "Journalist:in"@de, "journalist"@en;
+  skos:altLabel "Journalistin"@de, "Journalist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1930187>, <https://d-nb.info/gnd/4028781-6>,
+    <https://d-nb.info/gnd/4028786-5>, <https://vocab.getty.edu/aat/300025501> .
+
+role:role-106 skos:notation "106";
+  skos:broader role:role-105;
+  skos:prefLabel "Kulturjournalist:in"@de, "arts journalist"@en;
+  skos:altLabel "Kulturjournalistin"@de, "Kulturjournalist"@de, "cultural journalist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q34037376> .
+
+role:role-107 skos:notation "107";
+  skos:broader role:role-105;
+  skos:prefLabel "Kritiker:in"@de, "critic"@en;
+  skos:altLabel "Kritikerin"@de, "Kritiker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6430706>, <https://d-nb.info/gnd/4165775-5>,
+    <https://d-nb.info/gnd/7539326-8>, <https://vocab.getty.edu/aat/300025519> .
+
+role:role-108 skos:notation "108";
+  skos:broader role:role-107;
+  skos:prefLabel "Literaturkritiker:in"@de, "literary critic"@en;
+  skos:altLabel "Literaturkritikerin"@de, "Literaturkritiker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4263842>, <https://d-nb.info/gnd/4167874-6>,
+    <https://d-nb.info/gnd/4167875-8>, <https://vocab.getty.edu/aat/300025522> .
+
+role:role-109 skos:notation "109";
+  skos:broader role:role-107;
+  skos:prefLabel "Musikkritiker:in"@de, "music critic"@en;
+  skos:altLabel "Musikkritikerin"@de, "Musikkritiker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1350157>, <https://d-nb.info/gnd/4120774-9>,
+    <https://d-nb.info/gnd/7540312-2>, <https://vocab.getty.edu/aat/300386248> .
+
+role:role-110 skos:notation "110";
+  skos:broader role:role-105;
+  skos:prefLabel "Musikjournalist:in"@de, "music journalist"@en;
+  skos:altLabel "Musikjournalistin"@de, "Musikjournalist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q20669622>, <https://d-nb.info/gnd/7628915-1>,
+    <https://d-nb.info/gnd/7628916-3> .
+
+role:role-111 skos:notation "111";
+  skos:prefLabel "Kabarettist:in"@de, "cabaret performer"@en;
+  skos:altLabel "Kabarettistin"@de, "Kabarettist"@de, "cabaret artist"@en, "cabaret show performer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15214752>, <https://d-nb.info/gnd/4123477-7>,
+    <https://d-nb.info/gnd/4707009-2> .
+
+role:role-112 skos:notation "112";
+  skos:prefLabel "Kameraperson"@de, "cinematographer"@en;
+  skos:altLabel "Bildgestalterin"@de, "Bildgestalter"@de, "Kamerafrau"@de, "Kameramann"@de,
+    "DoP"@en, "Director of Photography"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q222344>, <https://d-nb.info/gnd/4029412-2>,
+    <https://d-nb.info/gnd/4493238-8>, <https://vocab.getty.edu/aat/300025650> .
+
+role:role-113 skos:notation "113";
+  skos:prefLabel "Klinikverwalter:in"@de, "hospital administrator"@en;
+  skos:altLabel "Klinikverwalterin"@de, "Klinikverwalter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3029404> .
+
+role:role-114 skos:notation "114";
+  skos:prefLabel "Komiker:innenduo"@de, "double act"@en;
+  skos:altLabel "Comedy Duo"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1141470> .
+
+role:role-115 skos:notation "115";
+  skos:prefLabel "Komponist:in"@de, "composer"@en;
+  skos:altLabel "Komposition"@de, "Komponistin"@de, "Komponist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q36834>, <https://d-nb.info/gnd/4032009-1>,
+    <https://d-nb.info/gnd/4032010-8>, <https://vocab.getty.edu/aat/300025671> .
+
+role:role-116 skos:notation "116";
+  skos:prefLabel "Koproduzent:in"@de, "co-producer"@en;
+  skos:altLabel "Koproduzentin"@de, "Koproduzent"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11999333> .
+
+role:role-117 skos:notation "117";
+  skos:prefLabel "Kostümbildner:in"@de, "costume designer"@en;
+  skos:altLabel "Kostümdesignerin"@de, "Kostümdesigner"@de, "Kostümbildnerin"@de, "Kostümbildner"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1323191>, <https://d-nb.info/gnd/4122242-8>,
+    <https://d-nb.info/gnd/4428817-7>, <https://vocab.getty.edu/aat/300163428> .
+
+role:role-118 skos:notation "118";
+  skos:prefLabel "Kulturaktivist:in"@de, "cultural activist"@en;
+  skos:altLabel "Kulturaktivistin"@de, "Kulturaktivist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21993562> .
+
+role:role-119 skos:notation "119";
+  skos:prefLabel "Künstler:in"@de, "artist"@en;
+  skos:altLabel "Autorin"@de, "Autor"@de, "Komponistin"@de, "Komponist"@de, "Interpretin"@de,
+    "Interpret"@de, "Bildende Künstlerin"@de, "Bildender Künstler"@de, "Medienkünstlerin"@de,
+    "Medienkünstler"@de, "Künstlerin"@de, "Künstler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q483501>, <https://d-nb.info/gnd/4033423-5>,
+    <https://d-nb.info/gnd/4033430-2> .
+
+role:role-120 skos:notation "120";
+  skos:prefLabel "Karikaturist:in"@de, "caricaturist"@en;
+  skos:altLabel "Schnellzeichnerin"@de, "Schnellzeichner"@de, "Karikaturistin"@de, "Karikaturist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3658608>, <https://d-nb.info/gnd/4232470-1>,
+    <https://d-nb.info/gnd/4315151-6>, <https://vocab.getty.edu/aat/300025108> .
+
+role:role-121 skos:notation "121";
+  skos:prefLabel "Maler:in"@de, "painter"@en;
+  skos:altLabel "Kunstmalerin"@de, "Kunstmaler"@de, "Malerin"@de, "Maler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1028181>, <https://d-nb.info/gnd/4037215-7>,
+    <https://d-nb.info/gnd/4037223-6>, <https://vocab.getty.edu/aat/300025136> .
+
+role:role-122 skos:notation "122";
+  skos:prefLabel "Kunstpfeifer:in"@de, "whistle artist"@en;
+  skos:altLabel "Kunstpfeiferin"@de, "Kunstpfeifer"@de, "oral whistler"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1792566>, <https://d-nb.info/gnd/1135626596> .
+
+role:role-123 skos:notation "123";
+  skos:prefLabel "Kurator:in"@de, "curator"@en;
+  skos:altLabel "Kuratorin"@de, "Kurator"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q674426>, <https://d-nb.info/gnd/4688848-2>,
+    <https://d-nb.info/gnd/7602103-8>, <https://vocab.getty.edu/aat/300025633> .
+
+role:role-124 skos:notation "124";
+  skos:broader role:role-123;
+  skos:prefLabel "Ausstellungs-Kurator:in"@de, "exhibition curator"@en;
+  skos:altLabel "Ausstellungskuratorin"@de, "Ausstellungskurator"@de, "Ausstellungsmacherin"@de,
+    "Ausstellungsmacher"@de, "Ausstellungs-Kuratorin"@de, "Ausstellungs-Kurator"@de, "art curator"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q780596>, <https://vocab.getty.edu/aat/300417893> .
+
+role:role-125 skos:notation "125";
+  skos:prefLabel "Lehrer:in"@de, "teacher"@en;
+  skos:altLabel "Lehrkraft"@de, "Lehrerin"@de, "Lehrer"@de, "educator"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q37226>, <https://d-nb.info/gnd/4035088-5>,
+    <https://d-nb.info/gnd/4035097-6>, <https://vocab.getty.edu/aat/300025529> .
+
+role:role-126 skos:notation "126";
+  skos:broader role:role-125;
+  skos:prefLabel "Sprachlehrer:in"@de, "voice teacher"@en;
+  skos:altLabel "Sprachlehrerin"@de, "Sprachlehrer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q30002353>, <https://d-nb.info/gnd/4182521-4>,
+    <https://d-nb.info/gnd/7637407-5> .
+
+role:role-127 skos:notation "127";
+  skos:broader role:role-126;
+  skos:prefLabel "Englischlehrer:in"@de, "english teacher"@en;
+  skos:altLabel "Englischlehrerin"@de, "Englischlehrer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q101444631>, <https://d-nb.info/gnd/4152284-9>,
+    <https://d-nb.info/gnd/4413104-5> .
+
+role:role-128 skos:notation "128";
+  skos:prefLabel "Librettist:in"@de, "librettist"@en;
+  skos:altLabel "Librettistin"@de, "Librettist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q8178443>, <https://d-nb.info/gnd/4167564-2>,
+    <https://d-nb.info/gnd/4683584-2>, <https://vocab.getty.edu/aat/300025674> .
+
+role:role-129 skos:notation "129";
+  skos:prefLabel "Linguist:in"@de, "linguist"@en;
+  skos:altLabel "Sprachforscherin"@de, "Sprachforscher"@de, "Sprachwissenschaftlerin"@de,
+    "Sprachwissenschaftler"@de, "Linguistin"@de, "Linguist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q14467526>, <https://d-nb.info/gnd/4224183-2>,
+    <https://d-nb.info/gnd/4362368-2>, <https://vocab.getty.edu/aat/300025561> .
+
+role:role-130 skos:notation "130";
+  skos:broader role:role-129;
+  skos:prefLabel "Romanist:in"@de, "romanist"@en;
+  skos:altLabel "Romanistin"@de, "Romanist"@de, "romanicist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2504617>, <https://d-nb.info/gnd/4219681-4>,
+    <https://d-nb.info/gnd/7539218-5> .
+
+role:role-131 skos:notation "131";
+  skos:prefLabel "Lokomotivführer:in"@de, "train driver"@en;
+  skos:altLabel "Triebfahrzeugführerin"@de, "Triebfahrzeugführer"@de, "Lokomotivführerin"@de,
+    "Lokomotivführer"@de, "engine driver"@en, "train operator"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2775569>, <https://d-nb.info/gnd/4168131-9> .
+
+role:role-132 skos:notation "132";
+  skos:prefLabel "Luftfahrtpionier:in"@de, "aviation pioneer"@en;
+  skos:altLabel "Luftfahrtpionierin"@de, "Luftfahrtpionier"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q88104927> .
+
+role:role-133 skos:notation "133";
+  skos:prefLabel "Manager:in"@de, "manager"@en;
+  skos:altLabel "Managerin"@de, "Manager"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2462658>, <https://vocab.getty.edu/aat/300025435> .
+
+role:role-134 skos:notation "134";
+  skos:prefLabel "Maskenbildner:in"@de, "make-up artist"@en;
+  skos:altLabel "Maskenbildnerin"@de, "Maskenbildner"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q935666>, <https://d-nb.info/gnd/4491206-7>,
+    <https://d-nb.info/gnd/4739697-0> .
+
+role:role-135 skos:notation "135";
+  skos:prefLabel "Maurer:in"@de, "bricklayer"@en;
+  skos:altLabel "Maurerin"@de, "Maurer"@de, "mason"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q327321>, <https://d-nb.info/gnd/4275791-5>,
+    <https://d-nb.info/gnd/7539353-0>, <https://vocab.getty.edu/aat/300025040> .
+
+role:role-136 skos:notation "136";
+  skos:prefLabel "Medienmanager:in"@de, "media executive"@en;
+  skos:altLabel "Medienmanagerin"@de, "Medienmanager"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q108800680> .
+
+role:role-137 skos:notation "137";
+  skos:prefLabel "Mischtonmeister"@de, "re-recording mixer"@en;
+  skos:altLabel "dubbing mixer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q339431> .
+
+role:role-138 skos:notation "138";
+  skos:prefLabel "Mitwirkende:r"@de, "contributor"@en;
+  skos:altLabel "Akteurin"@de, "Akteur"@de, "Mitwirkende"@de, "Mitwirkender"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q24229398>, <https://vocab.getty.edu/aat/300403974> .
+
+role:role-139 skos:notation "139";
+  skos:prefLabel "Montage"@de, "montage"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q97746411> .
+
+role:role-140 skos:notation "140";
+  skos:prefLabel "musikalische:r Begleiter:in"@de, "accompanist"@en;
+  skos:altLabel "musikalischer Begleiterin"@de, "musikalischer Begleiter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q29448653> .
+
+role:role-141 skos:notation "141";
+  skos:prefLabel "Musikensemble"@de, "musical ensemble"@en;
+  skos:altLabel "Musikgruppe"@de, "musical group"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2088357>, <https://d-nb.info/gnd/4212188-7>,
+    <https://vocab.getty.edu/aat/300205024> .
+
+role:role-142 skos:notation "142";
+  skos:broader role:role-141;
+  skos:prefLabel "Band"@de, "band"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q215380>, <https://d-nb.info/gnd/4170827-1>,
+    <https://vocab.getty.edu/aat/300205065> .
+
+role:role-143 skos:notation "143";
+  skos:broader role:role-141;
+  skos:prefLabel "Chor"@de, "choir"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q131186>, <https://d-nb.info/gnd/4010045-5>,
+    <https://vocab.getty.edu/aat/300389787> .
+
+role:role-144 skos:notation "144";
+  skos:broader role:role-143;
+  skos:prefLabel "Choralschola"@de, "scholae"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1076344> .
+
+role:role-145 skos:notation "145";
+  skos:broader role:role-143;
+  skos:prefLabel "Frauenchor"@de, "women's choir"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1451652>, <https://d-nb.info/gnd/4310304-2> .
+
+role:role-146 skos:notation "146";
+  skos:broader role:role-143;
+  skos:prefLabel "Kinderchor"@de, "children's choir"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1753063>, <https://d-nb.info/gnd/4163811-6> .
+
+role:role-147 skos:notation "147";
+  skos:broader role:role-143;
+  skos:prefLabel "Knabenchor"@de, "boys' choir"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1776834>, <https://d-nb.info/gnd/4289869-9> .
+
+role:role-148 skos:notation "148";
+  skos:broader role:role-143;
+  skos:prefLabel "Männerchor"@de, "male choir"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1684352>, <https://d-nb.info/gnd/4168467-9> .
+
+role:role-149 skos:notation "149";
+  skos:broader role:role-141;
+  skos:prefLabel "Combo"@de, "combo"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2985084>, <https://d-nb.info/gnd/1203323581> .
+
+role:role-150 skos:notation "150";
+  skos:broader role:role-141;
+  skos:prefLabel "Elektronik-Ensemble"@de, "electronic band"@en;
+  skos:altLabel "Elektronik-Band"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q115471588> .
+
+role:role-151 skos:notation "151";
+  skos:broader role:role-141;
+  skos:prefLabel "Instrumentalgruppe"@de, "instrumental group"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q64596595> .
+
+role:role-152 skos:notation "152";
+  skos:broader role:role-141;
+  skos:prefLabel "Kammermusikensemble"@de, "chamber music ensemble"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q19191604> .
+
+role:role-153 skos:notation "153";
+  skos:broader role:role-152;
+  skos:prefLabel "Streichquartett"@de, "string quartet"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q207338> .
+
+role:role-154 skos:notation "154";
+  skos:broader role:role-141;
+  skos:prefLabel "Orchester"@de, "orchestra"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q42998>, <https://d-nb.info/gnd/4172708-3>,
+    <https://vocab.getty.edu/aat/300205073> .
+
+role:role-155 skos:notation "155";
+  skos:broader role:role-154;
+  skos:prefLabel "Blasorchester"@de, "wind orchestra"@en;
+  skos:altLabel "band"@en, "wind band"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q881942>, <https://d-nb.info/gnd/4112784-5> .
+
+role:role-156 skos:notation "156";
+  skos:broader role:role-154;
+  skos:prefLabel "Militärorchester"@de, "military band"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1078286> .
+
+role:role-157 skos:notation "157";
+  skos:broader role:role-154;
+  skos:prefLabel "Streichorchester"@de, "string orchestra"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1090674>, <https://d-nb.info/gnd/4183630-3> .
+
+role:role-158 skos:notation "158";
+  skos:broader role:role-141;
+  skos:prefLabel "Vokalensemble"@de, "vocal group"@en;
+  skos:altLabel "vocal ensemble"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q120544>, <https://d-nb.info/gnd/4710896-4> .
+
+role:role-159 skos:notation "159";
+  skos:broader role:role-141;
+  skos:prefLabel "Volksmusikgruppe"@de, "folk music group"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q113292621>, <https://d-nb.info/gnd/4387977-9> .
+
+role:role-160 skos:notation "160";
+  skos:prefLabel "Musiker:in"@de, "musician"@en;
+  skos:altLabel "Musikerin"@de, "Musiker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q639669>, <https://d-nb.info/gnd/4040841-3>,
+    <https://d-nb.info/gnd/4170818-0>, <https://vocab.getty.edu/aat/300025666> .
+
+role:role-161 skos:notation "161";
+  skos:prefLabel "Musikinstrumentenbauer:in"@de, "instrument maker"@en;
+  skos:altLabel "Instrumentenbauerin"@de, "Instrumentenbauer"@de, "Musikinstrumentenbauerin"@de,
+    "Musikinstrumentenbauer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2341443>, <https://d-nb.info/gnd/4170830-1>,
+    <https://d-nb.info/gnd/4652280-3>, <https://vocab.getty.edu/aat/300386303> .
+
+role:role-162 skos:notation "162";
+  skos:broader role:role-161;
+  skos:prefLabel "Geigenbauer:in"@de, "luthier"@en;
+  skos:altLabel "Geigenbauerin"@de, "Geigenbauer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q762707>, <https://d-nb.info/gnd/4156341-4>,
+    <https://d-nb.info/gnd/4647874-7>, <https://vocab.getty.edu/aat/300025412> .
+
+role:role-163 skos:notation "163";
+  skos:broader role:role-161;
+  skos:prefLabel "Klavierbauer:in"@de, "piano maker"@en;
+  skos:altLabel "Klavierbauerin"@de, "Klavierbauer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q885122> .
+
+role:role-164 skos:notation "164";
+  skos:broader role:role-161;
+  skos:prefLabel "Orgelbauer:in"@de, "organ builder"@en;
+  skos:altLabel "Orgelbauerin"@de, "Orgelbauer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1937431>, <https://vocab.getty.edu/aat/300237243> .
+
+role:role-165 skos:notation "165";
+  skos:prefLabel "Musiklehrer:in"@de, "music teacher"@en;
+  skos:altLabel "Musikpädagogin"@de, "Musikpädagoge"@de, "Musiklehrerin"@de, "Musiklehrer"@de,
+    "music educator"@en, "music pedagogue"@en, "music instructor"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2675537>, <https://d-nb.info/gnd/4140880-9>,
+    <https://d-nb.info/gnd/4395042-5> .
+
+role:role-166 skos:notation "166";
+  skos:prefLabel "Musikproduzent:in"@de, "music producer"@en;
+  skos:altLabel "Produzentin"@de, "Produzent"@de, "Musikproduzentin"@de, "Musikproduzent"@de,
+    "producer"@en, "record producer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q183945>, <https://d-nb.info/gnd/4572889-6>,
+    <https://d-nb.info/gnd/7540311-0> .
+
+role:role-167 skos:notation "167";
+  skos:broader role:role-166;
+  skos:prefLabel "Musikalische:r Leiter:in"@de, "musical supervisor"@en;
+  skos:altLabel "Musikalische Leiterin"@de, "Musikalischer Leiter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123107245> .
+
+role:role-168 skos:notation "168";
+  skos:broader role:role-166;
+  skos:prefLabel "Sessionleiter:in"@de, "session supervisor"@en;
+  skos:altLabel "Sessionleiterin"@de, "Sessionleiter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123110484> .
+
+role:role-169 skos:notation "169";
+  skos:prefLabel "Musikwissenschaftler:in"@de, "musicologist"@en;
+  skos:altLabel "Musikologin"@de, "Musikologe"@de, "Musikforscherin"@de, "Musikforscher"@de,
+    "Musikwissenschaftlerin"@de, "Musikwissenschaftler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q14915627>, <https://d-nb.info/gnd/4170836-2>,
+    <https://d-nb.info/gnd/4648709-8>, <https://vocab.getty.edu/aat/300025563> .
+
+role:role-170 skos:notation "170";
+  skos:prefLabel "Obstbautechniker:in"@de, "orchard technician"@en;
+  skos:altLabel "Obstbautechnikerin"@de, "Obstbautechniker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123097521> .
+
+role:role-171 skos:notation "171";
+  skos:prefLabel "Offizier:in"@de, "officer"@en;
+  skos:altLabel "Offizierin"@de, "Offizier"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q61022630>, <https://d-nb.info/gnd/4043375-4>,
+    <https://d-nb.info/gnd/1064772102>, <https://vocab.getty.edu/aat/300236210> .
+
+role:role-172 skos:notation "172";
+  skos:prefLabel "Marineoffizier:in"@de, "navy officer"@en;
+  skos:altLabel "Marineoffizierin"@de, "Marineoffizier"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q10669499>, <https://d-nb.info/gnd/4168900-8>,
+    <https://d-nb.info/gnd/1064772218> .
+
+role:role-173 skos:notation "173";
+  skos:prefLabel "Orientalist:in"@de, "orientalist"@en;
+  skos:altLabel "Orientalistin"@de, "Orientalist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1731155>, <https://d-nb.info/gnd/4415844-0>,
+    <https://d-nb.info/gnd/7533633-9> .
+
+role:role-174 skos:notation "174";
+  skos:prefLabel "Ornitholog:in"@de, "ornithologist"@en;
+  skos:altLabel "Vogelkundlerin"@de, "Vogelkundler"@de, "Ornithologin"@de, "Ornithologe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1225716>, <https://d-nb.info/gnd/4172846-4>,
+    <https://d-nb.info/gnd/4564683-1>, <https://vocab.getty.edu/aat/300237244> .
+
+role:role-175 skos:notation "175";
+  skos:prefLabel "Pantomim:in"@de, "mime"@en;
+  skos:altLabel "Pantomimin"@de, "Pantomime"@de, "pantomime"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q674067>, <https://d-nb.info/gnd/4044493-4>,
+    <https://vocab.getty.edu/aat/300343595> .
+
+role:role-176 skos:notation "176";
+  skos:prefLabel "Performer:in"@de, "performer"@en;
+  skos:altLabel "Performance-Künstlerin"@de, "Performance-Künstler"@de, "Performerin"@de,
+    "Performer"@de, "performance artist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q10774753>, <https://d-nb.info/gnd/7545699-0>,
+    <https://d-nb.info/gnd/7545707-6>, <https://vocab.getty.edu/aat/300025678> .
+
+role:role-177 skos:notation "177";
+  skos:prefLabel "Perkussionist:in"@de, "percussionist"@en;
+  skos:altLabel "Perkussionistin"@de, "Perkussionist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4351403>, <https://d-nb.info/gnd/7553353-4>,
+    <https://d-nb.info/gnd/7553352-2>, <https://vocab.getty.edu/aat/300235068> .
+
+role:role-178 skos:notation "178";
+  skos:broader role:role-177;
+  skos:prefLabel "Marimbafonist:in"@de, "marimba player"@en;
+  skos:altLabel "Marimbafonistin"@de, "Marimbafonist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12795793> .
+
+role:role-179 skos:notation "179";
+  skos:broader role:role-177;
+  skos:prefLabel "Paukist:in"@de, "timpanist"@en;
+  skos:altLabel "Paukistin"@de, "Paukist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3528729>, <https://d-nb.info/gnd/4554341-0>,
+    <https://vocab.getty.edu/aat/300235071> .
+
+role:role-180 skos:notation "180";
+  skos:broader role:role-177;
+  skos:prefLabel "Schlagzeuger:in"@de, "drummer"@en;
+  skos:altLabel "Schlagzeugerin"@de, "Schlagzeuger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q386854>, <https://d-nb.info/gnd/4338337-3>,
+    <https://d-nb.info/gnd/7553273-6>, <https://vocab.getty.edu/aat/300235069> .
+
+role:role-181 skos:notation "181";
+  skos:broader role:role-177;
+  skos:prefLabel "Vibrafonist:in"@de, "vibraphone player"@en;
+  skos:altLabel "Vibrafonistin"@de, "Vibrafonist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21855974>, <https://d-nb.info/gnd/7553295-5>,
+    <https://d-nb.info/gnd/7553294-3> .
+
+role:role-182 skos:notation "182";
+  skos:broader role:role-177;
+  skos:prefLabel "Xylofonist:in"@de, "xylophonist"@en;
+  skos:altLabel "Xylofonistin"@de, "Xylofonist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q66370835>, <https://d-nb.info/gnd/7553298-0>,
+    <https://d-nb.info/gnd/7553297-9> .
+
+role:role-183 skos:notation "183";
+  skos:prefLabel "Philolog:in"@de, "philologist"@en;
+  skos:altLabel "Sprachwissenschaftlerin"@de, "Sprachwissenschaftler"@de, "Philologin"@de,
+    "Philologe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q13418253>, <https://d-nb.info/gnd/4199236-2>,
+    <https://d-nb.info/gnd/4362366-9>, <https://vocab.getty.edu/aat/300025568> .
+
+role:role-184 skos:notation "184";
+  skos:prefLabel "Philosoph:in"@de, "philosopher"@en;
+  skos:altLabel "Philosophin"@de, "Philosoph"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4964182>, <https://d-nb.info/gnd/4045790-4>,
+    <https://d-nb.info/gnd/4174285-0>, <https://vocab.getty.edu/aat/300025569> .
+
+role:role-185 skos:notation "185";
+  skos:prefLabel "Physiker:in"@de, "physicist"@en;
+  skos:altLabel "Physikerin"@de, "Physiker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q169470>, <https://d-nb.info/gnd/4045968-8>,
+    <https://d-nb.info/gnd/4337175-9>, <https://vocab.getty.edu/aat/300025816> .
+
+role:role-186 skos:notation "186";
+  skos:prefLabel "Politiker:in"@de, "politician"@en;
+  skos:altLabel "Politikerin"@de, "Politiker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q82955>, <https://d-nb.info/gnd/4046517-2>,
+    <https://d-nb.info/gnd/4175019-6>, <https://vocab.getty.edu/aat/300025474> .
+
+role:role-187 skos:notation "187";
+  skos:prefLabel "Priester:in"@de, "priest"@en;
+  skos:altLabel "Geistliche"@de, "Geistlicher"@de, "Priesterin"@de, "Priester"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q42603>, <https://d-nb.info/gnd/4047233-4>,
+    <https://d-nb.info/gnd/4303385-4>, <https://vocab.getty.edu/aat/300025774> .
+
+role:role-188 skos:notation "188";
+  skos:broader role:role-187;
+  skos:prefLabel "Pfarrer:in"@de, "minister"@en;
+  skos:altLabel "Pastorin"@de, "Parson"@de, "Pastor"@de, "Pfarrerin"@de, "Pfarrer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q955464>, <https://d-nb.info/gnd/4132592-8>,
+    <https://d-nb.info/gnd/4174000-2>, <https://vocab.getty.edu/aat/300025771> .
+
+role:role-189 skos:notation "189";
+  skos:broader role:role-187;
+  skos:prefLabel "Prediger:in"@de, "preacher"@en;
+  skos:altLabel "Predigerin"@de, "Prediger"@de, "homilist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q432386>, <https://d-nb.info/gnd/4130322-2>,
+    <https://d-nb.info/gnd/4473145-0>, <https://vocab.getty.edu/aat/300237357> .
+
+role:role-190 skos:notation "190";
+  skos:prefLabel "Produktionsleiter:in"@de, "supervising producer"@en;
+  skos:altLabel "Produktionsleiterin"@de, "Produktionsleiter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q64492955>, <https://d-nb.info/gnd/4323666-2>,
+    <https://d-nb.info/gnd/7540489-8> .
+
+role:role-191 skos:notation "191";
+  skos:prefLabel "Produktionsfirma"@de, "production company"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11396960>, <https://vocab.getty.edu/aat/300419391> .
+
+role:role-192 skos:notation "192";
+  skos:prefLabel "Produzent:in"@de, "producer"@en;
+  skos:altLabel "Produzentin"@de, "Produzent"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q47541952>, <https://d-nb.info/gnd/4175820-1>,
+    <https://d-nb.info/gnd/4465426-1>, <https://vocab.getty.edu/aat/300197742> .
+
+role:role-193 skos:notation "193";
+  skos:prefLabel "Rechtsanwalt/Rechtsanwältin"@de, "lawyer"@en;
+  skos:altLabel "Rechtsanwält:in"@de, "Anwalt"@de, "Anwältin"@de, "Advokat"@de, "attorney"@en,
+    "solicitor"@en, "barrister"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q40348>, <https://d-nb.info/gnd/4048755-6>,
+    <https://d-nb.info/gnd/4177191-6>, <https://vocab.getty.edu/aat/300025627> .
+
+role:role-194 skos:notation "194";
+  skos:broader role:role-193;
+  skos:prefLabel "Notar:in"@de, "notary"@en;
+  skos:altLabel "Notarin"@de, "Notar"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q189010>, <https://d-nb.info/gnd/4042660-9>,
+    <https://d-nb.info/gnd/7634430-7>, <https://vocab.getty.edu/aat/300025454> .
+
+role:role-195 skos:notation "195";
+  skos:prefLabel "Redakteur:in"@de, "editor"@en;
+  skos:altLabel "Editorin"@de, "Editor"@de, "redaktionell Verantwortliche"@de, "redaktionell Verantwortlicher"@de,
+    "Redakteurin"@de, "Redakteur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q876864>, <https://d-nb.info/gnd/4177294-5>,
+    <https://d-nb.info/gnd/4352068-6> .
+
+role:role-196 skos:notation "196";
+  skos:prefLabel "Regieassistent:in"@de, "assistant director"@en;
+  skos:altLabel "Regieassistentin"@de, "Regieassistent"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1757008>, <https://d-nb.info/gnd/4428190-0>,
+    <https://d-nb.info/gnd/4428192-4> .
+
+role:role-197 skos:notation "197";
+  skos:prefLabel "Regisseur:in"@de, "director"@en;
+  skos:altLabel "Regisseurin"@de, "Regisseur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3455803>, <https://d-nb.info/gnd/4049050-6>,
+    <https://d-nb.info/gnd/4281949-0>, <https://vocab.getty.edu/aat/300025654> .
+
+role:role-198 skos:notation "198";
+  skos:prefLabel "Requisiteur:in"@de, "property master"@en;
+  skos:altLabel "Requisiteurin"@de, "Requisiteur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1430377>, <https://d-nb.info/gnd/4491208-0>,
+    <https://d-nb.info/gnd/103180286X> .
+
+role:role-199 skos:notation "199";
+  skos:prefLabel "Sänger:in"@de, "singer"@en;
+  skos:altLabel "Vokalistin"@de, "Vokalist"@de, "Sängerin"@de, "Sänger"@de, "vocalist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q177220>, <https://d-nb.info/gnd/4124099-6>,
+    <https://d-nb.info/gnd/4051246-0>, <https://vocab.getty.edu/aat/300025684> .
+
+role:role-200 skos:notation "200";
+  skos:broader role:role-199;
+  skos:prefLabel "Altist:in"@de, "alto"@en;
+  skos:altLabel "Contralto"@de, "Altistin"@de, "Altist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6983813>, <https://d-nb.info/gnd/4367366-1> .
+
+role:role-201 skos:notation "201";
+  skos:broader role:role-199;
+  skos:prefLabel "Bariton"@de, "baritone"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q31687>, <https://d-nb.info/gnd/7553360-1> .
+
+role:role-202 skos:notation "202";
+  skos:broader role:role-199;
+  skos:prefLabel "Bassbariton"@de, "bass-baritone"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q810480>, <https://d-nb.info/gnd/7628958-8> .
+
+role:role-203 skos:notation "203";
+  skos:broader role:role-199;
+  skos:prefLabel "Bassist (Gesang)"@de, "bassist (singer)"@en;
+  skos:altLabel "bass singer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q98834013>, <https://d-nb.info/gnd/4362006-1> .
+
+role:role-204 skos:notation "204";
+  skos:broader role:role-199;
+  skos:prefLabel "Chorsänger:in"@de, "chorister"@en;
+  skos:altLabel "Chorsängerin"@de, "Chorsänger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q84206977>, <https://d-nb.info/gnd/4265388-5>,
+    <https://d-nb.info/gnd/4701423-4> .
+
+role:role-205 skos:notation "205";
+  skos:broader role:role-199;
+  skos:prefLabel "Countertenor"@de, "countertenor"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q223166>, <https://d-nb.info/gnd/4710155-6> .
+
+role:role-206 skos:notation "206";
+  skos:broader role:role-199;
+  skos:prefLabel "Kastrat"@de, "castrato"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q210970>, <https://d-nb.info/gnd/4163406-8> .
+
+role:role-207 skos:notation "207";
+  skos:broader role:role-199;
+  skos:prefLabel "Kantor:in (jüdisch)"@de, "hazzan"@en;
+  skos:altLabel "Chasan"@de, "Vorbeter"@de, "Kantorin (jüdisch)"@de, "Kantor (jüdisch)"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1067977>, <https://d-nb.info/gnd/4323418-5>,
+    <https://vocab.getty.edu/aat/300136390> .
+
+role:role-208 skos:notation "208";
+  skos:broader role:role-199;
+  skos:prefLabel "Knabenalt"@de, "boy alto"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q53395277> .
+
+role:role-209 skos:notation "209";
+  skos:broader role:role-199;
+  skos:prefLabel "Knabensopran"@de, "boy soprano"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1376492> .
+
+role:role-210 skos:notation "210";
+  skos:broader role:role-199;
+  skos:prefLabel "Mezzosopranist:in"@de, "mezzo-soprano"@en;
+  skos:altLabel "Mezzosopranistin"@de, "Mezzosopranist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q108404711>, <https://d-nb.info/gnd/4874092-5> .
+
+role:role-211 skos:notation "211";
+  skos:broader role:role-199;
+  skos:prefLabel "Sopranist:in"@de, "soprano"@en;
+  skos:altLabel "Sopranistin"@de, "Sopranist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q98834068>, <https://d-nb.info/gnd/7553309-1>,
+    <https://d-nb.info/gnd/4367362-4> .
+
+role:role-212 skos:notation "212";
+  skos:broader role:role-199;
+  skos:prefLabel "Tenorist:in"@de, "tenor"@en;
+  skos:altLabel "Tenoristin"@de, "Tenorist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q98834046>, <https://d-nb.info/gnd/4605819-9> .
+
+role:role-213 skos:notation "213";
+  skos:prefLabel "Schauspieler:in"@de, "actor/actress"@en;
+  skos:altLabel "Schauspielerin"@de, "Schauspieler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q33999>, <https://d-nb.info/gnd/4052154-0>,
+    <https://d-nb.info/gnd/4153179-6>, <https://vocab.getty.edu/aat/300025658> .
+
+role:role-214 skos:notation "214";
+  skos:prefLabel "Schlosser:in"@de, "locksmith"@en;
+  skos:altLabel "Schlosserin"@de, "Schlosser"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3479990>, <https://d-nb.info/gnd/4128287-5>,
+    <https://d-nb.info/gnd/7539121-1>, <https://vocab.getty.edu/aat/300025336> .
+
+role:role-215 skos:notation "215";
+  skos:prefLabel "Schnitt"@de, "film editor"@en;
+  skos:altLabel "bugle"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7042855>, <https://d-nb.info/gnd/4274581-0>,
+    <https://d-nb.info/gnd/4287610-2>, <https://vocab.getty.edu/aat/300386237> .
+
+role:role-216 skos:notation "216";
+  skos:prefLabel "Script Continuity"@de, "script supervisor"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1263187> .
+
+role:role-217 skos:notation "217";
+  skos:prefLabel "Sekretär:in"@de, "secretary"@en;
+  skos:altLabel "Sekretärin"@de, "Sekretär"@de, "personal assistant"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q80687>, <https://d-nb.info/gnd/4116469-6>,
+    <https://d-nb.info/gnd/4054353-5>, <https://vocab.getty.edu/aat/300250373> .
+
+role:role-218 skos:notation "218";
+  skos:prefLabel "Set Designer:in"@de, "set designer"@en;
+  skos:altLabel "Bühnenbild"@de, "Set Designerin"@de, "Set Designer"@de, "scenic design"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q987061>, <https://vocab.getty.edu/aat/300435128> .
+
+role:role-219 skos:notation "219";
+  skos:prefLabel "Soldat:in"@de, "soldier"@en;
+  skos:altLabel "Soldatin"@de, "Soldat"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4991371>, <https://d-nb.info/gnd/4055409-0>,
+    <https://d-nb.info/gnd/4181751-5>, <https://vocab.getty.edu/aat/300185678> .
+
+role:role-220 skos:notation "220";
+  skos:prefLabel "Sounddesigner:in"@de, "sound designer"@en;
+  skos:altLabel "Sounddesignerin"@de, "Sounddesigner"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1937950>, <https://d-nb.info/gnd/7693207-2> .
+
+role:role-221 skos:notation "221";
+  skos:prefLabel "Special Effects"@de, "special effects"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q381243> .
+
+role:role-222 skos:notation "222";
+  skos:prefLabel "Sponsor:in"@de, "sponsor"@en;
+  skos:altLabel "Sponsorin"@de, "Sponsor"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q152478>, <https://vocab.getty.edu/aat/300188572> .
+
+role:role-223 skos:notation "223";
+  skos:prefLabel "Sprecher:in"@de, "speaker"@en;
+  skos:altLabel "Sprecherin"@de, "Sprecher"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q106875005>, <https://d-nb.info/gnd/4182545-7>,
+    <https://d-nb.info/gnd/7519889-7> .
+
+role:role-224 skos:notation "224";
+  skos:broader role:role-223;
+  skos:prefLabel "Ansager:in"@de, "announcer"@en;
+  skos:altLabel "Ansagerin"@de, "Ansager"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1371925>, <https://vocab.getty.edu/aat/300025503> .
+
+role:role-225 skos:notation "225";
+  skos:broader role:role-223;
+  skos:prefLabel "Rezitator:in"@de, "reciter"@en;
+  skos:altLabel "Rezitatorin"@de, "Rezitator"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q23037330> .
+
+role:role-226 skos:notation "226";
+  skos:prefLabel "Streicher:in"@de, "string player"@en;
+  skos:altLabel "Streicherin"@de, "Streicher"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q13138067>, <https://vocab.getty.edu/aat/300234983> .
+
+role:role-227 skos:notation "227";
+  skos:broader role:role-226;
+  skos:prefLabel "Bratschist:in"@de, "violist"@en;
+  skos:altLabel "Bratschistin"@de, "Bratschist"@de, "viola player"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q899758>, <https://d-nb.info/gnd/4398810-6>,
+    <https://d-nb.info/gnd/7553282-7>, <https://vocab.getty.edu/aat/300235045> .
+
+role:role-228 skos:notation "228";
+  skos:broader role:role-226;
+  skos:prefLabel "Cellist:in"@de, "cellist"@en;
+  skos:altLabel "Violoncellistin"@de, "Cellistin"@de, "Cellist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q13219637>, <https://d-nb.info/gnd/4188376-7>,
+    <https://d-nb.info/gnd/4592714-5>, <https://vocab.getty.edu/aat/300235047> .
+
+role:role-229 skos:notation "229";
+  skos:broader role:role-226;
+  skos:prefLabel "Gambist:in"@de, "viol player"@en;
+  skos:altLabel "Gambistin"@de, "Gambist"@de, "gamba player"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q19760296>, <https://d-nb.info/gnd/7577206-1>,
+    <https://d-nb.info/gnd/7577207-3> .
+
+role:role-230 skos:notation "230";
+  skos:broader role:role-226;
+  skos:prefLabel "Kontrabassist:in"@de, "double bassist"@en;
+  skos:altLabel "Kontrabassistin"@de, "Kontrabassist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1214796>, <https://d-nb.info/gnd/7553337-6>,
+    <https://d-nb.info/gnd/7553336-4>, <https://vocab.getty.edu/aat/300235037> .
+
+role:role-231 skos:notation "231";
+  skos:broader role:role-226;
+  skos:prefLabel "Violinist:in"@de, "violinist"@en;
+  skos:altLabel "Geigerin"@de, "Geiger"@de, "Violinistin"@de, "Violinist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1259917>, <https://d-nb.info/gnd/4156342-6>,
+    <https://d-nb.info/gnd/4334809-9>, <https://vocab.getty.edu/aat/300235044> .
+
+role:role-232 skos:notation "232";
+  skos:prefLabel "Student:in"@de, "student"@en;
+  skos:altLabel "Studentin"@de, "Student"@de, "college students"@en, "university students"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q48282>, <https://d-nb.info/gnd/4058167-6>,
+    <https://d-nb.info/gnd/4138764-8>, <https://vocab.getty.edu/aat/300419414> .
+
+role:role-233 skos:notation "233";
+  skos:prefLabel "Synchronsprecher:in"@de, "dub actor"@en;
+  skos:altLabel "Synchronsprecherin"@de, "Synchronsprecher"@de, "dub actress"@en, "voice dubber"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11481802>, <https://d-nb.info/gnd/7627204-7>,
+    <https://d-nb.info/gnd/7627205-9> .
+
+role:role-234 skos:notation "234";
+  skos:prefLabel "Synchronregie"@de, "dialog director"@en;
+  skos:altLabel "Dialogregisseurin"@de, "Dialogregisseur"@de, "dialogue director"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1208493>, <https://d-nb.info/gnd/104278826X>,
+    <https://d-nb.info/gnd/1042788391> .
+
+role:role-235 skos:notation "235";
+  skos:prefLabel "Szenenbildner:in"@de, "set designer/production designer"@en;
+  skos:altLabel "Szenenbildnerin"@de, "Szenenbildner"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2962070>, <https://vocab.getty.edu/aat/300435127> .
+
+role:role-236 skos:notation "236";
+  skos:prefLabel "Tänzer:in"@de, "dancer"@en;
+  skos:altLabel "Tänzerin"@de, "Tänzer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5716684>, <https://d-nb.info/gnd/4136608-6>,
+    <https://d-nb.info/gnd/4207110-0>, <https://vocab.getty.edu/aat/300025653> .
+
+role:role-237 skos:notation "237";
+  skos:prefLabel "Klavierist:in"@de, "clavierist"@en;
+  skos:altLabel "Tasteninstrumentenspielerin"@de, "Tasteninstrumentenspieler"@de, "Klavieristin"@de,
+    "Klavierist"@de, "keyboardist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123110557>, <https://vocab.getty.edu/aat/300234981> .
+
+role:role-238 skos:notation "238";
+  skos:broader role:role-237;
+  skos:prefLabel "Cembalist:in"@de, "harpsichordist"@en;
+  skos:altLabel "Cembalistin"@de, "Cembalist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5371902>, <https://d-nb.info/gnd/4776368-1>,
+    <https://d-nb.info/gnd/7553293-1>, <https://vocab.getty.edu/aat/300235014> .
+
+role:role-239 skos:notation "239";
+  skos:broader role:role-237;
+  skos:prefLabel "Harmoniumspieler:in"@de, "harmonium player"@en;
+  skos:altLabel "Harmoniumspielerin"@de, "Harmoniumspieler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q54844699>, <https://d-nb.info/gnd/7553330-3>,
+    <https://d-nb.info/gnd/7553329-7> .
+
+role:role-240 skos:notation "240";
+  skos:broader role:role-237;
+  skos:prefLabel "Keyboarder:in"@de, "keyboarder"@en;
+  skos:altLabel "Keyboarderin"@de, "Keyboarder"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1075651> .
+
+role:role-241 skos:notation "241";
+  skos:broader role:role-237;
+  skos:prefLabel "Organist:in"@de, "organist"@en;
+  skos:altLabel "Organistin"@de, "Organist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q765778>, <https://d-nb.info/gnd/4172793-9>,
+    <https://d-nb.info/gnd/7553351-0>, <https://vocab.getty.edu/aat/300235015> .
+
+role:role-242 skos:notation "242";
+  skos:broader role:role-237;
+  skos:prefLabel "Pianist:in"@de, "pianist"@en;
+  skos:altLabel "Pianistin"@de, "Pianist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q486748>, <https://d-nb.info/gnd/4131406-2>,
+    <https://d-nb.info/gnd/4426550-5>, <https://vocab.getty.edu/aat/300235018> .
+
+role:role-243 skos:notation "243";
+  skos:broader role:role-237;
+  skos:prefLabel "Pianolist:in"@de, "pianolist"@en;
+  skos:altLabel "Pianolistin"@de, "Pianolist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1733058> .
+
+role:role-244 skos:notation "244";
+  skos:prefLabel "Techniker:in"@de, "technician"@en;
+  skos:altLabel "Technikerin"@de, "Techniker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5352191>, <https://d-nb.info/gnd/4138289-4>,
+    <https://d-nb.info/gnd/4278765-8>, <https://vocab.getty.edu/aat/300025823> .
+
+role:role-245 skos:notation "245";
+  skos:broader role:role-244;
+  skos:prefLabel "Elektroniker:in"@de, "electronic technician"@en;
+  skos:altLabel "Elektronikerin"@de, "Elektroniker"@de, "electronic engineer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1327130>, <https://d-nb.info/gnd/4132436-5>,
+    <https://d-nb.info/gnd/7626343-5>, <https://vocab.getty.edu/aat/300253983> .
+
+role:role-246 skos:notation "246";
+  skos:broader role:role-244;
+  skos:prefLabel "Elektrotechniker:in"@de, "electrotechnician"@en;
+  skos:altLabel "Elektrotechnikerin"@de, "Elektrotechniker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1327627>, <https://d-nb.info/gnd/4131091-3>,
+    <https://d-nb.info/gnd/1227233221> .
+
+role:role-247 skos:notation "247";
+  skos:prefLabel "Textdichter:in"@de, "lyricist"@en;
+  skos:altLabel "Textdichterin"@de, "Textdichter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q822146>, <https://vocab.getty.edu/aat/300025675> .
+
+role:role-248 skos:notation "248";
+  skos:prefLabel "Theatergruppe"@de, "theatre group"@en;
+  skos:altLabel "Theaterensemble"@de, "theater group"@en, "theatre company"@en, "theater company"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2416217>, <https://d-nb.info/gnd/4126993-7>,
+    <https://vocab.getty.edu/aat/300266039> .
+
+role:role-249 skos:notation "249";
+  skos:prefLabel "Theaterleiter:in"@de, "theatre manager"@en;
+  skos:altLabel "Theaterdirektor:in"@de, "Theaterleiterin"@de, "Theaterleiter"@de, "theater manager"@en,
+    "theatre director"@en, "theater director"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1776724>, <https://d-nb.info/gnd/4398844-1>,
+    <https://d-nb.info/gnd/4501736-0>, <https://vocab.getty.edu/aat/300312210> .
+
+role:role-250 skos:notation "250";
+  skos:prefLabel "Theaterproduzent:in"@de, "theatrical producer"@en;
+  skos:altLabel "Theaterproduzentin"@de, "Theaterproduzent"@de, "theatre producer"@en,
+    "theater producer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1759246>, <https://d-nb.info/gnd/4504084-9>,
+    <https://d-nb.info/gnd/4635472-4> .
+
+role:role-251 skos:notation "251";
+  skos:prefLabel "Toningenieur:in"@de, "audio engineer"@en;
+  skos:altLabel "Toningenieurin"@de, "Toningenieur"@de, "sound engineer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q128124>, <https://d-nb.info/gnd/4375554-9>,
+    <https://d-nb.info/gnd/7859952-0> .
+
+role:role-252 skos:notation "252";
+  skos:broader role:role-251;
+  skos:prefLabel "Master-Ingenieur:in"@de, "mastering engineer"@en;
+  skos:altLabel "Master-Ingenieurin"@de, "Master-Ingenieur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6785368> .
+
+role:role-253 skos:notation "253";
+  skos:broader role:role-251;
+  skos:prefLabel "Tonmischer:in"@de, "sound mixer"@en;
+  skos:altLabel "Tonmischerin"@de, "Tonmischer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123110627> .
+
+role:role-254 skos:notation "254";
+  skos:prefLabel "Übersetzer:in"@de, "translator"@en;
+  skos:altLabel "Übersetzerin"@de, "Übersetzer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q333634>, <https://d-nb.info/gnd/4061414-1>,
+    <https://d-nb.info/gnd/4372438-3>, <https://vocab.getty.edu/aat/300025601> .
+
+role:role-255 skos:notation "255";
+  skos:prefLabel "Unternehmer:in"@de, "entrepreneur"@en;
+  skos:altLabel "Unternehmerin"@de, "Unternehmer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q131524>, <https://d-nb.info/gnd/4061949-7>,
+    <https://d-nb.info/gnd/4187051-7>, <https://vocab.getty.edu/aat/300025222> .
+
+role:role-256 skos:notation "256";
+  skos:prefLabel "Veranstalter:in"@de, "host"@en;
+  skos:altLabel "Veranstalterin"@de, "Veranstalter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2378505>, <https://vocab.getty.edu/aat/300440759> .
+
+role:role-257 skos:notation "257";
+  skos:prefLabel "Verfasser:in"@de, "writer"@en;
+  skos:altLabel "Autor"@de, "Verfasserin"@de, "Verfasser"@de, "author"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q36180>, <https://d-nb.info/gnd/4003982-1>,
+    <https://d-nb.info/gnd/4258697-5>, <https://vocab.getty.edu/aat/300448851> .
+
+role:role-258 skos:notation "258";
+  skos:prefLabel "Verleger:in"@de, "publisher"@en;
+  skos:altLabel "Verlegerin"@de, "Verleger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2516866>, <https://d-nb.info/gnd/4138343-6>,
+    <https://d-nb.info/gnd/4266720-3>, <https://vocab.getty.edu/aat/300025574> .
+
+role:role-259 skos:notation "259";
+  skos:broader role:role-258;
+  skos:prefLabel "Musikverleger:in"@de, "music publisher"@en;
+  skos:altLabel "Musikverlegerin"@de, "Musikverleger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q222836>, <https://d-nb.info/gnd/4398799-0>,
+    <https://d-nb.info/gnd/7628960-6> .
+
+role:role-260 skos:notation "260";
+  skos:prefLabel "Vertrieb"@de, "distributor"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12540664>, <https://d-nb.info/gnd/4127117-8>,
+    <https://vocab.getty.edu/aat/300404885> .
+
+role:role-261 skos:notation "261";
+  skos:prefLabel "Voice-Over"@de, "voice-over"@en;
+  skos:altLabel "Off-Kommentar"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1146822>, <https://d-nb.info/gnd/4259542-3> .
+
+role:role-262 skos:notation "262";
+  skos:prefLabel "Vokalist:in"@de, "vocalist"@en;
+  skos:altLabel "Vokalistin"@de, "Vokalist"@de, "Stimme"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2643890> .
+
+role:role-263 skos:notation "263";
+  skos:broader role:role-262;
+  skos:prefLabel "Chansonnier/Chansonnière"@de, "chansonnier/chanteuse"@en;
+  skos:altLabel "Chansonsängerin"@de, "Chansonsänger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q13391399>, <https://d-nb.info/gnd/4194394-6>,
+    <https://d-nb.info/gnd/4388002-2> .
+
+role:role-264 skos:notation "264";
+  skos:broader role:role-262;
+  skos:prefLabel "Jodler:in"@de, "yodeler"@en;
+  skos:altLabel "Jodlerin"@de, "Jodler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21234378>, <https://d-nb.info/gnd/1249882389>,
+    <https://d-nb.info/gnd/1246696967> .
+
+role:role-265 skos:notation "265";
+  skos:broader role:role-262;
+  skos:prefLabel "Rapper:in"@de, "rapper"@en;
+  skos:altLabel "Rapperin"@de, "Rapper"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2252262>, <https://d-nb.info/gnd/4303534-6>,
+    <https://d-nb.info/gnd/107257439X> .
+
+role:role-266 skos:notation "266";
+  skos:prefLabel "Vortragsredner:in"@de, "lecturer"@en;
+  skos:altLabel "Vortragsrednerin"@de, "Vortragsredner"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q9379869>, <https://vocab.getty.edu/aat/300136462> .
+
+role:role-267 skos:notation "267";
+  skos:prefLabel "Webvideoproduzent:in"@de, "web video producer"@en;
+  skos:altLabel "Webvideoproduzentin"@de, "Webvideoproduzent"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q118371929> .
+
+role:role-268 skos:notation "268";
+  skos:broader role:role-265;
+  skos:prefLabel "Video Blogger:in"@de, "video blogger"@en;
+  skos:altLabel "Video-Blogger"@de, "Video-Bloggerin"@de, "Vlogger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4110598> .
+
+role:role-269 skos:notation "269";
+  skos:prefLabel "Widmungsträger:in"@de, "dedicatee"@en;
+  skos:altLabel "Widmungsempfängerin"@de, "Widmungsempfänger"@de, "Widmungsträgerin"@de,
+    "Widmungsträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q28008298>, <https://vocab.getty.edu/aat/300121765> .
+
+role:role-270 skos:notation "270";
+  skos:prefLabel "Zirkusdirektor:in"@de, "circus director"@en;
+  skos:altLabel "Zirkusdirektorin"@de, "Zirkusdirektor"@de, "circus owner"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21061372>, <https://d-nb.info/gnd/1270770462>,
+    <https://d-nb.info/gnd/1270770810> .
+
+role:role-271 skos:notation "271";
+  skos:prefLabel "Zupfinstrumentenspieler:in"@de, "plucked string instrument player"@en;
+  skos:altLabel "Zupfinstrumentenspielerin"@de, "Zupfinstrumentenspieler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123110687> .
+
+role:role-272 skos:notation "272";
+  skos:broader role:role-271;
+  skos:prefLabel "Balalaikaspieler:in"@de, "balalaikist"@en;
+  skos:altLabel "Balalaikaspielerin"@de, "Balalaikaspieler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q56418646> .
+
+role:role-273 skos:notation "273";
+  skos:broader role:role-271;
+  skos:prefLabel "Banjospieler:in"@de, "banjoist"@en;
+  skos:altLabel "Banjoistin"@de, "Banjoist"@de, "Banjospielerin"@de, "Banjospieler"@de,
+    "banjo player"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q9648008>, <https://d-nb.info/gnd/7520692-4>,
+    <https://d-nb.info/gnd/7553272-4>, <https://vocab.getty.edu/aat/300235019> .
+
+role:role-274 skos:notation "274";
+  skos:broader role:role-271;
+  skos:prefLabel "Bassist:in (Instrument)"@de, "bassist (instrument)"@en;
+  skos:altLabel "Bassgitarristin"@de, "Bassgitarrist"@de, "bass guitarist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q584301>, <https://vocab.getty.edu/aat/300235037> .
+
+role:role-275 skos:notation "275";
+  skos:broader role:role-271;
+  skos:prefLabel "Gitarrist:in"@de, "guitarist"@en;
+  skos:altLabel "Gitarristin"@de, "Gitarrist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q855091>, <https://d-nb.info/gnd/4157372-9>,
+    <https://d-nb.info/gnd/7553322-4>, <https://vocab.getty.edu/aat/300235042> .
+
+role:role-276 skos:notation "276";
+  skos:broader role:role-275;
+  skos:prefLabel "Lead-Gitarrist:in"@de, "lead guitarist"@en;
+  skos:altLabel "Lead-Gitarristin"@de, "Lead-Gitarrist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q901192> .
+
+role:role-277 skos:notation "277";
+  skos:broader role:role-275;
+  skos:prefLabel "Rhythmusgitarrist:in"@de, "rhythm guitarist"@en;
+  skos:altLabel "Rhythmusgitarrist"@de, "Rhythmusgitarristin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q61045547> .
+
+role:role-278 skos:notation "278";
+  skos:broader role:role-271;
+  skos:prefLabel "Harfenist:in"@de, "harpist"@en;
+  skos:altLabel "Harfenistin"@de, "Harfenist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3127709>, <https://d-nb.info/gnd/4272861-7>,
+    <https://d-nb.info/gnd/4712027-7>, <https://vocab.getty.edu/aat/300235057> .
+
+role:role-279 skos:notation "279";
+  skos:broader role:role-271;
+  skos:prefLabel "Lautenist:in"@de, "lutenist"@en;
+  skos:altLabel "lute player"@de, "Lautenistin"@de, "Lautenist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21166956>, <https://d-nb.info/gnd/4606716-4>,
+    <https://d-nb.info/gnd/4685940-8>, <https://vocab.getty.edu/aat/300235043> .
+
+role:role-280 skos:notation "280";
+  skos:broader role:role-271;
+  skos:prefLabel "Mandolinist:in"@de, "mandolinist"@en;
+  skos:altLabel "Mandolinistin"@de, "Mandolinist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q19723482>, <https://d-nb.info/gnd/7553345-5>,
+    <https://d-nb.info/gnd/7553344-3> .
+
+role:role-281 skos:notation "281";
+  skos:broader role:role-271;
+  skos:prefLabel "Ukulelist:in"@de, "ukulelist"@en;
+  skos:altLabel "Ukulelistin"@de, "Ukulelist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q60643157> .
+
+role:role-282 skos:notation "282";
+  skos:broader role:role-271;
+  skos:prefLabel "Zitherspieler:in"@de, "zitherist"@en;
+  skos:altLabel "Zitherspielerin"@de, "Zitherspieler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q55977806>, <https://d-nb.info/gnd/7553302-9>,
+    <https://d-nb.info/gnd/7553301-7> .
+
+role:role-283 skos:notation "283";
+  skos:prefLabel "unbekannt"@de, "unknown"@en;
+  skos:altLabel "nicht feststellbar"@de, "undocumented"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q24238356> .
+
+role:role-284 skos:notation "284";
+  skos:prefLabel "Komiker:in"@de, "comedian"@en;
+  skos:altLabel "Komiker"@de, "Komikerin"@de, "Komödiant:in"@de, "Komödiant"@de, "Komödiantin"@de,
+    "comic"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q245068>, <https://d-nb.info/gnd/4164760-9>,
+    <https://d-nb.info/gnd/4356688-1> .
+
+role:role-285 skos:notation "285";
+  skos:prefLabel "Boxer:in"@de, "boxer"@en;
+  skos:altLabel "Faustkämpfer"@de, "Faustkämpferin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11338576>, <https://d-nb.info/gnd/4267563-7>,
+    <https://d-nb.info/gnd/7740948-6> .
+
+role:role-286 skos:notation "286";
+  skos:broader role:role-154;
+  skos:prefLabel "Tanzorchester"@de, "dance orchestra"@en;
+  skos:altLabel "Tanzkapelle"@de, "dance band"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2393375>, <https://d-nb.info/gnd/4473512-1> .
+
+role:role-287 skos:notation "287";
+  skos:prefLabel "Tonträgerunternehmen"@de, "record company"@en;
+  skos:altLabel "Schallplattenfirma"@de, "Tonträgerfirma"@de, "Schallplattenunternehmen"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2442401> .
+
+role:role-288 skos:notation "288";
+  skos:prefLabel "Software-Entwickler:in"@de, "software developer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q183888> .
+
+role:role-289 skos:notation "289";
+  skos:broader role:role-18;
+  skos:prefLabel "Schriftsteller:in"@de, "writer"@en;
+  skos:altLabel "Buchautorin"@de, "Urheber"@de, "Schriftsteller"@de, "Buchautor"@de,
+    "Autor"@de, "Schriftstellerin"@de, "Autorin"@de, "Verfasserin"@de, "Verfasser"@de,
+    "Urheberin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q36180>, <https://d-nb.info/gnd/4053309-8>,
+    <https://d-nb.info/gnd/4053311-6>, <https://vocab.getty.edu/aat/300025492> .
+
+role:role-290 skos:notation "290";
+  skos:broader role:role-289;
+  skos:prefLabel "Kriminalschriftsteller:in"@de, "crime fiction writer"@en;
+  skos:altLabel "Kriminalroman-Schriftsteller"@de, "Kriminalroman-Autor"@de, "Kriminalroman-Autorin"@de,
+    "Kriminal-Autor"@de, "Kriminalromanautor"@de, "Krimiautorin"@de, "Kriminalautor"@de,
+    "Kriminalschriftsteller"@de, "Kriminalroman-Schriftstellerin"@de, "Krimi-Autorin"@de,
+    "Kriminalromanautorin"@de, "Kriminal-Autorin"@de, "Krimi-Autor"@de, "Kriminalautorin"@de,
+    "Krimiautor"@de, "Kriminalschriftstellerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q10297252>, <https://d-nb.info/gnd/7624356-4>,
+    <https://d-nb.info/gnd/7624358-8> .
+
+role:role-291 skos:notation "291";
+  skos:broader role:role-289;
+  skos:prefLabel "Lyriker:in"@de, "poet"@en;
+  skos:altLabel "Dichterin"@de, "Poet"@de, "Lyrikerin"@de, "Poetin"@de, "Dichter"@de,
+    "Lyriker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q49757>, <https://d-nb.info/gnd/4168391-2>,
+    <https://d-nb.info/gnd/4246394-4>, <https://vocab.getty.edu/aat/300025513> .
+
+role:role-292 skos:notation "292";
+  skos:prefLabel "Betriebswirt:in"@de, "business manager"@en;
+  skos:altLabel "Dipl.-Betriebswirt (FH)"@de, "Betriebswirtin"@de, "Dipl.-Betrw."@de,
+    "Staatlich geprüfte Betriebswirtin"@de, "Dipl.-BW"@de, "Dipl.-Bw."@de, "Diplom-Betriebswirtschaftlerin"@de,
+    "Dipl.-Betriebswirtin (FH)"@de, "Beratende Betriebswirtin"@de, "Dipl.-Betriebsw."@de,
+    "Beratender Betriebswirt"@de, "Diplom-Betriebswirtin"@de, "Staatlich geprüfter Betriebswirt"@de,
+    "Diplom-Betriebswirt"@de, "Betriebswirt"@de, "Diplom-Betriebswirtschaftler"@de, "Dipl.-Bwt."@de,
+    "Dipl.-Betr.-Wirt"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q832136>, <https://d-nb.info/gnd/4145078-4>,
+    <https://d-nb.info/gnd/7546980-7> .
+
+role:role-293 skos:notation "293";
+  skos:prefLabel "Bewegungspädagog:in"@de, "movement educator"@en;
+  skos:altLabel "Bewegungspädagoge"@de, "Bewegungspädagogin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q128303868> .
+
+role:role-294 skos:notation "294";
+  skos:prefLabel "Bildhauer:in"@de, "sculptor"@en;
+  skos:altLabel "Plastiker"@de, "Plastikerin"@de, "Bildhauerin"@de, "Bildhauer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1281618>, <https://d-nb.info/gnd/4139550-5>,
+    <https://d-nb.info/gnd/4294734-0>, <https://vocab.getty.edu/aat/300025181> .
+
+role:role-295 skos:notation "295";
+  skos:prefLabel "Biolog:in"@de, "biologist"@en;
+  skos:altLabel "Biologin"@de, "Biologe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q864503>, <https://d-nb.info/gnd/4131826-2>,
+    <https://d-nb.info/gnd/4380756-2>, <https://vocab.getty.edu/aat/300025790> .
+
+role:role-296 skos:notation "296";
+  skos:prefLabel "Biotechniker:in"@de, "biological technician"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q121904647> .
+
+role:role-297 skos:notation "297";
+  skos:prefLabel "Botaniker:in"@de, "botanist"@en;
+  skos:altLabel "Bontanikerin"@de, "Pflanzenkundler"@de, "Pflanzenkundlerin"@de, "Botaniker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2374149>, <https://d-nb.info/gnd/4146402-3>,
+    <https://d-nb.info/gnd/4631979-7>, <https://vocab.getty.edu/aat/300025791> .
+
+role:role-298 skos:notation "298";
+  skos:prefLabel "Selbstverleger:in"@de, "independent publisher"@en;
+  skos:altLabel "Selbstverleger"@de, "Selbstverlegerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q115793211>, <https://d-nb.info/gnd/7719046-4>,
+    <https://d-nb.info/gnd/7719048-8> .
+
+role:role-299 skos:notation "299";
+  skos:broader role:role-44;
+  skos:prefLabel "Web-Designer:in"@de, "website designer"@en;
+  skos:altLabel "Webdesignerin"@de, "Webdesigner"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11288554>, <https://d-nb.info/gnd/7826295-1>,
+    <https://d-nb.info/gnd/7826298-7>, <https://vocab.getty.edu/aat/300443943> .
+
+role:role-300 skos:notation "300";
+  skos:prefLabel "Kapellmeister:in"@de, "chapelmaster"@en;
+  skos:altLabel "Kapellmeisterin"@de, "Kapellmeister"@de, "Capellmeister"@de, "Capellmeisterein"@de,
+    "Maestro di cappella"@de, "Orchesterleiter"@de, "Orchesterleiterin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q215793>, <https://d-nb.info/gnd/4398802-7>,
+    <https://d-nb.info/gnd/1303030381> .
+
+role:role-301 skos:notation "301";
+  skos:prefLabel "Ergonom:in"@de, "ergonomist"@en;
+  skos:altLabel "Ergonome"@de, "Ergonomin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11697052> .
+
+role:role-302 skos:notation "302";
+  skos:prefLabel "Garderobier:e"@de, "dresser"@en;
+  skos:altLabel "Garderobiere"@de, "Garderobier"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3125351>, <https://d-nb.info/gnd/1037813596>,
+    <https://d-nb.info/gnd/1037813707> .
+
+role:role-303 skos:notation "303";
+  skos:prefLabel "Geschäftspartner:in"@de, "business partner"@en;
+  skos:altLabel "Geschäftspartnerin"@de, "Geschäftspartner"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3366101> .
+
+role:role-304 skos:notation "304";
+  skos:prefLabel "Dolly Grip"@de, "dolly grip"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4165151> .
+
+role:role-305 skos:notation "305";
+  skos:prefLabel "Handwerker:in"@de, "artisan"@en;
+  skos:altLabel "Handwerker"@de, "Handwerkerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1294787>, <https://d-nb.info/gnd/4023302-9>,
+    <https://d-nb.info/gnd/4874306-9>, <https://vocab.getty.edu/aat/300386205> .
+
+role:role-306 skos:notation "306";
+  skos:broader role:role-305;
+  skos:prefLabel "Buchbinder:in"@de, "bookbinder"@en;
+  skos:altLabel "Buchbinderin"@de, "Buchbinder"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1413170>, <https://d-nb.info/gnd/4146794-2>,
+    <https://d-nb.info/gnd/4438347-2>, <https://vocab.getty.edu/aat/300025704> .
+
+role:role-307 skos:notation "307";
+  skos:broader role:role-305;
+  skos:prefLabel "Drucker:in"@de, "printer"@en;
+  skos:altLabel "Drucker"@de, "Drucktechnologin"@de, "Drucktechniker"@de, "Drucktechnologe"@de,
+    "Drucktechnikerin"@de, "Druckerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q175151>, <https://d-nb.info/gnd/4013091-5>,
+    <https://vocab.getty.edu/aat/300025732> .
+
+role:role-308 skos:notation "308";
+  skos:broader role:role-305;
+  skos:prefLabel "Schneider:in"@de, "tailor"@en;
+  skos:altLabel "Weißnäherin"@de, "Schneiderin"@de, "Näherin"@de, "Schneider"@de, "Schneidermeister"@de,
+    "Näher"@de, "Schneidermeisterin"@de, "Weißnäher"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q242468>, <https://d-nb.info/gnd/4153182-6>,
+    <https://d-nb.info/gnd/4209144-5>, <https://vocab.getty.edu/aat/300025365> .
+
+role:role-309 skos:notation "309";
+  skos:prefLabel "Herausgeber:in"@de, "publisher"@en;
+  skos:altLabel "Herausgeberin"@de, "Hrsg."@de, "Hg."@de, "Herausgeber"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1607826>, <https://d-nb.info/gnd/4159575-0>,
+    <https://d-nb.info/gnd/4430555-2>, <https://vocab.getty.edu/aat/300025574> .
+
+role:role-310 skos:notation "310";
+  skos:prefLabel "Humangeograph:in"@de, "human geographer"@en;
+  skos:altLabel "Antropogeographin"@de, "Antropogeografin"@de, "Humangeograph"@de, "Antropogeograf"@de,
+    "Humangeographin"@de, "Humangeograf"@de, "Antropogeograph"@de, "Humangeografin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q60332470> .
+
+role:role-311 skos:notation "311";
+  skos:prefLabel "Informatiker:in"@de, "computer scientist"@en;
+  skos:altLabel "Informatiker"@de, "Informatikerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q82594>, <https://d-nb.info/gnd/4139395-8>,
+    <https://d-nb.info/gnd/4219059-9>, <https://vocab.getty.edu/aat/300236481> .
+
+role:role-312 skos:notation "312";
+  skos:prefLabel "Jurist:in"@de, "jurist"@en;
+  skos:altLabel "Juristin"@de, "Jurist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q185351>, <https://d-nb.info/gnd/4029050-5>,
+    <https://d-nb.info/gnd/4130076-2>, <https://vocab.getty.edu/aat/300236907> .
+
+role:role-313 skos:notation "313";
+  skos:prefLabel "Keramiker:in"@de, "ceramicist"@en;
+  skos:altLabel "Keramiker"@de, "Keramikerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7541856>, <https://d-nb.info/gnd/4307126-0>,
+    <https://d-nb.info/gnd/7541443-0>, <https://vocab.getty.edu/aat/300025388> .
+
+role:role-314 skos:notation "314";
+  skos:prefLabel "Konzertmeister:in"@de, "concertmaster"@en;
+  skos:altLabel "Konzertmeisterin"@de, "Konzertmeister"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q691031>, <https://d-nb.info/gnd/4231707-1>,
+    <https://d-nb.info/gnd/1340862638> .
+
+role:role-315 skos:notation "315";
+  skos:prefLabel "Korrepetitor:in"@de, "répétiteur"@en;
+  skos:altLabel "Korrepetition"@de, "Korrepetitorin"@de, "Solorepetitor"@de, "Solorepetitorin"@de,
+    "Korrepetitor"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1784753>, <https://d-nb.info/gnd/4283458-2>,
+    <https://d-nb.info/gnd/1203220251> .
+
+role:role-316 skos:notation "316";
+  skos:prefLabel "Kranführer:in"@de, "crane operator"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q70660439>, <https://d-nb.info/gnd/4165486-9>,
+    <https://vocab.getty.edu/aat/300025011> .
+
+role:role-317 skos:notation "317";
+  skos:prefLabel "Kulturwissenschaftler:in"@de, "cultural studies scholar"@en;
+  skos:altLabel "Kulturwissenschaftlerin"@de, "Kulturologin"@de, "Kulturologe"@de, "Kulturwissenschaftler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q19829999>, <https://d-nb.info/gnd/4485235-6>,
+    <https://d-nb.info/gnd/7538689-6> .
+
+role:role-318 skos:notation "318";
+  skos:prefLabel "Kunsthistoriker:in"@de, "art historian"@en;
+  skos:altLabel "Kunsthistorikerin"@de, "Kunstwissenschaftler"@de, "Kunstgeschichtlerin"@de,
+    "Kunstgeschichtler"@de, "Kunsthistoriker"@de, "Kunstwissenschaftlerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1792450>, <https://d-nb.info/gnd/4033654-2>,
+    <https://d-nb.info/gnd/4226289-6>, <https://vocab.getty.edu/aat/300025541> .
+
+role:role-319 skos:notation "319";
+  skos:broader role:role-44;
+  skos:prefLabel "Grafikdesigner:in"@de, "graphic designer"@en;
+  skos:altLabel "Graphikdesignerin"@de, "Gebrauchsgraphiker"@de, "Gebrauchsgrafiker"@de,
+    "Gebrauchsgraphikerin"@de, "Gebrauchsgrafikerin"@de, "Grafikdesignerin"@de, "Graphikdesigner"@de,
+    "Grafikdesigner"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q627325>, <https://d-nb.info/gnd/4125173-8>,
+    <https://d-nb.info/gnd/4550852-5>, <https://vocab.getty.edu/aat/300025119> .
+
+role:role-320 skos:notation "320";
+  skos:broader role:role-119;
+  skos:prefLabel "Klangkünstler:in"@de, "sound artist"@en;
+  skos:altLabel "Klangkünstlerin"@de, "Klangkünstler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q19850998>, <https://d-nb.info/gnd/1152099817>,
+    <https://d-nb.info/gnd/1152099981> .
+
+role:role-321 skos:notation "321";
+  skos:broader role:role-121;
+  skos:prefLabel "Illustrator:in"@de, "illustrator"@en;
+  skos:altLabel "Buch-Illustratorin"@de, "Illustratorin"@de, "Illustrator"@de, "Buchillustratorin"@de,
+    "Buchillustrator"@de, "Buch-Illustrator"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q644687>, <https://d-nb.info/gnd/4161277-2>,
+    <https://d-nb.info/gnd/4454346-3>, <https://vocab.getty.edu/aat/300025123> .
+
+role:role-322 skos:notation "322";
+  skos:broader role:role-119;
+  skos:prefLabel "Performancekünstler:in"@de, "performance artist"@en;
+  skos:altLabel "Performancekünstler"@de, "Performancekünstlerin"@de, "Aktionskünstlerin"@de,
+    "Aktionskünstler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q10774753>, <https://d-nb.info/gnd/7545699-0>,
+    <https://d-nb.info/gnd/7545707-6>, <https://vocab.getty.edu/aat/300025678> .
+
+role:role-323 skos:notation "323";
+  skos:broader role:role-119;
+  skos:prefLabel "Videokünstler:in"@de, "video artist"@en;
+  skos:altLabel "Videokünstlerin"@de, "Videokünstler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q18216771>, <https://d-nb.info/gnd/4188228-3>,
+    <https://vocab.getty.edu/aat/300253827> .
+
+role:role-324 skos:notation "324";
+  skos:prefLabel "Künstlerische:r Leiter:in"@de, "artistic director"@en;
+  skos:altLabel "Künstlerische Leiterin"@de, "Künstlerische Leitung"@de, "Künstlerischer Leiter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1797162>, <https://d-nb.info/gnd/4444723-1>,
+    <https://vocab.getty.edu/aat/300386786> .
+
+role:role-325 skos:notation "325";
+  skos:prefLabel "Kunstwissenschaftler:in"@de, "art scholar"@en;
+  skos:altLabel "Kunstwissenschaftler"@de, "Kunstwissenschaftlerin"@de, "art historian"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1792450>, <https://d-nb.info/gnd/4033654-2>,
+    <https://d-nb.info/gnd/4226289-6>, <https://vocab.getty.edu/aat/300025541> .
+
+role:role-326 skos:notation "326";
+  skos:broader role:role-125;
+  skos:prefLabel "Hochschullehrer:in"@de, "university teacher"@en;
+  skos:altLabel "Professor"@de, "Lehrerin im Hochschuldienst"@de, "Dozent"@de, "College-Professor"@de,
+    "Hochschullehrer"@de, "College-Professorin"@de, "Hochschuldozent"@de, "Dozentin"@de,
+    "Lehrkraft im Hochschuldienst"@de, "Lehrer im Hochschuldienst"@de, "Hochschuldozentin"@de,
+    "Hochschullehrerin"@de, "Professorin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1622272>, <https://d-nb.info/gnd/4025243-7>,
+    <https://d-nb.info/gnd/4160219-5> .
+
+role:role-327 skos:notation "327";
+  skos:broader role:role-125;
+  skos:prefLabel "Sportlehrer:in"@de, "physical education teacher"@en;
+  skos:altLabel "Sportlehrer"@de, "Sportlehrerin"@de, "Sportpädagoge"@de, "Sportpädagogin"@de,
+    "sports educator"@de, "gym teacher"@de, "physical education instructor"@de, "physical educator"@de,
+    "PE teacher"@de, "P.E. teacher"@de, "sports teacher"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2312637>, <https://d-nb.info/gnd/4056397-2>,
+    <https://d-nb.info/gnd/4330880-6> .
+
+role:role-328 skos:notation "328";
+  skos:broader role:role-327;
+  skos:prefLabel "Tanzlehrer:in"@de, "dance teacher"@en;
+  skos:altLabel "Tanzlehrerin"@de, "Tanzlehrer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2393361>, <https://d-nb.info/gnd/4367572-4>,
+    <https://d-nb.info/gnd/7621406-0> .
+
+role:role-329 skos:notation "329";
+  skos:prefLabel "Logopäd:in"@de, "speech and language therapist"@en;
+  skos:altLabel "Logopäde"@de, "Logopädin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11762416>, <https://d-nb.info/gnd/4131653-8>,
+    <https://d-nb.info/gnd/7531629-8> .
+
+role:role-330 skos:notation "330";
+  skos:broader role:role-133;
+  skos:prefLabel "Eventmanager:in"@de, "event manager"@en;
+  skos:altLabel "Eventmamager"@de, "Eventmanagerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q88202606> .
+
+role:role-331 skos:notation "331";
+  skos:prefLabel "Medienwissenschaftler:in"@de, "media scholar"@en;
+  skos:altLabel "Medienwissenschftler"@de, "Medienwissenschaftlerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6386271>, <https://d-nb.info/gnd/7636581-5>,
+    <https://d-nb.info/gnd/7636582-7> .
+
+role:role-332 skos:notation "332";
+  skos:prefLabel "Musicaldarsteller:in"@de;
+  skos:altLabel "Musicaldarstellerin"@de, "Musical-Darstellerin"@de, "Musical-Darsteller"@de,
+    "Musicaldarsteller"@de, "musical theater actor"@en;
+  skos:prefLabel "musical theatre actor"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1954956>, <https://d-nb.info/gnd/4170790-4>,
+    <https://d-nb.info/gnd/4565284-3> .
+
+role:role-333 skos:notation "333";
+  skos:broader role:role-160;
+  skos:prefLabel "Bandleader:in"@de, "bandleader"@en;
+  skos:altLabel "Blasmusikleiter"@de, "Blasorchesterdirigentin"@de, "Bandleaderin"@de,
+    "Blasmusikleiterin"@de, "Bandleader"@de, "Blasorchesterdirigent"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q806349>, <https://d-nb.info/gnd/7628944-8>,
+    <https://vocab.getty.edu/aat/300025668> .
+
+role:role-334 skos:notation "334";
+  skos:broader role:role-160;
+  skos:prefLabel "Jazzmusiker:in"@de, "jazz musician"@en;
+  skos:altLabel "Jazz-Musikerin"@de, "Jazz-Musiker"@de, "Jazzmusiker"@de, "Jazzmusikerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15981151>, <https://d-nb.info/gnd/4028535-2>,
+    <https://d-nb.info/gnd/4263647-4> .
+
+role:role-335 skos:notation "335";
+  skos:broader role:role-169;
+  skos:prefLabel "Musikethnolog:in"@de, "ethnomusicologist"@en;
+  skos:altLabel "Musikethnologin"@de, "Musikethnologe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q17484288>, <https://d-nb.info/gnd/7628911-4>,
+    <https://d-nb.info/gnd/7628909-6>, <https://vocab.getty.edu/aat/300025564> .
+
+role:role-336 skos:notation "336";
+  skos:prefLabel "Naturwissenschaftler:in"@de, "natural scientist"@en;
+  skos:altLabel "Naturwissenschaftler"@de, "Naturforscher"@de, "Naturforscherin"@de,
+    "Naturwissenschaftlerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q18805>, <https://d-nb.info/gnd/4041423-1>,
+    <https://d-nb.info/gnd/4202451-1> .
+
+role:role-337 skos:notation "337";
+  skos:broader role:role-336;
+  skos:prefLabel "Chemiker:in"@de, "chemist"@en;
+  skos:altLabel "Chemikerin"@de, "Chemiker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q593644>, <https://d-nb.info/gnd/4009836-9>,
+    <https://d-nb.info/gnd/4219058-7>, <https://vocab.getty.edu/aat/300025793> .
+
+role:role-338 skos:notation "338";
+  skos:prefLabel "Neurobiolog:in"@de, "neurobiologist"@en;
+  skos:altLabel "Neurobiologin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q20739288>, <https://d-nb.info/gnd/1180662172> .
+
+role:role-339 skos:notation "339";
+  skos:prefLabel "Ökolog:in"@de, "ecologist"@en;
+  skos:altLabel "Ökologe"@de, "Oekologin"@de, "Ökologin"@de, "Oekologe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15839134>, <https://d-nb.info/gnd/4172403-3>,
+    <https://d-nb.info/gnd/7721049-9>, <https://vocab.getty.edu/aat/300025797> .
+
+role:role-340 skos:notation "340";
+  skos:prefLabel "Pädagog:in"@de, "pedagogue"@en;
+  skos:altLabel "Pädagogin"@de, "Erziehungswissenschaftlerin"@de, "Pädagogen"@de, "Erziehungswissenschaftler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1231865>, <https://d-nb.info/gnd/4044300-0>,
+    <https://d-nb.info/gnd/4135404-7> .
+
+role:role-341 skos:notation "341";
+  skos:prefLabel "Politikwissenschaftler:in"@de, "political scientist"@en;
+  skos:altLabel "Politologe"@de, "Politikwissenschaftlerin"@de, "Politikwissenschaftler"@de,
+    "Politologin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1238570>, <https://d-nb.info/gnd/4175053-6>,
+    <https://d-nb.info/gnd/4629643-8>, <https://vocab.getty.edu/aat/300025596> .
+
+role:role-342 skos:notation "342";
+  skos:prefLabel "Praktikant:in"@de, "intern"@en;
+  skos:altLabel "Praktikantin"@de, "Praktikant"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q315625>, <https://d-nb.info/gnd/4225052-3>,
+    <https://d-nb.info/gnd/4826648-6>, <https://vocab.getty.edu/aat/300025902> .
+
+role:role-343 skos:notation "343";
+  skos:broader role:role-190;
+  skos:prefLabel "Produktionsassistent:in"@de, "assistant producer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q19952916> .
+
+role:role-344 skos:notation "344";
+  skos:prefLabel "Programmierer:in"@de, "programmer"@en;
+  skos:altLabel "Programmiererin"@de, "Programmierer"@de, "Software-Programmiererin"@de,
+    "Computer-Programmiererin"@de, "Computer-Programmierer"@de, "Software-Programmierer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5482740>, <https://d-nb.info/gnd/4175854-7>,
+    <https://d-nb.info/gnd/4714952-8>, <https://vocab.getty.edu/aat/300025819> .
+
+role:role-345 skos:notation "345";
+  skos:prefLabel "Psycholog:in"@de, "psychologist"@en;
+  skos:altLabel "Psychologe"@de, "Psychologin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q212980>, <https://d-nb.info/gnd/4176224-1>,
+    <https://d-nb.info/gnd/4047701-0>, <https://vocab.getty.edu/aat/300025597> .
+
+role:role-346 skos:notation "346";
+  skos:prefLabel "Psychotherapeut:in"@de, "psychotherapist"@en;
+  skos:altLabel "Psychotherapeutin"@de, "Psychotherapeut"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1900167>, <https://d-nb.info/gnd/4047743-5>,
+    <https://d-nb.info/gnd/4301430-6> .
+
+role:role-347 skos:notation "347";
+  skos:broader role:role-346;
+  skos:prefLabel "Musiktherapeut:in"@de, "music therapist"@en;
+  skos:altLabel "Musiktherapeutin"@de, "Musiktherapeut"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q10334002>, <https://d-nb.info/gnd/4040877-2>,
+    <https://d-nb.info/gnd/7626008-2> .
+
+role:role-348 skos:notation "348";
+  skos:prefLabel "Publizist:in"@de, "opinion journalist"@en;
+  skos:altLabel "Publizist"@de, "Meinungsjournalist"@de, "Meinungsjounalistin"@de, "Publizistin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6051619>, <https://d-nb.info/gnd/4176310-5>,
+    <https://d-nb.info/gnd/4381669-1> .
+
+role:role-349 skos:notation "349";
+  skos:prefLabel "Raumplaner:in"@de, "spatial planner"@en;
+  skos:altLabel "Raumplanerin"@de, "Raumplaner"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q51792960>, <https://d-nb.info/gnd/4177079-1>,
+    <https://d-nb.info/gnd/7540453-9> .
+
+role:role-350 skos:notation "350";
+  skos:prefLabel "Schriftsetzer:in"@de, "typesetter"@en;
+  skos:altLabel "Setzerin"@de, "Setzer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4108101>, <https://d-nb.info/gnd/4180006-0>,
+    <https://d-nb.info/gnd/4246313-0>, <https://vocab.getty.edu/aat/300025744> .
+
+role:role-351 skos:notation "351";
+  skos:broader role:role-289;
+  skos:prefLabel "Musikschriftsteller:in"@de, "musicographer"@en;
+  skos:altLabel "Musikschriftstellerin"@de, "Musikschriftsteller"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q61996872>, <https://d-nb.info/gnd/4398800-3>,
+    <https://d-nb.info/gnd/7628949-7> .
+
+role:role-352 skos:notation "352";
+  skos:prefLabel "Soufflage"@de, "prompter"@en;
+  skos:altLabel "Einhelferin"@de, "Souffleuse"@de, "Souffleur"@de, "Soufflieren"@de,
+    "Einhelfer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1126281>, <https://d-nb.info/gnd/4226250-1>,
+    <https://d-nb.info/gnd/4226251-3> .
+
+role:role-353 skos:notation "353";
+  skos:prefLabel "Soziolog:in"@de, "sociologist"@en;
+  skos:altLabel "Soziologe"@de, "Soziologin"@de, "Sozialwissenschaftler"@de, "Sozialwissenschaftlerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2306091>, <https://d-nb.info/gnd/4055930-0>,
+    <https://d-nb.info/gnd/4393865-6>, <https://vocab.getty.edu/aat/300025600> .
+
+role:role-354 skos:notation "354";
+  skos:broader role:role-353;
+  skos:prefLabel "Kultursoziolog:in"@de, "cultural sociologist"@en;
+  skos:altLabel "Kultursoziologin"@de, "Kultursoziologe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q61831758>, <https://d-nb.info/gnd/4398833-7>,
+    <https://d-nb.info/gnd/128686352X> .
+
+role:role-355 skos:notation "355";
+  skos:prefLabel "Sportler:in"@de, "athlete"@en;
+  skos:altLabel "Sportlerin"@de, "Sportler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2066131>, <https://d-nb.info/gnd/4056399-6>,
+    <https://d-nb.info/gnd/4137547-6>, <https://vocab.getty.edu/aat/300236025> .
+
+role:role-356 skos:notation "356";
+  skos:broader role:role-355;
+  skos:prefLabel "Bergsteiger:in"@de, "mountaineer"@en;
+  skos:altLabel "Bergsteiger"@de, "Alpinist"@de, "Bergsteigerin"@de, "Alpinistin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q9149093>, <https://d-nb.info/gnd/4005695-8>,
+    <https://d-nb.info/gnd/4368388-5>, <https://vocab.getty.edu/aat/300403985> .
+
+role:role-357 skos:notation "357";
+  skos:broader role:role-357;
+  skos:prefLabel "Kampfsportler:in"@de, "martial artist"@en;
+  skos:altLabel "Kampfsportler"@de, "Kampfsportlerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11124885>, <https://d-nb.info/gnd/4395925-8> .
+
+role:role-358 skos:notation "358";
+  skos:prefLabel "Sprecherzieher:in"@de, "speech trainer"@en;
+  skos:altLabel "Sprechtrainerin"@de, "Sprecherzieher"@de, "Sprechtrainer"@de, "Sprecherzieherin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q87709273>, <https://d-nb.info/gnd/1113562412>,
+    <https://d-nb.info/gnd/1196978026> .
+
+role:role-359 skos:notation "359";
+  skos:prefLabel "Steuerfachangestellte:r"@de, "tax consultant"@en;
+  skos:altLabel "Stuerfachgehilfe"@de, "Steuerfachangestellte"@de, "Steuerfachangestellter"@de,
+    "Steuerfachgehilfin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2346491>, <https://d-nb.info/gnd/4183190-1>,
+    <https://d-nb.info/gnd/1059226529> .
+
+role:role-360 skos:notation "360";
+  skos:broader role:role-244;
+  skos:prefLabel "Technische:r Direktor:in"@de, "technical director"@en;
+  skos:altLabel "Technische Direktorin"@de, "Technischer Direktor"@de, "Technical Director"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2399424>, <https://d-nb.info/gnd/1235161595> .
+
+role:role-361 skos:notation "361";
+  skos:broader role:role-244;
+  skos:prefLabel "Tontechniker:in"@de, "audio technician"@en;
+  skos:altLabel "Tontechnikerin"@de, "Tontechniker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2442329>, <https://d-nb.info/gnd/7639004-4>,
+    <https://d-nb.info/gnd/7655984-1> .
+
+role:role-362 skos:notation "362";
+  skos:broader role:role-244;
+  skos:prefLabel "Veranstaltungstechniker:in"@de, "event technician"@en;
+  skos:altLabel "Veranstaltungstechniker"@de, "Veranstaltungstechnikerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1391386> .
+
+role:role-363 skos:notation "363";
+  skos:prefLabel "Theatermacher:in"@de, "theatre maker"@en;
+  skos:altLabel "Bühnenschaffender"@de, "Theaterschaffender"@de, "Theaterschaffende"@de,
+    "Theatermacher"@de, "Bühnenschaffende"@de, "Theatermacherin"@de, "theater maker"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q47492700> .
+
+role:role-364 skos:notation "364";
+  skos:broader role:role-363;
+  skos:prefLabel "Inspizient:in"@de, "stage manager"@en;
+  skos:altLabel "Inspizientin"@de, "Inspizient"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q64825422>, <https://d-nb.info/gnd/1057865168>,
+    <https://d-nb.info/gnd/1057865222> .
+
+role:role-365 skos:notation "365";
+  skos:prefLabel "Theaterwissenschaftler:in"@de, "theatrologist"@en;
+  skos:altLabel "Theaterwissenschaftlerin"@de, "Theaterwissenschaftler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q10379007>, <https://d-nb.info/gnd/4614675-1>,
+    <https://d-nb.info/gnd/4778053-8> .
+
+role:role-366 skos:notation "366";
+  skos:prefLabel "Theolog:in"@de, "theologian"@en;
+  skos:altLabel "Theologin"@de, "Theologe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1234713>, <https://d-nb.info/gnd/4059756-8>,
+    <https://d-nb.info/gnd/4138249-3>, <https://vocab.getty.edu/aat/300025784> .
+
+role:role-367 skos:notation "367";
+  skos:prefLabel "Tischler:in"@de, "carpenter"@en;
+  skos:altLabel "Tischler"@de, "Zimmerin"@de, "Zimmerer"@de, "Tischlerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q154549>, <https://d-nb.info/gnd/4125471-5>,
+    <https://d-nb.info/gnd/4288284-9>, <https://vocab.getty.edu/aat/300025008> .
+
+role:role-368 skos:notation "368";
+  skos:prefLabel "Tonassistent:in"@de, "boom operator"@en;
+  skos:altLabel "fishpole operator"@en, "perchwoman"@en, "tape operator"@en, "perchman"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q373709> .
+
+role:role-369 skos:notation "369";
+  skos:prefLabel "Travestie"@de, "travesti"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q16764901>, <https://d-nb.info/gnd/4185968-6> .
+
+role:role-370 skos:notation "370";
+  skos:broader role:role-369;
+  skos:prefLabel "Dragqueen"@de, "drag queen"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q337084>, <https://d-nb.info/gnd/1036714667> .
+
+role:role-371 skos:notation "371";
+  skos:prefLabel "Unterstützer:in"@de, "participant"@en;
+  skos:altLabel "Unterstützer"@de, "Unterstützerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q105906860> .
+
+role:role-372 skos:notation "372";
+  skos:prefLabel "Visagist:in"@de, "visagiste"@en;
+  skos:altLabel "Make-Up-Artist"@de, "Visagistin"@de, "Visagist"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21653400>, <https://d-nb.info/gnd/4735464-1>,
+    <https://d-nb.info/gnd/4735465-3> .
+
+role:role-373 skos:notation "373";
+  skos:prefLabel "Vorsitzende:r"@de, "chairperson"@en;
+  skos:altLabel "Landesvorsitzende"@de, "Bundesvorsitzende"@de, "Obmann"@de, "Landesvorsitzender"@de,
+    "Vorsitz"@de, "Vorsitzende"@de, "Direktor"@de, "erster Vorsitzender"@de, "Generaldirektorin"@de,
+    "Chairman"@de, "Parteichef"@de, "Direktorin"@de, "erste Vorsitzende"@de, "Bundesvorsitzender"@de,
+    "Präsident"@de, "Präsidentin"@de, "Vorsitzender"@de, "Generaldirektor"@de, "Parteichefin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q140686>, <https://d-nb.info/gnd/4188716-5>,
+    <https://vocab.getty.edu/aat/300386266> .
+
+role:role-374 skos:notation "374";
+  skos:prefLabel "Werkstattleiter:in"@de, "workshop manager"@en;
+  skos:altLabel "Werkstattleiterin"@de, "Werkstattleiter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q83437238> .
+
+role:role-375 skos:notation "375";
+  skos:prefLabel "Wirtschaftswissenschaftler:in"@de, "economist"@en;
+  skos:altLabel "Wirtschaftsfachmann"@de, "Wirtschaftsfachfrau"@de, "Ökonomin"@de, "Wirtschaftswissenschaftler"@de,
+    "Ökonomikerin"@de, "Ökonom"@de, "Ökonomiker"@de, "Wirtschaftswissenschaftlerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q188094>, <https://d-nb.info/gnd/4066533-1>,
+    <https://d-nb.info/gnd/4270482-0>, <https://vocab.getty.edu/aat/300025591> .
+
+role:role-376 skos:notation "376";
+  skos:prefLabel "Yogalehrer:in"@de, "yoga instructor"@en;
+  skos:altLabel "Yogalehrer"@de, "Yogalehrerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2600526>, <https://d-nb.info/gnd/4190423-0>,
+    <https://d-nb.info/gnd/7627790-2> .
+
+role:role-377 skos:notation "377";
+  skos:prefLabel "Zoolog:in"@de, "zoologist"@en;
+  skos:altLabel "Zoologin"@de, "Zoologe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q350979>, <https://d-nb.info/gnd/4398977-9>,
+    <https://d-nb.info/gnd/7537890-5>, <https://vocab.getty.edu/aat/300025792> .
+
+role:role-378 skos:notation "378";
+  skos:prefLabel "Architekt:in"@de, "architect"@en;
+  skos:altLabel "Architektin"@de, "Architekt"@de, "Hochbau-Ingenieurin"@de, "Hochbau-Ingenieur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q42973>, <https://d-nb.info/gnd/4002844-6>,
+    <https://d-nb.info/gnd/4131695-2>, <https://vocab.getty.edu/aat/300024987> .
+
+role:role-379 skos:notation "379";
+  skos:prefLabel "Technische Realisation"@de, "technical realisation"@en;
+  skos:altLabel "Technische Umsetzung"@de, "Technische Realisierung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q113057030> .
+
+role:role-380 skos:notation "380";
+  skos:prefLabel "Kooperation"@de, "cooperation"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q380962>, <https://vocab.getty.edu/aat/300379396> .
+
+role:role-381 skos:notation "381";
+  skos:prefLabel "wissenschaftliche:r Mitarbeiter:in"@de, "research fellow"@en;
+  skos:altLabel "wissenschaftliche Mitarbeiterin"@de, "wissenschaftlicher Mitarbeiter"@de,
+    "akademische Mitarbeiterin"@de, "akademischer Mitarbeiter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1706722>, <https://d-nb.info/gnd/4066591-4>,
+    <https://d-nb.info/gnd/7547571-6> .
+
+role:role-382 skos:notation "382";
+  skos:prefLabel "Projektleiter:in"@de, "project manager"@en;
+  skos:altLabel "Projektleiterin"@de, "Projektleiter"@de, "Projektmanagerin"@de, "Projektmanager"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q816432>, <https://d-nb.info/gnd/4175898-5>,
+    <https://d-nb.info/gnd/1123581576>, <https://vocab.getty.edu/aat/300417573> .
+
+role:role-383 skos:notation "383";
+  skos:prefLabel "Mastering Studio"@de, "mastering studio"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q67604973> .
+
+role:role-384 skos:notation "384";
+  skos:prefLabel "Buchhändler:in"@de, "bookseller"@en;
+  skos:altLabel "Buchhändler"@de, "Buchhändlerin"@de, "book dealer"@en, "book seller"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q998550>, <https://d-nb.info/gnd/4130948-0>,
+    <https://d-nb.info/gnd/4352330-4>, <https://vocab.getty.edu/aat/300025244> .
+
+role:role-385 skos:notation "385";
+  skos:broader role:role-119;
+  skos:prefLabel "Grafiker:in"@de, "graphic artist"@en;
+  skos:altLabel "Grafiker"@de, "Grafikerin"@de, "Graphiker"@de, "Graphikerin"@de, "graphical artist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1925963>, <https://d-nb.info/gnd/4125173-8>,
+    <https://d-nb.info/gnd/4550852-5>, <https://vocab.getty.edu/aat/300264850> .
+
+role:role-386 skos:notation "386";
+  skos:prefLabel "Model"@de, "model"@en;
+  skos:altLabel "Mannequin"@de, "Künstlermodell"@de, "Modell"@de, "fashion model"@en,
+    "sitter"@en, "poser"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4610556>, <https://vocab.getty.edu/aat/300025848> .
+
+role:role-387 skos:notation "387";
+  skos:broader role:role-44;
+  skos:prefLabel "Modedesigner:in"@de, "fashion designer"@en;
+  skos:altLabel "Modeschöpfer"@de, "Modedesignerin"@de, "Modeschöpferin"@de, "couturier"@en,
+    "clothing designer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3501317>, <https://d-nb.info/gnd/4233568-1>,
+    <https://d-nb.info/gnd/4499835-1> .
+
+role:role-388 skos:notation "388";
+  skos:prefLabel "Tanzwissenschaftler:in"@de, "dance researcher"@en;
+  skos:altLabel "Tanzwissenschaftler"@de, "Tanzwissenschaftlerin"@de, "dance scholar"@en,
+    "scholar of dance"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q107381512>, <https://d-nb.info/gnd/1095548077>,
+    <https://d-nb.info/gnd/1095548158> .
+
+role:role-389 skos:notation "389";
+  skos:broader role:role-385;
+  skos:prefLabel "Zeichner:in"@de, "draftsperson"@en;
+  skos:altLabel "Zeichnerin"@de, "Zeichner"@de, "Autorin der Zeichnung"@de, "Autor der Zeichnung"@de,
+    "drafter"@en, "illustrator"@en, "draftswoman"@en, "draftsman"@en, "draughtswoman"@en,
+    "draughtsman"@en, "master draughtsman"@en, "sketcher"@en, "sketch artist"@en, "author of the drawing"@en,
+    "drawer (artist)"@en, "drawer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15296811>, <https://d-nb.info/gnd/4200345-3>,
+    <https://d-nb.info/gnd/4394819-4>, <https://vocab.getty.edu/aat/300112172> .
+
+role:role-390 skos:notation "390";
+  skos:broader role:role-385;
+  skos:prefLabel "Comiczeichner:in"@de, "comics artist"@en;
+  skos:altLabel "Comiczeichnerin"@de, "Comiczeichner"@de, "Comickünstlerin"@de, "Comickünster"@de,
+    "Letterer"@de, "comic book creator"@en, "comic illustrator"@en, "comic book artist"@en,
+    "comic artist"@en, "comic strip artist"@en, "graphic novel artist"@en, "letterer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q715301>, <https://vocab.getty.edu/aat/300438810> .
+
+role:role-391 skos:notation "391";
+  skos:prefLabel "Tätowierer:in"@de, "tattoo artist"@en;
+  skos:altLabel "Tätowiererin"@de, "Tätowierer"@de, "tattooer"@en, "tattooist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1861368>, <https://d-nb.info/gnd/7730337-4>,
+    <https://d-nb.info/gnd/7730339-8>, <https://vocab.getty.edu/aat/300025184> .
+
+role:role-392 skos:notation "392";
+  skos:prefLabel "Location Manager:in"@de, "location manager"@en;
+  skos:altLabel "location director"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1093536> .
+
+role:role-393 skos:notation "393";
+  skos:prefLabel "Kognitionswissenschaftler:in"@de, "cognitive scientist"@en;
+  skos:altLabel "cognitivist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q14565186>, <https://d-nb.info/gnd/7557940-6>,
+    <https://d-nb.info/gnd/7704905-6> .
+
+role:role-394 skos:notation "394";
+  skos:prefLabel "Mathematiker:in"@de, "mathematician"@en;
+  skos:altLabel "Dipl.-Math."@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q170790>, <https://d-nb.info/gnd/4037945-0>,
+    <https://d-nb.info/gnd/4252788-0>, <https://vocab.getty.edu/aat/300025786> .
+
+role:role-395 skos:notation "395";
+  skos:prefLabel "Bildingenieur:in"@de, "video engineer"@en;
+  skos:altLabel "Medieningenieur:in"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q10429552> .
+
+role:role-396 skos:notation "396";
+  skos:prefLabel "Bildmischer:in"@de, "video mixer"@en;
+  skos:altLabel "video operator"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q10429552> .
+
+role:role-397 skos:notation "397";
+  skos:prefLabel "Hörfunkmoderator:in"@de, "radio personality"@en;
+  skos:altLabel "Radiomoderator"@de, "Hörfunkmoderatorin"@de, "Radiomoderatorin"@de,
+    "Rundfunkmoderator"@de, "radio presenter"@en, "host"@en, "radio host"@en, "radio jockey"@en,
+    "radio program boss"@en, "RJ"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2722764> .
+
+role:role-398 skos:notation "398";
+  skos:prefLabel "VFX Producer:in"@de, "VFX producer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1364080> .
+
+role:role-399 skos:notation "399";
+  skos:prefLabel "VFX-Künstler:in"@de, "VFX artist"@en;
+  skos:altLabel "Spezialeffekt-Künstler"@de, "Spezialeffektkünstler"@de, "Spezialeffekt-Künstlerin"@de,
+    "Spezialeffektkünstlerin"@de, "VFX-Künstler"@de, "FX artist"@en, "visual effects artist"@en,
+    "special effects technician"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21560152> .
+
+role:role-400 skos:notation "400";
+  skos:prefLabel "Öffentlichkeitsarbeit"@de, "public relations"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q133080> .
+
+role:role-401 skos:notation "401";
+  skos:prefLabel "Liedbegleitung"@de, "song accompaniment"@en;
+  skos:altLabel "Liedbegleiter"@de, "Liedbegleiterin"@de, "song accompanist"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1824074>, <https://d-nb.info/gnd/4138438-6> .
+
+role:role-402 skos:notation "402";
+  skos:prefLabel "Lehrbeauftragte:r"@de, "freelance instructor"@en;
+  skos:altLabel "Lehrbeauftragter"@de, "Lehrbeauftragte"@de, "associate lecturer"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q16538479>, <https://d-nb.info/gnd/4130594-2>,
+    <https://d-nb.info/gnd/1045033634> .
+
+role:role-403 skos:notation "403";
+  skos:prefLabel "Moderator:in"@de, "presenter"@en;
+  skos:altLabel "Moderator"@de, "Moderatorin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q13590141>, <https://d-nb.info/gnd/4170313-3>,
+    <https://d-nb.info/gnd/4560593-2> .
+
+role:role-404 skos:notation "404";
+  skos:prefLabel "Kirchenmusiker:in"@de, "church musician"@en;
+  skos:altLabel "Kirchenmusiker"@de, "Kirchenmusikerin"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q355493>, <https://d-nb.info/gnd/4163926-1>,
+    <https://d-nb.info/gnd/7587363-1> .
+
+role:role-405 skos:notation "405";
+  skos:prefLabel "Klangregisseur:in"@de, "sound director"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q17322837> .
+
+role:role-406 skos:notation "406";
+  skos:broader role:role-160;
+  skos:prefLabel "Wasserinstrumentspieler:in"@de, "water instrument player"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q140130459> .
+
+role:role-407 skos:notation "407";
+  skos:broader role:role-160;
+  skos:prefLabel "Synthesizer-Spieler:in"@de, "synthesizer player"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11308619> .
+
+role:role-1 a skos:Concept .
+
+role:role-2 a skos:Concept .
+
+role:role-3 a skos:Concept .
+
+role:role-4 a skos:Concept .
+
+role:role-5 a skos:Concept .
+
+role:role-6 a skos:Concept .
+
+role:role-7 a skos:Concept .
+
+role:role-8 a skos:Concept .
+
+role:role-9 a skos:Concept .
+
+role:role-10 a skos:Concept .
+
+role:role-11 a skos:Concept .
+
+role:role-12 a skos:Concept .
+
+role:role-13 a skos:Concept .
+
+role:role-14 a skos:Concept .
+
+role:role-15 a skos:Concept .
+
+role:role-16 a skos:Concept .
+
+role:role-17 a skos:Concept .
+
+role:role-18 a skos:Concept .
+
+role:role-19 a skos:Concept .
+
+role:role-20 a skos:Concept .
+
+role:role-21 a skos:Concept .
+
+role:role-22 a skos:Concept .
+
+role:role-23 a skos:Concept .
+
+role:role-24 a skos:Concept .
+
+role:role-25 a skos:Concept .
+
+role:role-26 a skos:Concept .
+
+role:role-27 a skos:Concept .
+
+role:role-28 a skos:Concept .
+
+role:role-29 a skos:Concept .
+
+role:role-30 a skos:Concept .
+
+role:role-31 a skos:Concept .
+
+role:role-32 a skos:Concept .
+
+role:role-33 a skos:Concept .
+
+role:role-34 a skos:Concept .
+
+role:role-35 a skos:Concept .
+
+role:role-36 a skos:Concept .
+
+role:role-37 a skos:Concept .
+
+role:role-38 a skos:Concept .
+
+role:role-39 a skos:Concept .
+
+role:role-40 a skos:Concept .
+
+role:role-41 a skos:Concept .
+
+role:role-42 a skos:Concept .
+
+role:role-43 a skos:Concept .
+
+role:role-44 a skos:Concept .
+
+role:role-45 a skos:Concept .
+
+role:role-46 a skos:Concept .
+
+role:role-47 a skos:Concept .
+
+role:role-48 a skos:Concept .
+
+role:role-49 a skos:Concept .
+
+role:role-50 a skos:Concept .
+
+role:role-51 a skos:Concept .
+
+role:role-52 a skos:Concept .
+
+role:role-53 a skos:Concept .
+
+role:role-54 a skos:Concept .
+
+role:role-55 a skos:Concept .
+
+role:role-56 a skos:Concept .
+
+role:role-57 a skos:Concept .
+
+role:role-58 a skos:Concept .
+
+role:role-59 a skos:Concept .
+
+role:role-60 a skos:Concept .
+
+role:role-61 a skos:Concept .
+
+role:role-62 a skos:Concept .
+
+role:role-63 a skos:Concept .
+
+role:role-64 a skos:Concept .
+
+role:role-65 a skos:Concept .
+
+role:role-66 a skos:Concept .
+
+role:role-67 a skos:Concept .
+
+role:role-68 a skos:Concept .
+
+role:role-69 a skos:Concept .
+
+role:role-70 a skos:Concept .
+
+role:role-71 a skos:Concept .
+
+role:role-72 a skos:Concept .
+
+role:role-73 a skos:Concept .
+
+role:role-74 a skos:Concept .
+
+role:role-75 a skos:Concept .
+
+role:role-76 a skos:Concept .
+
+role:role-77 a skos:Concept .
+
+role:role-78 a skos:Concept .
+
+role:role-79 a skos:Concept .
+
+role:role-80 a skos:Concept .
+
+role:role-81 a skos:Concept .
+
+role:role-82 a skos:Concept .
+
+role:role-83 a skos:Concept .
+
+role:role-84 a skos:Concept .
+
+role:role-85 a skos:Concept .
+
+role:role-86 a skos:Concept .
+
+role:role-87 a skos:Concept .
+
+role:role-88 a skos:Concept .
+
+role:role-89 a skos:Concept .
+
+role:role-90 a skos:Concept .
+
+role:role-91 a skos:Concept .
+
+role:role-92 a skos:Concept .
+
+role:role-93 a skos:Concept .
+
+role:role-94 a skos:Concept .
+
+role:role-95 a skos:Concept .
+
+role:role-96 a skos:Concept .
+
+role:role-97 a skos:Concept .
+
+role:role-98 a skos:Concept .
+
+role:role-99 a skos:Concept .
+
+role:role-100 a skos:Concept .
+
+role:role-101 a skos:Concept .
+
+role:role-102 a skos:Concept .
+
+role:role-103 a skos:Concept .
+
+role:role-104 a skos:Concept .
+
+role:role-105 a skos:Concept .
+
+role:role-106 a skos:Concept .
+
+role:role-107 a skos:Concept .
+
+role:role-108 a skos:Concept .
+
+role:role-109 a skos:Concept .
+
+role:role-110 a skos:Concept .
+
+role:role-111 a skos:Concept .
+
+role:role-112 a skos:Concept .
+
+role:role-113 a skos:Concept .
+
+role:role-114 a skos:Concept .
+
+role:role-115 a skos:Concept .
+
+role:role-116 a skos:Concept .
+
+role:role-117 a skos:Concept .
+
+role:role-118 a skos:Concept .
+
+role:role-119 a skos:Concept .
+
+role:role-120 a skos:Concept .
+
+role:role-121 a skos:Concept .
+
+role:role-122 a skos:Concept .
+
+role:role-123 a skos:Concept .
+
+role:role-124 a skos:Concept .
+
+role:role-125 a skos:Concept .
+
+role:role-126 a skos:Concept .
+
+role:role-127 a skos:Concept .
+
+role:role-128 a skos:Concept .
+
+role:role-129 a skos:Concept .
+
+role:role-130 a skos:Concept .
+
+role:role-131 a skos:Concept .
+
+role:role-132 a skos:Concept .
+
+role:role-133 a skos:Concept .
+
+role:role-134 a skos:Concept .
+
+role:role-135 a skos:Concept .
+
+role:role-136 a skos:Concept .
+
+role:role-137 a skos:Concept .
+
+role:role-138 a skos:Concept .
+
+role:role-139 a skos:Concept .
+
+role:role-140 a skos:Concept .
+
+role:role-141 a skos:Concept .
+
+role:role-142 a skos:Concept .
+
+role:role-143 a skos:Concept .
+
+role:role-144 a skos:Concept .
+
+role:role-145 a skos:Concept .
+
+role:role-146 a skos:Concept .
+
+role:role-147 a skos:Concept .
+
+role:role-148 a skos:Concept .
+
+role:role-149 a skos:Concept .
+
+role:role-150 a skos:Concept .
+
+role:role-151 a skos:Concept .
+
+role:role-152 a skos:Concept .
+
+role:role-153 a skos:Concept .
+
+role:role-154 a skos:Concept .
+
+role:role-155 a skos:Concept .
+
+role:role-156 a skos:Concept .
+
+role:role-157 a skos:Concept .
+
+role:role-158 a skos:Concept .
+
+role:role-159 a skos:Concept .
+
+role:role-160 a skos:Concept .
+
+role:role-161 a skos:Concept .
+
+role:role-162 a skos:Concept .
+
+role:role-163 a skos:Concept .
+
+role:role-164 a skos:Concept .
+
+role:role-165 a skos:Concept .
+
+role:role-166 a skos:Concept .
+
+role:role-167 a skos:Concept .
+
+role:role-168 a skos:Concept .
+
+role:role-169 a skos:Concept .
+
+role:role-170 a skos:Concept .
+
+role:role-171 a skos:Concept .
+
+role:role-172 a skos:Concept .
+
+role:role-173 a skos:Concept .
+
+role:role-174 a skos:Concept .
+
+role:role-175 a skos:Concept .
+
+role:role-176 a skos:Concept .
+
+role:role-177 a skos:Concept .
+
+role:role-178 a skos:Concept .
+
+role:role-179 a skos:Concept .
+
+role:role-180 a skos:Concept .
+
+role:role-181 a skos:Concept .
+
+role:role-182 a skos:Concept .
+
+role:role-183 a skos:Concept .
+
+role:role-184 a skos:Concept .
+
+role:role-185 a skos:Concept .
+
+role:role-186 a skos:Concept .
+
+role:role-187 a skos:Concept .
+
+role:role-188 a skos:Concept .
+
+role:role-189 a skos:Concept .
+
+role:role-190 a skos:Concept .
+
+role:role-191 a skos:Concept .
+
+role:role-192 a skos:Concept .
+
+role:role-193 a skos:Concept .
+
+role:role-194 a skos:Concept .
+
+role:role-195 a skos:Concept .
+
+role:role-196 a skos:Concept .
+
+role:role-197 a skos:Concept .
+
+role:role-198 a skos:Concept .
+
+role:role-199 a skos:Concept .
+
+role:role-200 a skos:Concept .
+
+role:role-201 a skos:Concept .
+
+role:role-202 a skos:Concept .
+
+role:role-203 a skos:Concept .
+
+role:role-204 a skos:Concept .
+
+role:role-205 a skos:Concept .
+
+role:role-206 a skos:Concept .
+
+role:role-207 a skos:Concept .
+
+role:role-208 a skos:Concept .
+
+role:role-209 a skos:Concept .
+
+role:role-210 a skos:Concept .
+
+role:role-211 a skos:Concept .
+
+role:role-212 a skos:Concept .
+
+role:role-213 a skos:Concept .
+
+role:role-214 a skos:Concept .
+
+role:role-215 a skos:Concept .
+
+role:role-216 a skos:Concept .
+
+role:role-217 a skos:Concept .
+
+role:role-218 a skos:Concept .
+
+role:role-219 a skos:Concept .
+
+role:role-220 a skos:Concept .
+
+role:role-221 a skos:Concept .
+
+role:role-222 a skos:Concept .
+
+role:role-223 a skos:Concept .
+
+role:role-224 a skos:Concept .
+
+role:role-225 a skos:Concept .
+
+role:role-226 a skos:Concept .
+
+role:role-227 a skos:Concept .
+
+role:role-228 a skos:Concept .
+
+role:role-229 a skos:Concept .
+
+role:role-230 a skos:Concept .
+
+role:role-231 a skos:Concept .
+
+role:role-232 a skos:Concept .
+
+role:role-233 a skos:Concept .
+
+role:role-234 a skos:Concept .
+
+role:role-235 a skos:Concept .
+
+role:role-236 a skos:Concept .
+
+role:role-237 a skos:Concept .
+
+role:role-238 a skos:Concept .
+
+role:role-239 a skos:Concept .
+
+role:role-240 a skos:Concept .
+
+role:role-241 a skos:Concept .
+
+role:role-242 a skos:Concept .
+
+role:role-243 a skos:Concept .
+
+role:role-244 a skos:Concept .
+
+role:role-245 a skos:Concept .
+
+role:role-246 a skos:Concept .
+
+role:role-247 a skos:Concept .
+
+role:role-248 a skos:Concept .
+
+role:role-249 a skos:Concept .
+
+role:role-250 a skos:Concept .
+
+role:role-251 a skos:Concept .
+
+role:role-252 a skos:Concept .
+
+role:role-253 a skos:Concept .
+
+role:role-254 a skos:Concept .
+
+role:role-255 a skos:Concept .
+
+role:role-256 a skos:Concept .
+
+role:role-257 a skos:Concept .
+
+role:role-258 a skos:Concept .
+
+role:role-259 a skos:Concept .
+
+role:role-260 a skos:Concept .
+
+role:role-261 a skos:Concept .
+
+role:role-262 a skos:Concept .
+
+role:role-263 a skos:Concept .
+
+role:role-264 a skos:Concept .
+
+role:role-265 a skos:Concept .
+
+role:role-266 a skos:Concept .
+
+role:role-267 a skos:Concept .
+
+role:role-268 a skos:Concept .
+
+role:role-269 a skos:Concept .
+
+role:role-270 a skos:Concept .
+
+role:role-271 a skos:Concept .
+
+role:role-272 a skos:Concept .
+
+role:role-273 a skos:Concept .
+
+role:role-274 a skos:Concept .
+
+role:role-275 a skos:Concept .
+
+role:role-276 a skos:Concept .
+
+role:role-277 a skos:Concept .
+
+role:role-278 a skos:Concept .
+
+role:role-279 a skos:Concept .
+
+role:role-280 a skos:Concept .
+
+role:role-281 a skos:Concept .
+
+role:role-282 a skos:Concept .
+
+role:role-283 a skos:Concept .
+
+role:role-284 a skos:Concept .
+
+role:role-285 a skos:Concept .
+
+role:role-286 a skos:Concept .
+
+role:role-287 a skos:Concept .
+
+role:role-288 a skos:Concept .
+
+role:role-289 a skos:Concept .
+
+role:role-290 a skos:Concept .
+
+role:role-291 a skos:Concept .
+
+role:role-292 a skos:Concept .
+
+role:role-293 a skos:Concept .
+
+role:role-294 a skos:Concept .
+
+role:role-295 a skos:Concept .
+
+role:role-296 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-297 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-298 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-299 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-300 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-301 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-302 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-303 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-304 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-305 a skos:Concept;
+  skos:narrower role:role-306, role:role-307, role:role-308;
+  skos:inScheme <> .
+
+role:role-306 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-307 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-308 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-309 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-310 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-311 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-312 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-313 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-314 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-315 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-316 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-317 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-318 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-319 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-320 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-321 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-322 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-323 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-324 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-325 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-326 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-327 a skos:Concept;
+  skos:narrower role:role-328;
+  skos:inScheme <> .
+
+role:role-328 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-329 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-330 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-331 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-332 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-333 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-334 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-335 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-336 a skos:Concept;
+  skos:narrower role:role-337;
+  skos:inScheme <> .
+
+role:role-337 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-338 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-339 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-340 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-341 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-342 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-343 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-344 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-345 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-346 a skos:Concept;
+  skos:narrower role:role-347;
+  skos:inScheme <> .
+
+role:role-347 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-348 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-349 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-350 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-351 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-352 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-353 a skos:Concept;
+  skos:narrower role:role-354;
+  skos:inScheme <> .
+
+role:role-354 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-355 a skos:Concept;
+  skos:narrower role:role-356;
+  skos:inScheme <> .
+
+role:role-356 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-357 a skos:Concept;
+  skos:narrower role:role-357;
+  skos:inScheme <> .
+
+role:role-358 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-359 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-360 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-361 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-362 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-363 a skos:Concept;
+  skos:narrower role:role-364;
+  skos:inScheme <> .
+
+role:role-364 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-365 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-366 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-367 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-368 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-369 a skos:Concept;
+  skos:narrower role:role-370;
+  skos:inScheme <> .
+
+role:role-370 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-371 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-372 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-373 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-374 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-375 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-376 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-377 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-378 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-379 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-380 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-381 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-382 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-383 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-384 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-385 a skos:Concept;
+  skos:narrower role:role-389, role:role-390;
+  skos:inScheme <> .
+
+role:role-386 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-387 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-388 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-389 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-390 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-391 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-392 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-393 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-394 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-395 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-396 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-397 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-398 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-399 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-400 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-401 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-402 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-403 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-404 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-405 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-406 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-407 a skos:Concept;
+  skos:inScheme <> .
+
+role:role-11 skos:narrower role:role-12;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-15 skos:narrower role:role-16;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-18 skos:narrower role:role-19, role:role-20, role:role-289;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-30 skos:narrower role:role-31, role:role-32, role:role-33, role:role-34,
+    role:role-35, role:role-36;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-48 skos:narrower role:role-49, role:role-50, role:role-51, role:role-52,
+    role:role-53;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-57 skos:narrower role:role-58, role:role-59, role:role-60;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-64 skos:narrower role:role-65;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-70 skos:narrower role:role-71, role:role-72;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-77 skos:narrower role:role-78, role:role-79, role:role-80, role:role-81;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-84 skos:narrower role:role-85, role:role-86, role:role-87, role:role-88,
+    role:role-90, role:role-91, role:role-92;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-88 skos:narrower role:role-89;
+  skos:inScheme <> .
+
+role:role-92 skos:narrower role:role-93, role:role-94, role:role-95, role:role-96,
+    role:role-97, role:role-98;
+  skos:inScheme <> .
+
+role:role-100 skos:narrower role:role-101;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-105 skos:narrower role:role-106, role:role-107, role:role-110;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-107 skos:narrower role:role-108, role:role-109;
+  skos:inScheme <> .
+
+role:role-123 skos:narrower role:role-124;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-125 skos:narrower role:role-126, role:role-326, role:role-327;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-126 skos:narrower role:role-127;
+  skos:inScheme <> .
+
+role:role-129 skos:narrower role:role-130;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-141 skos:narrower role:role-142, role:role-143, role:role-149, role:role-150,
+    role:role-151, role:role-152, role:role-154, role:role-158, role:role-159;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-143 skos:narrower role:role-144, role:role-145, role:role-146, role:role-147,
+    role:role-148;
+  skos:inScheme <> .
+
+role:role-152 skos:narrower role:role-153;
+  skos:inScheme <> .
+
+role:role-154 skos:narrower role:role-155, role:role-156, role:role-157, role:role-286;
+  skos:inScheme <> .
+
+role:role-161 skos:narrower role:role-162, role:role-163, role:role-164;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-166 skos:narrower role:role-167, role:role-168;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-177 skos:narrower role:role-178, role:role-179, role:role-180, role:role-181,
+    role:role-182;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-187 skos:narrower role:role-188, role:role-189;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-193 skos:narrower role:role-194;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-199 skos:narrower role:role-200, role:role-201, role:role-202, role:role-203,
+    role:role-204, role:role-205, role:role-206, role:role-207, role:role-208, role:role-209,
+    role:role-210, role:role-211, role:role-212;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-223 skos:narrower role:role-224, role:role-225;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-226 skos:narrower role:role-227, role:role-228, role:role-229, role:role-230,
+    role:role-231;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-237 skos:narrower role:role-238, role:role-239, role:role-240, role:role-241,
+    role:role-242, role:role-243;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-244 skos:narrower role:role-245, role:role-246, role:role-360, role:role-361,
+    role:role-362;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-251 skos:narrower role:role-252, role:role-253;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-258 skos:narrower role:role-259;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-262 skos:narrower role:role-263, role:role-264, role:role-265;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-265 skos:narrower role:role-268;
+  skos:inScheme <> .
+
+role:role-271 skos:narrower role:role-272, role:role-273, role:role-274, role:role-275,
+    role:role-278, role:role-279, role:role-280, role:role-281, role:role-282;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-275 skos:narrower role:role-276, role:role-277;
+  skos:inScheme <> .
+
+role:role-289 skos:narrower role:role-290, role:role-291, role:role-351;
+  skos:inScheme <> .
+
+role:role-44 skos:narrower role:role-299, role:role-319, role:role-387;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-119 skos:narrower role:role-320, role:role-322, role:role-323, role:role-385;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-121 skos:narrower role:role-321;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-133 skos:narrower role:role-330;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-160 skos:narrower role:role-333, role:role-334, role:role-406, role:role-407;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-169 skos:narrower role:role-335;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-190 skos:narrower role:role-343;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-1 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-2 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-3 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-4 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-5 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-6 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-7 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-8 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-9 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-10 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-12 skos:inScheme <> .
+
+role:role-13 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-14 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-16 skos:inScheme <> .
+
+role:role-17 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-19 skos:inScheme <> .
+
+role:role-20 skos:inScheme <> .
+
+role:role-21 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-22 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-23 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-24 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-25 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-26 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-27 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-28 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-29 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-31 skos:inScheme <> .
+
+role:role-32 skos:inScheme <> .
+
+role:role-33 skos:inScheme <> .
+
+role:role-34 skos:inScheme <> .
+
+role:role-35 skos:inScheme <> .
+
+role:role-36 skos:inScheme <> .
+
+role:role-37 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-38 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-39 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-40 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-41 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-42 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-43 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-45 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-46 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-47 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-49 skos:inScheme <> .
+
+role:role-50 skos:inScheme <> .
+
+role:role-51 skos:inScheme <> .
+
+role:role-52 skos:inScheme <> .
+
+role:role-53 skos:inScheme <> .
+
+role:role-54 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-55 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-56 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-58 skos:inScheme <> .
+
+role:role-59 skos:inScheme <> .
+
+role:role-60 skos:inScheme <> .
+
+role:role-61 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-62 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-63 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-65 skos:inScheme <> .
+
+role:role-66 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-67 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-68 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-69 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-71 skos:inScheme <> .
+
+role:role-72 skos:inScheme <> .
+
+role:role-73 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-74 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-75 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-76 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-78 skos:inScheme <> .
+
+role:role-79 skos:inScheme <> .
+
+role:role-80 skos:inScheme <> .
+
+role:role-81 skos:inScheme <> .
+
+role:role-82 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-83 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-85 skos:inScheme <> .
+
+role:role-86 skos:inScheme <> .
+
+role:role-87 skos:inScheme <> .
+
+role:role-89 skos:inScheme <> .
+
+role:role-90 skos:inScheme <> .
+
+role:role-91 skos:inScheme <> .
+
+role:role-93 skos:inScheme <> .
+
+role:role-94 skos:inScheme <> .
+
+role:role-95 skos:inScheme <> .
+
+role:role-96 skos:inScheme <> .
+
+role:role-97 skos:inScheme <> .
+
+role:role-98 skos:inScheme <> .
+
+role:role-99 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-101 skos:inScheme <> .
+
+role:role-102 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-103 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-104 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-106 skos:inScheme <> .
+
+role:role-108 skos:inScheme <> .
+
+role:role-109 skos:inScheme <> .
+
+role:role-110 skos:inScheme <> .
+
+role:role-111 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-112 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-113 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-114 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-115 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-116 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-117 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-118 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-120 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-122 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-124 skos:inScheme <> .
+
+role:role-127 skos:inScheme <> .
+
+role:role-128 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-130 skos:inScheme <> .
+
+role:role-131 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-132 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-134 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-135 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-136 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-137 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-138 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-139 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-140 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-142 skos:inScheme <> .
+
+role:role-144 skos:inScheme <> .
+
+role:role-145 skos:inScheme <> .
+
+role:role-146 skos:inScheme <> .
+
+role:role-147 skos:inScheme <> .
+
+role:role-148 skos:inScheme <> .
+
+role:role-149 skos:inScheme <> .
+
+role:role-150 skos:inScheme <> .
+
+role:role-151 skos:inScheme <> .
+
+role:role-153 skos:inScheme <> .
+
+role:role-155 skos:inScheme <> .
+
+role:role-156 skos:inScheme <> .
+
+role:role-157 skos:inScheme <> .
+
+role:role-158 skos:inScheme <> .
+
+role:role-159 skos:inScheme <> .
+
+role:role-162 skos:inScheme <> .
+
+role:role-163 skos:inScheme <> .
+
+role:role-164 skos:inScheme <> .
+
+role:role-165 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-167 skos:inScheme <> .
+
+role:role-168 skos:inScheme <> .
+
+role:role-170 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-171 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-172 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-173 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-174 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-175 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-176 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-178 skos:inScheme <> .
+
+role:role-179 skos:inScheme <> .
+
+role:role-180 skos:inScheme <> .
+
+role:role-181 skos:inScheme <> .
+
+role:role-182 skos:inScheme <> .
+
+role:role-183 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-184 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-185 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-186 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-188 skos:inScheme <> .
+
+role:role-189 skos:inScheme <> .
+
+role:role-191 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-192 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-194 skos:inScheme <> .
+
+role:role-195 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-196 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-197 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-198 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-200 skos:inScheme <> .
+
+role:role-201 skos:inScheme <> .
+
+role:role-202 skos:inScheme <> .
+
+role:role-203 skos:inScheme <> .
+
+role:role-204 skos:inScheme <> .
+
+role:role-205 skos:inScheme <> .
+
+role:role-206 skos:inScheme <> .
+
+role:role-207 skos:inScheme <> .
+
+role:role-208 skos:inScheme <> .
+
+role:role-209 skos:inScheme <> .
+
+role:role-210 skos:inScheme <> .
+
+role:role-211 skos:inScheme <> .
+
+role:role-212 skos:inScheme <> .
+
+role:role-213 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-214 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-215 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-216 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-217 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-218 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-219 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-220 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-221 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-222 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-224 skos:inScheme <> .
+
+role:role-225 skos:inScheme <> .
+
+role:role-227 skos:inScheme <> .
+
+role:role-228 skos:inScheme <> .
+
+role:role-229 skos:inScheme <> .
+
+role:role-230 skos:inScheme <> .
+
+role:role-231 skos:inScheme <> .
+
+role:role-232 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-233 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-234 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-235 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-236 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-238 skos:inScheme <> .
+
+role:role-239 skos:inScheme <> .
+
+role:role-240 skos:inScheme <> .
+
+role:role-241 skos:inScheme <> .
+
+role:role-242 skos:inScheme <> .
+
+role:role-243 skos:inScheme <> .
+
+role:role-245 skos:inScheme <> .
+
+role:role-246 skos:inScheme <> .
+
+role:role-247 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-248 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-249 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-250 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-252 skos:inScheme <> .
+
+role:role-253 skos:inScheme <> .
+
+role:role-254 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-255 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-256 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-257 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-259 skos:inScheme <> .
+
+role:role-260 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-261 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-263 skos:inScheme <> .
+
+role:role-264 skos:inScheme <> .
+
+role:role-266 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-267 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-268 skos:inScheme <> .
+
+role:role-269 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-270 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-272 skos:inScheme <> .
+
+role:role-273 skos:inScheme <> .
+
+role:role-274 skos:inScheme <> .
+
+role:role-276 skos:inScheme <> .
+
+role:role-277 skos:inScheme <> .
+
+role:role-278 skos:inScheme <> .
+
+role:role-279 skos:inScheme <> .
+
+role:role-280 skos:inScheme <> .
+
+role:role-281 skos:inScheme <> .
+
+role:role-282 skos:inScheme <> .
+
+role:role-283 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-284 skos:inScheme <>;
+  skos:topConceptOf <> .
+
+role:role-285 skos:inScheme <> .
+
+role:role-286 skos:inScheme <> .
+
+role:role-287 skos:inScheme <> .
+
+role:role-288 skos:inScheme <> .
+
+role:role-290 skos:inScheme <> .
+
+role:role-291 skos:inScheme <> .
+
+role:role-292 skos:inScheme <> .
+
+role:role-293 skos:inScheme <> .
+
+role:role-294 skos:inScheme <> .
+
+role:role-295 skos:inScheme <> .
+
+<> a skos:ConceptScheme;
+  skos:hasTopConcept role:role-1, role:role-2, role:role-3, role:role-4, role:role-5,
+    role:role-6, role:role-7, role:role-8, role:role-9, role:role-10, role:role-11, role:role-13,
+    role:role-14, role:role-15, role:role-17, role:role-18, role:role-21, role:role-22,
+    role:role-23, role:role-24, role:role-25, role:role-26, role:role-27, role:role-28,
+    role:role-29, role:role-30, role:role-37, role:role-38, role:role-39, role:role-40,
+    role:role-41, role:role-42, role:role-43, role:role-44, role:role-45, role:role-46,
+    role:role-47, role:role-48, role:role-54, role:role-55, role:role-56, role:role-57,
+    role:role-61, role:role-62, role:role-63, role:role-64, role:role-66, role:role-67,
+    role:role-68, role:role-69, role:role-70, role:role-73, role:role-74, role:role-75,
+    role:role-76, role:role-77, role:role-82, role:role-83, role:role-84, role:role-99,
+    role:role-100, role:role-102, role:role-103, role:role-104, role:role-105, role:role-111,
+    role:role-112, role:role-113, role:role-114, role:role-115, role:role-116, role:role-117,
+    role:role-118, role:role-119, role:role-120, role:role-121, role:role-122, role:role-123,
+    role:role-125, role:role-128, role:role-129, role:role-131, role:role-132, role:role-133,
+    role:role-134, role:role-135, role:role-136, role:role-137, role:role-138, role:role-139,
+    role:role-140, role:role-141, role:role-160, role:role-161, role:role-165, role:role-166,
+    role:role-169, role:role-170, role:role-171, role:role-172, role:role-173, role:role-174,
+    role:role-175, role:role-176, role:role-177, role:role-183, role:role-184, role:role-185,
+    role:role-186, role:role-187, role:role-190, role:role-191, role:role-192, role:role-193,
+    role:role-195, role:role-196, role:role-197, role:role-198, role:role-199, role:role-213,
+    role:role-214, role:role-215, role:role-216, role:role-217, role:role-218, role:role-219,
+    role:role-220, role:role-221, role:role-222, role:role-223, role:role-226, role:role-232,
+    role:role-233, role:role-234, role:role-235, role:role-236, role:role-237, role:role-244,
+    role:role-247, role:role-248, role:role-249, role:role-250, role:role-251, role:role-254,
+    role:role-255, role:role-256, role:role-257, role:role-258, role:role-260, role:role-261,
+    role:role-262, role:role-266, role:role-267, role:role-269, role:role-270, role:role-271,
+    role:role-283, role:role-284, role:role-285, role:role-287, role:role-288, role:role-292,
+    role:role-293, role:role-294, role:role-295, role:role-296, role:role-297, role:role-298,
+    role:role-300, role:role-301, role:role-302, role:role-303, role:role-304, role:role-305,
+    role:role-309, role:role-310, role:role-311, role:role-312, role:role-313, role:role-314,
+    role:role-315, role:role-316, role:role-317, role:role-318, role:role-324, role:role-325,
+    role:role-329, role:role-331, role:role-332, role:role-336, role:role-338, role:role-339,
+    role:role-340, role:role-341, role:role-342, role:role-344, role:role-345, role:role-346,
+    role:role-348, role:role-349, role:role-350, role:role-352, role:role-353, role:role-355,
+    role:role-358, role:role-359, role:role-363, role:role-365, role:role-366, role:role-367,
+    role:role-368, role:role-369, role:role-371, role:role-372, role:role-373, role:role-374,
+    role:role-375, role:role-376, role:role-377, role:role-378, role:role-379, role:role-380,
+    role:role-381, role:role-382, role:role-383, role:role-384, role:role-386, role:role-388,
+    role:role-391, role:role-392, role:role-393, role:role-394, role:role-395, role:role-396,
+    role:role-397, role:role-398, role:role-399, role:role-400, role:role-401, role:role-402,
+    role:role-403, role:role-404, role:role-405 .
+
+role:role-285 skos:topConceptOf <> .
+
+role:role-287 skos:topConceptOf <> .
+
+role:role-288 skos:topConceptOf <> .
+
+role:role-292 skos:topConceptOf <> .
+
+role:role-293 skos:topConceptOf <> .
+
+role:role-294 skos:topConceptOf <> .
+
+role:role-295 skos:topConceptOf <> .
+
+role:role-296 skos:topConceptOf <> .
+
+role:role-297 skos:topConceptOf <> .
+
+role:role-298 skos:topConceptOf <> .
+
+role:role-300 skos:topConceptOf <> .
+
+role:role-301 skos:topConceptOf <> .
+
+role:role-302 skos:topConceptOf <> .
+
+role:role-303 skos:topConceptOf <> .
+
+role:role-304 skos:topConceptOf <> .
+
+role:role-305 skos:topConceptOf <> .
+
+role:role-309 skos:topConceptOf <> .
+
+role:role-310 skos:topConceptOf <> .
+
+role:role-311 skos:topConceptOf <> .
+
+role:role-312 skos:topConceptOf <> .
+
+role:role-313 skos:topConceptOf <> .
+
+role:role-314 skos:topConceptOf <> .
+
+role:role-315 skos:topConceptOf <> .
+
+role:role-316 skos:topConceptOf <> .
+
+role:role-317 skos:topConceptOf <> .
+
+role:role-318 skos:topConceptOf <> .
+
+role:role-324 skos:topConceptOf <> .
+
+role:role-325 skos:topConceptOf <> .
+
+role:role-329 skos:topConceptOf <> .
+
+role:role-331 skos:topConceptOf <> .
+
+role:role-332 skos:topConceptOf <> .
+
+role:role-336 skos:topConceptOf <> .
+
+role:role-338 skos:topConceptOf <> .
+
+role:role-339 skos:topConceptOf <> .
+
+role:role-340 skos:topConceptOf <> .
+
+role:role-341 skos:topConceptOf <> .
+
+role:role-342 skos:topConceptOf <> .
+
+role:role-344 skos:topConceptOf <> .
+
+role:role-345 skos:topConceptOf <> .
+
+role:role-346 skos:topConceptOf <> .
+
+role:role-348 skos:topConceptOf <> .
+
+role:role-349 skos:topConceptOf <> .
+
+role:role-350 skos:topConceptOf <> .
+
+role:role-352 skos:topConceptOf <> .
+
+role:role-353 skos:topConceptOf <> .
+
+role:role-355 skos:topConceptOf <> .
+
+role:role-358 skos:topConceptOf <> .
+
+role:role-359 skos:topConceptOf <> .
+
+role:role-363 skos:topConceptOf <> .
+
+role:role-365 skos:topConceptOf <> .
+
+role:role-366 skos:topConceptOf <> .
+
+role:role-367 skos:topConceptOf <> .
+
+role:role-368 skos:topConceptOf <> .
+
+role:role-369 skos:topConceptOf <> .
+
+role:role-371 skos:topConceptOf <> .
+
+role:role-372 skos:topConceptOf <> .
+
+role:role-373 skos:topConceptOf <> .
+
+role:role-374 skos:topConceptOf <> .
+
+role:role-375 skos:topConceptOf <> .
+
+role:role-376 skos:topConceptOf <> .
+
+role:role-377 skos:topConceptOf <> .
+
+role:role-378 skos:topConceptOf <> .
+
+role:role-379 skos:topConceptOf <> .
+
+role:role-380 skos:topConceptOf <> .
+
+role:role-381 skos:topConceptOf <> .
+
+role:role-382 skos:topConceptOf <> .
+
+role:role-383 skos:topConceptOf <> .
+
+role:role-384 skos:topConceptOf <> .
+
+role:role-386 skos:topConceptOf <> .
+
+role:role-388 skos:topConceptOf <> .
+
+role:role-391 skos:topConceptOf <> .
+
+role:role-392 skos:topConceptOf <> .
+
+role:role-393 skos:topConceptOf <> .
+
+role:role-394 skos:topConceptOf <> .
+
+role:role-395 skos:topConceptOf <> .
+
+role:role-396 skos:topConceptOf <> .
+
+role:role-397 skos:topConceptOf <> .
+
+role:role-398 skos:topConceptOf <> .
+
+role:role-399 skos:topConceptOf <> .
+
+role:role-400 skos:topConceptOf <> .
+
+role:role-401 skos:topConceptOf <> .
+
+role:role-402 skos:topConceptOf <> .
+
+role:role-403 skos:topConceptOf <> .
+
+role:role-404 skos:topConceptOf <> .
+
+role:role-405 skos:topConceptOf <> .

@@ -1,3 +1,33 @@
+# vocabs.arkumu.nrw
+
+## Deutsch
+
+Kontrollierte Vokabulare für https://arkumu.nrw
+
+Im Rahmen einer Überarbeitung werden 2026 alle Vokabulare konsolidiert, logisch validiert und nach SKOS konvertiert. 
+
+Die einzelnen Vokabulare können als .xlsx gepflegt und mit einer Anwendung wie https://xls2rdf.sparna.fr/web/convert nach .ttl konvertiert werden. Über dieses Repositorium werden sie auf https://skohub.io veröffentlicht, wo sie programmatisch verfügbar sind.
+
+Hinweis: Die Aussage skos:exactMatch trifft nicht unbedingt immer zu. Bei einer redaktionellen Überarbeitung aller Einträge würde sich wahrscheinlich bei einzelnen zeigen, dass skos:closeMatch besser zutrifft.
+
+
+## English
+
+vocabularies for https://arkumu.nrw
+
+As part of a restructuring process in 2026, all vocabularies will be consolidated, logically validate and converted to SKOS. 
+
+Separate vocabularies can be maintained as .xlsx files and converted to .ttl using a tool such as https://xls2rdf.sparna.fr/web/convert. They are published via this repository at https://skohub.io, where they are available for automated use.
+
+NB: The skos:exactMatch property does not necessarily always apply. During an editorial review of all entries, it would likely become apparent for some that skos:closeMatch is a better fit.
+
+
+
+---
+
+</br></br></br>
+
+
 # SkoHub Pages
 
 This is an example repository (formerly named `skohub-docker-vocabs`) to show how you can publish your SKOS vocabulary using GitHub infrastructure (Actions and Pages).
