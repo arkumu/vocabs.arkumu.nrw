@@ -1,0 +1,185 @@
+{
+  "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-158",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "Archive for Media Arts, Academy of Media Arts Cologne (Event Archive)",
+    "de": "Archiv für mediale Künste (Veranstaltungsarchiv)"
+  },
+  "definition": {
+    "en": "The Archive for Media Arts collects and archives the interdisciplinary artistic projects created at the KHM since 1990 as well as, in the form of audio-visual recordings, the media-theoretical social positions and discourses that were and are conducted by teachers, students and their guests at the KHM. These include over 4970 artistic works by students, which are listed in the project archive, available as documentations or complete works, as well as over 180 exhibitions, series of events, tours, concerts, symposia, artistic and scientific research works that have already been catalogued in the context of the KHM, which are archived in the archive in the form of audio and video recordings, films, photographs, film styles, publications, e-publications, websites, posters, multiples and flyers, and a selection of the artistic projects and previous events is accessible via the website.",
+    "de": "Das Archiv für mediale Künste sammelt und archiviert die seit 1990 an der KHM entstandenen interdisziplinären künstlerischen Projekte sowie, in Form von audio-visuellen Aufzeichnungen, die medientheoretischen gesellschaftlichen Positionen und Diskurse, die durch die Lehrenden, Studierenden und deren Gäste an der KHM geführt wurden und werden.\nHierzu zählen über 4970 künstlerische Arbeiten von Studierenden, die im Projektarchiv verzeichnet sind, als Dokumentationen oder vollständige Werke vorliegen, sowie über 180, bereits erschlossene, im Kontext der KHM stattgefundenen Ausstellungen, Veranstaltungsreihen, Rundgänge, Konzerte, Symposien, künstlerisch und wissenschaftliche Forschungsarbeiten, die im Archiv in Form von Audio- und Video Aufzeichnungen, Filmen, Fotografien, Filmstils, Publikationen, E-Publikationen, Websites, Plakaten, Multiples und Flyern archiviert werden.Über die Website ist eine Auswahl der künstlerischen Projekte und bisherigen Veranstaltungen zugänglich."
+  },
+  "notation": [
+    "158"
+  ],
+  "broader": {
+    "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-156",
+    "prefLabel": {
+      "en": "Academy of Media Arts Cologne",
+      "de": "Kunsthochschule für Medien Köln"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units",
+      "title": {
+        "en": "Organisational Units",
+        "de": "Organisationseinheiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

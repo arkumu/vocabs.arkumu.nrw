@@ -1,0 +1,301 @@
+{
+  "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-91",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "Moving Image Film",
+    "de": "Bewegtbild-Film"
+  },
+  "altLabel": {
+    "en": [
+      "Motion Picture Film",
+      "Movie Film",
+      "Cinematographic Film"
+    ],
+    "de": [
+      "Kino-Filmmaterial"
+    ]
+  },
+  "notation": [
+    "91"
+  ],
+  "narrower": [
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-92",
+      "prefLabel": {
+        "en": "8 mm Positive Film",
+        "de": "8 mm Positivfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-93",
+      "prefLabel": {
+        "en": "8 mm Negative Film",
+        "de": "8 mm Negativfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-94",
+      "prefLabel": {
+        "en": "Super 8 mm Positive Film",
+        "de": "Super 8 mm Positivfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-95",
+      "prefLabel": {
+        "en": "9,5 mm Film",
+        "de": "9,5 mm Film"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-96",
+      "prefLabel": {
+        "en": "16 mm Positive Film",
+        "de": "16 mm Positivfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-97",
+      "prefLabel": {
+        "en": "16 mm Negative Film",
+        "de": "16 mm Negativfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-98",
+      "prefLabel": {
+        "en": "Super 16 mm Positive Film",
+        "de": "Super 16 mm Positivfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-99",
+      "prefLabel": {
+        "en": "Super 16 mm Negative Film",
+        "de": "Super 16 mm Negativfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-100",
+      "prefLabel": {
+        "en": "22 mm Positive Film",
+        "de": "22 mm Positivfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-101",
+      "prefLabel": {
+        "en": "28 mm Positive Film",
+        "de": "28 mm Positivfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-102",
+      "prefLabel": {
+        "en": "35 mm Positive Film",
+        "de": "35 mm Positivfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-103",
+      "prefLabel": {
+        "en": "35 mm Negative Film",
+        "de": "35 mm Negativfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-104",
+      "prefLabel": {
+        "en": "70 mm Positive Film",
+        "de": "70 mm Positivfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-105",
+      "prefLabel": {
+        "en": "70 mm Negative Film",
+        "de": "70 mm Negativfilm"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://www.wikidata.org/entity/Q110968856"
+    },
+    {
+      "id": "http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#Film"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types",
+      "title": {
+        "en": "Information Storage Medium Types",
+        "de": "Informationsträgertypen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types",
+      "title": {
+        "en": "Information Storage Medium Types",
+        "de": "Informationsträgertypen"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

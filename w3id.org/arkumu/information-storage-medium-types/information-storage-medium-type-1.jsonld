@@ -1,0 +1,374 @@
+{
+  "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-1",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "Videocassette",
+    "de": "Videokassette"
+  },
+  "notation": [
+    "1"
+  ],
+  "narrower": [
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-2",
+      "prefLabel": {
+        "en": "Betacam",
+        "de": "Betacam"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-5",
+      "prefLabel": {
+        "en": "Betamax",
+        "de": "Betamax"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-6",
+      "prefLabel": {
+        "en": "Catrivision",
+        "de": "Catrivision"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-7",
+      "prefLabel": {
+        "en": "D1",
+        "de": "D1"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-8",
+      "prefLabel": {
+        "en": "D2",
+        "de": "D2"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-9",
+      "prefLabel": {
+        "en": "D3",
+        "de": "D3"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-10",
+      "prefLabel": {
+        "en": "D5",
+        "de": "D5"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-11",
+      "prefLabel": {
+        "en": "D6",
+        "de": "D6"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-12",
+      "prefLabel": {
+        "en": "D9",
+        "de": "D9"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-13",
+      "prefLabel": {
+        "en": "DCT",
+        "de": "DCT"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-14",
+      "prefLabel": {
+        "en": "Digital Betacam",
+        "de": "Digital Betacam"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-15",
+      "prefLabel": {
+        "en": "Digital8",
+        "de": "Digital8"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-16",
+      "prefLabel": {
+        "en": "DV",
+        "de": "DV"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-17",
+      "prefLabel": {
+        "en": "DVCAM",
+        "de": "DVCAM"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-18",
+      "prefLabel": {
+        "en": "DVCPRO",
+        "de": "DVCPRO"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-19",
+      "prefLabel": {
+        "en": "HDCAM",
+        "de": "HDCAM"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-20",
+      "prefLabel": {
+        "en": "HDV",
+        "de": "HDV"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-21",
+      "prefLabel": {
+        "en": "Hi8",
+        "de": "Hi8"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-22",
+      "prefLabel": {
+        "en": "MII",
+        "de": "MII"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-23",
+      "prefLabel": {
+        "en": "MiniDV",
+        "de": "MiniDV"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-24",
+      "prefLabel": {
+        "en": "U-matic",
+        "de": "U-matic"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-25",
+      "prefLabel": {
+        "en": "V-Cord",
+        "de": "V-Cord"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-26",
+      "prefLabel": {
+        "en": "VHS",
+        "de": "VHS"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-29",
+      "prefLabel": {
+        "en": "Video8",
+        "de": "Video8"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-30",
+      "prefLabel": {
+        "en": "VX",
+        "de": "VX"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://www.wikidata.org/entity/Q121141504"
+    },
+    {
+      "id": "https://d-nb.info/gnd/4188225-8"
+    },
+    {
+      "id": "https://vocab.getty.edu/aat/300028692"
+    },
+    {
+      "id": "http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Videocassette"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types",
+      "title": {
+        "en": "Information Storage Medium Types",
+        "de": "Informationsträgertypen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types",
+      "title": {
+        "en": "Information Storage Medium Types",
+        "de": "Informationsträgertypen"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-169",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "Robert Schumann Hochschule Düsseldorf",
+    "de": "Robert Schumann Hochschule Düsseldorf"
+  },
+  "notation": [
+    "169"
+  ],
+  "narrower": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-170",
+      "prefLabel": {
+        "en": "Callhoff Archive",
+        "de": "Callhoff-Archiv"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-171",
+      "prefLabel": {
+        "en": "DFG-Project \"Classical musicians’ presentation and reception on YouTube: performance and life practices in the digital age\"",
+        "de": "DFG-Projekt „Darstellung und Rezeption klassischer Musiker*innen bei YouTube: Aufführungs- und Lebenspraxen im digitalen Zeitalter“"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-172",
+      "prefLabel": {
+        "en": "Excellence Programme Composition",
+        "de": "Exzellenzstudiengang Komposition"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-173",
+      "prefLabel": {
+        "en": "Excellence Programme Music Performance",
+        "de": "Exzellenzstudiengang Konzertexamen"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-174",
+      "prefLabel": {
+        "en": "Reasearch Centre \"Düsseldorf's Civic Music Life\"",
+        "de": "Forschungsstelle „Düsseldorfs Bürgerliches Musikleben“"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-175",
+      "prefLabel": {
+        "en": "Research Centre Sepulchral Music",
+        "de": "Forschungsstelle Sepulkralmusik"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-176",
+      "prefLabel": {
+        "en": "Research Centre Studio for the Digitisation of Historical Sound Recording Media",
+        "de": "Forschungsstelle Studio zur Digitalisierung historischer Tonträger"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-177",
+      "prefLabel": {
+        "en": "Institute for Church Music",
+        "de": "Institut für Kirchenmusik"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-178",
+      "prefLabel": {
+        "en": "Institute for Composition and Music Theory",
+        "de": "Institut für Komposition und Musiktheorie"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-179",
+      "prefLabel": {
+        "en": "Institute for Music and Media",
+        "de": "Institut für Musik und Medien"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-180",
+      "prefLabel": {
+        "en": "Schumann Junior Institute",
+        "de": "Institut Schumann Junior"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-181",
+      "prefLabel": {
+        "en": "Institute of Musicology",
+        "de": "Musikwissenschaftliches Institut"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-182",
+      "prefLabel": {
+        "en": "Doctoral Programme Musicology (Dr. Phil.)",
+        "de": "Promotionsstudiengang Musikwissenschaft (Dr.phil.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-183",
+      "prefLabel": {
+        "en": "Study Programme Klang und Realität (M.Mus.)",
+        "de": "Studiengang Klang und Realität (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-184",
+      "prefLabel": {
+        "en": "Study Programme Artistic Music Production (M.Mus.)",
+        "de": "Studiengang Künstlerische Musikproduktion (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-185",
+      "prefLabel": {
+        "en": "Study Programme Music Performance | Voice major (B.Mus.)",
+        "de": "Studiengang Musik | Gesang (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-186",
+      "prefLabel": {
+        "en": "Study Programme Music Performance | Voice major (M.Mus.)",
+        "de": "Studiengang Musik | Gesang (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-187",
+      "prefLabel": {
+        "en": "Study Programme Music Performance | Guitar major (B.Mus.)",
+        "de": "Studiengang Musik | Gitarre (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-188",
+      "prefLabel": {
+        "en": "Study Programme Music Performance | Guitar major (M.Mus.)",
+        "de": "Studiengang Musik | Gitarre (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-189",
+      "prefLabel": {
+        "en": "Study Programme Music Performance | Piano major (B.Mus.)",
+        "de": "Studiengang Musik | Klavier (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-190",
+      "prefLabel": {
+        "en": "Study Programme Music Performance | Piano major (M.Mus.)",
+        "de": "Studiengang Musik | Klavier (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-191",
+      "prefLabel": {
+        "en": "Study Programme Music Performance | Composition (B.Mus.)",
+        "de": "Studiengang Musik | Komposition (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-192",
+      "prefLabel": {
+        "en": "Study Programme Music Performance | Composition (M.Mus.)",
+        "de": "Studiengang Musik | Komposition (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-193",
+      "prefLabel": {
+        "en": "Study Programme Orchestral Instruments (B.Mus.)",
+        "de": "Studiengang Musik | Orchesterinstrumente (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-194",
+      "prefLabel": {
+        "en": "Study Programme Orchestral Instruments (M.Mus.)",
+        "de": "Studiengang Musik | Orchesterinstrumente (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-195",
+      "prefLabel": {
+        "en": "Study Programme Music Performance | Organ major (B.Mus.)",
+        "de": "Studiengang Musik | Orgel (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-196",
+      "prefLabel": {
+        "en": "Study Programme Music Performance | Organ major (M.Mus.)",
+        "de": "Studiengang Musik | Orgel (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-197",
+      "prefLabel": {
+        "en": "Study Programme Music and Media (B.Mus.)",
+        "de": "Studiengang Musik und Medien (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-198",
+      "prefLabel": {
+        "en": "Study Programme Music Promotion | Conducting (Choral Conducting) (B.Mus.)",
+        "de": "Studiengang Musikvermittlung | Chorleitung (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-199",
+      "prefLabel": {
+        "en": "Study Programme Music Promotion | Conducting (Choral Conducting) (M.Mus.)",
+        "de": "Studiengang Musikvermittlung | Chorleitung (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-200",
+      "prefLabel": {
+        "en": "Study Programme Music Promotion | Church Music (protestant) (B.Mus.)",
+        "de": "Studiengang Musikvermittlung | Kirchenmusik (evangelisch) (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-201",
+      "prefLabel": {
+        "en": "Study Programme Music Promotion | Church Music (protestant) (M.Mus.)",
+        "de": "Studiengang Musikvermittlung | Kirchenmusik (evangelisch) (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-202",
+      "prefLabel": {
+        "en": "Study Programme Music Promotion | Church Music (catholic) (B.Mus.)",
+        "de": "Studiengang Musikvermittlung | Kirchenmusik (katholisch) (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-203",
+      "prefLabel": {
+        "en": "Study Programme Music Promotion | Church Music (catholic) (M.Mus.)",
+        "de": "Studiengang Musikvermittlung | Kirchenmusik (katholisch) (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-204",
+      "prefLabel": {
+        "en": "Study Programme Music Promotion | Music Pedagogy (B.Mus.)",
+        "de": "Studiengang Musikvermittlung | Musikpädagogik (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-205",
+      "prefLabel": {
+        "en": "Study Programme Music Promotion | Music Pedagogy (M.Mus.)",
+        "de": "Studiengang Musikvermittlung | Musikpädagogik (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-206",
+      "prefLabel": {
+        "en": "Study Programme Music Promotion | Musiktherorie und Hörerziehung (B.Mus.)",
+        "de": "Studiengang Musikvermittlung | Musiktherorie und Hörerziehung (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-207",
+      "prefLabel": {
+        "en": "Study Programme Music Promotion | Conducting (Orchestral Conducting) (B.Mus.)",
+        "de": "Studiengang Musikvermittlung | Orchesterleitung (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-208",
+      "prefLabel": {
+        "en": "Study Programme Music Promotion | Music Theory/Aural Skills Training (B.Mus.)",
+        "de": "Studiengang Musikvermittlung | Orchesterleitung (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-209",
+      "prefLabel": {
+        "en": "Study Programme Musicology (B.A./Dual-subject Bachelor)",
+        "de": "Studiengang Musikwissenschaft (B.A./ Zwei-Fach-Bachelor)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-210",
+      "prefLabel": {
+        "en": "Study Programme Musicology (M.A.)",
+        "de": "Studiengang Musikwissenschaft (M.A.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-211",
+      "prefLabel": {
+        "en": "Study Programme Orchestral Playing (M.Mus.)",
+        "de": "Studiengang Orchesterspiel (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-212",
+      "prefLabel": {
+        "en": "Study Programme Audio and Video (B.Eng.)",
+        "de": "Studiengang Ton und Bild (B.Eng)"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units",
+      "title": {
+        "en": "Organisational Units",
+        "de": "Organisationseinheiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units",
+      "title": {
+        "en": "Organisational Units",
+        "de": "Organisationseinheiten"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

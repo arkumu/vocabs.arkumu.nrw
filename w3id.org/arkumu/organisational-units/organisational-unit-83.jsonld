@@ -1,0 +1,689 @@
+{
+  "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-83",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "Hochschule für Musik und Tanz Köln",
+    "de": "Hochschule für Musik und Tanz Köln"
+  },
+  "notation": [
+    "83"
+  ],
+  "narrower": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-84",
+      "prefLabel": {
+        "en": "Institute for Early Music",
+        "de": "Institut für Alte Musik"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-85",
+      "prefLabel": {
+        "en": "Institute for Historic Musicology",
+        "de": "Institut für Historische Musikwissenschaft"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-86",
+      "prefLabel": {
+        "en": "Institute for New Music",
+        "de": "Institut für Neue Musik"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-87",
+      "prefLabel": {
+        "en": "Cologne Institute for Music Pedagogy Research",
+        "de": "Kölner Institut für Musikpädagogische Forschung"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-88",
+      "prefLabel": {
+        "en": "Children's Choir of the University",
+        "de": "Kinderchor der Hochschule"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-89",
+      "prefLabel": {
+        "en": "Song Academy at the HfMT Köln",
+        "de": "Liedakademie an der HfMT Köln"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-90",
+      "prefLabel": {
+        "en": "Peter Oswald Institute",
+        "de": "Peter-Ostwald-Institut"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-91",
+      "prefLabel": {
+        "en": "Pre-College Cologne",
+        "de": "Pre-College Cologne"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-92",
+      "prefLabel": {
+        "en": "Project EchoSpore",
+        "de": "Projekt EchoSpore"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-93",
+      "prefLabel": {
+        "en": "Project Schauspiel HfMT (Acting HfMT)",
+        "de": "Projekt Schauspiel HfMT"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-94",
+      "prefLabel": {
+        "en": "Seminar Project Jazz Against The Machine",
+        "de": "Projektseminar Jazz Against The Machine"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-95",
+      "prefLabel": {
+        "en": "Rheinische Opernakademie (Rhenish Opera Acadaemy)",
+        "de": "Rheinische Opernakademie"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-96",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Arts | Dance (B.A.)",
+        "de": "Studiengang Bachelor of Arts | Tanz (B.A.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-97",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Brass Instruments (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Blechbläser (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-98",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Choral Conducting (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Chordirigieren (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-99",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Electronic Compostion (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Elektronische Komposition (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-100",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Elementary Music [Pedagogy] (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Elementare Musikpädagogik (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-101",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Church Music (Protestant) (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Evangelische Kirchenmusik (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-102",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Voice (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Gesang (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-103",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Guitar (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Gitarre (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-104",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Harp (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Harfe (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-105",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Historic Instruments (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Historische Instrumente (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-106",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Woodwind Instruments (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Holzbläser (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-107",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Instrumental/Vocal Pedagogy (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Instrumental-/Gesangspädagogik (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-108",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Instrumental Composition (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Instrumentale Komposition (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-109",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Jazz/Pop (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Jazz/Pop (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-110",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Church Music (Catholic) (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Katholische Kirchenmusik (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-111",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Piano (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Klavier (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-112",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Mandolin (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Mandoline (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-113",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Orchestral Conducting (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Orchesterdirigieren (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-114",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Organ (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Orgel (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-115",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Percussion/Timpani (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Schlagzeug/Pauke (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-116",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Strings (B.Mus.)",
+        "de": "Studiengang Bachelor of Music | Streicher (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-117",
+      "prefLabel": {
+        "en": "Study Programme Bachelor of Music | Composition/Music Theory",
+        "de": "Studiengang Bachelor of Music | Tonsatz/Musiktheorie (B.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-118",
+      "prefLabel": {
+        "en": "Study Programme Master of Arts | Music Pedagogy (M.A.)",
+        "de": "Studiengang Master of Arts | Musikpädagogik (M.A.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-119",
+      "prefLabel": {
+        "en": "Study Programme Master of Arts | Musicology (M.A.)",
+        "de": "Studiengang Master of Arts | Musikwissenschaft (M.A.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-120",
+      "prefLabel": {
+        "en": "Study Programme Master of Arts | Medition in Dance (M.A.)",
+        "de": "Studiengang Master of Arts | Tanzvermittlung (M.A.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-121",
+      "prefLabel": {
+        "en": "Study Programme Master of Arts | Dance Studies (M.A.)",
+        "de": "Studiengang Master of Arts | Tanzwissenschaft (M.A.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-122",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Wind Instruments (M.Mus.)",
+        "de": "Studiengang Master of Music | Blasinstrumente (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-123",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Choral Conducting (M.Mus.)",
+        "de": "Studiengang Master of Music | Dirigieren Chor (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-124",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Conducting Musical Theatre (M.Mus.)",
+        "de": "Studiengang Master of Music | Dirigieren Musiktheater (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-125",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Conducting Orchestra (M.Mus.)",
+        "de": "Studiengang Master of Music| Dirigieren Orchester (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-126",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Conducting Contemporary Music (M.Mus.)",
+        "de": "Studiengang Master of Music| Dirigieren Zeitgenössische Musik (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-127",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Electronic Composition (M.Mus.)",
+        "de": "Studiengang Master of Music | Elektronische Komposition (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-128",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Church Music (Protestant) (M.Mus.)",
+        "de": "Studiengang Master of Music | Evangelische Kirchenmusik (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-129",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Voice Song/Concert (M.Mus.)",
+        "de": "Studiengang Master of Music | Gesang Lied/Konzert (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-130",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Voice Music Theatre (M.Mus.)",
+        "de": "Studiengang Master of Music | Gesang Musiktheater (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-131",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Guitar (M.Mus.)",
+        "de": "Studiengang Master of Music | Gitarre (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-132",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Harp (M.Mus.)",
+        "de": "Studiengang Master of Music | Harfe (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-133",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Historische Instrumente und Barockgesang (M.Mus.)",
+        "de": "Studiengang Master of Music | Historische Instrumente und Barockgesang (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-134",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Instrumental Composition (M.Mus.)",
+        "de": "Studiengang Master of Music | Instrumentale Komposition (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-135",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Interpretation New Music (M.Mus.)",
+        "de": "Studiengang Master of Music | Interpretation Neue Musik (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-136",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Jazz Composition/Arrangement (M.Mus.)",
+        "de": "Studiengang Master of Music | Jazz-Komposition/Arrangement (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-137",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Jazz/Pop Instrumental/Vocal (M.Mus.)",
+        "de": "Studiengang Master of Music | Jazz/Pop Instrumental/Vokal (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-138",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Chamber Music (M.Mus.)",
+        "de": "Studiengang Master of Music | Kammermusik (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-139",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Church Music (Catholic) (M.Mus.)",
+        "de": "Studiengang Master of Music | Katholische Kirchenmusik (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-140",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Piano (M.Mus.)",
+        "de": "Studiengang Master of Music | Klavier (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-141",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Song Interpretation for Pianists (M.Mus.)",
+        "de": "Studiengang Master of Music | Liedgestaltung (Klavier) (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-142",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Mandolin (M.Mus.)",
+        "de": "Studiengang Master of Music | Mandoline (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-143",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Modern Piano Music (M.Mus.)",
+        "de": "Studiengang Master of Music | Neue Klaviermusik (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-144",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Opera Correpetition (M.Mus.)",
+        "de": "Studiengang Master of Music | Opernkorrepetition (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-145",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Orchestral Playing (M.Mus.)",
+        "de": "Studiengang Master of Music | Orchesterspiel (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-146",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Organ (M.Mus.)",
+        "de": "Studiengang Master of Music | Orgel (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-147",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Production (M.Mus.)",
+        "de": "Studiengang Master of Music | Production (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-148",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Percussion/Timpani (M.Mus.)",
+        "de": "Studiengang Master of Music | Schlagzeug/Pauke (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-149",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | String Instruments (M.Mus.)",
+        "de": "Studiengang Master of Music | Streichinstrumente (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-150",
+      "prefLabel": {
+        "en": "Study Programme Master of Music | Music Theory (M.Mus.)",
+        "de": "Studiengang Master of Music | Tonsatz (M.Mus.)"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-151",
+      "prefLabel": {
+        "en": "Studio for Electronic Music",
+        "de": "Studio für Elektronische Musik"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-152",
+      "prefLabel": {
+        "en": "Library Tape Archive",
+        "de": "Tonbandarchiv der Bibliothek"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-153",
+      "prefLabel": {
+        "en": "Voc.Cologne",
+        "de": "Voc.Cologne"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-154",
+      "prefLabel": {
+        "en": "Centre for Music Teacher Education in the Job",
+        "de": "Zentrum für MusiklehrerInnenbildung im Beruf"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-155",
+      "prefLabel": {
+        "en": "Centre of Contemporary Dance",
+        "de": "Zentrum für Zeitgenössischen Tanz"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units",
+      "title": {
+        "en": "Organisational Units",
+        "de": "Organisationseinheiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units",
+      "title": {
+        "en": "Organisational Units",
+        "de": "Organisationseinheiten"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

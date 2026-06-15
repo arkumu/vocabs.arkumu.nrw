@@ -1,0 +1,185 @@
+{
+  "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-167",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "Glasmoog – Space for Art & Discourse",
+    "de": "Glasmoog – Raum für Kunst & Diskurs"
+  },
+  "definition": {
+    "en": "Since 2009 Glasmoog is an exhibition space for contemporary art at the Kunsthochschule für Medien Köln (KHM)/Academy of Media Arts Cologne transferring and extending the schools discourses into a public gallery. With about 80 square meters Glasmoog, a former showroom run by the Moog family selling window and mirror glass, provides a simple dense space, primarily characterized by large windows opening to the main street. To name the gallery after its familiar name “Glas Moog” reflects the conversion from a neighborhood shaped by traditional merchants and crafters to a micro-structured art school, that since its fairly new foundation about 25 years ago grew its campus organically into available workshops and spaces. Glasmoog’s exhibition program directed by Heike Ander operates independently inside the school as a station for research in artistic practices, mechanisms and strategies. Glasmoog works locally as an interface between academy, neighborhood, city and the Rhine region. Glasmoog also cooperates with regional and international initiatives, projects, academies and public institutions. Complemented by public events, artist talks, performances and independent presentations various exhibitions by national and international artists and artist groups among them students, graduates and alumni of KHM, have been so far realized. In irregular intervals the series \"Calling Out of Context\" introduces outstanding artistic platforms and organizations. Catalogs, artist books and other printed matter document the exhibitions and are published under Glasmoog Books. (2024)",
+    "de": "GLASMOOG ist ein Raum für zeitgenössische Kunst und ihre Bezugsfelder, der 2009 an der Kunsthochschule für Medien Köln (KHM) gegründet wurde. Das Programm verbindet regionale und internationale, bekannte und weniger bekannte künstlerische Positionen und flankiert, mit Blick auf die medialen Künste, die an der KHM verfolgten Fragestellungen und Diskurse.\n\nMit seiner knapp 80 qm messenden Ausstellungsfläche bietet GLASMOOG eine durch zwei große Schaufenster geprägte klare räumliche Situation. In der Benennung des Raums nach der vormals hier angesiedelten Glaserei der Familie Moog („Glas Moog“) spiegelt sich der ehemals von Handwerk und Handel geprägte Charakter des Viertels, in das die Kunsthochschule sich mit ihren Ateliers, Laboren, Werkstätten und Studios seit ihrer Gründung 1989 rhizomatisch eingeschrieben hat. Darüber hinaus beinhaltet der Name eine transatlantische Reverenz an Bob Moog, einen der großen Pioniere und Bastler der elektronischen Musik und Erfinder des Moog-Synthesizers. Musik, Klang und Sound spielen an der KHM traditionell eine zentrale Rolle.\n\nGLASMOOG fungiert als Membran zwischen Kunsthochschule, Nachbarschaft, der Stadt und der Region mit regionaler bis internationaler Ausrichtung. Es geht darum, Verknüpfungen herzustellen: Zum einen werden Künstler*Innen eingeladen, die Impulse von außen ermöglichen, zum anderen wird die Kunsthochschule als Ort sichtbar, an dem künstlerische Ausrichtungen initiiert werden, an dem Entwicklung stattfindet. Im Zentrum der Aktivitäten stehen thematische Ausstellungen und Veranstaltungsreihen, ergänzt durch Künstlergespräche, Performances und Konzerte. Das Programm ist jedoch grundsätzlich für ganz unterschiedliche Formate und experimentelle Ausrichtungen offen – ein Raum, in dem die verschiedensten künstlerischen Praktiken und Prozesse, aber auch alternative Präsentationsformen möglich sind. GLASMOOG ist ein Ort, der sehr flexibel operieren kann und wie eine Art Forschungsstation Mechanismen, Strategien, Haltungen sichtbar, im Sinne von räumlich erlebbar machen kann. Dabei ist der Blick insbesondere auf diejenigen Positionen und Haltungen gerichtet, die sich nicht sofort aufdrängen. Ziel ist ein diskursiver Ort, der – angesiedelt in der Kunsthochschule – ausstrahlt auf Köln und die Region.\n\nGLASMOOG ist Mitglied bei AIC - Art Initiatives Cologne, einem 2016 gegründeten Netzwerk freier, nicht kommerzieller Kunst- und Projekträume, Kunstinitiativen und Festivals in Köln.\n(2024)"
+  },
+  "notation": [
+    "167"
+  ],
+  "broader": {
+    "id": "http://w3id.org/arkumu/organisational-units/organisational-unit-156",
+    "prefLabel": {
+      "en": "Academy of Media Arts Cologne",
+      "de": "Kunsthochschule für Medien Köln"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units",
+      "title": {
+        "en": "Organisational Units",
+        "de": "Organisationseinheiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/arkumu/organisational-units"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

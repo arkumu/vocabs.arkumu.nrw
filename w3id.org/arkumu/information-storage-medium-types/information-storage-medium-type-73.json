@@ -1,0 +1,258 @@
+{
+  "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-73",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "Magneto-digital Audio Storage Medium",
+    "de": "Magneto-digitaler Tonträger"
+  },
+  "notation": [
+    "73"
+  ],
+  "narrower": [
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-74",
+      "prefLabel": {
+        "en": "DASH Open Reel Tape",
+        "de": "DASH-Tonband"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-75",
+      "prefLabel": {
+        "en": "Pro Digi Open Reel Tape",
+        "de": "Pro-Digi-Tonband"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-76",
+      "prefLabel": {
+        "en": "PCM Betamax",
+        "de": "PCM Betamax"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-77",
+      "prefLabel": {
+        "en": "PCM U-Matic",
+        "de": "PCM U-Matic"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-78",
+      "prefLabel": {
+        "en": "PCM VHS",
+        "de": "PCM VHS"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-79",
+      "prefLabel": {
+        "en": "DAT",
+        "de": "DAT"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-80",
+      "prefLabel": {
+        "en": "ADAT",
+        "de": "ADAT"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-81",
+      "prefLabel": {
+        "en": "DTRS",
+        "de": "DTRS"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-82",
+      "prefLabel": {
+        "en": "Digital Compact Cassette",
+        "de": "Digital Compact Cassette"
+      }
+    },
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-83",
+      "prefLabel": {
+        "en": "NT cassette",
+        "de": "NT Cassette"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/arkumu/information-storage-medium-types/information-storage-medium-type-72",
+    "prefLabel": {
+      "en": "Digital Audio Storage Medium",
+      "de": "Digitaler Tonträger"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.wikidata.org/entity/Q123118830"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types",
+      "title": {
+        "en": "Information Storage Medium Types",
+        "de": "Informationsträgertypen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/arkumu/information-storage-medium-types"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
