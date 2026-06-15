@@ -1,0 +1,570 @@
+@base <http://w3id.org/arkumu/event-types> .
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix event-type: <http://w3id.org/arkumu/event-types/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<> a skos:ConceptScheme;
+  dct:title "Event Types"@en, "Ereignistypen"@de;
+  dct:description "Ereignistypen werden verwendet, um Ereignisse zu kategorisieren."@de,
+    "Event Types are used to categorise Events"@en;
+  dct:created "2026-06-10"^^xsd:date;
+  skos:editorialNote "URI noch abschließend zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+  skos:hasTopConcept event-type:event-type-1, event-type:event-type-2, event-type:event-type-3,
+    event-type:event-type-4, event-type:event-type-5, event-type:event-type-6, event-type:event-type-7,
+    event-type:event-type-8, event-type:event-type-9, event-type:event-type-10, event-type:event-type-11,
+    event-type:event-type-12, event-type:event-type-13, event-type:event-type-14, event-type:event-type-15,
+    event-type:event-type-16, event-type:event-type-17, event-type:event-type-18, event-type:event-type-19,
+    event-type:event-type-20, event-type:event-type-21, event-type:event-type-22, event-type:event-type-23,
+    event-type:event-type-24, event-type:event-type-25, event-type:event-type-26, event-type:event-type-27,
+    event-type:event-type-28, event-type:event-type-29, event-type:event-type-30, event-type:event-type-31,
+    event-type:event-type-32, event-type:event-type-33, event-type:event-type-34, event-type:event-type-35,
+    event-type:event-type-36, event-type:event-type-37, event-type:event-type-38, event-type:event-type-39,
+    event-type:event-type-40, event-type:event-type-41, event-type:event-type-42, event-type:event-type-43,
+    event-type:event-type-44, event-type:event-type-45, event-type:event-type-46, event-type:event-type-47,
+    event-type:event-type-48, event-type:event-type-49, event-type:event-type-50, event-type:event-type-51,
+    event-type:event-type-52, event-type:event-type-53, event-type:event-type-54, event-type:event-type-55,
+    event-type:event-type-56, event-type:event-type-57, event-type:event-type-58, event-type:event-type-59,
+    event-type:event-type-60, event-type:event-type-61, event-type:event-type-62, event-type:event-type-63 .
+
+event-type:event-type-1 a skos:Concept;
+  skos:notation "1";
+  skos:prefLabel "Purchase"@en, "Ankauf"@de;
+  skos:altLabel "Erwerb"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1369832>, <https://d-nb.info/gnd/4128692-3>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-2 a skos:Concept;
+  skos:notation "2";
+  skos:prefLabel "Inaugural Lecture"@en, "Antrittsvorlesung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q609261>, <https://d-nb.info/gnd/4426602-9>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-3 a skos:Concept;
+  skos:notation "3";
+  skos:prefLabel "Arrangement"@en, "Arrangement"@de;
+  skos:altLabel "Musical Arrangement"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q379755>, <https://d-nb.info/gnd/4285138-5>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-4 a skos:Concept;
+  skos:notation "4";
+  skos:prefLabel "Performance (Performing Arts)"@en, "Aufführung (Darstellende Künste)"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q35140>, <https://d-nb.info/gnd/4143388-9>,
+    <http://terminology.lido-schema.org/lido00030>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-5 a skos:Concept;
+  skos:notation "5";
+  skos:prefLabel "Musical Performance"@en, "Aufführung (Musik)"@de;
+  skos:altLabel "Musikaufführung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q106805967>, <https://d-nb.info/gnd/7502757-4>,
+    <http://terminology.lido-schema.org/lido00030>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-6 a skos:Concept;
+  skos:notation "6";
+  skos:prefLabel "Exhibition"@en, "Ausstellung"@de;
+  skos:altLabel "Kunstausstellung"@de, "Gruppenausstellung"@de, "Einzelausstellung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q464980>, <https://d-nb.info/gnd/4129601-1>,
+    <https://vocab.getty.edu/aat/300054766>, <http://terminology.lido-schema.org/lido00225>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-7 a skos:Concept;
+  skos:notation "7";
+  skos:prefLabel "Exhibition Opening"@en, "Ausstellungseröffnung"@de;
+  skos:altLabel "Vernissage"@en, "Private View"@en, "Opening Reception"@en, "Gallery Opening"@en,
+    "Gallery Reception"@en, "Vernissage"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q772257>, <https://d-nb.info/gnd/4435671-7>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-8 a skos:Concept;
+  skos:notation "8";
+  skos:prefLabel "Award"@en, "Auszeichnung"@de;
+  skos:altLabel "Prize"@en, "Ehrung"@de, "Preis"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q618779>, <https://d-nb.info/gnd/4338046-3>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-9 a skos:Concept;
+  skos:notation "9";
+  skos:prefLabel "Commissioning"@en, "Beauftragung"@de;
+  skos:altLabel "Order"@en, "Auftrag"@de, "Order"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q566889>, <https://d-nb.info/gnd/4003557-8>,
+    <http://terminology.lido-schema.org/lido00226>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-10 a skos:Concept;
+  skos:notation "10";
+  skos:prefLabel "Modification"@en, "Bearbeitung"@de;
+  skos:altLabel "Revision"@en, "Edit"@en, "Editing"@en, "Processing"@en, "Revision"@de,
+    "Umarbeitung"@de, "Adaption"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q109243379>, <https://d-nb.info/gnd/4120981-3>,
+    <http://terminology.lido-schema.org/lido00006>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-11 a skos:Concept;
+  skos:notation "11";
+  skos:prefLabel "Data Conversion"@en, "Datenkonvertierung"@de;
+  skos:altLabel "Konvertierung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1783551>, <https://d-nb.info/gnd/4138254-7>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-12 a skos:Concept;
+  skos:notation "12";
+  skos:prefLabel "Digitisation"@en, "Digitalisierung"@de;
+  skos:altLabel "Retrodigitisation"@en, "Retrodigitalisierung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q843958>, <https://d-nb.info/gnd/4123065-6>,
+    <https://vocab.getty.edu/aat/300202383>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-13 a skos:Concept;
+  skos:notation "13";
+  skos:prefLabel "Design"@en, "Entwurf"@de;
+  skos:altLabel "Designing"@en, "Entwerfen"@de, "Gestaltung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1519454>, <https://d-nb.info/gnd/4121208-3>,
+    <https://vocab.getty.edu/aat/300102051>, <http://terminology.lido-schema.org/lido00224>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-14 a skos:Concept;
+  skos:notation "14";
+  skos:prefLabel "TV Première"@en, "Erstausstrahlung"@de;
+  skos:altLabel "First TV Broadcast"@en, "Erstsendung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q118581977>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-15 a skos:Concept;
+  skos:notation "15";
+  skos:prefLabel "Acquisition"@en, "Erwerb"@de;
+  skos:altLabel "Transfer of Legal Ownership"@en, "Transfer of Title"@en, "Akquise"@de,
+    "Erwerbung"@de, "Zugang (Erwerb)"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3604747>, <https://d-nb.info/gnd/4212536-4>,
+    <https://vocab.getty.edu/aat/300157782>, <http://terminology.lido-schema.org/lido00001>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-16 a skos:Concept;
+  skos:notation "16";
+  skos:prefLabel "Festival"@en, "Festival"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q132241>, <https://d-nb.info/gnd/4154198-4>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-17 a skos:Concept;
+  skos:notation "17";
+  skos:prefLabel "Film Festival"@en, "Filmfestival"@de;
+  skos:altLabel "Filmfestspiel"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q220505>, <https://d-nb.info/gnd/4359942-4>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-18 a skos:Concept;
+  skos:notation "18";
+  skos:prefLabel "Film Screening"@en, "Filmvorführung"@de;
+  skos:altLabel "Screening"@en, "Vorführung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2295790>, <https://d-nb.info/gnd/4196355-6>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-19 a skos:Concept;
+  skos:notation "19";
+  skos:prefLabel "Electroplating"@en, "Galvanisierung"@de;
+  skos:altLabel "Galvanotechnik"@de, "Galvanische Beschichtung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3503392>, <https://d-nb.info/gnd/4129892-5>,
+    <https://vocab.getty.edu/aat/300054000>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-20 a skos:Concept;
+  skos:notation "20";
+  skos:prefLabel "Guest Performance"@en, "Gast-Performance"@de;
+  skos:altLabel "Gastspiel"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q40249767>, <https://d-nb.info/gnd/4255674-0>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-21 a skos:Concept;
+  skos:notation "21";
+  skos:prefLabel "Creation"@en, "Geistige Schöpfung"@de;
+  skos:altLabel "Conception"@en, "Begriffliche Schöpfung"@de, "Intellektuelle Schöpfung"@de,
+    "Konzeptuelle Schöpfung"@de, "Künstlerische Schöpfung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11398090>, <http://terminology.lido-schema.org/lido00012>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-22 a skos:Concept;
+  skos:notation "22";
+  skos:prefLabel "Production"@en, "Herstellung"@de;
+  skos:altLabel "Manufacturing"@en, "Produktion"@de, "Fabrikation"@de, "Fertigung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q739302>, <https://d-nb.info/gnd/4159653-5>,
+    <https://vocab.getty.edu/aat/300054713>, <http://terminology.lido-schema.org/lido00007>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-23 a skos:Concept;
+  skos:notation "23";
+  skos:prefLabel "Interview"@en, "Interview"@de;
+  skos:altLabel "Studiogespräch"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q178651>, <https://d-nb.info/gnd/4027503-6>,
+    <https://vocab.getty.edu/aat/300026392>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-24 a skos:Concept;
+  skos:notation "24";
+  skos:prefLabel "Colloquium"@en, "Kolloquium"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4228029>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-25 a skos:Concept;
+  skos:notation "25";
+  skos:prefLabel "Concert"@en, "Konzert"@de;
+  skos:altLabel "Konzertabend"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q182832>, <https://d-nb.info/gnd/4317474-7>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-26 a skos:Concept;
+  skos:notation "26";
+  skos:prefLabel "Concert Series"@en, "Konzertreihe"@de;
+  skos:altLabel "Series of Concerts"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q107736918>, <https://d-nb.info/gnd/4432417-0>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-27 a skos:Concept;
+  skos:notation "27";
+  skos:prefLabel "Master Class"@en, "Meisterklasse"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2537465>, <https://d-nb.info/gnd/1033761672>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-28 a skos:Concept;
+  skos:notation "28";
+  skos:prefLabel "Musical Composition"@en, "Musikalische Komposition"@de;
+  skos:altLabel "Komposition"@de, "Komponieren"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11895763>, <https://d-nb.info/gnd/4133320-2>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-29 a skos:Concept;
+  skos:notation "29";
+  skos:prefLabel "Music Festival"@en, "Musikfestival"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q868557>, <https://d-nb.info/gnd/4170821-0>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-30 a skos:Concept;
+  skos:notation "30";
+  skos:prefLabel "Performance"@en, "Performance"@de;
+  skos:altLabel "Aktion"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q213156>, <https://d-nb.info/gnd/4173750-7>,
+    <https://vocab.getty.edu/aat/300121445>, <http://terminology.lido-schema.org/lido00030>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-31 a skos:Concept;
+  skos:notation "31";
+  skos:prefLabel "Planning"@en, "Planung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q309100>, <https://d-nb.info/gnd/4046235-3>,
+    <https://vocab.getty.edu/aat/300054425>, <http://terminology.lido-schema.org/lido00032>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-32 a skos:Concept;
+  skos:notation "32";
+  skos:prefLabel "Panel Discussion"@en, "Podiumsdiskussion"@de;
+  skos:altLabel "Podiumsgespräch"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2100278>, <https://d-nb.info/gnd/4614247-2>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-33 a skos:Concept;
+  skos:notation "33";
+  skos:prefLabel "Award Ceremony"@en, "Preisverleihung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4504495>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-34 a skos:Concept;
+  skos:notation "34";
+  skos:prefLabel "Première"@en, "Premiere"@de;
+  skos:altLabel "Erstaufführung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q204854>, <https://d-nb.info/gnd/4519367-8>,
+    <https://vocab.getty.edu/aat/300069101>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-35 a skos:Concept;
+  skos:notation "35";
+  skos:prefLabel "Rehearsal"@en, "Probe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1751775>, <https://d-nb.info/gnd/7660069-5>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-36 a skos:Concept;
+  skos:notation "36";
+  skos:prefLabel "Speech"@en, "Rede"@de;
+  skos:altLabel "Oration"@en, "Address"@en, "Oration"@de, "Ansprache"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q861911>, <https://d-nb.info/gnd/4048882-2>,
+    <https://vocab.getty.edu/aat/300417595>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-37 a skos:Concept;
+  skos:notation "37";
+  skos:prefLabel "Annual Exhibition"@en, "Rundgang"@de;
+  skos:altLabel "Jahresausstellung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q55336815>, <https://vocab.getty.edu/aat/300311622>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-38 a skos:Concept;
+  skos:notation "38";
+  skos:prefLabel "Editing (Film/TV/Video)"@en, "Schnitt"@de;
+  skos:altLabel "Montage"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q237893>, <https://d-nb.info/gnd/4281773-0>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-39 a skos:Concept;
+  skos:notation "39";
+  skos:prefLabel "Graduation"@en, "Studienabschluss"@de;
+  skos:altLabel "Hochschulabschluss"@de, "Graduierung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1054021>, <https://d-nb.info/gnd/4332831-3>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-40 a skos:Concept;
+  skos:notation "40";
+  skos:prefLabel "Summer School"@en, "Sommerakademie"@de;
+  skos:altLabel "Sommerschule"@de, "Sommerhochschule"@de, "Sommeruniversität"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q647882>, <https://d-nb.info/gnd/4331584-7>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-41 a skos:Concept;
+  skos:notation "41";
+  skos:prefLabel "Conference"@en, "Symposium"@de;
+  skos:altLabel "Academic Conference"@en, "Scientific Conference"@en, "Convention"@en,
+    "Wissenschaftliche Konferenz"@de, "Konferenz"@de, "Kongress"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2020153>, <https://d-nb.info/gnd/4032055-8>,
+    <https://vocab.getty.edu/aat/300054789>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-42 a skos:Concept;
+  skos:notation "42";
+  skos:prefLabel "Thematic Week"@en, "Themenwoche"@de;
+  skos:altLabel "Themed Week"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q10692570>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-43 a skos:Concept;
+  skos:notation "43";
+  skos:prefLabel "Sound Recording"@en, "Tonaufnahme"@de;
+  skos:altLabel "Audio Recording"@en, "Tonaufzeichnung"@de, "Schallaufnahme"@de, "Audioaufzeichnung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5057302>, <https://d-nb.info/gnd/4052020-1>,
+    <https://vocab.getty.edu/aat/300255735>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-44 a skos:Concept;
+  skos:notation "44";
+  skos:prefLabel "Transformation"@en, "Umgestaltung"@de;
+  skos:altLabel "Umwandlung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q10357784>, <https://d-nb.info/gnd/4452586-2>,
+    <http://terminology.lido-schema.org/lido00029>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-45 a skos:Concept;
+  skos:notation "45";
+  skos:prefLabel "World Première"@en, "Uraufführung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2500107>, <https://d-nb.info/gnd/4236166-7>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-46 a skos:Concept;
+  skos:notation "46";
+  skos:prefLabel "Radio Première"@en, "Ursendung"@de;
+  skos:altLabel "First Radio Broadcast"@en, "Rundfunk-Premiere"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q118581694>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-47 a skos:Concept;
+  skos:notation "47";
+  skos:prefLabel "Publishing"@en, "Veröffentlichung"@de;
+  skos:altLabel "Publication"@en, "Veröffentlichen"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3972943>, <https://d-nb.info/gnd/4187925-9>,
+    <https://vocab.getty.edu/aat/300054686>, <http://terminology.lido-schema.org/lido00228>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-48 a skos:Concept;
+  skos:notation "48";
+  skos:prefLabel "Marketing"@en, "Vertrieb"@de;
+  skos:altLabel "Vermarktung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q39809>, <https://d-nb.info/gnd/4127117-8>,
+    <https://vocab.getty.edu/aat/300054673>, <http://terminology.lido-schema.org/lido00401>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-49 a skos:Concept;
+  skos:notation "49";
+  skos:prefLabel "Lecture"@en, "Vorlesung"@de;
+  skos:altLabel "Talk"@en, "Lehrveranstaltung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q603773>, <https://d-nb.info/gnd/4117405-7>,
+    <https://vocab.getty.edu/aat/300026673>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-50 a skos:Concept;
+  skos:notation "50";
+  skos:prefLabel "Presentation"@en, "Vortrag"@de;
+  skos:altLabel "Fachvortrag"@de, "Präsentation"@de, "Buchpräsentation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q604733>, <https://d-nb.info/gnd/4064035-8>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-51 a skos:Concept;
+  skos:notation "51";
+  skos:prefLabel "Workshop"@en, "Workshop"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q27556165>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-52 a skos:Concept;
+  skos:notation "52";
+  skos:prefLabel "Destruction"@en, "Zerstörung"@de;
+  skos:altLabel "Vernichtung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q17781833>, <https://d-nb.info/gnd/4222882-7>,
+    <https://vocab.getty.edu/aat/300053087>, <http://terminology.lido-schema.org/lido00026>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-53 a skos:Concept;
+  skos:notation "53";
+  skos:prefLabel "Mastering"@en, "Mastering"@de;
+  skos:altLabel "Audio-Mastering"@en, "Audio-Mastering"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q421031>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-54 a skos:Concept;
+  skos:notation "54";
+  skos:prefLabel "Documentation"@en, "Dokumentation"@de;
+  skos:altLabel "Fotodokumentation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q788790>, <https://d-nb.info/gnd/4012656-0>,
+    <https://vocab.getty.edu/aat/300379366>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-55 a skos:Concept;
+  skos:notation "55";
+  skos:prefLabel "Radio Programme"@en, "Radiosendung"@de;
+  skos:altLabel "Radio show"@en, "Radio broadcast"@en, "Hörfunksendung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1555508>, <https://d-nb.info/gnd/4160384-9>,
+    <https://vocab.getty.edu/aat/300387763>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-56 a skos:Concept;
+  skos:notation "56";
+  skos:prefLabel "Television Programme"@en, "Fernsehausstrahlung"@de;
+  skos:altLabel "TV Programme"@en, "TV Broadcast"@en, "Fernsehsendung"@de, "TV-Sendung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15416>, <https://d-nb.info/gnd/4016842-6>,
+    <https://vocab.getty.edu/aat/300263432>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-57 a skos:Concept;
+  skos:notation "57";
+  skos:prefLabel "Reading"@en, "Lesung"@de;
+  skos:altLabel "Literarische Lesung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q106499608>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-58 a skos:Concept;
+  skos:notation "58";
+  skos:prefLabel "Translation"@en, "Übersetzung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7553>, <https://d-nb.info/gnd/4061418-9>,
+    <https://vocab.getty.edu/aat/300069831>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-59 a skos:Concept;
+  skos:notation "59";
+  skos:prefLabel "Conversation"@en, "Gespräch"@de;
+  skos:altLabel "Talk"@en, "Unterhaltung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q52943>, <https://d-nb.info/gnd/4020713-4>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-60 a skos:Concept;
+  skos:notation "60";
+  skos:prefLabel "Event"@en, "Veranstaltung"@de;
+  skos:altLabel "Activity"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1656682>, <https://d-nb.info/gnd/4125453-3>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-61 a skos:Concept;
+  skos:notation "61";
+  skos:prefLabel "Live Streaming"@en, "Live-Streaming"@de;
+  skos:altLabel "Live Stream"@en, "Live-Stream"@de, "Echtzeitübertragung"@de, "Live Stream"@de,
+    "Livestream"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3027665>, <https://d-nb.info/gnd/4614855-3>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-62 a skos:Concept;
+  skos:notation "62";
+  skos:prefLabel "Course"@en, "Kurs"@de;
+  skos:altLabel "Class"@en, "Educational Course"@en, "Academic Course"@en, "Lehrveranstaltung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q600134>, <https://d-nb.info/gnd/4166215-5>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+event-type:event-type-63 a skos:Concept;
+  skos:notation "63";
+  skos:prefLabel "Open House"@en, "Tag der offenen Tür"@de;
+  skos:altLabel "TdoT"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1421331>, <https://d-nb.info/gnd/4193984-0>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .

@@ -1,0 +1,125 @@
+@base <http://w3id.org/arkumu/project-types> .
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix project-types: <http://w3id.org/arkumu/project-types/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<> a skos:ConceptScheme;
+  dct:title "Project Types"@en, "Projektarten"@de;
+  dct:description "Projektarten klassifizieren ein Projekt in einem akademischen Kontext. Im Gegensatz dazu beschreiben die Projektkategorien die künstlerische Ausrichtung des Projekts."@de,
+    "Project types classify a project within an academic context. In contrast, Project Categories describe the artistic orientation of the project."@en;
+  dct:created "2026-06-15"^^xsd:date;
+  skos:editorialNote "URI noch zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+  skos:hasTopConcept project-types:bachelor-thesis, project-types:diploma-project, project-types:research-project,
+    project-types:autonomous-project, project-types:master-thesis, project-types:project-1-khm,
+    project-types:project-2-khm, project-types:collection-item, project-types:student-project,
+    project-types:event, project-types:vordiplom, project-types:seminar-project, project-types:doctoral-thesis .
+
+project-types:bachelor-thesis a skos:Concept;
+  skos:notation "1";
+  skos:prefLabel "Bachelor Thesis"@en, "Bachelorarbeit"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q798134>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:diploma-project a skos:Concept;
+  skos:notation "2";
+  skos:prefLabel "Diploma Project"@en, "Diplomprojekt"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q30749496>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:research-project a skos:Concept;
+  skos:notation "3";
+  skos:prefLabel "Research Project"@en, "Forschungsprojekt"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1298668>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:autonomous-project a skos:Concept;
+  skos:notation "4";
+  skos:prefLabel "Autonomous Project"@en, "Autonomes Projekt"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q124535359>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:master-thesis a skos:Concept;
+  skos:notation "5";
+  skos:prefLabel "Master Thesis"@en, "Masterarbeit"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1907875>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:project-1-khm a skos:Concept;
+  skos:notation "6";
+  skos:prefLabel "Project 1 (KHM)"@en, "Projekt 1 (KHM)"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123692929>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:project-2-khm a skos:Concept;
+  skos:notation "7";
+  skos:prefLabel "Project 2 (KHM)"@en, "Projekt 2 (KHM)"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123692947>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:collection-item a skos:Concept;
+  skos:notation "8";
+  skos:prefLabel "Collection Item"@en, "Sammlungsobjekt"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q106815942>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:student-project a skos:Concept;
+  skos:notation "9";
+  skos:prefLabel "Student Project"@en, "Studentisches Projekt"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q30032131>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:event a skos:Concept;
+  skos:notation "10";
+  skos:prefLabel "Event"@en, "Veranstaltung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1656682>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:vordiplom a skos:Concept;
+  skos:notation "11";
+  skos:prefLabel "Vordiplom"@en, "Vordiplom"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1227202>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:seminar-project a skos:Concept;
+  skos:notation "12";
+  skos:prefLabel "Seminar Project"@en, "Seminarprojekt"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q135995720>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+project-types:doctoral-thesis a skos:Concept;
+  skos:notation "13";
+  skos:prefLabel "Doctoral Thesis"@en, "Dissertation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q187685>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .

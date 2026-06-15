@@ -1,0 +1,1850 @@
+@base <http://w3id.org/arkumu/organisational-units> .
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix organisational-unit: <http://w3id.org/arkumu/organisational-units/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<> dct:title "Organisational Units"@en, "Organisationseinheiten"@de;
+  dct:description "Organisationseinheiten beschreiben Einrichtungen wie Studiengänge, Forschungsinstitute oder Archive der einliefernden Hochschulen. Einheiten externer Hochschulen werden durch die Organisationseinheit Kooperationen ausgedrückt."@de,
+    "Organisational Units describe e.g. degree programs, research institutes, or archives of the contributing universities. Units belonging to external universities are represented through the Organizational Unit Cooperations."@en;
+  dct:created "2026-06-15"^^xsd:date;
+  skos:editorialNote "URI noch zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+organisational-unit:organisational-unit-1 a skos:Concept;
+  skos:notation "1";
+  skos:prefLabel "Folkwang University of the Arts"@en, "Folkwang Universität der Künste"@de .
+
+organisational-unit:organisational-unit-2 a skos:Concept;
+  skos:notation "2";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "German-French Musicology Study Programme (B.A./Licence des Artes et Sciences humaines)"@en,
+    "Deutsch-französischer Studiengang Musikwissenschaft (B.A./Licence des Artes et Sciences humaines)"@de .
+
+organisational-unit:organisational-unit-3 a skos:Concept;
+  skos:notation "3";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Concert Study Course of Excellence"@en, "Exzellenzstudiengang Konzertexamen (Zertifikat)"@de .
+
+organisational-unit:organisational-unit-4 a skos:Concept;
+  skos:notation "4";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Diploma Programme Physical Theatre (Artist Diploma)"@en, "Diplomstudiengang Physical Theatre (Artist Diploma)"@de .
+
+organisational-unit:organisational-unit-5 a skos:Concept;
+  skos:notation "5";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Diploma Programme Directing (Artist Diploma)"@en, "Diplomstudiengang Regie (Artist Diploma)"@de .
+
+organisational-unit:organisational-unit-6 a skos:Concept;
+  skos:notation "6";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Diploma Programme Acting (Artist Diploma)"@en, "Diplomstudiengang Schauspiel (Artist Diploma)"@de .
+
+organisational-unit:organisational-unit-7 a skos:Concept;
+  skos:notation "7";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Institute for Computer Music and Electronic Media"@en, "Institut für Computermusik und Elektronische Medien"@de .
+
+organisational-unit:organisational-unit-8 a skos:Concept;
+  skos:notation "8";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Institute for Gregorian Chant"@en, "Institut für Gregorianik"@de .
+
+organisational-unit:organisational-unit-9 a skos:Concept;
+  skos:notation "9";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Institute for Art and Design Science"@en, "Institut für Kunst- und Designwissenschaft"@de .
+
+organisational-unit:organisational-unit-10 a skos:Concept;
+  skos:notation "10";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Institute for the Promotion of Young Artists | folkwang junior"@en,
+    "Institut für künstlerische Nachwuchsförderung | folkwang junior"@de .
+
+organisational-unit:organisational-unit-11 a skos:Concept;
+  skos:notation "11";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Institute for Popular Music"@en, "Institut für Pop-Musik"@de .
+
+organisational-unit:organisational-unit-12 a skos:Concept;
+  skos:notation "12";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Institute for Contemporary Dance"@en, "Institut für Zeitgenössischen Tanz"@de .
+
+organisational-unit:organisational-unit-13 a skos:Concept;
+  skos:notation "13";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Design Futures (M.A.)"@en, "Studiengang Design Futures (M.A.)"@de .
+
+organisational-unit:organisational-unit-14 a skos:Concept;
+  skos:notation "14";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Photography (B.A.)"@en, "Studiengang Fotografie (B.A.)"@de .
+
+organisational-unit:organisational-unit-15 a skos:Concept;
+  skos:notation "15";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Voice | Music Theatre (B.Mus.)"@en, "Studiengang Gesang | Musiktheater (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-16 a skos:Concept;
+  skos:notation "16";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Gregorian Chant (Certificate)"@en, "Studiengang Gregorianik (Zertifikat)"@de .
+
+organisational-unit:organisational-unit-17 a skos:Concept;
+  skos:notation "17";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Instrumental Training (B.A.)"@en, "Studiengang Instrumentalausbildung (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-18 a skos:Concept;
+  skos:notation "18";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Integrative Composition (M.Mus.)"@en, "Studiengang Integrative Komposition (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-19 a skos:Concept;
+  skos:notation "19";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Integrative Music Theory (M.Mus.)"@en, "Studiengang Integrative Musiktheorie (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-20 a skos:Concept;
+  skos:notation "20";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Jazz | Artist Producer (M.Mus.)"@en, "Studiengang Jazz | Artist Producer (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-21 a skos:Concept;
+  skos:notation "21";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Jazz | Improvising Artist (M.Mus.)"@en, "Studiengang Jazz | Improvising Artist (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-22 a skos:Concept;
+  skos:notation "22";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Jazz | Performing Artist (B.Mus.)"@en, "Studiengang Jazz | Performing Artist (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-23 a skos:Concept;
+  skos:notation "23";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Communication Design (B.A.)"@en, "Studiengang Kommunikationsdesign (B.A.)"@de .
+
+organisational-unit:organisational-unit-24 a skos:Concept;
+  skos:notation "24";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Communication Design (M.A.)"@en, "Studiengang Kommunikationsdesign (M.A.)"@de .
+
+organisational-unit:organisational-unit-25 a skos:Concept;
+  skos:notation "25";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Music Teaching (B.A.)"@en, "Studiengang Lehramt Musik (B.A.)"@de .
+
+organisational-unit:organisational-unit-26 a skos:Concept;
+  skos:notation "26";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Music Teaching (M.Ed.)"@en, "Studiengang Lehramt Musik (M.Ed.)"@de .
+
+organisational-unit:organisational-unit-27 a skos:Concept;
+  skos:notation "27";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Directing of Vocal Ensembles (M.Mus.)"@en, "Studiengang Leitung vokaler Ensembles (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-28 a skos:Concept;
+  skos:notation "28";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Musical (B.A.)"@en, "Studiengang Musical (B.A.)"@de .
+
+organisational-unit:organisational-unit-29 a skos:Concept;
+  skos:notation "29";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Music of the Middle Ages (M.Mus.)"@en, "Studiengang Musik des Mittelalters (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-30 a skos:Concept;
+  skos:notation "30";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Music Pedagogy (B.A.)"@en, "Studiengang Musikpädagogik (B.A.)"@de .
+
+organisational-unit:organisational-unit-31 a skos:Concept;
+  skos:notation "31";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Musicology (B. A./Dual-subject Bachelor)"@en, "Studiengang Musikwissenschaft (B.A./Zwei-Fach-Bachelor)"@de .
+
+organisational-unit:organisational-unit-32 a skos:Concept;
+  skos:notation "32";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Musicology (M.A.)"@en, "Studiengang Musikwissenschaft (M.A.)"@de .
+
+organisational-unit:organisational-unit-33 a skos:Concept;
+  skos:notation "33";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Orchestral Performance (M.Mus.)"@en, "Studiengang Orchesterspiel (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-34 a skos:Concept;
+  skos:notation "34";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Photography Studies and Practice (M.A.)"@en, "Studiengang Photography Studies and Practice (M.A.)"@de .
+
+organisational-unit:organisational-unit-35 a skos:Concept;
+  skos:notation "35";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Photography Studies and Research (M.A.)"@en, "Studiengang Photography Studies and Research (M.A.)"@de .
+
+organisational-unit:organisational-unit-36 a skos:Concept;
+  skos:notation "36";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Popular Music (M.Mus.)"@en, "Studiengang Populäre Musik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-37 a skos:Concept;
+  skos:notation "37";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Product Design (B.A.)"@en, "Studiengang Product Design (B.A.)"@de .
+
+organisational-unit:organisational-unit-38 a skos:Concept;
+  skos:notation "38";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Media Creation (M.A.)"@en, "Studiengang Professional Media Creation (M.A.)"@de .
+
+organisational-unit:organisational-unit-39 a skos:Concept;
+  skos:notation "39";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Profession Performance (M.Mus.)"@en, "Studiengang Professionelle Performance (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-40 a skos:Concept;
+  skos:notation "40";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Dance Composition | Movement Notation/Movement Analysis (M.A.)"@en,
+    "Studiengang Tanzkomposition | Bewegungsnotation/Bewegungsanalyse (M.A.)"@de .
+
+organisational-unit:organisational-unit-41 a skos:Concept;
+  skos:notation "41";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Dance Composition | Choreography (M.A.)"@en, "Studiengang Tanzkomposition | Choreographie (M.A.)"@de .
+
+organisational-unit:organisational-unit-42 a skos:Concept;
+  skos:notation "42";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Dance Composition | Interpreatation (M.A.)"@en, "Studiengang Tanzkomposition | Interpretation (M.A.)"@de .
+
+organisational-unit:organisational-unit-43 a skos:Concept;
+  skos:notation "43";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Study Programme Dance Padagogy for Artistic Dance (M.A.)"@en, "Studiengang Tanzpädagogik für künstlerischen Tanz (M.A.)"@de .
+
+organisational-unit:organisational-unit-44 a skos:Concept;
+  skos:notation "44";
+  skos:prefLabel "Hochschule für Musik Detmold"@en, "Hochschule für Musik Detmold"@de .
+
+organisational-unit:organisational-unit-45 a skos:Concept;
+  skos:notation "45";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Detmold Young Students' Institute"@en, "Detmolder Jungstudierenden-Institut"@de .
+
+organisational-unit:organisational-unit-46 a skos:Concept;
+  skos:notation "46";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Doctoral Programme Audiovisual Arts Computing (Dr. phil, Dr. Ing)"@en,
+    "Promotionsstudiengang Audiovisual Arts Computing (Dr.phil, Dr.- Ing)"@de .
+
+organisational-unit:organisational-unit-47 a skos:Concept;
+  skos:notation "47";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Doctoral Programme Music Acoustics (Dr.)"@en, "Promotionsstudiengang Musikalische Akustik (Dr.)"@de .
+
+organisational-unit:organisational-unit-48 a skos:Concept;
+  skos:notation "48";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Doctoral Programme Musicology (Dr. Phil.)"@en, "Promotionsstudiengang Musikwissenschaft (Dr.phil)"@de .
+
+organisational-unit:organisational-unit-49 a skos:Concept;
+  skos:notation "49";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Bachelor of Music | Protestant Church Music (B. Mus.)"@en,
+    "Studiengang Bachelor of Music | Evangelsiche Kirchenmusik (B. Mus.)"@de .
+
+organisational-unit:organisational-unit-50 a skos:Concept;
+  skos:notation "50";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Bachelor of Music | Freelance Musician (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Freischaffender Musiker (B. Mus.)"@de .
+
+organisational-unit:organisational-unit-51 a skos:Concept;
+  skos:notation "51";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Bachelor of Music | Catholic Church Music (B. Mus.)"@en,
+    "Studiengang Bachelor of Music | Katholische Kirchenmusik (B. Mus.)"@de .
+
+organisational-unit:organisational-unit-52 a skos:Concept;
+  skos:notation "52";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Bachelor of Music | Orchesteral Musician (B. Mus.)"@en,
+    "Studiengang Bachelor of Music | Orchestermusiker (B. Mus.)"@de .
+
+organisational-unit:organisational-unit-53 a skos:Concept;
+  skos:notation "53";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Accordion | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Akkordion | Kammermusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-54 a skos:Concept;
+  skos:notation "54";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Accordion | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Akkordion | Musik und Wissenschaft (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-55 a skos:Concept;
+  skos:notation "55";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Accordion | Solist (M.Mus.)"@en,
+    "Studiengang Master of Music | Akkordion | Solist (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-56 a skos:Concept;
+  skos:notation "56";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Recorder | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Blockflöte | Kammermusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-57 a skos:Concept;
+  skos:notation "57";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Recorder | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Blockflöte | Musik und Wissenschaft (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-58 a skos:Concept;
+  skos:notation "58";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Recorder | Solist (M.Mus.)"@en,
+    "Studiengang Master of Music | Blockflöte | Solist (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-59 a skos:Concept;
+  skos:notation "59";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Protestant Church Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Evangelische Kirchenmusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-60 a skos:Concept;
+  skos:notation "60";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Bassoon | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Fagott| Kammermusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-61 a skos:Concept;
+  skos:notation "61";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Bassoon | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Fagott | Musik und Wissenschaft (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-62 a skos:Concept;
+  skos:notation "62";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Bassoon | Orchestral Playing (M.Mus.)"@en,
+    "Studiengang Master of Music | Fagott | Orchesterspiel (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-63 a skos:Concept;
+  skos:notation "63";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Bassoon | Solist (M.Mus.)"@en, "Studiengang Master of Music | Fagott | Solist (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-64 a skos:Concept;
+  skos:notation "64";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Flute | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Flöte | Kammermusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-65 a skos:Concept;
+  skos:notation "65";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Flute | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Flöte | Musik und Wissenschaft (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-66 a skos:Concept;
+  skos:notation "66";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Flute | Orchestral Playing (M.Mus.)"@en,
+    "Studiengang Master of Music | Flöte | Orchesterspiel (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-67 a skos:Concept;
+  skos:notation "67";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Flute | Solist (M.Mus.)"@en, "Studiengang Master of Music | Flöte | Solist (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-68 a skos:Concept;
+  skos:notation "68";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Guitar | Solist (M.Mus.)"@en, "Studiengang Master of Music | Gitarre | Solist (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-69 a skos:Concept;
+  skos:notation "69";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Guitar | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Gitarre | Kammermusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-70 skos:notation "70";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Guitar | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Gitarre | Musik und Wissenschaft (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-71 skos:notation "71";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Harp | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Harfe | Kammermusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-72 skos:notation "72";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Harp | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Harfe | Musik und Wissenschaft (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-73 skos:notation "73";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Harp | Orchestral Playing (M.Mus.)"@en,
+    "Studiengang Master of Music | Harfe | Orchesterspiel (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-74 skos:notation "74";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Harp | Solist (M.Mus.)"@en, "Studiengang Master of Music | Harfe | Solist (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-75 skos:notation "75";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Catholic Church Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Katholische Kirchenmusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-76 skos:notation "76";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Organ | Solist (M.Mus.)"@en, "Studiengang Master of Music | Orgel | Solist (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-77 skos:notation "77";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Organ | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Orgel | Kammermusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-78 skos:notation "78";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Organ | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Orgel| Musik und Wissenschaft (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-79 skos:notation "79";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Saxophone | Solist (M.Mus.)"@en,
+    "Studiengang Master of Music | Saxophon | Solist (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-80 skos:notation "80";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Saxophone | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Saxophon | Kammermusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-81 skos:notation "81";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Saxophone | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Saxophon | Musik und Wissenschaft (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-82 skos:notation "82";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Centre for Music and Film Informatics"@en, "Zentrum für Musik- und Filminformatik"@de .
+
+organisational-unit:organisational-unit-83 skos:notation "83";
+  skos:prefLabel "Hochschule für Musik und Tanz Köln"@en, "Hochschule für Musik und Tanz Köln"@de .
+
+organisational-unit:organisational-unit-84 skos:notation "84";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Institute for Early Music"@en, "Institut für Alte Musik"@de .
+
+organisational-unit:organisational-unit-85 skos:notation "85";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Institute for Historic Musicology"@en, "Institut für Historische Musikwissenschaft"@de .
+
+organisational-unit:organisational-unit-86 skos:notation "86";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Institute for New Music"@en, "Institut für Neue Musik"@de .
+
+organisational-unit:organisational-unit-87 skos:notation "87";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Cologne Institute for Music Pedagogy Research"@en, "Kölner Institut für Musikpädagogische Forschung"@de .
+
+organisational-unit:organisational-unit-88 skos:notation "88";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Children's Choir of the University"@en, "Kinderchor der Hochschule"@de .
+
+organisational-unit:organisational-unit-89 skos:notation "89";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Song Academy at the HfMT Köln"@en, "Liedakademie an der HfMT Köln"@de .
+
+organisational-unit:organisational-unit-90 skos:notation "90";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Peter Oswald Institute"@en, "Peter-Ostwald-Institut"@de .
+
+organisational-unit:organisational-unit-91 skos:notation "91";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Pre-College Cologne"@en, "Pre-College Cologne"@de .
+
+organisational-unit:organisational-unit-92 skos:notation "92";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Project EchoSpore"@en, "Projekt EchoSpore"@de .
+
+organisational-unit:organisational-unit-93 skos:notation "93";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Project Schauspiel HfMT (Acting HfMT)"@en, "Projekt Schauspiel HfMT"@de .
+
+organisational-unit:organisational-unit-94 skos:notation "94";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Seminar Project Jazz Against The Machine"@en, "Projektseminar Jazz Against The Machine"@de .
+
+organisational-unit:organisational-unit-95 skos:notation "95";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Rheinische Opernakademie (Rhenish Opera Acadaemy)"@en, "Rheinische Opernakademie"@de .
+
+organisational-unit:organisational-unit-96 skos:notation "96";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Arts | Dance (B.A.)"@en, "Studiengang Bachelor of Arts | Tanz (B.A.)"@de .
+
+organisational-unit:organisational-unit-97 skos:notation "97";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Brass Instruments (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Blechbläser (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-98 skos:notation "98";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Choral Conducting (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Chordirigieren (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-99 skos:notation "99";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Electronic Compostion (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Elektronische Komposition (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-100 skos:notation "100";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Elementary Music [Pedagogy] (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Elementare Musikpädagogik (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-101 skos:notation "101";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Church Music (Protestant) (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Evangelische Kirchenmusik (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-102 skos:notation "102";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Voice (B.Mus.)"@en, "Studiengang Bachelor of Music | Gesang (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-103 skos:notation "103";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Guitar (B.Mus.)"@en, "Studiengang Bachelor of Music | Gitarre (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-104 skos:notation "104";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Harp (B.Mus.)"@en, "Studiengang Bachelor of Music | Harfe (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-105 skos:notation "105";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Historic Instruments (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Historische Instrumente (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-106 skos:notation "106";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Woodwind Instruments (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Holzbläser (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-107 skos:notation "107";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Instrumental/Vocal Pedagogy (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Instrumental-/Gesangspädagogik (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-108 skos:notation "108";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Instrumental Composition (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Instrumentale Komposition (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-109 skos:notation "109";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Jazz/Pop (B.Mus.)"@en, "Studiengang Bachelor of Music | Jazz/Pop (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-110 skos:notation "110";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Church Music (Catholic) (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Katholische Kirchenmusik (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-111 skos:notation "111";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Piano (B.Mus.)"@en, "Studiengang Bachelor of Music | Klavier (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-112 skos:notation "112";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Mandolin (B.Mus.)"@en, "Studiengang Bachelor of Music | Mandoline (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-113 skos:notation "113";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Orchestral Conducting (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Orchesterdirigieren (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-114 skos:notation "114";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Organ (B.Mus.)"@en, "Studiengang Bachelor of Music | Orgel (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-115 skos:notation "115";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Percussion/Timpani (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Schlagzeug/Pauke (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-116 skos:notation "116";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Strings (B.Mus.)"@en, "Studiengang Bachelor of Music | Streicher (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-117 skos:notation "117";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Bachelor of Music | Composition/Music Theory"@en,
+    "Studiengang Bachelor of Music | Tonsatz/Musiktheorie (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-118 skos:notation "118";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Arts | Music Pedagogy (M.A.)"@en, "Studiengang Master of Arts | Musikpädagogik (M.A.)"@de .
+
+organisational-unit:organisational-unit-119 skos:notation "119";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Arts | Musicology (M.A.)"@en, "Studiengang Master of Arts | Musikwissenschaft (M.A.)"@de .
+
+organisational-unit:organisational-unit-120 skos:notation "120";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Arts | Medition in Dance (M.A.)"@en, "Studiengang Master of Arts | Tanzvermittlung (M.A.)"@de .
+
+organisational-unit:organisational-unit-121 skos:notation "121";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Arts | Dance Studies (M.A.)"@en, "Studiengang Master of Arts | Tanzwissenschaft (M.A.)"@de .
+
+organisational-unit:organisational-unit-122 skos:notation "122";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Wind Instruments (M.Mus.)"@en, "Studiengang Master of Music | Blasinstrumente (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-123 skos:notation "123";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Choral Conducting (M.Mus.)"@en,
+    "Studiengang Master of Music | Dirigieren Chor (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-124 skos:notation "124";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Conducting Musical Theatre (M.Mus.)"@en,
+    "Studiengang Master of Music | Dirigieren Musiktheater (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-125 skos:notation "125";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Conducting Orchestra (M.Mus.)"@en,
+    "Studiengang Master of Music| Dirigieren Orchester (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-126 skos:notation "126";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Conducting Contemporary Music (M.Mus.)"@en,
+    "Studiengang Master of Music| Dirigieren Zeitgenössische Musik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-127 skos:notation "127";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Electronic Composition (M.Mus.)"@en,
+    "Studiengang Master of Music | Elektronische Komposition (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-128 skos:notation "128";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Church Music (Protestant) (M.Mus.)"@en,
+    "Studiengang Master of Music | Evangelische Kirchenmusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-129 skos:notation "129";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Voice Song/Concert (M.Mus.)"@en,
+    "Studiengang Master of Music | Gesang Lied/Konzert (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-130 skos:notation "130";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Voice Music Theatre (M.Mus.)"@en,
+    "Studiengang Master of Music | Gesang Musiktheater (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-131 skos:notation "131";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Guitar (M.Mus.)"@en, "Studiengang Master of Music | Gitarre (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-132 skos:notation "132";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Harp (M.Mus.)"@en, "Studiengang Master of Music | Harfe (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-133 skos:notation "133";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Historische Instrumente und Barockgesang (M.Mus.)"@en,
+    "Studiengang Master of Music | Historische Instrumente und Barockgesang (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-134 skos:notation "134";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Instrumental Composition (M.Mus.)"@en,
+    "Studiengang Master of Music | Instrumentale Komposition (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-135 skos:notation "135";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Interpretation New Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Interpretation Neue Musik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-136 skos:notation "136";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Jazz Composition/Arrangement (M.Mus.)"@en,
+    "Studiengang Master of Music | Jazz-Komposition/Arrangement (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-137 skos:notation "137";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Jazz/Pop Instrumental/Vocal (M.Mus.)"@en,
+    "Studiengang Master of Music | Jazz/Pop Instrumental/Vokal (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-138 skos:notation "138";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Chamber Music (M.Mus.)"@en, "Studiengang Master of Music | Kammermusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-139 skos:notation "139";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Church Music (Catholic) (M.Mus.)"@en,
+    "Studiengang Master of Music | Katholische Kirchenmusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-140 skos:notation "140";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Piano (M.Mus.)"@en, "Studiengang Master of Music | Klavier (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-141 skos:notation "141";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Song Interpretation for Pianists (M.Mus.)"@en,
+    "Studiengang Master of Music | Liedgestaltung (Klavier) (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-142 skos:notation "142";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Mandolin (M.Mus.)"@en, "Studiengang Master of Music | Mandoline (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-143 skos:notation "143";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Modern Piano Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Neue Klaviermusik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-144 skos:notation "144";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Opera Correpetition (M.Mus.)"@en,
+    "Studiengang Master of Music | Opernkorrepetition (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-145 skos:notation "145";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Orchestral Playing (M.Mus.)"@en,
+    "Studiengang Master of Music | Orchesterspiel (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-146 skos:notation "146";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Organ (M.Mus.)"@en, "Studiengang Master of Music | Orgel (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-147 skos:notation "147";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Production (M.Mus.)"@en, "Studiengang Master of Music | Production (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-148 skos:notation "148";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Percussion/Timpani (M.Mus.)"@en,
+    "Studiengang Master of Music | Schlagzeug/Pauke (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-149 skos:notation "149";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | String Instruments (M.Mus.)"@en,
+    "Studiengang Master of Music | Streichinstrumente (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-150 skos:notation "150";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Study Programme Master of Music | Music Theory (M.Mus.)"@en, "Studiengang Master of Music | Tonsatz (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-151 skos:notation "151";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Studio for Electronic Music"@en, "Studio für Elektronische Musik"@de .
+
+organisational-unit:organisational-unit-152 skos:notation "152";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Library Tape Archive"@en, "Tonbandarchiv der Bibliothek"@de .
+
+organisational-unit:organisational-unit-153 skos:notation "153";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Voc.Cologne"@en, "Voc.Cologne"@de .
+
+organisational-unit:organisational-unit-154 skos:notation "154";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Centre for Music Teacher Education in the Job"@en, "Zentrum für MusiklehrerInnenbildung im Beruf"@de .
+
+organisational-unit:organisational-unit-155 skos:notation "155";
+  skos:broader organisational-unit:organisational-unit-83;
+  skos:prefLabel "Centre of Contemporary Dance"@en, "Zentrum für Zeitgenössischen Tanz"@de .
+
+organisational-unit:organisational-unit-156 skos:notation "156";
+  skos:prefLabel "Academy of Media Arts Cologne"@en, "Kunsthochschule für Medien Köln"@de .
+
+organisational-unit:organisational-unit-157 skos:notation "157";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "Archive for Media Arts, Academy of Media Arts Cologne (Project Archive)"@en,
+    "Archiv für mediale Künste (Projektarchiv)"@de;
+  skos:definition """Das Archiv für mediale Künste sammelt und archiviert die seit 1990 an der KHM entstandenen interdisziplinären künstlerischen Projekte sowie, in Form von audio-visuellen Aufzeichnungen, die medientheoretischen gesellschaftlichen Positionen und Diskurse, die durch die Lehrenden, Studierenden und deren Gäste an der KHM geführt wurden und werden.
+Hierzu zählen über 4970 künstlerische Arbeiten von Studierenden, die im Projektarchiv verzeichnet sind, als Dokumentationen oder vollständige Werke vorliegen, sowie über 180, bereits erschlossene, im Kontext der KHM stattgefundenen Ausstellungen, Veranstaltungsreihen, Rundgänge, Konzerte, Symposien, künstlerisch und wissenschaftliche Forschungsarbeiten, die im Archiv in Form von Audio- und Video Aufzeichnungen, Filmen, Fotografien, Filmstils, Publikationen, E-Publikationen, Websites, Plakaten, Multiples und Flyern archiviert werden.Über die Website ist eine Auswahl der künstlerischen Projekte und bisherigen Veranstaltungen zugänglich."""@de,
+    "The Archive for Media Arts collects and archives the interdisciplinary artistic projects created at the KHM since 1990 as well as, in the form of audio-visual recordings, the media-theoretical social positions and discourses that were and are conducted by teachers, students and their guests at the KHM. These include over 4970 artistic works by students, which are listed in the project archive, available as documentations or complete works, as well as over 180 exhibitions, series of events, tours, concerts, symposia, artistic and scientific research works that have already been catalogued in the context of the KHM, which are archived in the archive in the form of audio and video recordings, films, photographs, film styles, publications, e-publications, websites, posters, multiples and flyers, and a selection of the artistic projects and previous events is accessible via the website."@en .
+
+organisational-unit:organisational-unit-158 skos:notation "158";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "Archive for Media Arts, Academy of Media Arts Cologne (Event Archive)"@en,
+    "Archiv für mediale Künste (Veranstaltungsarchiv)"@de;
+  skos:definition """Das Archiv für mediale Künste sammelt und archiviert die seit 1990 an der KHM entstandenen interdisziplinären künstlerischen Projekte sowie, in Form von audio-visuellen Aufzeichnungen, die medientheoretischen gesellschaftlichen Positionen und Diskurse, die durch die Lehrenden, Studierenden und deren Gäste an der KHM geführt wurden und werden.
+Hierzu zählen über 4970 künstlerische Arbeiten von Studierenden, die im Projektarchiv verzeichnet sind, als Dokumentationen oder vollständige Werke vorliegen, sowie über 180, bereits erschlossene, im Kontext der KHM stattgefundenen Ausstellungen, Veranstaltungsreihen, Rundgänge, Konzerte, Symposien, künstlerisch und wissenschaftliche Forschungsarbeiten, die im Archiv in Form von Audio- und Video Aufzeichnungen, Filmen, Fotografien, Filmstils, Publikationen, E-Publikationen, Websites, Plakaten, Multiples und Flyern archiviert werden.Über die Website ist eine Auswahl der künstlerischen Projekte und bisherigen Veranstaltungen zugänglich."""@de,
+    "The Archive for Media Arts collects and archives the interdisciplinary artistic projects created at the KHM since 1990 as well as, in the form of audio-visual recordings, the media-theoretical social positions and discourses that were and are conducted by teachers, students and their guests at the KHM. These include over 4970 artistic works by students, which are listed in the project archive, available as documentations or complete works, as well as over 180 exhibitions, series of events, tours, concerts, symposia, artistic and scientific research works that have already been catalogued in the context of the KHM, which are archived in the archive in the form of audio and video recordings, films, photographs, film styles, publications, e-publications, websites, posters, multiples and flyers, and a selection of the artistic projects and previous events is accessible via the website."@en .
+
+organisational-unit:organisational-unit-159 skos:notation "159";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "Media and Fine Art Diploma 1 | Undergraduate Course"@en, "Studiengang Mediale Künste | 9-semestriges Diplomstudium (grundständig, Diplom 1)"@de;
+  skos:definition "Das Diplomstudium Mediale Künste wird als 9-semestriges Studium (grundständig, Diplom 1) oder als 4-semestriges Studium (postgradual, Diplom 2) angeboten. Das Diplom Mediale Künste (Diplom 1 oder Diplom 2) der Kunsthochschule für Medien Köln ist im internationalen Kontext mit einem MFA (Master of Fine Arts) vergleichbar. (2024)"@de,
+    "The Diploma in Medial Arts is offered as a 9-semester program (undergraduate, Diploma 1) or as a 4-semester program (postgraduate, Diploma 2). The Diploma in Media Arts (Diplom 1 or Diplom 2) of the Academy of Media Arts Cologne is comparable to an MFA (Master of Fine Arts) in an international context. (2024)"@en .
+
+organisational-unit:organisational-unit-160 skos:notation "160";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "Media and Fine Art Diploma 2 | Postgraduate Course"@en, "Studiengang Mediale Künste | 4-semestriges Diplomstudium (postgradual, Diplom 2)"@de;
+  skos:definition "Das Diplomstudium Mediale Künste wird als 9-semestriges Studium (grundständig, Diplom 1) oder als 4-semestriges Studium (postgradual, Diplom 2) angeboten. Das Diplom Mediale Künste (Diplom 1 oder Diplom 2) der Kunsthochschule für Medien Köln ist im internationalen Kontext mit einem MFA (Master of Fine Arts) vergleichbar. (2024)"@de,
+    "The Diploma in Medial Arts is offered as a 9-semester program (undergraduate, Diploma 1) or as a 4-semester program (postgraduate, Diploma 2). The Diploma in Media Arts (Diplom 1 or Diplom 2) of the Academy of Media Arts Cologne is comparable to an MFA (Master of Fine Arts) in an international context. (2024)"@en .
+
+organisational-unit:organisational-unit-161 skos:notation "161";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "Doctoral Programme"@en, "Promotionsprogramm"@de;
+  skos:definition "Das Promotionsprogramm der KHM bietet die Möglichkeit zur philosophischen Dissertation. Die Verbindung von künstlerischen Fragestellungen und wissenschaftlichen Methoden soll im Promotionsprogramm der KHM zu relevanten neuen Ergebnissen führen. Abgeschlossen wird – in Übereinstimmung mit der Gesetzgebung für die Kunsthochschulen des Landes NRW – mit einem universitätsgleichen, also wissenschaftlichen Dr. phil. im Fachgebiet Kunst- und Medienwissenschaften. (2024)"@de,
+    "The doctoral programme of the KHM offers the possibility of a philosophical dissertation. The combination of artistic questions and scientific methods should lead to relevant new results in the doctoral program of the KHM. The degree - in accordance with the legislation for art colleges in the state of North Rhine-Westphalia - is a university-equivalent, i.e. scientific, Dr. phil. in the subject area of art and media studies. (2024)"@en .
+
+organisational-unit:organisational-unit-162 skos:notation "162";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "exMedia Department"@en, "Fächergruppe exMedia"@de .
+
+organisational-unit:organisational-unit-163 skos:notation "163";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "Film and Television Department"@en, "Fächergruppe Film und Fernsehen"@de .
+
+organisational-unit:organisational-unit-164 skos:notation "164";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "Art Department"@en, "Fächergruppe Kunst"@de .
+
+organisational-unit:organisational-unit-165 skos:notation "165";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "Art and Media Studies Department"@en, "Fächergruppe Kunst & Medienwissenschaften"@de .
+
+organisational-unit:organisational-unit-166 skos:notation "166";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "Media Design Department"@en, "Fächergruppe Mediengestaltung"@de .
+
+organisational-unit:organisational-unit-167 skos:notation "167";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "Glasmoog – Space for Art & Discourse"@en, "Glasmoog – Raum für Kunst & Diskurs"@de;
+  skos:definition """GLASMOOG ist ein Raum für zeitgenössische Kunst und ihre Bezugsfelder, der 2009 an der Kunsthochschule für Medien Köln (KHM) gegründet wurde. Das Programm verbindet regionale und internationale, bekannte und weniger bekannte künstlerische Positionen und flankiert, mit Blick auf die medialen Künste, die an der KHM verfolgten Fragestellungen und Diskurse.
+
+Mit seiner knapp 80 qm messenden Ausstellungsfläche bietet GLASMOOG eine durch zwei große Schaufenster geprägte klare räumliche Situation. In der Benennung des Raums nach der vormals hier angesiedelten Glaserei der Familie Moog („Glas Moog“) spiegelt sich der ehemals von Handwerk und Handel geprägte Charakter des Viertels, in das die Kunsthochschule sich mit ihren Ateliers, Laboren, Werkstätten und Studios seit ihrer Gründung 1989 rhizomatisch eingeschrieben hat. Darüber hinaus beinhaltet der Name eine transatlantische Reverenz an Bob Moog, einen der großen Pioniere und Bastler der elektronischen Musik und Erfinder des Moog-Synthesizers. Musik, Klang und Sound spielen an der KHM traditionell eine zentrale Rolle.
+
+GLASMOOG fungiert als Membran zwischen Kunsthochschule, Nachbarschaft, der Stadt und der Region mit regionaler bis internationaler Ausrichtung. Es geht darum, Verknüpfungen herzustellen: Zum einen werden Künstler*Innen eingeladen, die Impulse von außen ermöglichen, zum anderen wird die Kunsthochschule als Ort sichtbar, an dem künstlerische Ausrichtungen initiiert werden, an dem Entwicklung stattfindet. Im Zentrum der Aktivitäten stehen thematische Ausstellungen und Veranstaltungsreihen, ergänzt durch Künstlergespräche, Performances und Konzerte. Das Programm ist jedoch grundsätzlich für ganz unterschiedliche Formate und experimentelle Ausrichtungen offen – ein Raum, in dem die verschiedensten künstlerischen Praktiken und Prozesse, aber auch alternative Präsentationsformen möglich sind. GLASMOOG ist ein Ort, der sehr flexibel operieren kann und wie eine Art Forschungsstation Mechanismen, Strategien, Haltungen sichtbar, im Sinne von räumlich erlebbar machen kann. Dabei ist der Blick insbesondere auf diejenigen Positionen und Haltungen gerichtet, die sich nicht sofort aufdrängen. Ziel ist ein diskursiver Ort, der – angesiedelt in der Kunsthochschule – ausstrahlt auf Köln und die Region.
+
+GLASMOOG ist Mitglied bei AIC - Art Initiatives Cologne, einem 2016 gegründeten Netzwerk freier, nicht kommerzieller Kunst- und Projekträume, Kunstinitiativen und Festivals in Köln.
+(2024)"""@de,
+    "Since 2009 Glasmoog is an exhibition space for contemporary art at the Kunsthochschule für Medien Köln (KHM)/Academy of Media Arts Cologne transferring and extending the schools discourses into a public gallery. With about 80 square meters Glasmoog, a former showroom run by the Moog family selling window and mirror glass, provides a simple dense space, primarily characterized by large windows opening to the main street. To name the gallery after its familiar name “Glas Moog” reflects the conversion from a neighborhood shaped by traditional merchants and crafters to a micro-structured art school, that since its fairly new foundation about 25 years ago grew its campus organically into available workshops and spaces. Glasmoog’s exhibition program directed by Heike Ander operates independently inside the school as a station for research in artistic practices, mechanisms and strategies. Glasmoog works locally as an interface between academy, neighborhood, city and the Rhine region. Glasmoog also cooperates with regional and international initiatives, projects, academies and public institutions. Complemented by public events, artist talks, performances and independent presentations various exhibitions by national and international artists and artist groups among them students, graduates and alumni of KHM, have been so far realized. In irregular intervals the series \"Calling Out of Context\" introduces outstanding artistic platforms and organizations. Catalogs, artist books and other printed matter document the exhibitions and are published under Glasmoog Books. (2024)"@en .
+
+organisational-unit:organisational-unit-168 skos:notation "168";
+  skos:broader organisational-unit:organisational-unit-156;
+  skos:prefLabel "Case – Projektraum der Fotografie"@en, "Case – Projektraum der Fotografie"@de;
+  skos:definition "Das Case ist ein von Beate Gütschow und Max Dauven betriebener Projektraum an der Kunsthochschule für Medien in Köln. Hier finden Einzelausstellungen von Studierenden, Vorträge und Seminare statt. Die gegenwärtigen Entwicklungen in der Fotografie stehen im Mittelpunkt der Veranstaltungen: Photogrammetrie, Wassertransferdruck, computergesteuerte Laserschnitttechnik zur Bearbeitung des Bildträgers, CGI und Augmented Reality haben die Fotografie maßgeblich in den realen und virtuellen Raum entgrenzt. Algorithmen sind selbstverständlicher – oft unsichtbarer – Teil des alltäglichen Fotografierens. Rechner sortieren für uns die Flut der fotografischen Artefakte im Netz. Durch automatisierte Verschlagwortung entsteht ein kollektives Bildgedächtnis, das strukturell unübersichtlich ist. Diese (technischen) Neuerungen sind nur auf der Basis von elementaren Ausprägungen der Fotografie zu verstehen. Bei einer Aufnahme mit einer Plattenkamera ist das Indexikalische einer Aufnahme unmittelbar spürbar; die Photogrammetrie ist keineswegs ein digitales Phänomen, vielmehr beruht sie auf mathematischen Formeln des ausgehenden 19. JHD, mit deren Hilfe auf Ballonfahrten aufgenommen Fotografien zusammengerechnet wurden, um ganze Landstriche zu vermessen. Das Photogramm – die kameralose Aufzeichnung eines Gegenstandes auf Fotopapier – lässt den klassischen Bildträger in Vordergrund treten, als Antagonist zum Screen, der den gesamten gegenwärtigen fotografischen Alltag abbildet. Neben der stetig voranschreitenden Entwicklung des Mediums bietet auch das Konvergieren unterschiedlicher Medienkategorien wie Fotografie, Malerei, Video, Skulptur und Zeichnung die Grundlage, neue Denkansätze zu erforschen. So ist der Projektraum auch ein Ort des Experimentierens, die fotografischen Ansätze können auch über die Grenzen der Fotografie hinausgehen. Neben der medialen Selbstreflexion transportiert das Medium Fotografie Aspekte des Realen: So waren in der Vergangenheit künstlerische Arbeiten und Vorträge zu den Themen wie Kohleverstromung und Klimakrise; Kulturtransfers, Grenzziehung und Migration; genderspezifische Gewalt und Rechtsradikalismus zu sehen. (2024)"@de,
+    "Das Case ist ein von Beate Gütschow und Max Dauven betriebener Projektraum an der Kunsthochschule für Medien in Köln. Hier finden Einzelausstellungen von Studierenden, Vorträge und Seminare statt. Die gegenwärtigen Entwicklungen in der Fotografie stehen im Mittelpunkt der Veranstaltungen: Photogrammetrie, Wassertransferdruck, computergesteuerte Laserschnitttechnik zur Bearbeitung des Bildträgers, CGI und Augmented Reality haben die Fotografie maßgeblich in den realen und virtuellen Raum entgrenzt. Algorithmen sind selbstverständlicher – oft unsichtbarer – Teil des alltäglichen Fotografierens. Rechner sortieren für uns die Flut der fotografischen Artefakte im Netz. Durch automatisierte Verschlagwortung entsteht ein kollektives Bildgedächtnis, das strukturell unübersichtlich ist. Diese (technischen) Neuerungen sind nur auf der Basis von elementaren Ausprägungen der Fotografie zu verstehen. Bei einer Aufnahme mit einer Plattenkamera ist das Indexikalische einer Aufnahme unmittelbar spürbar; die Photogrammetrie ist keineswegs ein digitales Phänomen, vielmehr beruht sie auf mathematischen Formeln des ausgehenden 19. JHD, mit deren Hilfe auf Ballonfahrten aufgenommen Fotografien zusammengerechnet wurden, um ganze Landstriche zu vermessen. Das Photogramm – die kameralose Aufzeichnung eines Gegenstandes auf Fotopapier – lässt den klassischen Bildträger in Vordergrund treten, als Antagonist zum Screen, der den gesamten gegenwärtigen fotografischen Alltag abbildet. Neben der stetig voranschreitenden Entwicklung des Mediums bietet auch das Konvergieren unterschiedlicher Medienkategorien wie Fotografie, Malerei, Video, Skulptur und Zeichnung die Grundlage, neue Denkansätze zu erforschen. So ist der Projektraum auch ein Ort des Experimentierens, die fotografischen Ansätze können auch über die Grenzen der Fotografie hinausgehen. Neben der medialen Selbstreflexion transportiert das Medium Fotografie Aspekte des Realen: So waren in der Vergangenheit künstlerische Arbeiten und Vorträge zu den Themen wie Kohleverstromung und Klimakrise; Kulturtransfers, Grenzziehung und Migration; genderspezifische Gewalt und Rechtsradikalismus zu sehen. (2024)"@en .
+
+organisational-unit:organisational-unit-169 skos:notation "169";
+  skos:prefLabel "Robert Schumann Hochschule Düsseldorf"@en, "Robert Schumann Hochschule Düsseldorf"@de .
+
+organisational-unit:organisational-unit-170 skos:notation "170";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Callhoff Archive"@en, "Callhoff-Archiv"@de .
+
+organisational-unit:organisational-unit-171 skos:notation "171";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "DFG-Project \"Classical musicians’ presentation and reception on YouTube: performance and life practices in the digital age\""@en,
+    "DFG-Projekt „Darstellung und Rezeption klassischer Musiker*innen bei YouTube: Aufführungs- und Lebenspraxen im digitalen Zeitalter“"@de .
+
+organisational-unit:organisational-unit-172 skos:notation "172";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Excellence Programme Composition"@en, "Exzellenzstudiengang Komposition"@de .
+
+organisational-unit:organisational-unit-173 skos:notation "173";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Excellence Programme Music Performance"@en, "Exzellenzstudiengang Konzertexamen"@de .
+
+organisational-unit:organisational-unit-174 skos:notation "174";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Reasearch Centre \"Düsseldorf's Civic Music Life\""@en, "Forschungsstelle „Düsseldorfs Bürgerliches Musikleben“"@de .
+
+organisational-unit:organisational-unit-175 skos:notation "175";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Research Centre Sepulchral Music"@en, "Forschungsstelle Sepulkralmusik"@de .
+
+organisational-unit:organisational-unit-176 skos:notation "176";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Research Centre Studio for the Digitisation of Historical Sound Recording Media"@en,
+    "Forschungsstelle Studio zur Digitalisierung historischer Tonträger"@de .
+
+organisational-unit:organisational-unit-177 skos:notation "177";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Institute for Church Music"@en, "Institut für Kirchenmusik"@de .
+
+organisational-unit:organisational-unit-178 skos:notation "178";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Institute for Composition and Music Theory"@en, "Institut für Komposition und Musiktheorie"@de .
+
+organisational-unit:organisational-unit-179 skos:notation "179";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Institute for Music and Media"@en, "Institut für Musik und Medien"@de .
+
+organisational-unit:organisational-unit-180 skos:notation "180";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Schumann Junior Institute"@en, "Institut Schumann Junior"@de .
+
+organisational-unit:organisational-unit-181 skos:notation "181";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Institute of Musicology"@en, "Musikwissenschaftliches Institut"@de .
+
+organisational-unit:organisational-unit-182 skos:notation "182";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Doctoral Programme Musicology (Dr. Phil.)"@en, "Promotionsstudiengang Musikwissenschaft (Dr.phil.)"@de .
+
+organisational-unit:organisational-unit-183 skos:notation "183";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Klang und Realität (M.Mus.)"@en, "Studiengang Klang und Realität (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-184 skos:notation "184";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Artistic Music Production (M.Mus.)"@en, "Studiengang Künstlerische Musikproduktion (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-185 skos:notation "185";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Performance | Voice major (B.Mus.)"@en, "Studiengang Musik | Gesang (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-186 skos:notation "186";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Performance | Voice major (M.Mus.)"@en, "Studiengang Musik | Gesang (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-187 skos:notation "187";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Performance | Guitar major (B.Mus.)"@en, "Studiengang Musik | Gitarre (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-188 skos:notation "188";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Performance | Guitar major (M.Mus.)"@en, "Studiengang Musik | Gitarre (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-189 skos:notation "189";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Performance | Piano major (B.Mus.)"@en, "Studiengang Musik | Klavier (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-190 skos:notation "190";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Performance | Piano major (M.Mus.)"@en, "Studiengang Musik | Klavier (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-191 skos:notation "191";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Performance | Composition (B.Mus.)"@en, "Studiengang Musik | Komposition (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-192 skos:notation "192";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Performance | Composition (M.Mus.)"@en, "Studiengang Musik | Komposition (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-193 skos:notation "193";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Orchestral Instruments (B.Mus.)"@en, "Studiengang Musik | Orchesterinstrumente (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-194 skos:notation "194";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Orchestral Instruments (M.Mus.)"@en, "Studiengang Musik | Orchesterinstrumente (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-195 skos:notation "195";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Performance | Organ major (B.Mus.)"@en, "Studiengang Musik | Orgel (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-196 skos:notation "196";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Performance | Organ major (M.Mus.)"@en, "Studiengang Musik | Orgel (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-197 skos:notation "197";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music and Media (B.Mus.)"@en, "Studiengang Musik und Medien (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-198 skos:notation "198";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Promotion | Conducting (Choral Conducting) (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Chorleitung (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-199 skos:notation "199";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Promotion | Conducting (Choral Conducting) (M.Mus.)"@en,
+    "Studiengang Musikvermittlung | Chorleitung (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-200 skos:notation "200";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Promotion | Church Music (protestant) (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Kirchenmusik (evangelisch) (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-201 skos:notation "201";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Promotion | Church Music (protestant) (M.Mus.)"@en,
+    "Studiengang Musikvermittlung | Kirchenmusik (evangelisch) (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-202 skos:notation "202";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Promotion | Church Music (catholic) (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Kirchenmusik (katholisch) (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-203 skos:notation "203";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Promotion | Church Music (catholic) (M.Mus.)"@en,
+    "Studiengang Musikvermittlung | Kirchenmusik (katholisch) (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-204 skos:notation "204";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Promotion | Music Pedagogy (B.Mus.)"@en, "Studiengang Musikvermittlung | Musikpädagogik (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-205 skos:notation "205";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Promotion | Music Pedagogy (M.Mus.)"@en, "Studiengang Musikvermittlung | Musikpädagogik (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-206 skos:notation "206";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Promotion | Musiktherorie und Hörerziehung (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Musiktherorie und Hörerziehung (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-207 skos:notation "207";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Promotion | Conducting (Orchestral Conducting) (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Orchesterleitung (B.Mus.)"@de .
+
+organisational-unit:organisational-unit-208 skos:notation "208";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Music Promotion | Music Theory/Aural Skills Training (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Orchesterleitung (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-209 skos:notation "209";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Musicology (B.A./Dual-subject Bachelor)"@en, "Studiengang Musikwissenschaft (B.A./ Zwei-Fach-Bachelor)"@de .
+
+organisational-unit:organisational-unit-210 skos:notation "210";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Musicology (M.A.)"@en, "Studiengang Musikwissenschaft (M.A.)"@de .
+
+organisational-unit:organisational-unit-211 skos:notation "211";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Orchestral Playing (M.Mus.)"@en, "Studiengang Orchesterspiel (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-212 skos:notation "212";
+  skos:broader organisational-unit:organisational-unit-169;
+  skos:prefLabel "Study Programme Audio and Video (B.Eng.)"@en, "Studiengang Ton und Bild (B.Eng)"@de .
+
+organisational-unit:organisational-unit-213 skos:notation "213";
+  skos:prefLabel "Cooperations"@en, "Kooperationen"@de .
+
+organisational-unit:organisational-unit-214 skos:notation "214";
+  skos:broader organisational-unit:organisational-unit-213;
+  skos:prefLabel "Music Studies for the Armed Forces"@en, "Ausbildungsmusikkorps der Bundeswehr"@de .
+
+organisational-unit:organisational-unit-215 skos:notation "215";
+  skos:broader organisational-unit:organisational-unit-213;
+  skos:prefLabel "College for Music and Art Montepulciano"@en, "Kolleg für Musik und Kunst Montepulciano"@de;
+  skos:definition "Kooperation der sieben Kunst- und Musikhochschulen NRW."@de, "Cooparation of the seven Art and Music Universities in NRW."@en .
+
+organisational-unit:organisational-unit-216 skos:notation "216";
+  skos:broader organisational-unit:organisational-unit-213;
+  skos:prefLabel "NRW Orchestra Centre"@en, "Orchesterzentrum|NRW"@de .
+
+organisational-unit:organisational-unit-217 skos:notation "217";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Erich Thienhaus Institute"@en, "Erich-Thienhaus-Institut"@de;
+  skos:definition "Wiege der Tonmeisterausbildung, gegründet 1949 von Erich Thienhaus an der Nordwestdeutschen Musikakademie (heute Hochschule für Musik Detmold). [Quelle: www.eti.hfm-detmold.de, zul. aufgerufen: 03.04.2024]"@de,
+    "Cradle of the Tonmeister education, founded by Erich Thienhaus in 1949 at Nordwestdeutsche Musikakademie (today Hochschule für Musik Detmold)."@en .
+
+organisational-unit:organisational-unit-218 skos:notation "218";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Department 1 (Orchestral Instruments and Orchestral Conducting)"@en,
+    "Fachbereich 1 (Orchesterinstrumente und Orchesterleitung)"@de .
+
+organisational-unit:organisational-unit-219 skos:notation "219";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Department 2 (Keyboard Instruments and Vocals)"@en, "Fachbereich 2 (Tasteninstrumente und Gesang)"@de .
+
+organisational-unit:organisational-unit-220 skos:notation "220";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Department 3 (Composition, Music Theory, School Music, Instrumental and Vocal Pedagogy, Elementary Music Pedagogy, Choral Conducting, Church Music, Music Broadcasting)"@en,
+    "Fachbereich 3 (Komposition, Musiktheorie, Schulmusik, Instrumental- und Gesangspädagogik, Elementare Musikpädagogik, Chorleitung, Kirchenmusik, Musikübertragung)"@de .
+
+organisational-unit:organisational-unit-221 skos:notation "221";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Study Programme Master of Music | Oboe | Solist (M.Mus.)"@en, "Studiengang Master of Music | Oboe | Solist (M.Mus.)"@de .
+
+organisational-unit:organisational-unit-222 skos:notation "222";
+  skos:broader organisational-unit:organisational-unit-44;
+  skos:prefLabel "Studiengang Master of Music | Music Education/Music Management"@en,
+    "Studiengang Master of Music | Musikvermittlung/Musikmanagement"@de .
+
+organisational-unit:organisational-unit-223 skos:notation "223";
+  skos:broader organisational-unit:organisational-unit-213;
+  skos:prefLabel "Hochschule Düsseldorf - University of Applied Sciences"@en, "Hochschule Düsseldorf - University of Applied Sciences"@de .
+
+organisational-unit:organisational-unit-224 skos:notation "224";
+  skos:broader organisational-unit:organisational-unit-213;
+  skos:prefLabel "Kunstakademie Düsseldorf"@en, "Kunstakademie Düsseldorf"@de .
+
+organisational-unit:organisational-unit-225 skos:notation "225";
+  skos:broader organisational-unit:organisational-unit-213;
+  skos:prefLabel "Royal Academy of Art, The Hague (KABK)"@en, "Royal Academy of Art, The Hague (KABK)"@de .
+
+organisational-unit:organisational-unit-226 skos:notation "226";
+  skos:broader organisational-unit:organisational-unit-1;
+  skos:prefLabel "Folkwang Tanzstudio"@en, "Folkwang Tanzstudio"@de .
+
+organisational-unit:organisational-unit-227 skos:notation "227";
+  skos:broader organisational-unit:organisational-unit-213;
+  skos:prefLabel "ArtEZ Hogeschool voor de Kunsten | Dance Artist (B.A.)"@en, "ArtEZ Hogeschool voor de Kunsten | Dance Artist (B.A.)"@de .
+
+organisational-unit:organisational-unit-228 skos:notation "228";
+  skos:broader organisational-unit:organisational-unit-213;
+  skos:prefLabel "tanzhaus nrw"@en, "tanzhaus nrw"@de .
+
+organisational-unit:organisational-unit-70 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-71 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-72 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-73 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-74 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-75 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-76 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-77 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-78 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-79 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-80 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-81 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-82 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-83 a skos:Concept;
+  skos:narrower organisational-unit:organisational-unit-84, organisational-unit:organisational-unit-85,
+    organisational-unit:organisational-unit-86, organisational-unit:organisational-unit-87,
+    organisational-unit:organisational-unit-88, organisational-unit:organisational-unit-89,
+    organisational-unit:organisational-unit-90, organisational-unit:organisational-unit-91,
+    organisational-unit:organisational-unit-92, organisational-unit:organisational-unit-93,
+    organisational-unit:organisational-unit-94, organisational-unit:organisational-unit-95,
+    organisational-unit:organisational-unit-96, organisational-unit:organisational-unit-97,
+    organisational-unit:organisational-unit-98, organisational-unit:organisational-unit-99,
+    organisational-unit:organisational-unit-100, organisational-unit:organisational-unit-101,
+    organisational-unit:organisational-unit-102, organisational-unit:organisational-unit-103,
+    organisational-unit:organisational-unit-104, organisational-unit:organisational-unit-105,
+    organisational-unit:organisational-unit-106, organisational-unit:organisational-unit-107,
+    organisational-unit:organisational-unit-108, organisational-unit:organisational-unit-109,
+    organisational-unit:organisational-unit-110, organisational-unit:organisational-unit-111,
+    organisational-unit:organisational-unit-112, organisational-unit:organisational-unit-113,
+    organisational-unit:organisational-unit-114, organisational-unit:organisational-unit-115,
+    organisational-unit:organisational-unit-116, organisational-unit:organisational-unit-117,
+    organisational-unit:organisational-unit-118, organisational-unit:organisational-unit-119,
+    organisational-unit:organisational-unit-120, organisational-unit:organisational-unit-121,
+    organisational-unit:organisational-unit-122, organisational-unit:organisational-unit-123,
+    organisational-unit:organisational-unit-124, organisational-unit:organisational-unit-125,
+    organisational-unit:organisational-unit-126, organisational-unit:organisational-unit-127,
+    organisational-unit:organisational-unit-128, organisational-unit:organisational-unit-129,
+    organisational-unit:organisational-unit-130, organisational-unit:organisational-unit-131,
+    organisational-unit:organisational-unit-132, organisational-unit:organisational-unit-133,
+    organisational-unit:organisational-unit-134, organisational-unit:organisational-unit-135,
+    organisational-unit:organisational-unit-136, organisational-unit:organisational-unit-137,
+    organisational-unit:organisational-unit-138, organisational-unit:organisational-unit-139,
+    organisational-unit:organisational-unit-140, organisational-unit:organisational-unit-141,
+    organisational-unit:organisational-unit-142, organisational-unit:organisational-unit-143,
+    organisational-unit:organisational-unit-144, organisational-unit:organisational-unit-145,
+    organisational-unit:organisational-unit-146, organisational-unit:organisational-unit-147,
+    organisational-unit:organisational-unit-148, organisational-unit:organisational-unit-149,
+    organisational-unit:organisational-unit-150, organisational-unit:organisational-unit-151,
+    organisational-unit:organisational-unit-152, organisational-unit:organisational-unit-153,
+    organisational-unit:organisational-unit-154, organisational-unit:organisational-unit-155;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+organisational-unit:organisational-unit-84 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-85 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-86 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-87 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-88 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-89 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-90 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-91 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-92 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-93 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-94 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-95 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-96 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-97 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-98 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-99 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-100 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-101 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-102 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-103 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-104 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-105 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-106 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-107 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-108 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-109 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-110 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-111 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-112 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-113 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-114 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-115 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-116 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-117 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-118 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-119 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-120 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-121 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-122 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-123 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-124 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-125 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-126 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-127 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-128 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-129 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-130 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-131 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-132 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-133 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-134 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-135 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-136 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-137 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-138 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-139 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-140 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-141 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-142 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-143 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-144 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-145 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-146 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-147 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-148 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-149 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-150 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-151 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-152 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-153 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-154 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-155 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-156 a skos:Concept;
+  skos:narrower organisational-unit:organisational-unit-157, organisational-unit:organisational-unit-158,
+    organisational-unit:organisational-unit-159, organisational-unit:organisational-unit-160,
+    organisational-unit:organisational-unit-161, organisational-unit:organisational-unit-162,
+    organisational-unit:organisational-unit-163, organisational-unit:organisational-unit-164,
+    organisational-unit:organisational-unit-165, organisational-unit:organisational-unit-166,
+    organisational-unit:organisational-unit-167, organisational-unit:organisational-unit-168;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+organisational-unit:organisational-unit-157 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-158 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-159 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-160 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-161 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-162 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-163 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-164 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-165 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-166 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-167 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-168 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-169 a skos:Concept;
+  skos:narrower organisational-unit:organisational-unit-170, organisational-unit:organisational-unit-171,
+    organisational-unit:organisational-unit-172, organisational-unit:organisational-unit-173,
+    organisational-unit:organisational-unit-174, organisational-unit:organisational-unit-175,
+    organisational-unit:organisational-unit-176, organisational-unit:organisational-unit-177,
+    organisational-unit:organisational-unit-178, organisational-unit:organisational-unit-179,
+    organisational-unit:organisational-unit-180, organisational-unit:organisational-unit-181,
+    organisational-unit:organisational-unit-182, organisational-unit:organisational-unit-183,
+    organisational-unit:organisational-unit-184, organisational-unit:organisational-unit-185,
+    organisational-unit:organisational-unit-186, organisational-unit:organisational-unit-187,
+    organisational-unit:organisational-unit-188, organisational-unit:organisational-unit-189,
+    organisational-unit:organisational-unit-190, organisational-unit:organisational-unit-191,
+    organisational-unit:organisational-unit-192, organisational-unit:organisational-unit-193,
+    organisational-unit:organisational-unit-194, organisational-unit:organisational-unit-195,
+    organisational-unit:organisational-unit-196, organisational-unit:organisational-unit-197,
+    organisational-unit:organisational-unit-198, organisational-unit:organisational-unit-199,
+    organisational-unit:organisational-unit-200, organisational-unit:organisational-unit-201,
+    organisational-unit:organisational-unit-202, organisational-unit:organisational-unit-203,
+    organisational-unit:organisational-unit-204, organisational-unit:organisational-unit-205,
+    organisational-unit:organisational-unit-206, organisational-unit:organisational-unit-207,
+    organisational-unit:organisational-unit-208, organisational-unit:organisational-unit-209,
+    organisational-unit:organisational-unit-210, organisational-unit:organisational-unit-211,
+    organisational-unit:organisational-unit-212;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+organisational-unit:organisational-unit-170 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-171 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-172 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-173 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-174 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-175 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-176 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-177 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-178 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-179 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-180 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-181 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-182 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-183 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-184 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-185 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-186 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-187 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-188 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-189 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-190 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-191 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-192 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-193 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-194 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-195 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-196 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-197 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-198 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-199 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-200 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-201 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-202 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-203 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-204 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-205 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-206 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-207 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-208 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-209 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-210 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-211 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-212 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-213 a skos:Concept;
+  skos:narrower organisational-unit:organisational-unit-214, organisational-unit:organisational-unit-215,
+    organisational-unit:organisational-unit-216, organisational-unit:organisational-unit-223,
+    organisational-unit:organisational-unit-224, organisational-unit:organisational-unit-225,
+    organisational-unit:organisational-unit-227, organisational-unit:organisational-unit-228;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+organisational-unit:organisational-unit-214 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-215 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-216 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-217 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-218 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-219 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-220 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-221 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-222 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-223 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-224 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-225 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-226 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-227 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-228 a skos:Concept;
+  skos:inScheme <> .
+
+organisational-unit:organisational-unit-1 skos:narrower organisational-unit:organisational-unit-2,
+    organisational-unit:organisational-unit-3, organisational-unit:organisational-unit-4,
+    organisational-unit:organisational-unit-5, organisational-unit:organisational-unit-6,
+    organisational-unit:organisational-unit-7, organisational-unit:organisational-unit-8,
+    organisational-unit:organisational-unit-9, organisational-unit:organisational-unit-10,
+    organisational-unit:organisational-unit-11, organisational-unit:organisational-unit-12,
+    organisational-unit:organisational-unit-13, organisational-unit:organisational-unit-14,
+    organisational-unit:organisational-unit-15, organisational-unit:organisational-unit-16,
+    organisational-unit:organisational-unit-17, organisational-unit:organisational-unit-18,
+    organisational-unit:organisational-unit-19, organisational-unit:organisational-unit-20,
+    organisational-unit:organisational-unit-21, organisational-unit:organisational-unit-22,
+    organisational-unit:organisational-unit-23, organisational-unit:organisational-unit-24,
+    organisational-unit:organisational-unit-25, organisational-unit:organisational-unit-26,
+    organisational-unit:organisational-unit-27, organisational-unit:organisational-unit-28,
+    organisational-unit:organisational-unit-29, organisational-unit:organisational-unit-30,
+    organisational-unit:organisational-unit-31, organisational-unit:organisational-unit-32,
+    organisational-unit:organisational-unit-33, organisational-unit:organisational-unit-34,
+    organisational-unit:organisational-unit-35, organisational-unit:organisational-unit-36,
+    organisational-unit:organisational-unit-37, organisational-unit:organisational-unit-38,
+    organisational-unit:organisational-unit-39, organisational-unit:organisational-unit-40,
+    organisational-unit:organisational-unit-41, organisational-unit:organisational-unit-42,
+    organisational-unit:organisational-unit-43, organisational-unit:organisational-unit-226;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+organisational-unit:organisational-unit-44 skos:narrower organisational-unit:organisational-unit-45,
+    organisational-unit:organisational-unit-46, organisational-unit:organisational-unit-47,
+    organisational-unit:organisational-unit-48, organisational-unit:organisational-unit-49,
+    organisational-unit:organisational-unit-50, organisational-unit:organisational-unit-51,
+    organisational-unit:organisational-unit-52, organisational-unit:organisational-unit-53,
+    organisational-unit:organisational-unit-54, organisational-unit:organisational-unit-55,
+    organisational-unit:organisational-unit-56, organisational-unit:organisational-unit-57,
+    organisational-unit:organisational-unit-58, organisational-unit:organisational-unit-59,
+    organisational-unit:organisational-unit-60, organisational-unit:organisational-unit-61,
+    organisational-unit:organisational-unit-62, organisational-unit:organisational-unit-63,
+    organisational-unit:organisational-unit-64, organisational-unit:organisational-unit-65,
+    organisational-unit:organisational-unit-66, organisational-unit:organisational-unit-67,
+    organisational-unit:organisational-unit-68, organisational-unit:organisational-unit-69,
+    organisational-unit:organisational-unit-70, organisational-unit:organisational-unit-71,
+    organisational-unit:organisational-unit-72, organisational-unit:organisational-unit-73,
+    organisational-unit:organisational-unit-74, organisational-unit:organisational-unit-75,
+    organisational-unit:organisational-unit-76, organisational-unit:organisational-unit-77,
+    organisational-unit:organisational-unit-78, organisational-unit:organisational-unit-79,
+    organisational-unit:organisational-unit-80, organisational-unit:organisational-unit-81,
+    organisational-unit:organisational-unit-82, organisational-unit:organisational-unit-217,
+    organisational-unit:organisational-unit-218, organisational-unit:organisational-unit-219,
+    organisational-unit:organisational-unit-220, organisational-unit:organisational-unit-221,
+    organisational-unit:organisational-unit-222;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+organisational-unit:organisational-unit-2 skos:inScheme <> .
+
+organisational-unit:organisational-unit-3 skos:inScheme <> .
+
+organisational-unit:organisational-unit-4 skos:inScheme <> .
+
+organisational-unit:organisational-unit-5 skos:inScheme <> .
+
+organisational-unit:organisational-unit-6 skos:inScheme <> .
+
+organisational-unit:organisational-unit-7 skos:inScheme <> .
+
+organisational-unit:organisational-unit-8 skos:inScheme <> .
+
+organisational-unit:organisational-unit-9 skos:inScheme <> .
+
+organisational-unit:organisational-unit-10 skos:inScheme <> .
+
+organisational-unit:organisational-unit-11 skos:inScheme <> .
+
+organisational-unit:organisational-unit-12 skos:inScheme <> .
+
+organisational-unit:organisational-unit-13 skos:inScheme <> .
+
+organisational-unit:organisational-unit-14 skos:inScheme <> .
+
+organisational-unit:organisational-unit-15 skos:inScheme <> .
+
+organisational-unit:organisational-unit-16 skos:inScheme <> .
+
+organisational-unit:organisational-unit-17 skos:inScheme <> .
+
+organisational-unit:organisational-unit-18 skos:inScheme <> .
+
+organisational-unit:organisational-unit-19 skos:inScheme <> .
+
+organisational-unit:organisational-unit-20 skos:inScheme <> .
+
+organisational-unit:organisational-unit-21 skos:inScheme <> .
+
+organisational-unit:organisational-unit-22 skos:inScheme <> .
+
+organisational-unit:organisational-unit-23 skos:inScheme <> .
+
+organisational-unit:organisational-unit-24 skos:inScheme <> .
+
+organisational-unit:organisational-unit-25 skos:inScheme <> .
+
+organisational-unit:organisational-unit-26 skos:inScheme <> .
+
+organisational-unit:organisational-unit-27 skos:inScheme <> .
+
+organisational-unit:organisational-unit-28 skos:inScheme <> .
+
+organisational-unit:organisational-unit-29 skos:inScheme <> .
+
+organisational-unit:organisational-unit-30 skos:inScheme <> .
+
+organisational-unit:organisational-unit-31 skos:inScheme <> .
+
+organisational-unit:organisational-unit-32 skos:inScheme <> .
+
+organisational-unit:organisational-unit-33 skos:inScheme <> .
+
+organisational-unit:organisational-unit-34 skos:inScheme <> .
+
+organisational-unit:organisational-unit-35 skos:inScheme <> .
+
+organisational-unit:organisational-unit-36 skos:inScheme <> .
+
+organisational-unit:organisational-unit-37 skos:inScheme <> .
+
+organisational-unit:organisational-unit-38 skos:inScheme <> .
+
+organisational-unit:organisational-unit-39 skos:inScheme <> .
+
+organisational-unit:organisational-unit-40 skos:inScheme <> .
+
+organisational-unit:organisational-unit-41 skos:inScheme <> .
+
+organisational-unit:organisational-unit-42 skos:inScheme <> .
+
+organisational-unit:organisational-unit-43 skos:inScheme <> .
+
+organisational-unit:organisational-unit-45 skos:inScheme <> .
+
+organisational-unit:organisational-unit-46 skos:inScheme <> .
+
+organisational-unit:organisational-unit-47 skos:inScheme <> .
+
+organisational-unit:organisational-unit-48 skos:inScheme <> .
+
+organisational-unit:organisational-unit-49 skos:inScheme <> .
+
+organisational-unit:organisational-unit-50 skos:inScheme <> .
+
+organisational-unit:organisational-unit-51 skos:inScheme <> .
+
+organisational-unit:organisational-unit-52 skos:inScheme <> .
+
+organisational-unit:organisational-unit-53 skos:inScheme <> .
+
+organisational-unit:organisational-unit-54 skos:inScheme <> .
+
+organisational-unit:organisational-unit-55 skos:inScheme <> .
+
+organisational-unit:organisational-unit-56 skos:inScheme <> .
+
+organisational-unit:organisational-unit-57 skos:inScheme <> .
+
+organisational-unit:organisational-unit-58 skos:inScheme <> .
+
+organisational-unit:organisational-unit-59 skos:inScheme <> .
+
+organisational-unit:organisational-unit-60 skos:inScheme <> .
+
+organisational-unit:organisational-unit-61 skos:inScheme <> .
+
+organisational-unit:organisational-unit-62 skos:inScheme <> .
+
+organisational-unit:organisational-unit-63 skos:inScheme <> .
+
+organisational-unit:organisational-unit-64 skos:inScheme <> .
+
+organisational-unit:organisational-unit-65 skos:inScheme <> .
+
+organisational-unit:organisational-unit-66 skos:inScheme <> .
+
+organisational-unit:organisational-unit-67 skos:inScheme <> .
+
+organisational-unit:organisational-unit-68 skos:inScheme <> .
+
+organisational-unit:organisational-unit-69 skos:inScheme <> .
+
+<> a skos:ConceptScheme;
+  skos:hasTopConcept organisational-unit:organisational-unit-1, organisational-unit:organisational-unit-44,
+    organisational-unit:organisational-unit-83, organisational-unit:organisational-unit-156,
+    organisational-unit:organisational-unit-169, organisational-unit:organisational-unit-213 .

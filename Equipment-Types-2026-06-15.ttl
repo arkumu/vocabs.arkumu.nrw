@@ -1,0 +1,478 @@
+@base <http://w3id.org/arkumu/equipment-types> .
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix equipment-types: <http://w3id.org/arkumu/equipment-types/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<> a skos:ConceptScheme;
+  dct:title "Equipment Types"@en, "Equipmentarten"@de;
+  dct:description "Equipmentarten erlauben eine grobe Kategorisierung von Equipment und Software, die bei der Erstellung künstlerischer Projekte oder bei anderen Ereignissen verwendet wurden."@de,
+    "Equipment types allow for a general categorization of equipment and software used in the creation of artistic projects or in other events."@en;
+  dct:created "2026-06-10"^^xsd:date;
+  skos:editorialNote "URI noch zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+  skos:hasTopConcept equipment-types:equipment-type-1, equipment-types:equipment-type-2,
+    equipment-types:equipment-type-3, equipment-types:equipment-type-4, equipment-types:equipment-type-5,
+    equipment-types:equipment-type-6, equipment-types:equipment-type-7, equipment-types:equipment-type-8,
+    equipment-types:equipment-type-9, equipment-types:equipment-type-10, equipment-types:equipment-type-11,
+    equipment-types:equipment-type-12, equipment-types:equipment-type-13, equipment-types:equipment-type-14,
+    equipment-types:equipment-type-15, equipment-types:equipment-type-16, equipment-types:equipment-type-17,
+    equipment-types:equipment-type-18, equipment-types:equipment-type-19, equipment-types:equipment-type-20,
+    equipment-types:equipment-type-21, equipment-types:equipment-type-22, equipment-types:equipment-type-23,
+    equipment-types:equipment-type-24, equipment-types:equipment-type-25, equipment-types:equipment-type-26,
+    equipment-types:equipment-type-27, equipment-types:equipment-type-28, equipment-types:equipment-type-29,
+    equipment-types:equipment-type-30, equipment-types:equipment-type-31, equipment-types:equipment-type-32,
+    equipment-types:equipment-type-33, equipment-types:equipment-type-34, equipment-types:equipment-type-35,
+    equipment-types:equipment-type-36, equipment-types:equipment-type-37, equipment-types:equipment-type-38,
+    equipment-types:equipment-type-39, equipment-types:equipment-type-40, equipment-types:equipment-type-41,
+    equipment-types:equipment-type-42, equipment-types:equipment-type-43, equipment-types:equipment-type-44,
+    equipment-types:equipment-type-45, equipment-types:equipment-type-46, equipment-types:equipment-type-47,
+    equipment-types:equipment-type-48, equipment-types:equipment-type-49, equipment-types:equipment-type-50,
+    equipment-types:equipment-type-51, equipment-types:equipment-type-52, equipment-types:equipment-type-53,
+    equipment-types:equipment-type-54, equipment-types:equipment-type-55, equipment-types:equipment-type-56,
+    equipment-types:equipment-type-57, equipment-types:equipment-type-58 .
+
+equipment-types:equipment-type-1 a skos:Concept;
+  skos:notation "1";
+  skos:prefLabel "3D Printer"@en, "3D-Drucker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3834994>, <https://d-nb.info/gnd/1051019354>,
+    <https://vocab.getty.edu/aat/300391466>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-2 a skos:Concept;
+  skos:notation "2";
+  skos:prefLabel "3D Scanner"@en, "3D-Scanner"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1775257>, <https://d-nb.info/gnd/7704418-6>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-3 a skos:Concept;
+  skos:notation "3";
+  skos:prefLabel "Phonograph Needle"@en, "Abtastnadel"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q10923110>, <https://vocab.getty.edu/aat/300374973>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-4 a skos:Concept;
+  skos:notation "4";
+  skos:prefLabel "Video Projector"@en, "Beamer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q275568>, <https://d-nb.info/gnd/4726555-3>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-5 a skos:Concept;
+  skos:notation "5";
+  skos:prefLabel "Printer"@en, "Drucker"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q82>, <https://d-nb.info/gnd/4013091-5>,
+    <https://vocab.getty.edu/aat/300024535>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-6 a skos:Concept;
+  skos:notation "6";
+  skos:prefLabel "Flatbed Scanner"@en, "Flachbildscanner"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q82744>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-7 a skos:Concept;
+  skos:notation "7";
+  skos:prefLabel "Photographic Camera"@en, "Fotokamera"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15328>, <https://d-nb.info/gnd/4045869-6>,
+    <https://vocab.getty.edu/aat/300022636>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-8 a skos:Concept;
+  skos:notation "8";
+  skos:prefLabel "Milling Machine"@en, "Fräse"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q623106>, <https://vocab.getty.edu/aat/300024721>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-9 a skos:Concept;
+  skos:notation "9";
+  skos:prefLabel "Loudspeaker"@en, "Lautsprecher"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q570>, <https://vocab.getty.edu/aat/300250653>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-10 a skos:Concept;
+  skos:notation "10";
+  skos:prefLabel "Microphone"@en, "Mikrofon"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q46384>, <https://d-nb.info/gnd/4139330-2>,
+    <https://vocab.getty.edu/aat/300266322>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-11 a skos:Concept;
+  skos:notation "11";
+  skos:prefLabel "Mixer"@en, "Mischpult"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q654117>, <https://d-nb.info/gnd/4039545-5>,
+    <https://vocab.getty.edu/aat/300420468>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-12 a skos:Concept;
+  skos:notation "12";
+  skos:prefLabel "Musical Instrument"@en, "Musikinstrument"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q34379>, <https://d-nb.info/gnd/4040851-6>,
+    <https://vocab.getty.edu/aat/300041620>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-13 a skos:Concept;
+  skos:notation "13";
+  skos:prefLabel "Plug-In"@en, "Plug-In"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q184148>, <https://d-nb.info/gnd/4753748-6>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-14 a skos:Concept;
+  skos:notation "14";
+  skos:prefLabel "Sample Library"@en, "Samplebibliothek"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7410139>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-15 a skos:Concept;
+  skos:notation "15";
+  skos:prefLabel "Server"@en, "Server"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q44127>, <https://d-nb.info/gnd/4209324-7>,
+    <https://vocab.getty.edu/aat/300266043>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-16 a skos:Concept;
+  skos:notation "16";
+  skos:prefLabel "Software"@en, "Software"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7397>, <https://d-nb.info/gnd/4055382-6>,
+    <https://vocab.getty.edu/aat/300028566>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-17 a skos:Concept;
+  skos:notation "17";
+  skos:prefLabel "Pickup"@en, "Tonabnehmer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q572648>, <https://d-nb.info/gnd/4185653-3>,
+    <https://vocab.getty.edu/aat/300421687>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-18 a skos:Concept;
+  skos:notation "18";
+  skos:prefLabel "Video Camera"@en, "Videokamera"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q313614>, <https://d-nb.info/gnd/4136080-1>,
+    <https://vocab.getty.edu/aat/300263898>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-19 a skos:Concept;
+  skos:notation "19";
+  skos:prefLabel "Preamp"@en, "Vorstufe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q399804>, <https://d-nb.info/gnd/4454584-8>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-20 a skos:Concept;
+  skos:notation "20";
+  skos:prefLabel "VR Headset"@en, "VR-Headset"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q19600329>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-21 a skos:Concept;
+  skos:notation "21";
+  skos:prefLabel "Transducer"@en, "Wandler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q215928>, <https://d-nb.info/gnd/4064541-1>,
+    <https://vocab.getty.edu/aat/300264909>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-22 a skos:Concept;
+  skos:notation "22";
+  skos:prefLabel "Archéophone"@en, "Archéophone"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2860627>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-23 a skos:Concept;
+  skos:notation "23";
+  skos:prefLabel "Streaming Box"@en, "Streaming-Box"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1427348>, <https://d-nb.info/gnd/1095126237>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-24 a skos:Concept;
+  skos:notation "24";
+  skos:prefLabel "Electronic Visual Display"@en, "Bildschirm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6021804>, <https://d-nb.info/gnd/4125194-5>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-25 a skos:Concept;
+  skos:notation "25";
+  skos:prefLabel "Single Board Computer"@en, "Einplatinencomputer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q944780>, <https://d-nb.info/gnd/4191878-2>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-26 a skos:Concept;
+  skos:notation "26";
+  skos:prefLabel "Computer"@en, "Computer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q68>, <https://d-nb.info/gnd/4070083-5>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-27 a skos:Concept;
+  skos:notation "27";
+  skos:prefLabel "Microcontroller"@en, "Mikrocontroller"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q165678>, <https://d-nb.info/gnd/4127438-6>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-28 a skos:Concept;
+  skos:notation "28";
+  skos:prefLabel "Smartphone"@en, "Smartphone"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q22645>, <https://d-nb.info/gnd/4845922-7>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-29 a skos:Concept;
+  skos:notation "29";
+  skos:prefLabel "Internet"@en, "Internet"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q75>, <https://d-nb.info/gnd/4308416-3>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-30 a skos:Concept;
+  skos:notation "30";
+  skos:prefLabel "Audio Equipment"@en, "Audioequipment"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15190726>, <https://vocab.getty.edu/aat/300387677>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-31 a skos:Concept;
+  skos:notation "31";
+  skos:prefLabel "Sound Recording Device"@en, "Audiorekorder"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q758891>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-32 a skos:Concept;
+  skos:notation "32";
+  skos:prefLabel "Information Carrier"@en, "Datenträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q193395>, <https://d-nb.info/gnd/4351464-9>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-33 a skos:Concept;
+  skos:notation "33";
+  skos:prefLabel "Slide Projector"@en, "Diaprojektor"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q846668>, <https://d-nb.info/gnd/4275358-2>,
+    <https://vocab.getty.edu/aat/300311986>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-34 a skos:Concept;
+  skos:notation "34";
+  skos:prefLabel "Digital Media Player"@en, "Media Player"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1567371>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-35 a skos:Concept;
+  skos:notation "35";
+  skos:prefLabel "Digital Camera"@en, "Digitalkamera"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q62927>, <https://d-nb.info/gnd/4519830-5>,
+    <https://vocab.getty.edu/aat/300266792>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-36 a skos:Concept;
+  skos:notation "36";
+  skos:prefLabel "Unmanned Aerial Vehicle"@en, "Drohne"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q484000>, <https://d-nb.info/gnd/4332556-7>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-37 a skos:Concept;
+  skos:notation "37";
+  skos:prefLabel "Input Device"@en, "Eingabegerät"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q864114>, <https://d-nb.info/gnd/4148867-2>,
+    <https://vocab.getty.edu/aat/300168267>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-38 a skos:Concept;
+  skos:notation "38";
+  skos:prefLabel "Electronic Device"@en, "elektronisches Gerät"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2858615>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-39 a skos:Concept;
+  skos:notation "39";
+  skos:prefLabel "Movie Camera"@en, "Filmkamera"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q335095>, <https://d-nb.info/gnd/4154362-2>,
+    <https://vocab.getty.edu/aat/300022644>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-40 a skos:Concept;
+  skos:notation "40";
+  skos:prefLabel "Additional Camera Equipment"@en, "Kamerazubehör"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q131375504>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-41 a skos:Concept;
+  skos:notation "41";
+  skos:prefLabel "Headphones"@en, "Kopfhörer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q186819>, <https://d-nb.info/gnd/4165262-9>,
+    <https://vocab.getty.edu/aat/300266751>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-42 a skos:Concept;
+  skos:notation "42";
+  skos:prefLabel "Lighting Equipment"@en, "Lichtequipment"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q131375480>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-43 a skos:Concept;
+  skos:notation "43";
+  skos:prefLabel "Objective (Optics)"@en, "Objektiv"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3880557>, <https://d-nb.info/gnd/4123864-3>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-44 a skos:Concept;
+  skos:notation "44";
+  skos:prefLabel "Robot"@en, "Roboter"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11012>, <https://d-nb.info/gnd/4050208-9>,
+    <https://vocab.getty.edu/aat/300391077>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-45 a skos:Concept;
+  skos:notation "45";
+  skos:prefLabel "Sensor"@en, "Sensor"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q167676>, <https://d-nb.info/gnd/4038824-4>,
+    <https://vocab.getty.edu/aat/300379784>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-46 a skos:Concept;
+  skos:notation "46";
+  skos:prefLabel "Other Equipment"@en, "Sonstiges Equipment"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q55107540>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-47 a skos:Concept;
+  skos:notation "47";
+  skos:prefLabel "Tripod"@en, "Stativ"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1444534>, <https://vocab.getty.edu/aat/300164679>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-48 a skos:Concept;
+  skos:notation "48";
+  skos:prefLabel "Electric Power Source"@en, "Stromquelle"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1753139>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-49 a skos:Concept;
+  skos:notation "49";
+  skos:prefLabel "Studio Equipment"@en, "Studioequipment"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q131375449>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-50 a skos:Concept;
+  skos:notation "50";
+  skos:prefLabel "Tablet Computer"@en, "Tabletcomputer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q155972>, <https://d-nb.info/gnd/7602964-5>,
+    <https://vocab.getty.edu/aat/300387132>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-51 a skos:Concept;
+  skos:notation "51";
+  skos:prefLabel "Physical Tool"@en, "Werkzeug"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q39546>, <https://d-nb.info/gnd/4065596-9>,
+    <https://vocab.getty.edu/aat/300024841>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-52 a skos:Concept;
+  skos:notation "52";
+  skos:prefLabel "Monitor"@en, "Monitor"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5290>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-53 a skos:Concept;
+  skos:notation "53";
+  skos:prefLabel "Record Player"@en, "Schallplattenspieler"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q17591720>, <https://d-nb.info/gnd/4174890-6>,
+    <https://vocab.getty.edu/aat/300310108>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-54 a skos:Concept;
+  skos:notation "54";
+  skos:prefLabel "Electronic Component"@en, "elektronisches Bauelement"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11653>, <https://d-nb.info/gnd/4014360-0>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-55 a skos:Concept;
+  skos:notation "55";
+  skos:prefLabel "Embroidery Machine"@en, "Stickmaschiene"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1790385>, <https://d-nb.info/gnd/4372998-8>,
+    <https://vocab.getty.edu/aat/300425090>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-56 a skos:Concept;
+  skos:notation "56";
+  skos:prefLabel "Programming Language"@en, "Programmiersprache"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q9143>, <https://d-nb.info/gnd/4047409-4>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-57 a skos:Concept;
+  skos:notation "57";
+  skos:prefLabel "Encoder"@en, "Encoder"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q42586063>, <https://vocab.getty.edu/aat/300425101>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+equipment-types:equipment-type-58 a skos:Concept;
+  skos:notation "58";
+  skos:prefLabel "Vision Mixer"@en, "Bildmischer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q860964>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .

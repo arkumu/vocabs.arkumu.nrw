@@ -7,8 +7,8 @@ searchableAttributes:
   - "prefLabel" # you should not delete this one
   - "notation"
   - "altLabel"
-  - "hiddenLabel"
-  - "example"
+#  - "hiddenLabel"
+#  - "example"
   - "definition"
 ui:
   title: "vocabs.arkumu.nrw" # Title is mandatory
@@ -36,4 +36,13 @@ ui:
       font_style: "normal"
       font_weight: 700
       name: "ubuntu-v20-latin-700"
-
+  footer:
+    links:
+      - title: "Impressum"
+        url: "https://docs.arkumu.nrw/about"
+        target: "_blank"
+        rel: "noopener noreferrer"
+      - title: "Datenschutz"
+        url: "https://docs.arkumu.nrw/about"
+        target: "_blank"
+        rel: "noopener noreferrer"

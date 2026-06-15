@@ -1,0 +1,1282 @@
+@base <http://w3id.org/arkumu/information-storage-medium-type> .
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix vocab: <http://w3id.org/arkumu/information-storage-medium-types/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<information-storage-medium-types> dct:title "Information Storage Medium Types"@en,
+    "Informationsträgertypen"@de;
+  dct:description "Informationsträgertypen klassifizieren physische Informationsträger"@de,
+    "Information Storage Medium Types classify physical Information Storage Media"@en;
+  dct:created "2026-06-10"^^xsd:date;
+  skos:editorialNote "URI noch zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+vocab:information-storage-medium-type-1 a skos:Concept;
+  skos:notation "1";
+  skos:prefLabel "Videocassette"@en, "Videokassette"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q121141504>, <https://d-nb.info/gnd/4188225-8>,
+    <https://vocab.getty.edu/aat/300028692>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Videocassette> .
+
+vocab:information-storage-medium-type-2 a skos:Concept;
+  skos:notation "2";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "Betacam"@en, "Betacam"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q830910>, <https://vocab.getty.edu/aat/300264686>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Betacam> .
+
+vocab:information-storage-medium-type-3 a skos:Concept;
+  skos:notation "3";
+  skos:broader vocab:information-storage-medium-type-2;
+  skos:prefLabel "Betacam SP"@en, "Betacam SP"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q830904>, <https://vocab.getty.edu/aat/300264687> .
+
+vocab:information-storage-medium-type-4 a skos:Concept;
+  skos:notation "4";
+  skos:broader vocab:information-storage-medium-type-2;
+  skos:prefLabel "Betacam SX"@en, "Betacam SX"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q361797>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#BetacamSX> .
+
+vocab:information-storage-medium-type-5 a skos:Concept;
+  skos:notation "5";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "Betamax"@en, "Betamax"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q690148>, <https://vocab.getty.edu/aat/300404417>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Betamax> .
+
+vocab:information-storage-medium-type-6 a skos:Concept;
+  skos:notation "6";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "Catrivision"@en, "Catrivision"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5047444>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Catrivision> .
+
+vocab:information-storage-medium-type-7 a skos:Concept;
+  skos:notation "7";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "D1"@en, "D1"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1151486>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D1> .
+
+vocab:information-storage-medium-type-8 a skos:Concept;
+  skos:notation "8";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "D2"@en, "D2"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1158883>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D2> .
+
+vocab:information-storage-medium-type-9 a skos:Concept;
+  skos:notation "9";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "D3"@en, "D3"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q736474>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D3> .
+
+vocab:information-storage-medium-type-10 a skos:Concept;
+  skos:notation "10";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "D5"@en, "D5"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2738019>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D5> .
+
+vocab:information-storage-medium-type-11 a skos:Concept;
+  skos:notation "11";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "D6"@en, "D6"@de;
+  skos:altLabel "D6-VTR"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3700253>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D6> .
+
+vocab:information-storage-medium-type-12 a skos:Concept;
+  skos:notation "12";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "D9"@en, "D9"@de;
+  skos:altLabel "D-9"@en, "Digital S"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1151555>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D9> .
+
+vocab:information-storage-medium-type-13 a skos:Concept;
+  skos:notation "13";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "DCT"@en, "DCT"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3700309>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DCT> .
+
+vocab:information-storage-medium-type-14 a skos:Concept;
+  skos:notation "14";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "Digital Betacam"@en, "Digital Betacam"@de;
+  skos:altLabel "DigiBeta"@en, "D-Beta"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1751553>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DigitalBetacam> .
+
+vocab:information-storage-medium-type-15 a skos:Concept;
+  skos:notation "15";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "Digital8"@en, "Digital8"@de;
+  skos:altLabel "Digital 8"@en, "Di8"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q930337>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Digital8> .
+
+vocab:information-storage-medium-type-16 a skos:Concept;
+  skos:notation "16";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "DV"@en, "DV"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3796889>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DV> .
+
+vocab:information-storage-medium-type-17 a skos:Concept;
+  skos:notation "17";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "DVCAM"@en, "DVCAM"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1361160>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DVCAM> .
+
+vocab:information-storage-medium-type-18 a skos:Concept;
+  skos:notation "18";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "DVCPRO"@en, "DVCPRO"@de;
+  skos:altLabel "DVCPro 25"@en, "DVCPro 50"@en, "DVCPro Progressive"@en, "DVCPro HD"@en,
+    "P2"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q20183259>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DVCPRO> .
+
+vocab:information-storage-medium-type-19 a skos:Concept;
+  skos:notation "19";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "HDCAM"@en, "HDCAM"@de;
+  skos:altLabel "HDCAM SR"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1194529>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#HDCAM> .
+
+vocab:information-storage-medium-type-20 a skos:Concept;
+  skos:notation "20";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "HDV"@en, "HDV"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1563058>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#HDV> .
+
+vocab:information-storage-medium-type-21 a skos:Concept;
+  skos:notation "21";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "Hi8"@en, "Hi8"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2302273>, <https://vocab.getty.edu/aat/300264682>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Hi8> .
+
+vocab:information-storage-medium-type-22 a skos:Concept;
+  skos:notation "22";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "MII"@en, "MII"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3841334>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#MII> .
+
+vocab:information-storage-medium-type-23 a skos:Concept;
+  skos:notation "23";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "MiniDV"@en, "MiniDV"@de;
+  skos:altLabel "DVC"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6957908>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#MiniDV> .
+
+vocab:information-storage-medium-type-24 a skos:Concept;
+  skos:notation "24";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "U-matic"@en, "U-matic"@de;
+  skos:altLabel "U-matic S"@en, "U-matic SP"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q278080>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Umatic> .
+
+vocab:information-storage-medium-type-25 a skos:Concept;
+  skos:notation "25";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "V-Cord"@en, "V-Cord"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5929966>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Vcord> .
+
+vocab:information-storage-medium-type-26 a skos:Concept;
+  skos:notation "26";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "VHS"@en, "VHS"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q183976>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#VHS> .
+
+vocab:information-storage-medium-type-27 a skos:Concept;
+  skos:notation "27";
+  skos:broader vocab:information-storage-medium-type-26;
+  skos:prefLabel "S-VHS"@en, "S-VHS"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1050875> .
+
+vocab:information-storage-medium-type-28 a skos:Concept;
+  skos:notation "28";
+  skos:broader vocab:information-storage-medium-type-26;
+  skos:prefLabel "VHS-C"@en, "VHS-C"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q549855> .
+
+vocab:information-storage-medium-type-29 a skos:Concept;
+  skos:notation "29";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "Video8"@en, "Video8"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1155472>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Video8> .
+
+vocab:information-storage-medium-type-30 a skos:Concept;
+  skos:notation "30";
+  skos:broader vocab:information-storage-medium-type-1;
+  skos:prefLabel "VX"@en, "VX"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7907690>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#VX> .
+
+vocab:information-storage-medium-type-31 a skos:Concept;
+  skos:notation "31";
+  skos:prefLabel "Open Reel Videotape"@en, "Videoband"@de;
+  skos:altLabel "Offenspule Video"@de, "Offene Videobandspule"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q29167500>, <https://vocab.getty.edu/aat/300450676>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#OpenReelVideoTape> .
+
+vocab:information-storage-medium-type-32 a skos:Concept;
+  skos:notation "32";
+  skos:broader vocab:information-storage-medium-type-31;
+  skos:prefLabel "1 Inch Type A Videotape"@en, "1 Zoll A Videoband"@de;
+  skos:altLabel "SMPTE Type A"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3597951> .
+
+vocab:information-storage-medium-type-33 a skos:Concept;
+  skos:notation "33";
+  skos:broader vocab:information-storage-medium-type-31;
+  skos:prefLabel "1 Inch Type B Videotape"@en, "1 Zoll B Videoband"@de;
+  skos:altLabel "SMPTE Type B"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3597955> .
+
+vocab:information-storage-medium-type-34 a skos:Concept;
+  skos:notation "34";
+  skos:broader vocab:information-storage-medium-type-31;
+  skos:prefLabel "1 Inch Type C Videotape"@en, "1 Zoll C Videoband"@de;
+  skos:altLabel "SMPTE Type C"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q209020>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#1InchVideotape> .
+
+vocab:information-storage-medium-type-35 a skos:Concept;
+  skos:notation "35";
+  skos:broader vocab:information-storage-medium-type-31;
+  skos:prefLabel "1/2 Inch Videotape"@en, "1/2 Zoll Videoband"@de;
+  skos:altLabel "EIAJ-1"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3748136>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#HalfInchVideotape> .
+
+vocab:information-storage-medium-type-36 a skos:Concept;
+  skos:notation "36";
+  skos:broader vocab:information-storage-medium-type-31;
+  skos:prefLabel "1/4 Inch Videotape"@en, "1/4 Zoll Videoband"@de;
+  skos:altLabel "Akai Video Tape"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4700172>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#QuarterInchVideotape> .
+
+vocab:information-storage-medium-type-37 a skos:Concept;
+  skos:notation "37";
+  skos:broader vocab:information-storage-medium-type-31;
+  skos:prefLabel "2 Inch Videotape"@en, "2 Zoll Videoband"@de;
+  skos:altLabel "Quadruplex"@en, "Octaplex"@en, "VR-1500"@en, "VR-1600"@en, "IVC-9000"@en,
+    "Helical SV-201"@en, "ACR 25"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q122763358>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#2InchVideotape> .
+
+vocab:information-storage-medium-type-38 a skos:Concept;
+  skos:notation "38";
+  skos:prefLabel "Optical Video Disc"@en, "Optischer Videodatenträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q234870>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#OpticalVideoDisc> .
+
+vocab:information-storage-medium-type-39 a skos:Concept;
+  skos:notation "39";
+  skos:broader vocab:information-storage-medium-type-38;
+  skos:prefLabel "Blu-ray Video Disc"@en, "Blu-ray Video Disc"@de;
+  skos:altLabel "Video-BD"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q47770>, <https://d-nb.info/gnd/7597887-8>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#BluRayDisc> .
+
+vocab:information-storage-medium-type-40 a skos:Concept;
+  skos:notation "40";
+  skos:broader vocab:information-storage-medium-type-38;
+  skos:prefLabel "Video-DVD"@en, "Video-DVD"@de;
+  skos:altLabel "Video DVD+R"@en, "Video DVD+R DL"@en, "Video DVD-R"@en, "Video DVD-RW"@en,
+    "Video DVD+RW"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5294>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DVD> .
+
+vocab:information-storage-medium-type-41 a skos:Concept;
+  skos:notation "41";
+  skos:broader vocab:information-storage-medium-type-38;
+  skos:prefLabel "EVD"@en, "EVD"@de;
+  skos:altLabel "Enhanced Versatile Disc"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1152899>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#EVD> .
+
+vocab:information-storage-medium-type-42 a skos:Concept;
+  skos:notation "42";
+  skos:broader vocab:information-storage-medium-type-38;
+  skos:prefLabel "LaserDisc"@en, "LaserDisc"@de;
+  skos:altLabel "CAV"@en, "CLV"@en, "CAA"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q273309>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#LaserDisc> .
+
+vocab:information-storage-medium-type-43 a skos:Concept;
+  skos:notation "43";
+  skos:broader vocab:information-storage-medium-type-38;
+  skos:prefLabel "Video CD"@en, "Video CD"@de;
+  skos:altLabel "VCD"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q321259>, <https://d-nb.info/gnd/4654578-5> .
+
+vocab:information-storage-medium-type-44 a skos:Concept;
+  skos:notation "44";
+  skos:broader vocab:information-storage-medium-type-38;
+  skos:prefLabel "Super Video CD"@en, "Super Video CD"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q428159>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#SuperVideoCD> .
+
+vocab:information-storage-medium-type-45 a skos:Concept;
+  skos:notation "45";
+  skos:broader vocab:information-storage-medium-type-38;
+  skos:prefLabel "Universal Media Disc"@en, "Universal Media Disc"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q270309>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#UniversalMediaDisc> .
+
+vocab:information-storage-medium-type-46 a skos:Concept;
+  skos:notation "46";
+  skos:broader vocab:information-storage-medium-type-38;
+  skos:prefLabel "XDCAM Disc"@en, "XDCAM Disc"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1153113> .
+
+vocab:information-storage-medium-type-47 a skos:Concept;
+  skos:notation "47";
+  skos:prefLabel "Mechanical Audio Storage Medium"@en, "Mechanischer Tonträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123117748> .
+
+vocab:information-storage-medium-type-48 a skos:Concept;
+  skos:notation "48";
+  skos:broader vocab:information-storage-medium-type-47;
+  skos:prefLabel "Dictabelt"@en, "Dictabelt"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5273930>, <https://vocab.getty.edu/aat/300424575>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#GroovedDictabelt> .
+
+vocab:information-storage-medium-type-49 a skos:Concept;
+  skos:notation "49";
+  skos:broader vocab:information-storage-medium-type-47;
+  skos:prefLabel "Phonograph Cylinder"@en, "Phonographenwalze"@de;
+  skos:altLabel "Phonograph Roll"@en, "Audio Cylinder"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q691783>, <https://d-nb.info/gnd/4536294-4>,
+    <https://vocab.getty.edu/aat/300420461> .
+
+vocab:information-storage-medium-type-50 a skos:Concept;
+  skos:notation "50";
+  skos:broader vocab:information-storage-medium-type-49;
+  skos:prefLabel "Normal Groove Cylinder"@en, "Normalspiel-Walze"@de;
+  skos:altLabel "2 Minute Cylinder"@en, "Two Minute Cylinder"@en, "2-Minuten-Walze"@de,
+    "2-Minuten-Zylinder"@de, "Zwei-Minuten-Walze"@de, "Zwei-Minuten-Zylinder"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123117896> .
+
+vocab:information-storage-medium-type-51 a skos:Concept;
+  skos:notation "51";
+  skos:broader vocab:information-storage-medium-type-49;
+  skos:prefLabel "Narrow Groove Cylinder"@en, "Langspiel-Walze"@de;
+  skos:altLabel "4 Minute Cylinder"@en, "Four Minute Cylinder"@en, "4-Minuten-Walze"@de,
+    "4-Minuten-Zylinder"@de, "Vier-Minuten-Walze"@de, "Vier-Minuten-Zylinder"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123117963> .
+
+vocab:information-storage-medium-type-52 a skos:Concept;
+  skos:notation "52";
+  skos:broader vocab:information-storage-medium-type-49;
+  skos:prefLabel "Dictation Cylinder"@en, "Diktat-Zylinder"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118001>, <https://vocab.getty.edu/aat/300424576> .
+
+vocab:information-storage-medium-type-53 a skos:Concept;
+  skos:notation "53";
+  skos:broader vocab:information-storage-medium-type-47;
+  skos:prefLabel "Grooved Analog Disc"@en, "Schallplatte"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q16629185>, <https://d-nb.info/gnd/4052032-8>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#GroovedAnalogDisc> .
+
+vocab:information-storage-medium-type-54 a skos:Concept;
+  skos:notation "54";
+  skos:broader vocab:information-storage-medium-type-53;
+  skos:prefLabel "Coarse Groove Record"@en, "Normalrillen-Schallplatte"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118095>, <https://d-nb.info/gnd/4135113-7> .
+
+vocab:information-storage-medium-type-55 a skos:Concept;
+  skos:notation "55";
+  skos:broader vocab:information-storage-medium-type-53;
+  skos:prefLabel "Microgroove Record"@en, "Mikrorillen-Schallplatte"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q86816874> .
+
+vocab:information-storage-medium-type-56 a skos:Concept;
+  skos:notation "56";
+  skos:broader vocab:information-storage-medium-type-47;
+  skos:prefLabel "Tefifon Tape"@en, "Tefifon-Band"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1676393> .
+
+vocab:information-storage-medium-type-57 a skos:Concept;
+  skos:notation "57";
+  skos:prefLabel "Magnetic Audio Storage Medium"@en, "Magnetischer Tonträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118470> .
+
+vocab:information-storage-medium-type-58 a skos:Concept;
+  skos:notation "58";
+  skos:broader vocab:information-storage-medium-type-57;
+  skos:prefLabel "Magnetic Audio Tape"@en, "Magnettonband"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118513>, <https://d-nb.info/gnd/4135867-3> .
+
+vocab:information-storage-medium-type-59 a skos:Concept;
+  skos:notation "59";
+  skos:broader vocab:information-storage-medium-type-58;
+  skos:prefLabel "Open Reel Audiotape"@en, "Spulentonband"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q544858>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#OpenReelAudiotape> .
+
+vocab:information-storage-medium-type-60 a skos:Concept;
+  skos:notation "60";
+  skos:broader vocab:information-storage-medium-type-58;
+  skos:prefLabel "Audio Cassette"@en, "Kompaktkassette"@de;
+  skos:altLabel "CC"@en, "MC"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q149757>, <https://d-nb.info/gnd/4036993-6> .
+
+vocab:information-storage-medium-type-61 a skos:Concept;
+  skos:notation "61";
+  skos:broader vocab:information-storage-medium-type-58;
+  skos:prefLabel "Executive Cassette"@en, "Executive Cassette"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q122763527> .
+
+vocab:information-storage-medium-type-62 a skos:Concept;
+  skos:notation "62";
+  skos:broader vocab:information-storage-medium-type-58;
+  skos:prefLabel "Mini-Cassette"@en, "Minikassette"@de;
+  skos:altLabel "Minicassette"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1936845>, <https://vocab.getty.edu/aat/300310081>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#MiniCassette> .
+
+vocab:information-storage-medium-type-63 a skos:Concept;
+  skos:notation "63";
+  skos:broader vocab:information-storage-medium-type-58;
+  skos:prefLabel "Microcassette"@en, "Mikrokassette"@de;
+  skos:altLabel "MC"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1509636> .
+
+vocab:information-storage-medium-type-64 a skos:Concept;
+  skos:notation "64";
+  skos:broader vocab:information-storage-medium-type-58;
+  skos:prefLabel "Picocassette"@en, "Picocassette"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7191037> .
+
+vocab:information-storage-medium-type-65 a skos:Concept;
+  skos:notation "65";
+  skos:broader vocab:information-storage-medium-type-58;
+  skos:prefLabel "Fidelipac"@en, "Fidelipac"@de;
+  skos:altLabel "NAB cartridge"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2340980> .
+
+vocab:information-storage-medium-type-66 a skos:Concept;
+  skos:notation "66";
+  skos:broader vocab:information-storage-medium-type-58;
+  skos:prefLabel "Stereo-Pak"@en, "Stereo-Pak"@de;
+  skos:altLabel "4-track Cartridge"@en, "4-track Tape"@en, "4-Spur-Kassette"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7611194> .
+
+vocab:information-storage-medium-type-67 a skos:Concept;
+  skos:notation "67";
+  skos:broader vocab:information-storage-medium-type-58;
+  skos:prefLabel "8-track Tape"@en, "8-Spur-Kassette"@de;
+  skos:altLabel "Stereo 8"@en, "Eight-track Cartridge"@en, "Acht-Spur-Kassette"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q270171>, <https://d-nb.info/gnd/7690297-3>,
+    <https://vocab.getty.edu/aat/300423982>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#8Track> .
+
+vocab:information-storage-medium-type-68 a skos:Concept;
+  skos:notation "68";
+  skos:broader vocab:information-storage-medium-type-57;
+  skos:prefLabel "Magnetic Sound Disc"@en, "Magnettonplatte"@de;
+  skos:altLabel "Astromag"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1416388> .
+
+vocab:information-storage-medium-type-69 a skos:Concept;
+  skos:notation "69";
+  skos:broader vocab:information-storage-medium-type-57;
+  skos:prefLabel "Wire Recording"@en, "Tondraht"@de;
+  skos:altLabel "Drahtton"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q116822101>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#WireRecording> .
+
+vocab:information-storage-medium-type-70 a skos:Concept;
+  skos:notation "70";
+  skos:prefLabel "Optical Audio Storage Medium"@en, "Optischer Tonträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118558> .
+
+vocab:information-storage-medium-type-71 a skos:Concept;
+  skos:notation "71";
+  skos:broader vocab:information-storage-medium-type-70;
+  skos:prefLabel "Optical Sound Film"@en, "Lichttonfilm"@de;
+  skos:altLabel "Triergon Film"@en, "Light Ray Film"@en, "Triergon-Film"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1004803> .
+
+vocab:information-storage-medium-type-72 a skos:Concept;
+  skos:notation "72";
+  skos:prefLabel "Digital Audio Storage Medium"@en, "Digitaler Tonträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118716> .
+
+vocab:information-storage-medium-type-73 a skos:Concept;
+  skos:notation "73";
+  skos:broader vocab:information-storage-medium-type-72;
+  skos:prefLabel "Magneto-digital Audio Storage Medium"@en, "Magneto-digitaler Tonträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118830> .
+
+vocab:information-storage-medium-type-74 a skos:Concept;
+  skos:notation "74";
+  skos:broader vocab:information-storage-medium-type-73;
+  skos:prefLabel "DASH Open Reel Tape"@en, "DASH-Tonband"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q497444> .
+
+vocab:information-storage-medium-type-75 a skos:Concept;
+  skos:notation "75";
+  skos:broader vocab:information-storage-medium-type-73;
+  skos:prefLabel "Pro Digi Open Reel Tape"@en, "Pro-Digi-Tonband"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7246653> .
+
+vocab:information-storage-medium-type-76 a skos:Concept;
+  skos:notation "76";
+  skos:broader vocab:information-storage-medium-type-73;
+  skos:prefLabel "PCM Betamax"@en, "PCM Betamax"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123119962>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#PCMBetamax> .
+
+vocab:information-storage-medium-type-77 a skos:Concept;
+  skos:notation "77";
+  skos:broader vocab:information-storage-medium-type-73;
+  skos:prefLabel "PCM U-Matic"@en, "PCM U-Matic"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123120037>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#PCMUmatic> .
+
+vocab:information-storage-medium-type-78 a skos:Concept;
+  skos:notation "78";
+  skos:broader vocab:information-storage-medium-type-73;
+  skos:prefLabel "PCM VHS"@en, "PCM VHS"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123120103>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#PCMVHS> .
+
+vocab:information-storage-medium-type-79 a skos:Concept;
+  skos:notation "79";
+  skos:broader vocab:information-storage-medium-type-73;
+  skos:prefLabel "DAT"@en, "DAT"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q597615>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#DAT> .
+
+vocab:information-storage-medium-type-80 a skos:Concept;
+  skos:notation "80";
+  skos:broader vocab:information-storage-medium-type-73;
+  skos:prefLabel "ADAT"@en, "ADAT"@de;
+  skos:altLabel "Alesis Digital Audio Tape"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q959675> .
+
+vocab:information-storage-medium-type-81 a skos:Concept;
+  skos:notation "81";
+  skos:broader vocab:information-storage-medium-type-73;
+  skos:prefLabel "DTRS"@en, "DTRS"@de;
+  skos:altLabel "Digital Tape Recording System"@en, "DARS"@en, "DA-88"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q938907>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#DTRS> .
+
+vocab:information-storage-medium-type-82 a skos:Concept;
+  skos:notation "82";
+  skos:broader vocab:information-storage-medium-type-73;
+  skos:prefLabel "Digital Compact Cassette"@en, "Digital Compact Cassette"@de;
+  skos:altLabel "DCC"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q598944> .
+
+vocab:information-storage-medium-type-83 a skos:Concept;
+  skos:notation "83";
+  skos:broader vocab:information-storage-medium-type-73;
+  skos:prefLabel "NT cassette"@en, "NT Cassette"@de;
+  skos:altLabel "NT-Kassette"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1961581> .
+
+vocab:information-storage-medium-type-84 a skos:Concept;
+  skos:notation "84";
+  skos:broader vocab:information-storage-medium-type-72;
+  skos:prefLabel "Opto-digital Audio Storage Medium"@en, "Opto-digitaler Tonträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123120227> .
+
+vocab:information-storage-medium-type-85 a skos:Concept;
+  skos:notation "85";
+  skos:broader vocab:information-storage-medium-type-84;
+  skos:prefLabel "Audio CD"@en, "Audio-CD"@de;
+  skos:altLabel "Compact Disc Digital Audio"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1121020>, <https://d-nb.info/gnd/4346365-4>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#AudioCD> .
+
+vocab:information-storage-medium-type-86 a skos:Concept;
+  skos:notation "86";
+  skos:broader vocab:information-storage-medium-type-84;
+  skos:prefLabel "Compact LaserDisc"@en, "Compact LaserDisc"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123120280> .
+
+vocab:information-storage-medium-type-87 a skos:Concept;
+  skos:notation "87";
+  skos:broader vocab:information-storage-medium-type-84;
+  skos:prefLabel "Super Audio CD"@en, "Super Audio CD"@de;
+  skos:altLabel "SACD"@en, "Super Audio Compact Disc"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q212960>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#SuperAudioCD> .
+
+vocab:information-storage-medium-type-88 skos:notation "88";
+  skos:broader vocab:information-storage-medium-type-84;
+  skos:prefLabel "DVD-Audio"@en, "DVD-Audio"@de;
+  skos:altLabel "DVD-A"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q117678>, <https://d-nb.info/gnd/4585129-3> .
+
+vocab:information-storage-medium-type-89 skos:notation "89";
+  skos:broader vocab:information-storage-medium-type-84;
+  skos:prefLabel "Blu-ray Audio Disc"@en, "Blu-ray Audio Disc"@de;
+  skos:altLabel "Pure Audio Blu-ray"@en, "High Definition Audio Disc"@en, "HDAD"@en,
+    "High Fidelity Pure Audio"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q17029503>, <https://d-nb.info/gnd/1070506834> .
+
+vocab:information-storage-medium-type-90 skos:notation "90";
+  skos:broader vocab:information-storage-medium-type-72;
+  skos:prefLabel "MiniDisc"@en, "MiniDisc"@de;
+  skos:altLabel "MD"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q275079>, <https://d-nb.info/gnd/4644982-6> .
+
+vocab:information-storage-medium-type-91 skos:notation "91";
+  skos:prefLabel "Moving Image Film"@en, "Bewegtbild-Film"@de;
+  skos:altLabel "Motion Picture Film"@en, "Movie Film"@en, "Cinematographic Film"@en,
+    "Kino-Filmmaterial"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q110968856>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#Film> .
+
+vocab:information-storage-medium-type-92 skos:notation "92";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "8 mm Positive Film"@en, "8 mm Positivfilm"@de;
+  skos:altLabel "Normal 8"@en, "8 mm Film"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q270183>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#8mmFilm> .
+
+vocab:information-storage-medium-type-93 skos:notation "93";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "8 mm Negative Film"@en, "8 mm Negativfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q270183>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#8mmFilm> .
+
+vocab:information-storage-medium-type-94 skos:notation "94";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "Super 8 mm Positive Film"@en, "Super 8 mm Positivfilm"@de;
+  skos:altLabel "Super 8 mm Film"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1412320>, <https://vocab.getty.edu/aat/300263860>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#Super8mmFilm> .
+
+vocab:information-storage-medium-type-95 skos:notation "95";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "9,5 mm Film"@en, "9,5 mm Film"@de;
+  skos:altLabel "9.5 mm Film"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q275007>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#9andaHalfmmFilm> .
+
+vocab:information-storage-medium-type-96 skos:notation "96";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "16 mm Positive Film"@en, "16 mm Positivfilm"@de;
+  skos:altLabel "16 mm Film"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q194383>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#16mmFilm> .
+
+vocab:information-storage-medium-type-97 skos:notation "97";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "16 mm Negative Film"@en, "16 mm Negativfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q194383>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#16mmFilm> .
+
+vocab:information-storage-medium-type-98 skos:notation "98";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "Super 16 mm Positive Film"@en, "Super 16 mm Positivfilm"@de;
+  skos:altLabel "Super 16 mm Film"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2713357>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#Super16mmFilm> .
+
+vocab:information-storage-medium-type-99 skos:notation "99";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "Super 16 mm Negative Film"@en, "Super 16 mm Negativfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2713357>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#Super16mmFilm> .
+
+vocab:information-storage-medium-type-100 skos:notation "100";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "22 mm Positive Film"@en, "22 mm Positivfilm"@de;
+  skos:altLabel "22 mm Film"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q122811318>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#22mmFilm> .
+
+vocab:information-storage-medium-type-101 skos:notation "101";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "28 mm Positive Film"@en, "28 mm Positivfilm"@de;
+  skos:altLabel "28 mm Film"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q122811337>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#28mmFilm> .
+
+vocab:information-storage-medium-type-102 skos:notation "102";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "35 mm Positive Film"@en, "35 mm Positivfilm"@de;
+  skos:altLabel "35 mm Film"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q226528>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#35mmFilm> .
+
+vocab:information-storage-medium-type-103 skos:notation "103";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "35 mm Negative Film"@en, "35 mm Negativfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q226528>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#35mmFilm> .
+
+vocab:information-storage-medium-type-104 skos:notation "104";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "70 mm Positive Film"@en, "70 mm Positivfilm"@de;
+  skos:altLabel "70 mm Film"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q261242>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#70mmFilm> .
+
+vocab:information-storage-medium-type-105 skos:notation "105";
+  skos:broader vocab:information-storage-medium-type-91;
+  skos:prefLabel "70 mm Negative Film"@en, "70 mm Negativfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q261242>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#70mmFilm> .
+
+vocab:information-storage-medium-type-106 skos:notation "106";
+  skos:prefLabel "Photographic Film"@en, "Fotografischer Film"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6293> .
+
+vocab:information-storage-medium-type-107 skos:notation "107";
+  skos:broader vocab:information-storage-medium-type-106;
+  skos:prefLabel "APS Film"@en, "APS-Film"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15781213> .
+
+vocab:information-storage-medium-type-108 skos:notation "108";
+  skos:broader vocab:information-storage-medium-type-106;
+  skos:prefLabel "35 mm Photo Film"@en, "Kleinbildfilm"@de;
+  skos:altLabel "135 Film"@en, "Small Format Film"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1051557>, <https://vocab.getty.edu/aat/300263816> .
+
+vocab:information-storage-medium-type-109 skos:notation "109";
+  skos:broader vocab:information-storage-medium-type-108;
+  skos:prefLabel "35 mm Reversal Photographic Film"@en, "Diapositiv-Kleinbildfilm"@de;
+  skos:altLabel "35 mm Slide Film"@en, "Umkehr-Kleinbildfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q166816> .
+
+vocab:information-storage-medium-type-110 skos:notation "110";
+  skos:broader vocab:information-storage-medium-type-108;
+  skos:prefLabel "35 mm Negative Photographic Film"@en, "Negativ-Kleinbildfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q595597> .
+
+vocab:information-storage-medium-type-111 skos:notation "111";
+  skos:broader vocab:information-storage-medium-type-108;
+  skos:prefLabel "35 mm Black-and-White Photographic Film"@en, "Schwarzweiß-Kleinbildfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2254548> .
+
+vocab:information-storage-medium-type-112 skos:notation "112";
+  skos:broader vocab:information-storage-medium-type-106;
+  skos:prefLabel "Medium Format"@en, "Mittelformatfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1146074> .
+
+vocab:information-storage-medium-type-113 skos:notation "113";
+  skos:broader vocab:information-storage-medium-type-112;
+  skos:prefLabel "Medium Format Reversal Film"@en, "Diapositiv-Mittelformatfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q166816> .
+
+vocab:information-storage-medium-type-114 skos:notation "114";
+  skos:broader vocab:information-storage-medium-type-112;
+  skos:prefLabel "Medium Format Negative Film"@en, "Negativ-Mittelformatfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q595597> .
+
+vocab:information-storage-medium-type-115 skos:notation "115";
+  skos:broader vocab:information-storage-medium-type-112;
+  skos:prefLabel "Medium Format Black-and-White Film"@en, "Schwarzweiß-Mittelformatfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2254548> .
+
+vocab:information-storage-medium-type-116 skos:notation "116";
+  skos:broader vocab:information-storage-medium-type-106;
+  skos:prefLabel "Large Format"@en, "Großformatfilm"@de;
+  skos:altLabel "Planfilm"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1189460> .
+
+vocab:information-storage-medium-type-117 skos:notation "117";
+  skos:prefLabel "Microform"@en, "Mikroform"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q830450> .
+
+vocab:information-storage-medium-type-118 skos:notation "118";
+  skos:broader vocab:information-storage-medium-type-117;
+  skos:prefLabel "Mikrofiche"@en, "Mikroplanfilm"@de;
+  skos:altLabel "Mikrofiche"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2368076> .
+
+vocab:information-storage-medium-type-119 skos:notation "119";
+  skos:broader vocab:information-storage-medium-type-117;
+  skos:prefLabel "Microfilm"@en, "Mikrofilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12498524> .
+
+vocab:information-storage-medium-type-120 skos:notation "120";
+  skos:broader vocab:information-storage-medium-type-120;
+  skos:prefLabel "Optical Storage Medium"@en, "Optischer Datenträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2248059> .
+
+vocab:information-storage-medium-type-121 skos:notation "121";
+  skos:broader vocab:information-storage-medium-type-120;
+  skos:prefLabel "Data DVD"@en, "Daten-DVD"@de;
+  skos:altLabel "Data DVD+R"@en, "Data DVD+R DL"@en, "Data DVD-R"@en, "Data DVD-RW"@en,
+    "Data DVD+RW"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5294> .
+
+vocab:information-storage-medium-type-122 skos:notation "122";
+  skos:broader vocab:information-storage-medium-type-120;
+  skos:prefLabel "Data Blu-ray"@en, "Daten-Blu-ray"@de;
+  skos:altLabel "BD-R"@en, "BD-RE"@en, "Daten-BD"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q47770> .
+
+vocab:information-storage-medium-type-123 skos:notation "123";
+  skos:broader vocab:information-storage-medium-type-120;
+  skos:prefLabel "M-Disc"@en, "M-Disc"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15727650> .
+
+vocab:information-storage-medium-type-124 skos:notation "124";
+  skos:broader vocab:information-storage-medium-type-120;
+  skos:prefLabel "Data CD"@en, "Daten-CD"@de;
+  skos:altLabel "CD-R"@en, "CD+R"@en, "CD-RW"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7982> .
+
+vocab:information-storage-medium-type-125 skos:notation "125";
+  skos:prefLabel "Magnetic Storage Medium"@en, "Magnetischer Datenträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1364527> .
+
+vocab:information-storage-medium-type-126 skos:notation "126";
+  skos:broader vocab:information-storage-medium-type-125;
+  skos:prefLabel "3,5\" Floppy Disk"@en, "3,5\" Diskette"@de;
+  skos:altLabel "3.5 Inch Floppy Disk"@en, "3"@de, "5 Zoll Diskette"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q37753524> .
+
+vocab:information-storage-medium-type-127 skos:notation "127";
+  skos:broader vocab:information-storage-medium-type-125;
+  skos:prefLabel "5,25\" Floppy Disk"@en, "5,25\" Diskette"@de;
+  skos:altLabel "5.25 Inch Floppy Disk"@en, "5"@de, "25 Zoll Diskette"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q55194959> .
+
+vocab:information-storage-medium-type-128 skos:notation "128";
+  skos:broader vocab:information-storage-medium-type-125;
+  skos:prefLabel "HD"@en, "HD"@de;
+  skos:altLabel "HDD"@en, "Hard Disk"@en, "Festplatte"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4439>, <https://d-nb.info/gnd/4192018-1>,
+    <https://vocab.getty.edu/aat/300266294> .
+
+vocab:information-storage-medium-type-129 skos:notation "129";
+  skos:prefLabel "Solid State Storage Medium"@en, "Festkörper-Datenträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q19280237> .
+
+vocab:information-storage-medium-type-130 skos:notation "130";
+  skos:broader vocab:information-storage-medium-type-129;
+  skos:prefLabel "SSD"@en, "SSD"@de;
+  skos:altLabel "Solid State Storage"@en, "Solid-State-Speicher"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q487343> .
+
+vocab:information-storage-medium-type-131 skos:notation "131";
+  skos:broader vocab:information-storage-medium-type-129;
+  skos:prefLabel "USB Flash Drive"@en, "USB-Stick"@de;
+  skos:altLabel "Thumb Drive"@en, "USB Thumb Drive"@en, "Flash Memory"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1647694>, <https://d-nb.info/gnd/4770596-6>,
+    <https://vocab.getty.edu/aat/300404359> .
+
+vocab:information-storage-medium-type-132 skos:notation "132";
+  skos:prefLabel "Text Medium"@en, "Schriftstück"@de;
+  skos:altLabel "Record"@en, "Buch"@de, "Publikation"@de, "Akte"@de, "Brief"@de, "Notiz"@de,
+    "Beleg"@de, "Formular"@de, "Urkunde"@de, "technische Zeichnung"@de, "Dokument"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q49848>, <https://d-nb.info/gnd/4180009-6> .
+
+vocab:information-storage-medium-type-133 skos:notation "133";
+  skos:broader vocab:information-storage-medium-type-132;
+  skos:prefLabel "Periodical"@en, "Periodikum"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1002697>, <https://vocab.getty.edu/aat/300026657> .
+
+vocab:information-storage-medium-type-134 skos:notation "134";
+  skos:broader vocab:information-storage-medium-type-132;
+  skos:prefLabel "Monograph"@en, "Monografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q193495>, <https://d-nb.info/gnd/4454906-4>,
+    <https://vocab.getty.edu/aat/300060417> .
+
+vocab:information-storage-medium-type-135 skos:notation "135";
+  skos:broader vocab:information-storage-medium-type-132;
+  skos:prefLabel "Musical Notation"@en, "Musiknotation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q233861>, <https://vocab.getty.edu/aat/300417622> .
+
+vocab:information-storage-medium-type-88 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-89 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-90 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-91 a skos:Concept;
+  skos:narrower vocab:information-storage-medium-type-92, vocab:information-storage-medium-type-93,
+    vocab:information-storage-medium-type-94, vocab:information-storage-medium-type-95,
+    vocab:information-storage-medium-type-96, vocab:information-storage-medium-type-97,
+    vocab:information-storage-medium-type-98, vocab:information-storage-medium-type-99,
+    vocab:information-storage-medium-type-100, vocab:information-storage-medium-type-101,
+    vocab:information-storage-medium-type-102, vocab:information-storage-medium-type-103,
+    vocab:information-storage-medium-type-104, vocab:information-storage-medium-type-105;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-92 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-93 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-94 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-95 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-96 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-97 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-98 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-99 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-100 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-101 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-102 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-103 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-104 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-105 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-106 a skos:Concept;
+  skos:narrower vocab:information-storage-medium-type-107, vocab:information-storage-medium-type-108,
+    vocab:information-storage-medium-type-112, vocab:information-storage-medium-type-116;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-107 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-108 a skos:Concept;
+  skos:narrower vocab:information-storage-medium-type-109, vocab:information-storage-medium-type-110,
+    vocab:information-storage-medium-type-111;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-109 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-110 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-111 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-112 a skos:Concept;
+  skos:narrower vocab:information-storage-medium-type-113, vocab:information-storage-medium-type-114,
+    vocab:information-storage-medium-type-115;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-113 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-114 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-115 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-116 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-117 a skos:Concept;
+  skos:narrower vocab:information-storage-medium-type-118, vocab:information-storage-medium-type-119;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-118 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-119 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-120 a skos:Concept;
+  skos:narrower vocab:information-storage-medium-type-120, vocab:information-storage-medium-type-121,
+    vocab:information-storage-medium-type-122, vocab:information-storage-medium-type-123,
+    vocab:information-storage-medium-type-124;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-121 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-122 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-123 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-124 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-125 a skos:Concept;
+  skos:narrower vocab:information-storage-medium-type-126, vocab:information-storage-medium-type-127,
+    vocab:information-storage-medium-type-128;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-126 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-127 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-128 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-129 a skos:Concept;
+  skos:narrower vocab:information-storage-medium-type-130, vocab:information-storage-medium-type-131;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-130 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-131 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-132 a skos:Concept;
+  skos:narrower vocab:information-storage-medium-type-133, vocab:information-storage-medium-type-134,
+    vocab:information-storage-medium-type-135;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-133 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-134 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-135 a skos:Concept;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-1 skos:narrower vocab:information-storage-medium-type-2,
+    vocab:information-storage-medium-type-5, vocab:information-storage-medium-type-6,
+    vocab:information-storage-medium-type-7, vocab:information-storage-medium-type-8,
+    vocab:information-storage-medium-type-9, vocab:information-storage-medium-type-10,
+    vocab:information-storage-medium-type-11, vocab:information-storage-medium-type-12,
+    vocab:information-storage-medium-type-13, vocab:information-storage-medium-type-14,
+    vocab:information-storage-medium-type-15, vocab:information-storage-medium-type-16,
+    vocab:information-storage-medium-type-17, vocab:information-storage-medium-type-18,
+    vocab:information-storage-medium-type-19, vocab:information-storage-medium-type-20,
+    vocab:information-storage-medium-type-21, vocab:information-storage-medium-type-22,
+    vocab:information-storage-medium-type-23, vocab:information-storage-medium-type-24,
+    vocab:information-storage-medium-type-25, vocab:information-storage-medium-type-26,
+    vocab:information-storage-medium-type-29, vocab:information-storage-medium-type-30;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-2 skos:narrower vocab:information-storage-medium-type-3,
+    vocab:information-storage-medium-type-4;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-26 skos:narrower vocab:information-storage-medium-type-27,
+    vocab:information-storage-medium-type-28;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-31 skos:narrower vocab:information-storage-medium-type-32,
+    vocab:information-storage-medium-type-33, vocab:information-storage-medium-type-34,
+    vocab:information-storage-medium-type-35, vocab:information-storage-medium-type-36,
+    vocab:information-storage-medium-type-37;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-38 skos:narrower vocab:information-storage-medium-type-39,
+    vocab:information-storage-medium-type-40, vocab:information-storage-medium-type-41,
+    vocab:information-storage-medium-type-42, vocab:information-storage-medium-type-43,
+    vocab:information-storage-medium-type-44, vocab:information-storage-medium-type-45,
+    vocab:information-storage-medium-type-46;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-47 skos:narrower vocab:information-storage-medium-type-48,
+    vocab:information-storage-medium-type-49, vocab:information-storage-medium-type-53,
+    vocab:information-storage-medium-type-56;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-49 skos:narrower vocab:information-storage-medium-type-50,
+    vocab:information-storage-medium-type-51, vocab:information-storage-medium-type-52;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-53 skos:narrower vocab:information-storage-medium-type-54,
+    vocab:information-storage-medium-type-55;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-57 skos:narrower vocab:information-storage-medium-type-58,
+    vocab:information-storage-medium-type-68, vocab:information-storage-medium-type-69;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-58 skos:narrower vocab:information-storage-medium-type-59,
+    vocab:information-storage-medium-type-60, vocab:information-storage-medium-type-61,
+    vocab:information-storage-medium-type-62, vocab:information-storage-medium-type-63,
+    vocab:information-storage-medium-type-64, vocab:information-storage-medium-type-65,
+    vocab:information-storage-medium-type-66, vocab:information-storage-medium-type-67;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-70 skos:narrower vocab:information-storage-medium-type-71;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-72 skos:narrower vocab:information-storage-medium-type-73,
+    vocab:information-storage-medium-type-84, vocab:information-storage-medium-type-90;
+  skos:inScheme <information-storage-medium-types>;
+  skos:topConceptOf <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-73 skos:narrower vocab:information-storage-medium-type-74,
+    vocab:information-storage-medium-type-75, vocab:information-storage-medium-type-76,
+    vocab:information-storage-medium-type-77, vocab:information-storage-medium-type-78,
+    vocab:information-storage-medium-type-79, vocab:information-storage-medium-type-80,
+    vocab:information-storage-medium-type-81, vocab:information-storage-medium-type-82,
+    vocab:information-storage-medium-type-83;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-84 skos:narrower vocab:information-storage-medium-type-85,
+    vocab:information-storage-medium-type-86, vocab:information-storage-medium-type-87,
+    vocab:information-storage-medium-type-88, vocab:information-storage-medium-type-89;
+  skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-3 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-4 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-5 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-6 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-7 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-8 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-9 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-10 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-11 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-12 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-13 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-14 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-15 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-16 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-17 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-18 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-19 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-20 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-21 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-22 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-23 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-24 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-25 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-27 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-28 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-29 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-30 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-32 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-33 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-34 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-35 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-36 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-37 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-39 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-40 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-41 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-42 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-43 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-44 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-45 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-46 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-48 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-50 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-51 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-52 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-54 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-55 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-56 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-59 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-60 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-61 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-62 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-63 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-64 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-65 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-66 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-67 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-68 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-69 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-71 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-74 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-75 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-76 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-77 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-78 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-79 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-80 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-81 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-82 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-83 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-85 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-86 skos:inScheme <information-storage-medium-types> .
+
+vocab:information-storage-medium-type-87 skos:inScheme <information-storage-medium-types> .
+
+<information-storage-medium-types> a skos:ConceptScheme;
+  skos:hasTopConcept vocab:information-storage-medium-type-1, vocab:information-storage-medium-type-31,
+    vocab:information-storage-medium-type-38, vocab:information-storage-medium-type-47,
+    vocab:information-storage-medium-type-57, vocab:information-storage-medium-type-70,
+    vocab:information-storage-medium-type-72, vocab:information-storage-medium-type-91,
+    vocab:information-storage-medium-type-106, vocab:information-storage-medium-type-117,
+    vocab:information-storage-medium-type-125, vocab:information-storage-medium-type-129,
+    vocab:information-storage-medium-type-132 .

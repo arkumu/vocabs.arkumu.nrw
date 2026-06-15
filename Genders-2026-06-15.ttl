@@ -1,0 +1,61 @@
+@base <http://w3id.org/arkumu/genders> .
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix genders: <http://w3id.org/arkumu/genders/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<> a skos:ConceptScheme;
+  dct:title "Genders"@en, "Geschlechter"@de;
+  dct:description "Dieses Vokabular beschreibt das Geschlecht von Personen."@de, "This vocabulary describes the gender of persons."@en;
+  dct:created "2026-06-15"^^xsd:date;
+  skos:editorialNote "URI noch zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+  skos:hasTopConcept genders:male, genders:female, genders:diverse, genders:genderless,
+    genders:unknown .
+
+genders:male a skos:Concept;
+  skos:notation "1";
+  skos:prefLabel "male"@en, "männlich"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+genders:female a skos:Concept;
+  skos:notation "2";
+  skos:prefLabel "female"@en, "weiblich"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+genders:diverse a skos:Concept;
+  skos:notation "3";
+  skos:prefLabel "diverse"@en, "divers"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+genders:genderless a skos:Concept;
+  skos:notation "4";
+  skos:prefLabel "genderless"@en, "geschlechtslos"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+genders:unknown a skos:Concept;
+  skos:notation "5";
+  skos:prefLabel "unknown"@en, "unbekannt"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .

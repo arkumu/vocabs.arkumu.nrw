@@ -1,0 +1,2694 @@
+@base <http://w3id.org/arkumu/project-categories> .
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix project-category: <http://w3id.org/arkumu/project-categories/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<> dct:title "Project Categories"@en, "Projektkategorien"@de;
+  dct:description "Projektkategorien typisieren ein Projekt. Die Kategorien bezeichnen in der ersten Ordnung die Gattungen der Kunst, die (materielle, digitale, immaterielle, konzeptuelle) Projekte/Werke/Kunstobjekte beschreiben. Ab der zweiten Ordnung ist der Übergang zu Genres nicht scharf trennbar."@de,
+    "Project categories classify a project. At the first level, the categories denote the disciplines of art that describe (physical, digital, immaterial, conceptual) projects, works, and art objects. From the second level onward, the distinction to genres is not clearly defined."@en;
+  dct:created "2026-06-10"^^xsd:date;
+  skos:editorialNote "URI noch zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+<#project-category-1> skos:notation "1";
+  skos:prefLabel "Academic Publication"@en, "Akademische Publikation"@de;
+  skos:altLabel "Scientific Publication"@en, "Research Publication"@en, "Wissenschaftliche Publikation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q591041>, <https://d-nb.info/gnd/4066586-0> .
+
+<#project-category-2> skos:notation "2";
+  skos:broader <#project-category-1>;
+  skos:prefLabel "Doctoral Thesis"@en, "Dissertation"@de;
+  skos:altLabel "Dissertation"@en, "PhD Thesis"@en, "Thesis"@en, "Thesis"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q187685>, <https://d-nb.info/gnd/4012494-0>,
+    <https://vocab.getty.edu/aat/300312076> .
+
+<#project-category-3> skos:notation "3";
+  skos:broader <#project-category-1>;
+  skos:prefLabel "Podcast"@en, "Podcast"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q20899>, <https://d-nb.info/gnd/7527248-9>,
+    <https://vocab.getty.edu/aat/300310137> .
+
+<#project-category-4> skos:notation "4";
+  skos:broader <#project-category-1>;
+  skos:prefLabel "Website"@en, "Webseite"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q35127>, <https://d-nb.info/gnd/4596172-4>,
+    <https://vocab.getty.edu/aat/300265431> .
+
+<#project-category-5> skos:notation "5";
+  skos:prefLabel "Applied Arts"@en, "Angewandte Kunst"@de;
+  skos:altLabel "Gestaltung"@de, "Kunstgewerbe"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q207241>, <https://d-nb.info/gnd/7593577-6>,
+    <https://vocab.getty.edu/aat/300054168> .
+
+<#project-category-6> skos:notation "6";
+  skos:broader <#project-category-5>;
+  skos:prefLabel "Architecture"@en, "Architektur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12271>, <https://d-nb.info/gnd/4002851-3>,
+    <https://vocab.getty.edu/aat/300054156> .
+
+<#project-category-7> skos:notation "7";
+  skos:broader <#project-category-5>;
+  skos:prefLabel "Design"@en, "Design"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q82604>, <https://d-nb.info/gnd/4011510-0>,
+    <https://vocab.getty.edu/aat/300054171> .
+
+<#project-category-8> skos:notation "8";
+  skos:broader <#project-category-7>;
+  skos:prefLabel "Game Design"@en, "Game Design"@de;
+  skos:altLabel "Gamedesign"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q858057> .
+
+<#project-category-9> skos:notation "9";
+  skos:broader <#project-category-7>;
+  skos:prefLabel "Industrial Design"@en, "Industrial Design"@de;
+  skos:altLabel "Product Design"@en, "Produktdesign"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q243606>, <https://d-nb.info/gnd/4072788-9>,
+    <https://vocab.getty.edu/aat/300054183> .
+
+<#project-category-10> skos:notation "10";
+  skos:broader <#project-category-7>;
+  skos:prefLabel "Interior Design"@en, "Innenarchitektur"@de;
+  skos:altLabel "Mediale Raumgestaltung"@de, "Raumgestaltung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q179232>, <https://d-nb.info/gnd/4072819-5>,
+    <https://vocab.getty.edu/aat/300054184> .
+
+<#project-category-11> skos:notation "11";
+  skos:broader <#project-category-7>;
+  skos:prefLabel "Graphic Design"@en, "Kommunikationsdesign"@de;
+  skos:altLabel "Communication Design"@en, "Grafikdesign"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q185925>, <https://d-nb.info/gnd/4304892-4>,
+    <https://vocab.getty.edu/aat/300054181> .
+
+<#project-category-12> skos:notation "12";
+  skos:broader <#project-category-7>;
+  skos:prefLabel "Media Design"@en, "Mediengestaltung"@de;
+  skos:altLabel "Mediendesign"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1916365>, <https://d-nb.info/gnd/4823394-8> .
+
+<#project-category-13> skos:notation "13";
+  skos:broader <#project-category-7>;
+  skos:prefLabel "Fashion Design"@en, "Modedesign"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q29583>, <https://d-nb.info/gnd/7510814-8>,
+    <https://vocab.getty.edu/aat/300138708> .
+
+<#project-category-14> skos:notation "14";
+  skos:broader <#project-category-7>;
+  skos:prefLabel "Sound Design"@en, "Sound-Design"@de;
+  skos:altLabel "Tongestaltung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1937950>, <https://d-nb.info/gnd/7693207-2> .
+
+<#project-category-15> skos:notation "15";
+  skos:broader <#project-category-7>;
+  skos:prefLabel "Textile Design"@en, "Textildesign"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q763631>, <https://d-nb.info/gnd/7506104-1>,
+    <https://vocab.getty.edu/aat/300435243> .
+
+<#project-category-16> skos:notation "16";
+  skos:broader <#project-category-7>;
+  skos:prefLabel "Transformation Design"@en, "Transformation Design"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7834086> .
+
+<#project-category-17> skos:notation "17";
+  skos:broader <#project-category-7>;
+  skos:prefLabel "User Interface Design"@en, "User Interface Design"@de;
+  skos:altLabel "UI Design"@en, "UI-Design"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q135707> .
+
+<#project-category-18> skos:notation "18";
+  skos:broader <#project-category-5>;
+  skos:prefLabel "Photography"@en, "Fotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11633>, <https://d-nb.info/gnd/4045895-7>,
+    <https://vocab.getty.edu/aat/300389795> .
+
+<#project-category-19> skos:notation "19";
+  skos:broader <#project-category-18>;
+  skos:prefLabel "Architectural Photography"@en, "Architekturfotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q635309>, <https://d-nb.info/gnd/4002855-0>,
+    <https://vocab.getty.edu/aat/300435151> .
+
+<#project-category-20> skos:notation "20";
+  skos:broader <#project-category-18>;
+  skos:prefLabel "Documentary Photography"@en, "Dokumentarfotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q615498>, <https://d-nb.info/gnd/4142019-6>,
+    <https://vocab.getty.edu/aat/300134547> .
+
+<#project-category-21> skos:notation "21";
+  skos:broader <#project-category-18>;
+  skos:prefLabel "Photogrammetry"@en, "Fotogrammetrie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q190149>, <https://d-nb.info/gnd/4045892-1>,
+    <https://vocab.getty.edu/aat/300053580> .
+
+<#project-category-22> skos:notation "22";
+  skos:broader <#project-category-18>;
+  skos:prefLabel "Photojournalism"@en, "Fotojournalismus"@de;
+  skos:altLabel "Bildjournalismus"@de, "Bildpublizistik"@de, "Bildberichterstattung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q506858>, <https://d-nb.info/gnd/4212482-7>,
+    <https://vocab.getty.edu/aat/300054229> .
+
+<#project-category-23> skos:notation "23";
+  skos:broader <#project-category-18>;
+  skos:prefLabel "Staged Photography"@en, "Inszenierte Fotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1665341>, <https://d-nb.info/gnd/4371232-0> .
+
+<#project-category-24> skos:notation "24";
+  skos:broader <#project-category-18>;
+  skos:prefLabel "Landscape Photography"@en, "Landschaftsfotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1353984>, <https://d-nb.info/gnd/4132170-4> .
+
+<#project-category-25> skos:notation "25";
+  skos:broader <#project-category-18>;
+  skos:prefLabel "Fashion Photography"@en, "Modefotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1146354>, <https://d-nb.info/gnd/4137739-4>,
+    <https://vocab.getty.edu/aat/300135798> .
+
+<#project-category-26> skos:notation "26";
+  skos:broader <#project-category-18>;
+  skos:prefLabel "Portrait Photography"@en, "Porträtfotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q182956>, <https://d-nb.info/gnd/4046840-9>,
+    <https://vocab.getty.edu/aat/300451604> .
+
+<#project-category-27> skos:notation "27";
+  skos:broader <#project-category-18>;
+  skos:prefLabel "Product Photography"@en, "Produktfotografie"@de;
+  skos:altLabel "Sachfotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2111747>, <https://d-nb.info/gnd/4406085-3> .
+
+<#project-category-28> skos:notation "28";
+  skos:broader <#project-category-18>;
+  skos:prefLabel "Theatrical Photography"@en, "Theaterfotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q612277>, <https://d-nb.info/gnd/4199272-6> .
+
+<#project-category-29> skos:notation "29";
+  skos:broader <#project-category-18>;
+  skos:prefLabel "Advertising Photography"@en, "Werbefotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1657850>, <https://d-nb.info/gnd/4317809-1>,
+    <https://vocab.getty.edu/aat/300412093> .
+
+<#project-category-30> skos:notation "30";
+  skos:broader <#project-category-5>;
+  skos:prefLabel "Ceramic"@en, "Keramik"@de;
+  skos:altLabel "Pottery"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q45621>, <https://d-nb.info/gnd/4030270-2>,
+    <https://vocab.getty.edu/aat/300010666> .
+
+<#project-category-31> skos:notation "31";
+  skos:prefLabel "Performing Arts"@en, "Darstellende Kunst"@de;
+  skos:altLabel "Live Arts"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q184485>, <https://d-nb.info/gnd/4129566-3>,
+    <https://vocab.getty.edu/aat/300054140> .
+
+<#project-category-32> skos:notation "32";
+  skos:broader <#project-category-31>;
+  skos:prefLabel "Theatre"@en, "Theater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11635>, <https://d-nb.info/gnd/4059702-7>,
+    <https://vocab.getty.edu/aat/300417582> .
+
+<#project-category-33> skos:notation "33";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Theatre of the Absurd"@en, "Absurdes Theater"@de;
+  skos:altLabel "Antitheater"@de, "Absurdes Drama"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q191760>, <https://d-nb.info/gnd/4141169-9> .
+
+<#project-category-34> skos:notation "34";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Alternative Theater"@en, "Alternatives Theater"@de;
+  skos:altLabel "Fringe"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1464930>, <https://d-nb.info/gnd/4454844-8> .
+
+<#project-category-35> skos:notation "35";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Applied Theatre"@en, "Angewandtes Theater"@de;
+  skos:altLabel "Applied Drama"@en, "Applied Performance"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4781537>, <https://d-nb.info/gnd/1077445415> .
+
+<#project-category-36> skos:notation "36";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Epic Theatre"@en, "Episches Theater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q722600>, <https://d-nb.info/gnd/4015051-3> .
+
+<#project-category-37> skos:notation "37";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Experimental Theatre"@en, "Experimentelles Theater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3096995>, <https://d-nb.info/gnd/4124890-9> .
+
+<#project-category-38> skos:notation "38";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Digital Theatre"@en, "Digital Theatre"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5276198> .
+
+<#project-category-39> skos:notation "39";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Documentary Theatre"@en, "Dokumentarisches Theater"@de;
+  skos:altLabel "Dokumentartheater"@de, "Dokumentarspiel"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q634138>, <https://d-nb.info/gnd/4139054-4> .
+
+<#project-category-40> skos:notation "40";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Puppetry Arts"@en, "Figurentheater"@de;
+  skos:altLabel "Puppentheater"@de, "Puppenspiel"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q588750>, <https://d-nb.info/gnd/4247240-4> .
+
+<#project-category-41> skos:notation "41";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Open-Air Theatre"@en, "Freilichttheater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11183017> .
+
+<#project-category-42> skos:notation "42";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Improvisational Theatre"@en, "Improvisationstheater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1140700> .
+
+<#project-category-43> skos:notation "43";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Interactive Theatre"@en, "Interaktives Theater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6045421> .
+
+<#project-category-44> skos:notation "44";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Youth Theatre"@en, "Jugendtheater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2416110>, <https://d-nb.info/gnd/4162874-3> .
+
+<#project-category-45> skos:notation "45";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Children's Theatre"@en, "Kindertheater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2416110>, <https://d-nb.info/gnd/4125349-8> .
+
+<#project-category-46> skos:notation "46";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Meta-Theatre"@en, "Metatheater"@de;
+  skos:altLabel "Metadrama"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q16854678>, <https://d-nb.info/gnd/4169655-4> .
+
+<#project-category-47> skos:notation "47";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Musical Theatre"@en, "Musiktheater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1370345>, <https://d-nb.info/gnd/4040874-7> .
+
+<#project-category-48> skos:notation "48";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Physical Theatre"@en, "Physical Theatre"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3179173> .
+
+<#project-category-49> skos:notation "49";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Political Theatre"@en, "Politisches Theater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q442725>, <https://d-nb.info/gnd/4046587-1> .
+
+<#project-category-50> skos:notation "50";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Postdramatic Theatre"@en, "Postdramatisches Theater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2106021>, <https://d-nb.info/gnd/7686613-0> .
+
+<#project-category-51> skos:notation "51";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Postmodern Theatre"@en, "Postmodernes Theater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7234386> .
+
+<#project-category-52> skos:notation "52";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Street Theatre"@en, "Straßentheater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2140453>, <https://d-nb.info/gnd/4057922-0>,
+    <https://vocab.getty.edu/aat/300379205> .
+
+<#project-category-53> skos:notation "53";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Spoken Drama"@en, "Sprechtheater"@de;
+  skos:altLabel "Drama"@en, "Common Theatre"@en, "Schauspiel"@de, "Drama"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q39892385>, <https://d-nb.info/gnd/4182552-4> .
+
+<#project-category-54> skos:notation "54";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Dance Theatre"@en, "Tanztheater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1425858>, <https://d-nb.info/gnd/4184451-8> .
+
+<#project-category-55> skos:notation "55";
+  skos:prefLabel "Film/TV"@en, "Film/TV"@de;
+  skos:altLabel "Film/Fernsehen"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11424>, <https://d-nb.info/gnd/4017102-4>,
+    <https://vocab.getty.edu/aat/300136900> .
+
+<#project-category-56> skos:notation "56";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Animated Film"@en, "Animationsfilm"@de;
+  skos:altLabel "Animation"@en, "Animation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q202866>, <https://d-nb.info/gnd/4142484-0>,
+    <https://vocab.getty.edu/aat/300411663>, <http://filmportal.vocnet.org/html/category/c00006> .
+
+<#project-category-57> skos:notation "57";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Docudrama"@en, "Dokudrama"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q622370>, <http://filmportal.vocnet.org/html/category/c00050> .
+
+<#project-category-58> skos:notation "58";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Documentary Film"@en, "Dokumentarfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q93204>, <https://d-nb.info/gnd/4012653-5>,
+    <https://vocab.getty.edu/aat/300375156>, <http://filmportal.vocnet.org/html/category/c00007> .
+
+<#project-category-59> skos:notation "59";
+  skos:broader <#project-category-58>;
+  skos:prefLabel "Short Documentary Film"@en, "Kurz-Dokumentarfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q121742706>, <http://filmportal.vocnet.org/html/category/c00019> .
+
+<#project-category-60> skos:notation "60";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Screenplay"@en, "Drehbuch"@de;
+  skos:altLabel "Film Script"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q103076>, <https://d-nb.info/gnd/4127976-1>,
+    <https://vocab.getty.edu/aat/300026491> .
+
+<#project-category-61> skos:notation "61";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Episode"@en, "Episode"@de;
+  skos:altLabel "Folge"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1983062>, <https://d-nb.info/gnd/4113453-9> .
+
+<#project-category-62> skos:notation "62";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Anthology Film"@en, "Episodenfilm"@de;
+  skos:altLabel "Anthologie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q336144>, <https://d-nb.info/gnd/4248221-5> .
+
+<#project-category-63> skos:notation "63";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Essay Film"@en, "Essay-Film"@de;
+  skos:altLabel "Film-Essay"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11356864>, <https://d-nb.info/gnd/4279316-6> .
+
+<#project-category-64> skos:notation "64";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Expanded Cinema"@en, "Expanded Cinema"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q117104066>, <https://d-nb.info/gnd/1168277388> .
+
+<#project-category-65> skos:notation "65";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Experimental Film"@en, "Experimentalfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q790192>, <https://d-nb.info/gnd/4153359-8>,
+    <https://vocab.getty.edu/aat/300263845>, <http://filmportal.vocnet.org/html/category/c00011> .
+
+<#project-category-66> skos:notation "66";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Compilation Film"@en, "Kompilationsfilm"@de;
+  skos:altLabel "Archivfilm"@de, "Chronikfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q455315>, <https://vocab.getty.edu/aat/300263842>,
+    <http://filmportal.vocnet.org/html/category/c00013> .
+
+<#project-category-67> skos:notation "67";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Mockumentary"@en, "Mockumentary"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q459435>, <https://d-nb.info/gnd/7738916-5> .
+
+<#project-category-68> skos:notation "68";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Musical Film"@en, "Musikfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q842256>, <https://d-nb.info/gnd/4170822-2> .
+
+<#project-category-69> skos:notation "69";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Music Video"@en, "Musikvideo"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q193977>, <https://d-nb.info/gnd/4492539-6>,
+    <http://filmportal.vocnet.org/html/category/c00017> .
+
+<#project-category-70> skos:notation "70";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Reportage"@en, "Reportage"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q124922>, <https://d-nb.info/gnd/4049528-0> .
+
+<#project-category-71> skos:notation "71";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Soundtrack"@en, "Soundtrack"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q217199>, <https://d-nb.info/gnd/4017129-2>,
+    <https://vocab.getty.edu/aat/300263865> .
+
+<#project-category-72> skos:notation "72";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Feature Film"@en, "Spielfilm"@de;
+  skos:altLabel "Movie"@en, "Fiction Film"@en, "Szenischer Film"@de, "Fiktionaler Film"@de,
+    "Kinospielfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12912091>, <https://d-nb.info/gnd/1286825091>,
+    <https://vocab.getty.edu/aat/300263847>, <http://filmportal.vocnet.org/html/category/c00003> .
+
+<#project-category-73> skos:notation "73";
+  skos:broader <#project-category-72>;
+  skos:prefLabel "Short Film"@en, "Kurzspielfilm"@de;
+  skos:altLabel "Kurzfilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q24862>, <https://d-nb.info/gnd/4166233-7>,
+    <https://vocab.getty.edu/aat/300263846> .
+
+<#project-category-74> skos:notation "74";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Film Trailer"@en, "Trailer für Film"@de;
+  skos:altLabel "Kinotrailer"@de, "Filmtrailer"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q622550>, <https://d-nb.info/gnd/4349797-4>,
+    <https://vocab.getty.edu/aat/300263866>, <http://filmportal.vocnet.org/html/category/c00005> .
+
+<#project-category-75> skos:notation "75";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Television Programme"@en, "TV-Format"@de;
+  skos:altLabel "TV Program"@en, "TV Show"@en, "Television Program"@en, "Fernsehsendung"@de,
+    "TV-Sendung"@de, "Fernsehprogramm"@de, "TV-Programm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15416>, <https://d-nb.info/gnd/4016842-6>,
+    <https://vocab.getty.edu/aat/300263432> .
+
+<#project-category-76> skos:notation "76";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Web Series"@en, "Webserie"@de;
+  skos:altLabel "VLOG"@en, "Video Blog"@en, "Serial"@en, "Serielles Format"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q526877>, <https://d-nb.info/gnd/1224905261> .
+
+<#project-category-77> skos:notation "77";
+  skos:broader <#project-category-55>;
+  skos:prefLabel "Commercial"@en, "Werbespot"@de;
+  skos:altLabel "Audio-Visual Advertisement"@en, "Advertising Film"@en, "Advertisement"@en,
+    "Promotional Video"@en, "Werbefilm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1869909>, <https://d-nb.info/gnd/4197734-8>,
+    <http://filmportal.vocnet.org/html/category/c00002> .
+
+<#project-category-78> skos:notation "78";
+  skos:prefLabel "Art"@en, "Kunst"@de;
+  skos:altLabel "Fine Art"@en, "Visual Art"@en, "Medienkunst"@de, "Bildende Kunst"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q838948>, <https://d-nb.info/gnd/4114333-4>,
+    <https://vocab.getty.edu/aat/300179869> .
+
+<#project-category-79> skos:notation "79";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Bio Art"@en, "Bio Art"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2561815>, <https://d-nb.info/gnd/1151401021>,
+    <https://vocab.getty.edu/aat/300443553> .
+
+<#project-category-80> skos:notation "80";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Digital Art"@en, "Digitale Kunst"@de;
+  skos:altLabel "Computerbasierte Kunst"@de, "Computerkunst"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q860372>, <https://d-nb.info/gnd/4010453-9>,
+    <https://vocab.getty.edu/aat/300069478> .
+
+<#project-category-81> skos:notation "81";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "Augmented Reality"@en, "Augmented Reality"@de;
+  skos:altLabel "AR"@en, "Erweiterte Realität"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q254183>, <https://d-nb.info/gnd/4715802-5>,
+    <https://vocab.getty.edu/aat/300387555> .
+
+<#project-category-82> skos:notation "82";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "CD-ROM"@en, "CD-ROM"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7982>, <https://d-nb.info/gnd/4139307-7>,
+    <https://vocab.getty.edu/aat/300196583> .
+
+<#project-category-83> skos:notation "83";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "Computer Generated Imagery"@en, "Computer Generated Imagery"@de;
+  skos:altLabel "CGI"@en, "Computer Graphics"@en, "Computergrafik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6002306>, <https://d-nb.info/gnd/4197506-6>,
+    <https://vocab.getty.edu/aat/300266307> .
+
+<#project-category-84> skos:notation "84";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "Computer Animation"@en, "Computeranimation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1401416>, <https://d-nb.info/gnd/4199710-4>,
+    <https://vocab.getty.edu/aat/300053161> .
+
+<#project-category-85> skos:notation "85";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "Computer Game"@en, "Computerspiel"@de;
+  skos:altLabel "Game"@en, "Video Game"@en, "Serious Game"@en, "Videospiel"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7889>, <https://d-nb.info/gnd/4010457-6>,
+    <https://vocab.getty.edu/aat/300256888> .
+
+<#project-category-86> skos:notation "86";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "Generative Art"@en, "Generative Kunst"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1502032>, <https://vocab.getty.edu/aat/300266042> .
+
+<#project-category-87> skos:notation "87";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "Interactive Art"@en, "Interaktive Kunst"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2394336>, <https://d-nb.info/gnd/4557518-6>,
+    <https://vocab.getty.edu/aat/300266754> .
+
+<#project-category-88> skos:notation "88";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "Net Art"@en, "Netzkunst"@de;
+  skos:altLabel "NetArt"@en, "Internet Art"@en, "Netzprojekt"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1569950>, <https://d-nb.info/gnd/4571611-0>,
+    <https://vocab.getty.edu/aat/300419940> .
+
+<#project-category-89> skos:notation "89";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "Software"@en, "Software"@de;
+  skos:altLabel "Softwarekunst"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2864686> .
+
+<#project-category-90> skos:notation "90";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "User Interface"@en, "User Interface"@de;
+  skos:altLabel "UI"@en, "Interface"@en, "Benutzerschnittstelle"@de, "Mensch-Maschine-Schnittstelle"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q47146>, <https://d-nb.info/gnd/4720440-0> .
+
+<#project-category-91> skos:notation "91";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "Virtual Reality"@en, "Virtual Reality"@de;
+  skos:altLabel "VR"@en, "Virtuelle Realität"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q170519>, <https://d-nb.info/gnd/4399931-1>,
+    <https://vocab.getty.edu/aat/300238469> .
+
+<#project-category-92> skos:notation "92";
+  skos:broader <#project-category-80>;
+  skos:prefLabel "Web Series"@en, "Webserie"@de;
+  skos:altLabel "VLOG"@en, "Video Blog"@en, "Serial"@en, "Serielles Format"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q526877>, <https://d-nb.info/gnd/1224905261> .
+
+<#project-category-93> skos:notation "93";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Installation"@en, "Installation"@de;
+  skos:altLabel "Environment"@en, "Rauminstallation"@de, "Raumkonzept"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q20437094>, <https://d-nb.info/gnd/4131808-0>,
+    <https://vocab.getty.edu/aat/300047896> .
+
+<#project-category-94> skos:notation "94";
+  skos:broader <#project-category-93>;
+  skos:prefLabel "Photo Installation"@en, "Fotoinstallation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q117021891>, <https://d-nb.info/gnd/4395048-6> .
+
+<#project-category-95> skos:notation "95";
+  skos:broader <#project-category-93>;
+  skos:prefLabel "Interactive Art"@en, "Interaktive Kunst"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2394336>, <https://d-nb.info/gnd/4557518-6>,
+    <https://vocab.getty.edu/aat/300266754> .
+
+<#project-category-96> skos:notation "96";
+  skos:broader <#project-category-93>;
+  skos:prefLabel "Intervention"@en, "Intervention"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3937287>, <https://vocab.getty.edu/aat/300266371> .
+
+<#project-category-97> skos:notation "97";
+  skos:broader <#project-category-93>;
+  skos:prefLabel "Sound Installation"@en, "Klanginstallation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2633362>, <https://vocab.getty.edu/aat/300387585> .
+
+<#project-category-98> skos:notation "98";
+  skos:broader <#project-category-93>;
+  skos:prefLabel "Percent for Art"@en, "Kunst am Bau"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1726794>, <https://d-nb.info/gnd/4114334-6> .
+
+<#project-category-99> skos:notation "99";
+  skos:broader <#project-category-93>;
+  skos:prefLabel "Public Art"@en, "Kunst im öffentlichen Raum"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q557141>, <https://d-nb.info/gnd/1024012069>,
+    <https://vocab.getty.edu/aat/300056501> .
+
+<#project-category-100> skos:notation "100";
+  skos:broader <#project-category-93>;
+  skos:prefLabel "Light Installation"@en, "Lichtinstallation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1823448>, <https://d-nb.info/gnd/4614008-6> .
+
+<#project-category-101> skos:notation "101";
+  skos:broader <#project-category-93>;
+  skos:prefLabel "Video Installation"@en, "Videoinstallation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q550484>, <https://d-nb.info/gnd/4347940-6> .
+
+<#project-category-102> skos:notation "102";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Sound Art"@en, "Klangkunst"@de;
+  skos:altLabel "Klang"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1744327>, <https://d-nb.info/gnd/4430771-8>,
+    <https://vocab.getty.edu/aat/300387583> .
+
+<#project-category-103> skos:notation "103";
+  skos:broader <#project-category-102>;
+  skos:prefLabel "Album"@en, "Album"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q482994>, <https://d-nb.info/gnd/1077267533> .
+
+<#project-category-104> skos:notation "104";
+  skos:broader <#project-category-102>;
+  skos:prefLabel "Field Recording"@en, "Field Recording"@de;
+  skos:altLabel "Live Sound Recording"@en, "Feldaufnahme"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q360982>, <https://d-nb.info/gnd/1030305420>,
+    <https://vocab.getty.edu/aat/300265794> .
+
+<#project-category-105> skos:notation "105";
+  skos:broader <#project-category-102>;
+  skos:prefLabel "Listening Piece"@en, "Hörstück"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q121788275>, <https://d-nb.info/gnd/1028557604> .
+
+<#project-category-106> skos:notation "106";
+  skos:broader <#project-category-102>;
+  skos:prefLabel "Sound Installation"@en, "Klanginstallation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2633362>, <https://vocab.getty.edu/aat/300387585> .
+
+<#project-category-107> skos:notation "107";
+  skos:broader <#project-category-102>;
+  skos:prefLabel "Sound Sculpture"@en, "Klangobjekt"@de;
+  skos:altLabel "Akustische Skulptur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2236597>, <https://d-nb.info/gnd/4364747-9>,
+    <https://vocab.getty.edu/aat/300047267> .
+
+<#project-category-108> skos:notation "108";
+  skos:broader <#project-category-102>;
+  skos:prefLabel "Composition"@en, "Komposition"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q207628>, <https://d-nb.info/gnd/4133320-2> .
+
+<#project-category-109> skos:notation "109";
+  skos:broader <#project-category-102>;
+  skos:prefLabel "Concert"@en, "Konzert"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q182832>, <https://d-nb.info/gnd/4317474-7>,
+    <https://vocab.getty.edu/aat/300069210> .
+
+<#project-category-110> skos:notation "110";
+  skos:broader <#project-category-102>;
+  skos:prefLabel "Soundtrack"@en, "Soundtrack"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q217199>, <https://d-nb.info/gnd/4017129-2>,
+    <https://vocab.getty.edu/aat/300263865> .
+
+<#project-category-111> skos:notation "111";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Artist's Publication"@en, "Künstler:innen-Publikation"@de;
+  skos:altLabel "Künstlerpublikation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q121788724> .
+
+<#project-category-112> skos:notation "112";
+  skos:broader <#project-category-111>;
+  skos:prefLabel "Artist's Book"@en, "Künstler:innen-Buch"@de;
+  skos:altLabel "Artist book"@en, "Book Art"@en, "Buchkunst"@de, "Buchprojekt"@de, "Künstlerbuch"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1062404>, <https://d-nb.info/gnd/4229053-3>,
+    <https://vocab.getty.edu/aat/300123016> .
+
+<#project-category-113> skos:notation "113";
+  skos:broader <#project-category-111>;
+  skos:prefLabel "Artist's Statement"@en, "Künstler:innen-Text"@de;
+  skos:altLabel "Artist's Text"@en, "Statement"@en, "Künstler:innen-Statement"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4801214>, <https://vocab.getty.edu/aat/300192825> .
+
+<#project-category-114> skos:notation "114";
+  skos:broader <#project-category-111>;
+  skos:prefLabel "Podcast"@en, "Podcast"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q20899>, <https://d-nb.info/gnd/7527248-9>,
+    <https://vocab.getty.edu/aat/300310137> .
+
+<#project-category-115> skos:notation "115";
+  skos:broader <#project-category-111>;
+  skos:prefLabel "Website"@en, "Webseite"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q35127>, <https://d-nb.info/gnd/4596172-4>,
+    <https://vocab.getty.edu/aat/300265431> .
+
+<#project-category-116> skos:notation "116";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Fine Art Photography"@en, "Künstlerische Fotografie"@de;
+  skos:altLabel "Fotokunst"@de, "Kunstfotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1066582>, <https://vocab.getty.edu/aat/300435144> .
+
+<#project-category-117> skos:notation "117";
+  skos:broader <#project-category-116>;
+  skos:prefLabel "Computer-Generated Imagery"@en, "Computer Generated Imagery"@de;
+  skos:altLabel "CGI"@en, "Computer Graphics"@en, "Computergrafik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6002306>, <https://d-nb.info/gnd/4197506-6>,
+    <https://vocab.getty.edu/aat/300266307> .
+
+<#project-category-118> skos:notation "118";
+  skos:broader <#project-category-116>;
+  skos:prefLabel "Documentary Photography"@en, "Dokumentarfotografie"@de;
+  skos:altLabel "Künstlerische Dokumentarfotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q615498>, <https://d-nb.info/gnd/4142019-6>,
+    <https://vocab.getty.edu/aat/300134547> .
+
+<#project-category-119> skos:notation "119";
+  skos:broader <#project-category-116>;
+  skos:prefLabel "Photobook"@en, "Fotobuch"@de;
+  skos:altLabel "Photo-Book"@en, "Photo Book"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q604219>, <https://d-nb.info/gnd/7660057-9>,
+    <https://vocab.getty.edu/aat/300265728> .
+
+<#project-category-120> skos:notation "120";
+  skos:broader <#project-category-116>;
+  skos:prefLabel "Photogrammetry"@en, "Fotogrammetrie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q190149>, <https://d-nb.info/gnd/4045892-1>,
+    <https://vocab.getty.edu/aat/300053580> .
+
+<#project-category-121> skos:notation "121";
+  skos:broader <#project-category-116>;
+  skos:prefLabel "Photo Installation"@en, "Fotoinstallation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q117021891>, <https://d-nb.info/gnd/4395048-6> .
+
+<#project-category-122> skos:notation "122";
+  skos:broader <#project-category-116>;
+  skos:prefLabel "Staged Photography"@en, "Inszenierte Fotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1665341>, <https://d-nb.info/gnd/4371232-0> .
+
+<#project-category-123> skos:notation "123";
+  skos:broader <#project-category-116>;
+  skos:prefLabel "Conceptual Photography"@en, "Konzeptuelle Fotografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5158441> .
+
+<#project-category-124> skos:notation "124";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Light Art"@en, "Lichtkunst"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1421557>, <https://d-nb.info/gnd/4120673-3>,
+    <https://vocab.getty.edu/aat/300121461> .
+
+<#project-category-125> skos:notation "125";
+  skos:broader <#project-category-124>;
+  skos:prefLabel "Holography"@en, "Holografie"@de;
+  skos:altLabel "Holografische Arbeit"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q527628>, <https://d-nb.info/gnd/4025643-1>,
+    <https://vocab.getty.edu/aat/300053341> .
+
+<#project-category-126> skos:notation "126";
+  skos:broader <#project-category-124>;
+  skos:prefLabel "Light Installation"@en, "Lichtinstallation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1823448>, <https://d-nb.info/gnd/4614008-6> .
+
+<#project-category-127> skos:notation "127";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Painting"@en, "Malerei"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11629>, <https://d-nb.info/gnd/4037220-0>,
+    <https://vocab.getty.edu/aat/300033799> .
+
+<#project-category-128> skos:notation "128";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Performance"@en, "Performance"@de;
+  skos:altLabel "Aktionskunst"@de, "Handlung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q213156>, <https://d-nb.info/gnd/4173750-7>,
+    <https://vocab.getty.edu/aat/300121445> .
+
+<#project-category-129> skos:notation "129";
+  skos:broader <#project-category-128>;
+  skos:prefLabel "Action"@en, "Aktion"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q422635>, <https://d-nb.info/gnd/4141744-6>,
+    <https://vocab.getty.edu/aat/300185409> .
+
+<#project-category-130> skos:notation "130";
+  skos:broader <#project-category-128>;
+  skos:prefLabel "Durational Performance"@en, "Durational Performance"@de;
+  skos:altLabel "Durational Art"@en, "Endurance Art"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5376667> .
+
+<#project-category-131> skos:notation "131";
+  skos:broader <#project-category-128>;
+  skos:prefLabel "Happening"@en, "Happening"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q108874>, <https://d-nb.info/gnd/4159095-8>,
+    <https://vocab.getty.edu/aat/300047935> .
+
+<#project-category-132> skos:notation "132";
+  skos:broader <#project-category-128>;
+  skos:prefLabel "Intervention"@en, "Intervention"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3937287>, <https://vocab.getty.edu/aat/300266371> .
+
+<#project-category-133> skos:notation "133";
+  skos:broader <#project-category-128>;
+  skos:prefLabel "Lecture Performance"@en, "Performance-Vortrag"@de;
+  skos:altLabel "Performance Lecture"@en, "Performance-Lecture"@en, "Vortragsperformance"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q61862009>, <https://d-nb.info/gnd/7688836-8> .
+
+<#project-category-134> skos:notation "134";
+  skos:broader <#project-category-128>;
+  skos:prefLabel "Dance"@en, "Tanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11639>, <https://d-nb.info/gnd/4059028-8>,
+    <https://vocab.getty.edu/aat/300054144> .
+
+<#project-category-135> skos:notation "135";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Sculpture"@en, "Skulptur"@de;
+  skos:altLabel "Plastik"@de, "Bildhauerkunst"@de, "Bildhauerei"@de, "Objekt"@de, "Objektkunst"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q860861>, <https://d-nb.info/gnd/4046277-8>,
+    <https://vocab.getty.edu/aat/300047090> .
+
+<#project-category-136> skos:notation "136";
+  skos:broader <#project-category-135>;
+  skos:prefLabel "Model"@en, "Modell"@de;
+  skos:altLabel "Maquette"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1979154>, <https://d-nb.info/gnd/4039798-1>,
+    <https://vocab.getty.edu/aat/300047753> .
+
+<#project-category-137> skos:notation "137";
+  skos:broader <#project-category-135>;
+  skos:prefLabel "Found Object"@en, "Ready-made"@de;
+  skos:altLabel "Objekt"@de, "Objet Trouvé"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q572916>, <https://d-nb.info/gnd/4177111-4>,
+    <https://vocab.getty.edu/aat/300047210> .
+
+<#project-category-138> skos:notation "138";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Video Art"@en, "Videokunst"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q682010>, <https://d-nb.info/gnd/4188229-5>,
+    <https://vocab.getty.edu/aat/300102067> .
+
+<#project-category-139> skos:notation "139";
+  skos:broader <#project-category-138>;
+  skos:prefLabel "Expanded Cinema"@en, "Expanded Cinema"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q117104066>, <https://d-nb.info/gnd/1168277388> .
+
+<#project-category-140> skos:notation "140";
+  skos:broader <#project-category-138>;
+  skos:prefLabel "Projection Mapping"@en, "Projektionsmapping"@de;
+  skos:altLabel "Videomapping"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q776483> .
+
+<#project-category-141> skos:notation "141";
+  skos:broader <#project-category-138>;
+  skos:prefLabel "Video Essay"@en, "Video-Essay"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q48773471> .
+
+<#project-category-142> skos:notation "142";
+  skos:broader <#project-category-138>;
+  skos:prefLabel "Video Installation"@en, "Videoinstallation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q550484>, <https://d-nb.info/gnd/4347940-6> .
+
+<#project-category-143> skos:notation "143";
+  skos:broader <#project-category-138>;
+  skos:prefLabel "Video Performance"@en, "Videoperformance"@de;
+  skos:altLabel "Video-Performance"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q115754536> .
+
+<#project-category-144> skos:notation "144";
+  skos:broader <#project-category-138>;
+  skos:prefLabel "Video Sculpture"@en, "Videoskulptur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7927987> .
+
+<#project-category-145> skos:notation "145";
+  skos:broader <#project-category-138>;
+  skos:prefLabel "Virtual Reality"@en, "Virtual Reality"@de;
+  skos:altLabel "VR"@en, "Virtuelle Realität"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q170519>, <https://d-nb.info/gnd/4399931-1>,
+    <https://vocab.getty.edu/aat/300238469> .
+
+<#project-category-146> skos:notation "146";
+  skos:broader <#project-category-78>;
+  skos:prefLabel "Drawing"@en, "Zeichnung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q93184>, <https://d-nb.info/gnd/4127900-1>,
+    <https://vocab.getty.edu/aat/300033973> .
+
+<#project-category-147> skos:notation "147";
+  skos:broader <#project-category-146>;
+  skos:prefLabel "Collage"@en, "Collage"@de;
+  skos:altLabel "Decollage"@de, "Fotomontage"@de, "Assemblage"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q170593>, <https://d-nb.info/gnd/4010384-5>,
+    <https://vocab.getty.edu/aat/300033963> .
+
+<#project-category-148> skos:notation "148";
+  skos:broader <#project-category-146>;
+  skos:prefLabel "Comic"@en, "Comic"@de;
+  skos:altLabel "Graphic Novel"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q725377>, <https://d-nb.info/gnd/7658564-5>,
+    <https://vocab.getty.edu/aat/300015635> .
+
+<#project-category-149> skos:notation "149";
+  skos:broader <#project-category-146>;
+  skos:prefLabel "Printmaking"@en, "Druckgrafik"@de;
+  skos:altLabel "Grafik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1027879>, <https://d-nb.info/gnd/4021845-4>,
+    <https://vocab.getty.edu/aat/300041273> .
+
+<#project-category-150> skos:notation "150";
+  skos:prefLabel "Literature"@en, "Literatur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q8242>, <https://d-nb.info/gnd/4035964-5>,
+    <https://vocab.getty.edu/aat/300417585> .
+
+<#project-category-151> skos:notation "151";
+  skos:broader <#project-category-150>;
+  skos:prefLabel "Drama"@en, "Drama"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q25372>, <https://d-nb.info/gnd/4012899-4>,
+    <https://vocab.getty.edu/aat/300417554> .
+
+<#project-category-152> skos:notation "152";
+  skos:broader <#project-category-151>;
+  skos:prefLabel "One-act Play"@en, "Einakter"@de;
+  skos:altLabel "Kurzdrama"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1194583>, <https://d-nb.info/gnd/4132520-5> .
+
+<#project-category-153> skos:notation "153";
+  skos:broader <#project-category-151>;
+  skos:prefLabel "Historical Play"@en, "Historiendrama"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5774663>, <https://d-nb.info/gnd/4025133-0> .
+
+<#project-category-154> skos:notation "154";
+  skos:broader <#project-category-151>;
+  skos:prefLabel "Comedy"@en, "Komödie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q40831>, <https://d-nb.info/gnd/4031952-0>,
+    <https://vocab.getty.edu/aat/300055911> .
+
+<#project-category-155> skos:notation "155";
+  skos:broader <#project-category-151>;
+  skos:prefLabel "Libretto"@en, "Libretto"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q131084>, <https://d-nb.info/gnd/4035588-3>,
+    <https://vocab.getty.edu/aat/300026424> .
+
+<#project-category-156> skos:notation "156";
+  skos:broader <#project-category-151>;
+  skos:prefLabel "Monodrama"@en, "Monodrama"@de;
+  skos:altLabel "Einpersonenstück"@de, "Monodram"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q221290>, <https://d-nb.info/gnd/4170462-9> .
+
+<#project-category-157> skos:notation "157";
+  skos:broader <#project-category-151>;
+  skos:prefLabel "Morality Play"@en, "Moralität"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q929047>, <https://d-nb.info/gnd/4170539-7>,
+    <https://vocab.getty.edu/aat/300202564> .
+
+<#project-category-158> skos:notation "158";
+  skos:broader <#project-category-151>;
+  skos:prefLabel "Comedy of Manors"@en, "Sittenstück"@de;
+  skos:altLabel "Konversationsstück"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q222926>, <https://d-nb.info/gnd/4268889-9> .
+
+<#project-category-159> skos:notation "159";
+  skos:broader <#project-category-151>;
+  skos:prefLabel "Comedy Drama"@en, "Tragikomödie"@de;
+  skos:altLabel "Dramedy"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q859369>, <https://d-nb.info/gnd/4185839-6> .
+
+<#project-category-160> skos:notation "160";
+  skos:broader <#project-category-151>;
+  skos:prefLabel "Tragedy"@en, "Tragödie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q80930>, <https://d-nb.info/gnd/4060591-7>,
+    <https://vocab.getty.edu/aat/300055916> .
+
+<#project-category-161> skos:notation "161";
+  skos:broader <#project-category-151>;
+  skos:prefLabel "Verse Drama"@en, "Versdrama"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1370860>, <https://d-nb.info/gnd/4187986-7>,
+    <https://vocab.getty.edu/aat/300417798> .
+
+<#project-category-162> skos:notation "162";
+  skos:broader <#project-category-150>;
+  skos:prefLabel "Screenplay"@en, "Drehbuch"@de;
+  skos:altLabel "Film Script"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q103076>, <https://d-nb.info/gnd/4127976-1>,
+    <https://vocab.getty.edu/aat/300026491> .
+
+<#project-category-163> skos:notation "163";
+  skos:broader <#project-category-150>;
+  skos:prefLabel "Epic Literature"@en, "Epik"@de;
+  skos:altLabel "Epische Literatur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1097273>, <https://d-nb.info/gnd/4015025-2>,
+    <https://vocab.getty.edu/aat/300404209> .
+
+<#project-category-164> skos:notation "164";
+  skos:broader <#project-category-163>;
+  skos:prefLabel "Narrative Story"@en, "Erzählung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q27036528>, <https://d-nb.info/gnd/4015464-6>,
+    <https://vocab.getty.edu/aat/300185346> .
+
+<#project-category-165> skos:notation "165";
+  skos:broader <#project-category-163>;
+  skos:prefLabel "Short Story"@en, "Kurzgeschichte"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q49084>, <https://d-nb.info/gnd/4033842-3>,
+    <https://vocab.getty.edu/aat/300202607> .
+
+<#project-category-166> skos:notation "166";
+  skos:broader <#project-category-163>;
+  skos:prefLabel "Fairy Tale"@en, "Märchen"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q699>, <https://d-nb.info/gnd/4036910-9>,
+    <https://vocab.getty.edu/aat/300185684> .
+
+<#project-category-167> skos:notation "167";
+  skos:broader <#project-category-163>;
+  skos:prefLabel "Novella"@en, "Novelle"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q149537>, <https://d-nb.info/gnd/4042706-7>,
+    <https://vocab.getty.edu/aat/300202569> .
+
+<#project-category-168> skos:notation "168";
+  skos:broader <#project-category-163>;
+  skos:prefLabel "Parable"@en, "Parabel"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q208555>, <https://d-nb.info/gnd/4075855-2>,
+    <https://vocab.getty.edu/aat/300185342> .
+
+<#project-category-169> skos:notation "169";
+  skos:broader <#project-category-163>;
+  skos:prefLabel "Reportage"@en, "Reportage"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q124922>, <https://d-nb.info/gnd/4049528-0> .
+
+<#project-category-170> skos:notation "170";
+  skos:broader <#project-category-163>;
+  skos:prefLabel "Novel"@en, "Roman"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q8261>, <https://d-nb.info/gnd/4050479-7>,
+    <https://vocab.getty.edu/aat/300202580> .
+
+<#project-category-171> skos:notation "171";
+  skos:broader <#project-category-163>;
+  skos:prefLabel "Satire"@en, "Satire"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q128758>, <https://d-nb.info/gnd/4051752-4>,
+    <https://vocab.getty.edu/aat/300251297> .
+
+<#project-category-172> skos:notation "172";
+  skos:broader <#project-category-150>;
+  skos:prefLabel "Literary Reading"@en, "Literaturlesung"@de;
+  skos:altLabel "Autorenlesung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q106499608> .
+
+<#project-category-173> skos:notation "173";
+  skos:broader <#project-category-150>;
+  skos:prefLabel "Poetry"@en, "Lyrik"@de;
+  skos:altLabel "Poesie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q482>, <https://d-nb.info/gnd/4036774-5>,
+    <https://vocab.getty.edu/aat/300055931> .
+
+<#project-category-174> skos:notation "174";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Acrostic"@en, "Akrostichon"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q173287>, <https://d-nb.info/gnd/4195703-9>,
+    <https://vocab.getty.edu/aat/300256198> .
+
+<#project-category-175> skos:notation "175";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Ballad"@en, "Ballade"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q182659>, <https://d-nb.info/gnd/4004343-5>,
+    <https://vocab.getty.edu/aat/300451697> .
+
+<#project-category-176> skos:notation "176";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Elegy"@en, "Elegie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q174864>, <https://d-nb.info/gnd/4151713-1>,
+    <https://vocab.getty.edu/aat/300026285> .
+
+<#project-category-177> skos:notation "177";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Epigram"@en, "Epigramm"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q193121>, <https://d-nb.info/gnd/4152507-3>,
+    <https://vocab.getty.edu/aat/300202533> .
+
+<#project-category-178> skos:notation "178";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Poem"@en, "Gedicht"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5185279>, <https://vocab.getty.edu/aat/300026451> .
+
+<#project-category-179> skos:notation "179";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Poetry Collection"@en, "Gedichtsammlung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12106333> .
+
+<#project-category-180> skos:notation "180";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Haiku"@en, "Haiku"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q37707>, <https://d-nb.info/gnd/4022963-4> .
+
+<#project-category-181> skos:notation "181";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Hymn"@en, "Hymne"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q484692>, <https://d-nb.info/gnd/4125676-1>,
+    <https://vocab.getty.edu/aat/300167054> .
+
+<#project-category-182> skos:notation "182";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Concrete Poetry"@en, "Konkrete Poesie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q596594>, <https://d-nb.info/gnd/4073689-1>,
+    <https://vocab.getty.edu/aat/300055932> .
+
+<#project-category-183> skos:notation "183";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Sound Poetry"@en, "Lautgedicht"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1808721>, <https://d-nb.info/gnd/4166943-5>,
+    <https://vocab.getty.edu/aat/300262601> .
+
+<#project-category-184> skos:notation "184";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Limerick"@en, "Limerick"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q204698>, <https://d-nb.info/gnd/4167675-0>,
+    <https://vocab.getty.edu/aat/300417752> .
+
+<#project-category-185> skos:notation "185";
+  skos:broader <#project-category-173>;
+  skos:prefLabel "Song Lyrics"@en, "Songtext"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q602446>, <https://d-nb.info/gnd/1190608006> .
+
+<#project-category-186> skos:notation "186";
+  skos:broader <#project-category-150>;
+  skos:prefLabel "Reference Work"@en, "Nachschlagewerk"@de;
+  skos:altLabel "Reference Book"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q13136>, <https://d-nb.info/gnd/4041070-5>,
+    <https://vocab.getty.edu/aat/300198412> .
+
+<#project-category-187> skos:notation "187";
+  skos:broader <#project-category-150>;
+  skos:prefLabel "Non-fictional Literature"@en, "Nichtfiktionale Literatur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q213051>, <https://vocab.getty.edu/aat/300163411> .
+
+<#project-category-188> skos:notation "188";
+  skos:broader <#project-category-187>;
+  skos:prefLabel "Autobiography"@en, "Autobiografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4184>, <https://d-nb.info/gnd/4003939-0>,
+    <https://vocab.getty.edu/aat/300080104> .
+
+<#project-category-189> skos:notation "189";
+  skos:broader <#project-category-187>;
+  skos:prefLabel "Biography"@en, "Biografie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q36279>, <https://d-nb.info/gnd/4006804-3>,
+    <https://vocab.getty.edu/aat/300080102> .
+
+<#project-category-190> skos:notation "190";
+  skos:broader <#project-category-187>;
+  skos:prefLabel "Blog"@en, "Blog"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q30849>, <https://d-nb.info/gnd/4678688-0>,
+    <https://vocab.getty.edu/aat/300265722> .
+
+<#project-category-191> skos:notation "191";
+  skos:broader <#project-category-187>;
+  skos:prefLabel "Essay"@en, "Essay"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q35760>, <https://d-nb.info/gnd/4015553-5>,
+    <https://vocab.getty.edu/aat/300026291> .
+
+<#project-category-192> skos:notation "192";
+  skos:broader <#project-category-187>;
+  skos:prefLabel "Manifesto"@en, "Manifest"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q46337>, <https://d-nb.info/gnd/4205648-2>,
+    <https://vocab.getty.edu/aat/300026393> .
+
+<#project-category-193> skos:notation "193";
+  skos:broader <#project-category-187>;
+  skos:prefLabel "Memoir"@en, "Memoir"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q112983>, <https://vocab.getty.edu/aat/300202559> .
+
+<#project-category-194> skos:notation "194";
+  skos:broader <#project-category-187>;
+  skos:prefLabel "Self-help Book"@en, "Ratgeber"@de;
+  skos:altLabel "Selbsthilfeliteratur"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3739522>, <https://d-nb.info/gnd/4048476-2> .
+
+<#project-category-195> skos:notation "195";
+  skos:broader <#project-category-187>;
+  skos:prefLabel "Non-fiction Book"@en, "Sachbuch"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q20540385>, <https://d-nb.info/gnd/4129720-9>,
+    <https://vocab.getty.edu/aat/300163411> .
+
+<#project-category-196> skos:notation "196";
+  skos:broader <#project-category-187>;
+  skos:prefLabel "Non-fiction Novel"@en, "Tatsachenroman"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1325447> .
+
+<#project-category-197> skos:notation "197";
+  skos:prefLabel "Music"@en, "Musik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q638>, <https://d-nb.info/gnd/4040802-4>,
+    <https://vocab.getty.edu/aat/300417584> .
+
+<#project-category-198> skos:notation "198";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Non-european Art Music"@en, "Außereuropäische Kunstmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123561622> .
+
+<#project-category-199> skos:notation "199";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Stage Music"@en, "Bühnenmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1020611>, <https://d-nb.info/gnd/4146861-2> .
+
+<#project-category-200> skos:notation "200";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Electroacoustic Music"@en, "Elektroakustische Musik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1326777>, <https://d-nb.info/gnd/4014355-7>,
+    <https://vocab.getty.edu/aat/300266573> .
+
+<#project-category-201> skos:notation "201";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Electronic Music"@en, "Elektronische Musik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q9778>, <https://d-nb.info/gnd/4014355-7>,
+    <https://vocab.getty.edu/aat/300266573> .
+
+<#project-category-202> skos:notation "202";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Ensemble Music"@en, "Ensemblemusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123561525>, <https://d-nb.info/gnd/4398225-6> .
+
+<#project-category-203> skos:notation "203";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Folklore"@en, "Folklore"@de;
+  skos:altLabel "Volksmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q235858>, <https://d-nb.info/gnd/4063854-6>,
+    <https://vocab.getty.edu/aat/300417626> .
+
+<#project-category-204> skos:notation "204";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Sacred Music"@en, "Geistliche Musik"@de;
+  skos:altLabel "Kirchenmusik"@de, "sakrale Musik"@de, "Sakralmusik"@de, "religiöse Musik"@de,
+    "Religious Music"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1065742>, <https://d-nb.info/gnd/4126228-1> .
+
+<#project-category-205> skos:notation "205";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Instrumental Music"@en, "Instrumentalmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q639197>, <https://d-nb.info/gnd/4129951-6> .
+
+<#project-category-206> skos:notation "206";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Jazz"@en, "Jazz"@de;
+  skos:altLabel "Jazzmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q8341>, <https://d-nb.info/gnd/4028532-7>,
+    <https://vocab.getty.edu/aat/300266367> .
+
+<#project-category-207> skos:notation "207";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Acid Jazz"@en, "Acid Jazz"@de;
+  skos:altLabel "Dancefloor Jazz"@en, "Club Jazz"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q221772>, <https://d-nb.info/gnd/4363822-3> .
+
+<#project-category-208> skos:notation "208";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Afro-Cuban Jazz"@en, "Afro-Cuban Jazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3163340>, <https://d-nb.info/gnd/4363925-2> .
+
+<#project-category-209> skos:notation "209";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Avantgarde Jazz"@en, "Avantgarde-Jazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q790188> .
+
+<#project-category-210> skos:notation "210";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Bebop"@en, "Bebop"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q105513>, <https://d-nb.info/gnd/4144242-8> .
+
+<#project-category-211> skos:notation "211";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Big Band Music"@en, "Big Band"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q105756581> .
+
+<#project-category-212> skos:notation "212";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Boogie-Woogie"@en, "Boogie-Woogie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q212952>, <https://d-nb.info/gnd/4241046-0> .
+
+<#project-category-213> skos:notation "213";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Chicago Style"@en, "Chicago Style"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q352235> .
+
+<#project-category-214> skos:notation "214";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Contemporary Jazz"@en, "Contemporary Jazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5928480> .
+
+<#project-category-215> skos:notation "215";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Cool Jazz"@en, "Cool Jazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q327547>, <https://d-nb.info/gnd/4148303-0> .
+
+<#project-category-216> skos:notation "216";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Crossover Jazz"@en, "Crossover Jazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q846833> .
+
+<#project-category-217> skos:notation "217";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Dixieland"@en, "Dixieland"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q906647>, <https://d-nb.info/gnd/4150329-6> .
+
+<#project-category-218> skos:notation "218";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "East Coast Jazz"@en, "East Coast Jazz"@de;
+  skos:altLabel "East-Coast-Jazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11696000> .
+
+<#project-category-219> skos:notation "219";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Ethno Jazz"@en, "Ethnojazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1371364> .
+
+<#project-category-220> skos:notation "220";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Free Jazz"@en, "Free Jazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q211781>, <https://d-nb.info/gnd/4155265-9> .
+
+<#project-category-221> skos:notation "221";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Hard Bop"@en, "Hard Bop"@de;
+  skos:altLabel "Hardbop"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q181010>, <https://d-nb.info/gnd/4299339-8> .
+
+<#project-category-222> skos:notation "222";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Jazz Fusion"@en, "Jazz Fusion"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q105527> .
+
+<#project-category-223> skos:notation "223";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "New Orleans Jazz"@en, "New Orleans Jazz"@de;
+  skos:altLabel "New-Orleans-Jazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1982426>, <https://d-nb.info/gnd/4171691-7> .
+
+<#project-category-224> skos:notation "224";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Progressive Jazz"@en, "Progressive Jazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q105627377> .
+
+<#project-category-225> skos:notation "225";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Ragtime"@en, "Ragtime"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q185652>, <https://d-nb.info/gnd/4176879-6> .
+
+<#project-category-226> skos:notation "226";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Smooth Jazz"@en, "Smooth Jazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q831354> .
+
+<#project-category-227> skos:notation "227";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "Swing"@en, "Swing"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q203775>, <https://d-nb.info/gnd/4153450-5> .
+
+<#project-category-228> skos:notation "228";
+  skos:broader <#project-category-206>;
+  skos:prefLabel "West Coast Jazz"@en, "West Coast Jazz"@de;
+  skos:altLabel "West-Coast-Jazz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1548603>, <https://d-nb.info/gnd/4304602-2> .
+
+<#project-category-229> skos:notation "229";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Classical Music"@en, "Klassische Musik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q9730>, <https://d-nb.info/gnd/4164043-3> .
+
+<#project-category-230> skos:notation "230";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Military Music"@en, "Militärmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6774721>, <https://d-nb.info/gnd/4039344-6> .
+
+<#project-category-231> skos:notation "231";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Neue Musik"@en, "Neue Musik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21662779>, <https://d-nb.info/gnd/4428235-7> .
+
+<#project-category-232> skos:notation "232";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Orchestral Music"@en, "Orchestermusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3328774>, <https://d-nb.info/gnd/4131523-6> .
+
+<#project-category-233> skos:notation "233";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Popular Music"@en, "Popularmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q373342> .
+
+<#project-category-234> skos:notation "234";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "American Folk"@en, "American Folk"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1541229>, <https://d-nb.info/gnd/4137558-0> .
+
+<#project-category-235> skos:notation "235";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Beat"@en, "Beat"@de;
+  skos:altLabel "Beatmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q546264>, <https://d-nb.info/gnd/4144239-8> .
+
+<#project-category-236> skos:notation "236";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Blues"@en, "Blues"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q9759>, <https://d-nb.info/gnd/4132568-0> .
+
+<#project-category-237> skos:notation "237";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Chanson"@en, "Chanson"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1062400>, <https://d-nb.info/gnd/4009744-4> .
+
+<#project-category-238> skos:notation "238";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Country"@en, "Country"@de;
+  skos:altLabel "Countrymusic"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q83440>, <https://d-nb.info/gnd/4138030-7> .
+
+<#project-category-239> skos:notation "239";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Electronic Dance Music"@en, "Electronic Dance Music"@de;
+  skos:altLabel "EDM"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q851213> .
+
+<#project-category-240> skos:notation "240";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Hip-Hop"@en, "Hip-Hop"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11401>, <https://d-nb.info/gnd/4303517-6> .
+
+<#project-category-241> skos:notation "241";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Metal"@en, "Metal"@de;
+  skos:altLabel "Heavy Metal"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12326776>, <https://d-nb.info/gnd/4284512-9> .
+
+<#project-category-242> skos:notation "242";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "New Wave"@en, "New Wave"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q187760>, <https://d-nb.info/gnd/4201741-5> .
+
+<#project-category-243> skos:notation "243";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Pop"@en, "Pop"@de;
+  skos:altLabel "Popmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q37073>, <https://d-nb.info/gnd/4046781-8> .
+
+<#project-category-244> skos:notation "244";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Punk"@en, "Punk"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3071>, <https://d-nb.info/gnd/4047851-8> .
+
+<#project-category-245> skos:notation "245";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Rythm and Blues"@en, "Rythm and Blues"@de;
+  skos:altLabel "Rhythm & Blues"@en, "R&B"@en, "R ’n’ B"@en, "RnB"@en, "R'n'B"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q45981>, <https://d-nb.info/gnd/4178058-9>,
+    <https://vocab.getty.edu/aat/300417961> .
+
+<#project-category-246> skos:notation "246";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Reggae"@en, "Reggae"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q9794>, <https://d-nb.info/gnd/4131018-4> .
+
+<#project-category-247> skos:notation "247";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Rock"@en, "Rock"@de;
+  skos:altLabel "Rockmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11399>, <https://d-nb.info/gnd/4115774-6> .
+
+<#project-category-248> skos:notation "248";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Rock and Roll"@en, "Rock and Roll"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7749>, <https://d-nb.info/gnd/4076762-0> .
+
+<#project-category-249> skos:notation "249";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Schlager"@en, "Schlager"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q959583>, <https://d-nb.info/gnd/4179673-1> .
+
+<#project-category-250> skos:notation "250";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Singer-Songwriter"@en, "Singer/Songwriter/Liedermacher"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q89363113> .
+
+<#project-category-251> skos:notation "251";
+  skos:broader <#project-category-233>;
+  skos:prefLabel "Ska"@en, "Ska"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q54365>, <https://d-nb.info/gnd/4417986-8> .
+
+<#project-category-252> skos:notation "252";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Solo Music"@en, "Solomusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11787388> .
+
+<#project-category-253> skos:notation "253";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Soundtrack"@en, "Soundtrack"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q217199>, <https://d-nb.info/gnd/4017129-2>,
+    <https://vocab.getty.edu/aat/300263865> .
+
+<#project-category-254> skos:notation "254";
+  skos:broader <#project-category-253>;
+  skos:prefLabel "Film Music"@en, "Filmmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q492264>, <https://d-nb.info/gnd/4017129-2> .
+
+<#project-category-255> skos:notation "255";
+  skos:broader <#project-category-253>;
+  skos:prefLabel "Game Soundtrack"@en, "Videospielmusik"@de;
+  skos:altLabel "Game-Soundtrack"@de, "Computerspielmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1062702>, <https://d-nb.info/gnd/1161203737> .
+
+<#project-category-256> skos:notation "256";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Dance Music"@en, "Tanzmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q316930>, <https://d-nb.info/gnd/4140677-1> .
+
+<#project-category-257> skos:notation "257";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Vocal Music"@en, "Vokalmusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q685884>, <https://d-nb.info/gnd/4063783-9> .
+
+<#project-category-258> skos:notation "258";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Secular Music"@en, "Weltliche Musik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2707298>, <https://d-nb.info/gnd/4233831-1> .
+
+<#project-category-259> skos:notation "259";
+  skos:broader <#project-category-197>;
+  skos:prefLabel "Advertising Music"@en, "Werbemusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q461064> .
+
+<#project-category-260> skos:notation "260";
+  skos:prefLabel "Dance"@en, "Tanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11639>, <https://d-nb.info/gnd/4059028-8>,
+    <https://vocab.getty.edu/aat/300054144> .
+
+<#project-category-261> skos:notation "261";
+  skos:broader <#project-category-260>;
+  skos:prefLabel "Concert Dance"@en, "Bühnentanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1020618> .
+
+<#project-category-262> skos:notation "262";
+  skos:broader <#project-category-260>;
+  skos:prefLabel "Group Dance"@en, "Gruppentanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1551063>, <https://d-nb.info/gnd/4158473-9> .
+
+<#project-category-263> skos:notation "263";
+  skos:broader <#project-category-260>;
+  skos:prefLabel "Jazz Dance"@en, "Jazztanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q936055>, <https://d-nb.info/gnd/4028536-4> .
+
+<#project-category-264> skos:notation "264";
+  skos:broader <#project-category-260>;
+  skos:prefLabel "Latin American Dance"@en, "Lateinamerikanischer Tanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1457972>, <https://d-nb.info/gnd/4166849-2> .
+
+<#project-category-265> skos:notation "265";
+  skos:broader <#project-category-260>;
+  skos:prefLabel "Poplular Dance"@en, "Modetanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1650566>, <https://d-nb.info/gnd/4338414-6> .
+
+<#project-category-266> skos:notation "266";
+  skos:broader <#project-category-260>;
+  skos:prefLabel "Partner Dance"@en, "Paartanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q280336>, <https://d-nb.info/gnd/4485517-5> .
+
+<#project-category-267> skos:notation "267";
+  skos:broader <#project-category-260>;
+  skos:prefLabel "Line Dance"@en, "Reihentanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q912389>, <https://d-nb.info/gnd/4408881-4> .
+
+<#project-category-268> skos:notation "268";
+  skos:broader <#project-category-260>;
+  skos:prefLabel "Solo Dance"@en, "Solotanz"@de;
+  skos:altLabel "Einzeltanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q178406>, <https://d-nb.info/gnd/4151459-2> .
+
+<#project-category-269> skos:notation "269";
+  skos:broader <#project-category-260>;
+  skos:prefLabel "Ballroom Dance"@en, "Standardtanz"@de;
+  skos:altLabel "Gesellschaftstanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1085001>, <https://d-nb.info/gnd/4235881-4> .
+
+<#project-category-270> skos:notation "270";
+  skos:broader <#project-category-260>;
+  skos:prefLabel "Street Dance"@en, "Streetdance"@de;
+  skos:altLabel "Breakdance"@en, "Hip-Hop-Tanz"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1061584>, <https://d-nb.info/gnd/1234925664> .
+
+<#project-category-271> skos:notation "271";
+  skos:broader <#project-category-260>;
+  skos:prefLabel "Dance Theatre"@en, "Tanztheater"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1425858>, <https://d-nb.info/gnd/4184451-8> .
+
+<#project-category-272> skos:notation "272";
+  skos:prefLabel "Event"@en, "Veranstaltung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1656682>, <https://d-nb.info/gnd/4125453-3>,
+    <https://vocab.getty.edu/aat/300417518> .
+
+<#project-category-273> skos:notation "273";
+  skos:broader <#project-category-272>;
+  skos:prefLabel "Interview"@en, "Interview"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q178651>, <https://d-nb.info/gnd/4027503-6>,
+    <https://vocab.getty.edu/aat/300026392> .
+
+<#project-category-274> skos:notation "274";
+  skos:broader <#project-category-272>;
+  skos:prefLabel "Panel Discussion"@en, "Podiumsdiskussion"@de;
+  skos:altLabel "Podiumsgespräch"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2100278>, <https://d-nb.info/gnd/4614247-2> .
+
+<#project-category-275> skos:notation "275";
+  skos:broader <#project-category-272>;
+  skos:prefLabel "Speech"@en, "Rede"@de;
+  skos:altLabel "Oration"@en, "Address"@en, "Oration"@de, "Ansprache"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q861911>, <https://d-nb.info/gnd/4048882-2>,
+    <https://vocab.getty.edu/aat/300417595> .
+
+<#project-category-276> skos:notation "276";
+  skos:broader <#project-category-272>;
+  skos:prefLabel "Conference"@en, "Symposium"@de;
+  skos:altLabel "Academic Conference"@en, "Scientific Conference"@en, "Convention"@en,
+    "Wissenschaftliche Konferenz"@de, "Konferenz"@de, "Kongress"@de, "Tagung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2020153>, <https://d-nb.info/gnd/4032055-8>,
+    <https://vocab.getty.edu/aat/300054789> .
+
+<#project-category-277> skos:notation "277";
+  skos:broader <#project-category-272>;
+  skos:prefLabel "Lecture"@en, "Vorlesung"@de;
+  skos:altLabel "Talk"@en, "Lehrveranstaltung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q603773>, <https://d-nb.info/gnd/4117405-7>,
+    <https://vocab.getty.edu/aat/300026673> .
+
+<#project-category-278> skos:notation "278";
+  skos:broader <#project-category-272>;
+  skos:prefLabel "Presentation"@en, "Vortrag"@de;
+  skos:altLabel "Referat"@de, "Präsentation"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q604733>, <https://d-nb.info/gnd/4064035-8>,
+    <https://vocab.getty.edu/aat/300026673> .
+
+<#project-category-279> skos:notation "279";
+  skos:broader <#project-category-199>;
+  skos:prefLabel "Opera"@en, "Oper"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1344>, <https://d-nb.info/gnd/4043582-9>,
+    <https://vocab.getty.edu/aat/300054147> .
+
+<#project-category-280> skos:notation "280";
+  skos:broader <#project-category-32>;
+  skos:prefLabel "Direction"@en, "Regie"@de;
+  skos:altLabel "Stage Direction"@en, "Theaterregie"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2137554>, <https://d-nb.info/gnd/4177403-6> .
+
+<#project-category-281> skos:notation "281";
+  skos:broader <#project-category-200>;
+  skos:prefLabel "Fixed Media"@en, "Fixed Media"@de;
+  skos:altLabel "Lautsprechermusik"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q131286868>, <https://d-nb.info/gnd/1348929952> .
+
+<#project-category-282> skos:notation "282";
+  skos:broader <#project-category-272>;
+  skos:prefLabel "Radio Programme"@en, "Radiosendung"@de;
+  skos:altLabel "Radio Show"@en, "Radio Program"@en, "Hörfunksendung"@de, "Rundfunksendung"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1555508>, <https://d-nb.info/gnd/4160384-9>,
+    <https://vocab.getty.edu/aat/300387763> .
+
+<#project-category-283> skos:notation "283";
+  a skos:Concept;
+  skos:broader <#project-category-127>;
+  skos:prefLabel "Portrait"@en, "Portrait"@de;
+  skos:altLabel "Portrait Painting"@en, "Portraitmalerei"@de, "Porträtmalerei"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1400853>, <https://d-nb.info/gnd/4145426-1>,
+    <https://vocab.getty.edu/aat/300015637>;
+  skos:inScheme <> .
+
+<#project-category-284> a skos:Concept;
+  skos:notation "284";
+  skos:broader <#project-category-127>;
+  skos:prefLabel "Landscape Painting"@en, "Landschaftsmalerei"@de;
+  skos:altLabel "Landschaftsgemälde"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q191163>, <https://d-nb.info/gnd/4114355-3>,
+    <https://vocab.getty.edu/aat/300015636>;
+  skos:inScheme <> .
+
+<#project-category-285> a skos:Concept;
+  skos:notation "285";
+  skos:broader <#project-category-127>;
+  skos:prefLabel "Still Life"@en, "Stilleben"@de;
+  skos:altLabel "Still-Life Art"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q170571>, <https://d-nb.info/gnd/4057577-9>,
+    <https://vocab.getty.edu/aat/300015638>;
+  skos:inScheme <> .
+
+<#project-category-286> a skos:Concept;
+  skos:notation "286";
+  skos:broader <#project-category-127>;
+  skos:prefLabel "Genre Painting"@en, "Genremalerei"@de;
+  skos:altLabel "Genrebild"@de, "Genreszene"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q214127>, <https://d-nb.info/gnd/4020173-9>,
+    <https://vocab.getty.edu/aat/300139140>;
+  skos:inScheme <> .
+
+<#project-category-287> a skos:Concept;
+  skos:notation "287";
+  skos:broader <#project-category-127>;
+  skos:prefLabel "History Painting"@en, "Historienmalerei"@de;
+  skos:altLabel "Historiengemälde"@de, "Historienbild"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q742333>, <https://d-nb.info/gnd/4025097-0>,
+    <https://vocab.getty.edu/aat/300033898>;
+  skos:inScheme <> .
+
+<#project-category-288> a skos:Concept;
+  skos:notation "288";
+  skos:broader <#project-category-127>;
+  skos:prefLabel "Abstract Painting"@en, "Abstrakte Malerei"@de;
+  skos:altLabel "abstraktes Gemälde"@de, "Absolute Malerei"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q333357>, <https://d-nb.info/gnd/4141148-1>;
+  skos:inScheme <> .
+
+<#project-category-289> a skos:Concept;
+  skos:notation "289";
+  skos:broader <#project-category-127>;
+  skos:prefLabel "Architectural Painting"@en, "Architekturmalerei"@de;
+  skos:altLabel "Architectural Picture"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q18353841>, <https://d-nb.info/gnd/4142964-3>,
+    <https://vocab.getty.edu/aat/300440737>;
+  skos:inScheme <> .
+
+<#project-category-290> a skos:Concept;
+  skos:notation "290";
+  skos:broader <#project-category-127>;
+  skos:prefLabel "Interior Painting"@en, "Interieurmalerei"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1666094>;
+  skos:inScheme <> .
+
+<#project-category-291> a skos:Concept;
+  skos:notation "291";
+  skos:broader <#project-category-127>;
+  skos:prefLabel "Nude Painting"@en, "Aktmalerei"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q40446>, <https://d-nb.info/gnd/4000978-6>;
+  skos:inScheme <> .
+
+<#project-category-1> a skos:Concept;
+  skos:narrower <#project-category-2>, <#project-category-3>, <#project-category-4>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+<#project-category-2> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-3> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-4> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-5> a skos:Concept;
+  skos:narrower <#project-category-6>, <#project-category-7>, <#project-category-18>,
+    <#project-category-30>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+<#project-category-6> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-7> a skos:Concept;
+  skos:narrower <#project-category-8>, <#project-category-9>, <#project-category-10>,
+    <#project-category-11>, <#project-category-12>, <#project-category-13>, <#project-category-14>,
+    <#project-category-15>, <#project-category-16>, <#project-category-17>;
+  skos:inScheme <> .
+
+<#project-category-8> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-9> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-10> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-11> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-12> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-13> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-14> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-15> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-16> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-17> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-18> a skos:Concept;
+  skos:narrower <#project-category-19>, <#project-category-20>, <#project-category-21>,
+    <#project-category-22>, <#project-category-23>, <#project-category-24>, <#project-category-25>,
+    <#project-category-26>, <#project-category-27>, <#project-category-28>, <#project-category-29>;
+  skos:inScheme <> .
+
+<#project-category-19> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-20> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-21> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-22> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-23> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-24> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-25> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-26> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-27> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-28> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-29> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-30> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-31> a skos:Concept;
+  skos:narrower <#project-category-32>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+<#project-category-32> a skos:Concept;
+  skos:narrower <#project-category-33>, <#project-category-34>, <#project-category-35>,
+    <#project-category-36>, <#project-category-37>, <#project-category-38>, <#project-category-39>,
+    <#project-category-40>, <#project-category-41>, <#project-category-42>, <#project-category-43>,
+    <#project-category-44>, <#project-category-45>, <#project-category-46>, <#project-category-47>,
+    <#project-category-48>, <#project-category-49>, <#project-category-50>, <#project-category-51>,
+    <#project-category-52>, <#project-category-53>, <#project-category-54>, <#project-category-280>;
+  skos:inScheme <> .
+
+<#project-category-33> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-34> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-35> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-36> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-37> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-38> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-39> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-40> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-41> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-42> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-43> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-44> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-45> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-46> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-47> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-48> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-49> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-50> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-51> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-52> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-53> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-54> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-55> a skos:Concept;
+  skos:narrower <#project-category-56>, <#project-category-57>, <#project-category-58>,
+    <#project-category-60>, <#project-category-61>, <#project-category-62>, <#project-category-63>,
+    <#project-category-64>, <#project-category-65>, <#project-category-66>, <#project-category-67>,
+    <#project-category-68>, <#project-category-69>, <#project-category-70>, <#project-category-71>,
+    <#project-category-72>, <#project-category-74>, <#project-category-75>, <#project-category-76>,
+    <#project-category-77>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+<#project-category-56> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-57> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-58> a skos:Concept;
+  skos:narrower <#project-category-59>;
+  skos:inScheme <> .
+
+<#project-category-59> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-60> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-61> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-62> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-63> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-64> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-65> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-66> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-67> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-68> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-69> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-70> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-71> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-72> a skos:Concept;
+  skos:narrower <#project-category-73>;
+  skos:inScheme <> .
+
+<#project-category-73> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-74> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-75> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-76> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-77> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-78> a skos:Concept;
+  skos:narrower <#project-category-79>, <#project-category-80>, <#project-category-93>,
+    <#project-category-102>, <#project-category-111>, <#project-category-116>, <#project-category-124>,
+    <#project-category-127>, <#project-category-128>, <#project-category-135>, <#project-category-138>,
+    <#project-category-146>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+<#project-category-79> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-80> a skos:Concept;
+  skos:narrower <#project-category-81>, <#project-category-82>, <#project-category-83>,
+    <#project-category-84>, <#project-category-85>, <#project-category-86>, <#project-category-87>,
+    <#project-category-88>, <#project-category-89>, <#project-category-90>, <#project-category-91>,
+    <#project-category-92>;
+  skos:inScheme <> .
+
+<#project-category-81> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-82> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-83> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-84> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-85> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-86> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-87> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-88> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-89> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-90> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-91> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-92> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-93> a skos:Concept;
+  skos:narrower <#project-category-94>, <#project-category-95>, <#project-category-96>,
+    <#project-category-97>, <#project-category-98>, <#project-category-99>, <#project-category-100>,
+    <#project-category-101>;
+  skos:inScheme <> .
+
+<#project-category-94> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-95> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-96> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-97> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-98> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-99> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-100> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-101> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-102> a skos:Concept;
+  skos:narrower <#project-category-103>, <#project-category-104>, <#project-category-105>,
+    <#project-category-106>, <#project-category-107>, <#project-category-108>, <#project-category-109>,
+    <#project-category-110>;
+  skos:inScheme <> .
+
+<#project-category-103> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-104> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-105> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-106> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-107> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-108> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-109> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-110> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-111> a skos:Concept;
+  skos:narrower <#project-category-112>, <#project-category-113>, <#project-category-114>,
+    <#project-category-115>;
+  skos:inScheme <> .
+
+<#project-category-112> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-113> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-114> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-115> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-116> a skos:Concept;
+  skos:narrower <#project-category-117>, <#project-category-118>, <#project-category-119>,
+    <#project-category-120>, <#project-category-121>, <#project-category-122>, <#project-category-123>;
+  skos:inScheme <> .
+
+<#project-category-117> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-118> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-119> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-120> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-121> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-122> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-123> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-124> a skos:Concept;
+  skos:narrower <#project-category-125>, <#project-category-126>;
+  skos:inScheme <> .
+
+<#project-category-125> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-126> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-127> a skos:Concept;
+  skos:narrower <#project-category-283>, <#project-category-284>, <#project-category-285>,
+    <#project-category-286>, <#project-category-287>, <#project-category-288>, <#project-category-289>,
+    <#project-category-290>, <#project-category-291>;
+  skos:inScheme <> .
+
+<#project-category-128> a skos:Concept;
+  skos:narrower <#project-category-129>, <#project-category-130>, <#project-category-131>,
+    <#project-category-132>, <#project-category-133>, <#project-category-134>;
+  skos:inScheme <> .
+
+<#project-category-129> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-130> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-131> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-132> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-133> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-134> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-135> a skos:Concept;
+  skos:narrower <#project-category-136>, <#project-category-137>;
+  skos:inScheme <> .
+
+<#project-category-136> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-137> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-138> a skos:Concept;
+  skos:narrower <#project-category-139>, <#project-category-140>, <#project-category-141>,
+    <#project-category-142>, <#project-category-143>, <#project-category-144>, <#project-category-145>;
+  skos:inScheme <> .
+
+<#project-category-139> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-140> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-141> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-142> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-143> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-144> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-145> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-146> a skos:Concept;
+  skos:narrower <#project-category-147>, <#project-category-148>, <#project-category-149>;
+  skos:inScheme <> .
+
+<#project-category-147> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-148> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-149> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-150> a skos:Concept;
+  skos:narrower <#project-category-151>, <#project-category-162>, <#project-category-163>,
+    <#project-category-172>, <#project-category-173>, <#project-category-186>, <#project-category-187>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+<#project-category-151> a skos:Concept;
+  skos:narrower <#project-category-152>, <#project-category-153>, <#project-category-154>,
+    <#project-category-155>, <#project-category-156>, <#project-category-157>, <#project-category-158>,
+    <#project-category-159>, <#project-category-160>, <#project-category-161>;
+  skos:inScheme <> .
+
+<#project-category-152> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-153> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-154> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-155> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-156> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-157> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-158> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-159> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-160> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-161> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-162> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-163> a skos:Concept;
+  skos:narrower <#project-category-164>, <#project-category-165>, <#project-category-166>,
+    <#project-category-167>, <#project-category-168>, <#project-category-169>, <#project-category-170>,
+    <#project-category-171>;
+  skos:inScheme <> .
+
+<#project-category-164> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-165> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-166> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-167> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-168> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-169> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-170> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-171> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-172> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-173> a skos:Concept;
+  skos:narrower <#project-category-174>, <#project-category-175>, <#project-category-176>,
+    <#project-category-177>, <#project-category-178>, <#project-category-179>, <#project-category-180>,
+    <#project-category-181>, <#project-category-182>, <#project-category-183>, <#project-category-184>,
+    <#project-category-185>;
+  skos:inScheme <> .
+
+<#project-category-174> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-175> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-176> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-177> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-178> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-179> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-180> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-181> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-182> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-183> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-184> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-185> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-186> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-187> a skos:Concept;
+  skos:narrower <#project-category-188>, <#project-category-189>, <#project-category-190>,
+    <#project-category-191>, <#project-category-192>, <#project-category-193>, <#project-category-194>,
+    <#project-category-195>, <#project-category-196>;
+  skos:inScheme <> .
+
+<#project-category-188> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-189> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-190> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-191> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-192> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-193> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-194> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-195> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-196> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-197> a skos:Concept;
+  skos:narrower <#project-category-198>, <#project-category-199>, <#project-category-200>,
+    <#project-category-201>, <#project-category-202>, <#project-category-203>, <#project-category-204>,
+    <#project-category-205>, <#project-category-206>, <#project-category-229>, <#project-category-230>,
+    <#project-category-231>, <#project-category-232>, <#project-category-233>, <#project-category-252>,
+    <#project-category-253>, <#project-category-256>, <#project-category-257>, <#project-category-258>,
+    <#project-category-259>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+<#project-category-198> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-199> a skos:Concept;
+  skos:narrower <#project-category-279>;
+  skos:inScheme <> .
+
+<#project-category-200> a skos:Concept;
+  skos:narrower <#project-category-281>;
+  skos:inScheme <> .
+
+<#project-category-201> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-202> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-203> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-204> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-205> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-206> a skos:Concept;
+  skos:narrower <#project-category-207>, <#project-category-208>, <#project-category-209>,
+    <#project-category-210>, <#project-category-211>, <#project-category-212>, <#project-category-213>,
+    <#project-category-214>, <#project-category-215>, <#project-category-216>, <#project-category-217>,
+    <#project-category-218>, <#project-category-219>, <#project-category-220>, <#project-category-221>,
+    <#project-category-222>, <#project-category-223>, <#project-category-224>, <#project-category-225>,
+    <#project-category-226>, <#project-category-227>, <#project-category-228>;
+  skos:inScheme <> .
+
+<#project-category-207> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-208> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-209> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-210> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-211> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-212> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-213> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-214> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-215> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-216> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-217> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-218> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-219> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-220> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-221> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-222> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-223> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-224> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-225> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-226> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-227> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-228> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-229> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-230> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-231> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-232> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-233> a skos:Concept;
+  skos:narrower <#project-category-234>, <#project-category-235>, <#project-category-236>,
+    <#project-category-237>, <#project-category-238>, <#project-category-239>, <#project-category-240>,
+    <#project-category-241>, <#project-category-242>, <#project-category-243>, <#project-category-244>,
+    <#project-category-245>, <#project-category-246>, <#project-category-247>, <#project-category-248>,
+    <#project-category-249>, <#project-category-250>, <#project-category-251>;
+  skos:inScheme <> .
+
+<#project-category-234> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-235> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-236> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-237> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-238> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-239> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-240> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-241> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-242> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-243> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-244> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-245> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-246> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-247> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-248> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-249> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-250> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-251> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-252> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-253> a skos:Concept;
+  skos:narrower <#project-category-254>, <#project-category-255>;
+  skos:inScheme <> .
+
+<#project-category-254> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-255> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-256> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-257> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-258> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-259> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-260> a skos:Concept;
+  skos:narrower <#project-category-261>, <#project-category-262>, <#project-category-263>,
+    <#project-category-264>, <#project-category-265>, <#project-category-266>, <#project-category-267>,
+    <#project-category-268>, <#project-category-269>, <#project-category-270>, <#project-category-271>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+<#project-category-261> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-262> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-263> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-264> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-265> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-266> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-267> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-268> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-269> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-270> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-271> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-272> a skos:Concept;
+  skos:narrower <#project-category-273>, <#project-category-274>, <#project-category-275>,
+    <#project-category-276>, <#project-category-277>, <#project-category-278>, <#project-category-282>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+<#project-category-273> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-274> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-275> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-276> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-277> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-278> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-279> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-280> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-281> a skos:Concept;
+  skos:inScheme <> .
+
+<#project-category-282> a skos:Concept;
+  skos:inScheme <> .
+
+<> a skos:ConceptScheme;
+  skos:hasTopConcept <#project-category-1>, <#project-category-5>, <#project-category-31>,
+    <#project-category-55>, <#project-category-78>, <#project-category-150>, <#project-category-197>,
+    <#project-category-260>, <#project-category-272> .

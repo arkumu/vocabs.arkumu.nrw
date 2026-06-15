@@ -1,0 +1,74 @@
+@base <http://w3id.org/arkumu/media-types> .
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix media-type: <http://w3id.org/arkumu/media-types/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<> a skos:ConceptScheme;
+  dct:title "Media Types"@en, "Medientypen"@de;
+  dct:description "Der Medientyp erlaubt eine Kategorisierung einer Datei. Die Medientypen \"3D\", \"Audio\", \"Bild\", \"Text\" und \"Video\" stammen dabei aus der [Kategorisierung der Deutschen Digitalen Bibliothek](https://pro.deutsche-digitale-bibliothek.de/glossar/medientyp) und wurden um die Medientypen \"Code\" und \"Daten\" erweitert. Im Gegensatz zur DDB ist das Format der Mediendatei für diese Einordnung entscheidend und kann damit durch die einfache Erkennung des Mime-Types automatisiert werden."@de,
+    "The Media Type allows for a file to be categorized. The Media Types \"3D\", \"Audio\", \"Image\", \"Text\", and \"Video\" originate from the [categorisation of the Deutsche Digitale Bibliothek (German Digital Library)](https://pro.deutsche-digitale-bibliothek.de/glossar/medientyp) and have been expanded to include the Media Types \"Code\" and \"Data\". In contrast to the DDB this classification is based on the file format and can therefore be automated based on the file's MIME-Type."@en;
+  dct:created "2026-06-15"^^xsd:date;
+  skos:editorialNote "URI noch zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+  skos:hasTopConcept media-type:3d, media-type:audio, media-type:image, media-type:text,
+    media-type:video, media-type:code, media-type:data .
+
+media-type:3d a skos:Concept;
+  skos:notation "1";
+  skos:prefLabel "3D"@en, "3D"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+media-type:audio a skos:Concept;
+  skos:notation "2";
+  skos:prefLabel "Audio"@en, "Audio"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+media-type:image a skos:Concept;
+  skos:notation "3";
+  skos:prefLabel "Image"@en, "Bild"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+media-type:text a skos:Concept;
+  skos:notation "4";
+  skos:prefLabel "Text"@en, "Text"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+media-type:video a skos:Concept;
+  skos:notation "5";
+  skos:prefLabel "Video"@en, "Video"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+media-type:code a skos:Concept;
+  skos:notation "6";
+  skos:prefLabel "Code"@en, "Code"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+media-type:data a skos:Concept;
+  skos:notation "7";
+  skos:prefLabel "Data"@en, "Daten"@de;
+  skos:inScheme <>;
+  skos:topConceptOf <> .

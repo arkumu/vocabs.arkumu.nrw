@@ -1,0 +1,148 @@
+@base <http://w3id.org/arkumu/licenses> .
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix license: <http://w3id.org/arkumu/licenses/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<> a skos:ConceptScheme;
+  dct:title "Licenses"@en, "Lizenzen"@de;
+  dct:description "In arkumu.nrw verwendete Lizenzen"@de, "Licenses used in arkumu.nrw"@en;
+  dct:created "2026-06-12"^^xsd:date;
+  skos:editorialNote "URI noch abschließend zu klären"@de, "Eine Übersetzung der drei arkumu-Lizenzen ins Englische steht noch aus"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+  skos:hasTopConcept license:license-1, license:license-2, license:license-3, license:license-4,
+    license:license-5, license:license-6, license:license-7, license:license-8, license:license-9,
+    license:license-10, license:license-11 .
+
+license:license-1 a skos:Concept;
+  skos:notation "1";
+  skos:prefLabel "arkumu-A 1.0"@de, "arkumu-A 1.0"@en;
+  skos:definition "Long-term Preservation"@en, "Langzeitverfügbarkeit"@de;
+  skos:exactMatch <https://docs.arkumu.nrw/resolver/arkumu-a-1.0>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+license:license-2 a skos:Concept;
+  skos:notation "2";
+  skos:prefLabel "arkumu-A+B 1.0"@de, "arkumu-A+B 1.0"@en;
+  skos:definition "Long-term Preservation and Public Availability"@en, "Langzeitverfügbarkeit und Veröffentlichung"@de;
+  skos:exactMatch <https://docs.arkumu.nrw/resolver/arkumu-a+b-1.0>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+license:license-3 a skos:Concept;
+  skos:notation "3";
+  skos:prefLabel "arkumu-A+B+C 1.0"@de, "arkumu-A+B+C 1.0"@en;
+  skos:definition "Long-term Preservation, Public Availability, and Distribution to Portals for Culture and Knowledge"@en,
+    "Langzeitverfügbarkeit, Veröffentlichung und Weitergabe an Portale für Kultur und Wissen"@de;
+  skos:exactMatch <https://docs.arkumu.nrw/resolver/arkumu-a+b+c-1.0>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+license:license-4 a skos:Concept;
+  skos:notation "4";
+  skos:prefLabel "CC BY 4.0 Namensnennung 4.0 International"@de, "CC BY 4.0 - Attribution 4.0 International"@en;
+  skos:definition """Share: copy and redistribute the material in any medium or format for any purpose, even commercially.
+Adapt: remix, transform, and build upon the material for any purpose, even commercially.
+Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+No additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits."""@en;
+  skos:exactMatch <https://creativecommons.org/licenses/by/4.0/>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+license:license-5 a skos:Concept;
+  skos:notation "5";
+  skos:prefLabel "CC BY-NC 4.0 Namensnennung-Nicht kommerziell 4.0 International"@de,
+    "CC BY-NC 4.0 Attribution-NonCommercial 4.0 International"@en;
+  skos:definition """Share: copy and redistribute the material in any medium or format.
+Adapt: remix, transform, and build upon the material.
+Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+NonCommercial: You may not use the material for commercial purposes.
+No additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits."""@en;
+  skos:exactMatch <https://creativecommons.org/licenses/by-nc/4.0/>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+license:license-6 a skos:Concept;
+  skos:notation "6";
+  skos:prefLabel "CC BY-NC-ND 4.0 Namensnennung-Nicht-kommerziell-Keine Bearbeitung 4.0 International"@de,
+    "CC BY-NC-ND 4.0 Attribution-NonCommercial-NoDerivatives 4.0 International"@en;
+  skos:definition """Share: copy and redistribute the material in any medium or format.
+Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+NonCommercial: You may not use the material for commercial purposes.
+NoDerivatives: If you remix, transform, or build upon the material, you may not distribute the modified material.
+No additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits."""@en;
+  skos:exactMatch <https://creativecommons.org/licenses/by-nc-nd/4.0/>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+license:license-7 a skos:Concept;
+  skos:notation "7";
+  skos:prefLabel "CC BY-NC-SA 4.0 Namensnennung-Nicht-kommerziell-Weitergabe unter gleichen Bedingungen 4.0 International"@de,
+    "CC BY-NC-SA 4.0 Attribution-NonCommercial-ShareAlike 4.0 International"@en;
+  skos:definition """Share: copy and redistribute the material in any medium or format.
+Adapt: remix, transform, and build upon the material.
+Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+NonCommercial: You may not use the material for commercial purposes.
+ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+No additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits."""@en;
+  skos:exactMatch <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+license:license-8 a skos:Concept;
+  skos:notation "8";
+  skos:prefLabel "CC BY-ND 4.0 Namensnennung-Keine Bearbeitung 4.0 International"@de,
+    "CC BY-ND 4.0 Attribution-NoDerivatives 4.0 International"@en;
+  skos:definition """Share: copy and redistribute the material in any medium or format for any purpose, even commercially.
+Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+NoDerivatives: If you remix, transform, or build upon the material, you may not distribute the modified material.
+No additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits."""@en;
+  skos:exactMatch <https://creativecommons.org/licenses/by-nd/4.0>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+license:license-9 a skos:Concept;
+  skos:notation "9";
+  skos:prefLabel "CC BY-SA 4.0 Namensnennung-Weitergabe unter gleichen Bedingungen 4.0 International"@de,
+    "CC BY-SA 4.0 Attribution-ShareAlike 4.0 International"@en;
+  skos:definition """Share: copy and redistribute the material in any medium or format for any purpose, even commercially.
+Adapt: remix, transform, and build upon the material for any purpose, even commercially. Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+No additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits."""@en;
+  skos:exactMatch <https://creativecommons.org/licenses/by-sa/4.0/>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+license:license-10 a skos:Concept;
+  skos:notation "10";
+  skos:prefLabel "PDM 1.0 Public Domain Mark 1.0 Universell"@de, "PDM 1.0 Public Domain Mark 1.0 Universal"@en;
+  skos:definition "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below. The work may not be free of known copyright restrictions in all jurisdictions. Persons may have other rights in or related to the work, such as patent or trademark rights, and others may have rights in how the work is used, such as publicity or privacy rights. In some jurisdictions moral rights of the author may persist beyond the term of copyright. These rights may include the right to be identified as the author and the right to object to derogatory treatments. Unless expressly stated otherwise, the person who identified the work makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law. When using or citing the work, you should not imply endorsement by the author or the person who identified the work."@en;
+  skos:exactMatch <https://creativecommons.org/publicdomain/mark/1.0/>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
+
+license:license-11 a skos:Concept;
+  skos:notation "11";
+  skos:prefLabel "Urheberrechtsschutz - Verwaistes Werk EU"@de, "In Copyright - EU Orphaned Work"@en;
+  skos:definition "This Item has been identified as an orphan work in the country of first publication and in line with Directive 2012/28/EU of the European Parliament and of the Council of 25 October 2012 on certain permitted uses of orphan works. For this Item, either (a) no rights-holder(s) have been identified or (b) one or more rights-holder(s) have been identified but none have been located even though a diligent search for the rights-holder(s) has been conducted. The results of the diligent search are available in the EU Orphan Works Database. You are free to use this Item in any way that is permitted by the copyright and related rights legislation that applies to your use."@en;
+  skos:exactMatch <http://rightsstatements.org/vocab/InC-OW-EU/1.0/>;
+  skos:inScheme <>;
+  skos:topConceptOf <> .
