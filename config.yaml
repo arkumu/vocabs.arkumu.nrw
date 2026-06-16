@@ -12,7 +12,7 @@ searchableAttributes:
   - "definition"
 ui:
   title: "vocabs.arkumu.nrw" # Title is mandatory
-  logo: "skohub-signet-color.svg" # Path
+  logo: "https://docs.arkumu.nrw/assets/images/arkumu-favicon.svg" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"
     skoHubDarkColor: "rgb(15, 85, 75)"
@@ -27,22 +27,26 @@ ui:
     skoHubLightGrey: "rgb(235, 235, 235)"
   fonts:
     regular:
-      font_family: "Ubuntu"
+      font-family: 'Roboto Mono'
       font_style: "normal"
       font_weight: 400
-      name: "ubuntu-v20-latin-regular"
+      src: url('https://docs.arkumu.nrw/assets/fonts/RobotoMono-VariableFont_wght.woff2') format('woff2-variations');
+      color: #1E1E1E;
+      name: "Roboto Mono regular"
     bold:
-      font_family: "Ubuntu"
+      font_family: 'Roboto Mono'
       font_style: "normal"
       font_weight: 700
-      name: "ubuntu-v20-latin-700"
+      src: url('https://docs.arkumu.nrw/assets/fonts/RobotoMono-VariableFont_wght.woff2') format('woff2-variations');
+      color: #1E1E1E;
+      name: "Roboto Mono bold"
   footer:
     links:
-      - title: "Impressum"
-        url: "https://docs.arkumu.nrw/about"
+      - title: "arkumu Docs"
+        url: "https://docs.arkumu.nrw"
         target: "_blank"
         rel: "noopener noreferrer"
-      - title: "Datenschutz"
+      - title: "Impressum"
         url: "https://docs.arkumu.nrw/about"
         target: "_blank"
         rel: "noopener noreferrer"
