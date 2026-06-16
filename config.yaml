@@ -12,7 +12,7 @@ searchableAttributes:
   - "definition"
 ui:
   title: "vocabs.arkumu.nrw" # Title is mandatory
-  logo: "https://docs.arkumu.nrw/assets/images/arkumu-favicon.svg" # Path
+  logo: "skohub-signet-color.svg" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"
     skoHubDarkColor: "rgb(15, 85, 75)"
@@ -27,19 +27,15 @@ ui:
     skoHubLightGrey: "rgb(235, 235, 235)"
   fonts:
     regular:
-      font-family: 'Roboto Mono'
+      font_family: "Ubuntu"
       font_style: "normal"
       font_weight: 400
-      src: url('https://docs.arkumu.nrw/assets/fonts/RobotoMono-VariableFont_wght.woff2') format('woff2-variations');
-      color: #1E1E1E;
-      name: "Roboto Mono regular"
+      name: "ubuntu-v20-latin-regular"
     bold:
-      font_family: 'Roboto Mono'
+      font_family: "Ubuntu"
       font_style: "normal"
       font_weight: 700
-      src: url('https://docs.arkumu.nrw/assets/fonts/RobotoMono-VariableFont_wght.woff2') format('woff2-variations');
-      color: #1E1E1E;
-      name: "Roboto Mono bold"
+      name: "ubuntu-v20-latin-700"
   footer:
     links:
       - title: "arkumu Docs"
