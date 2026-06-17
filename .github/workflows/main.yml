@@ -115,7 +115,7 @@ jobs:
         run: |
           input=$GITHUB_REPOSITORY
           repo=${input#*/}
-          echo "BASEURL=/$repo" > .env
+          echo "BASEURL=" > .env
 
       - name: build public dir with docker image
         run: >
