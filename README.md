@@ -6,18 +6,23 @@ Kontrollierte Vokabulare für https://arkumu.nrw
 
 Im Rahmen einer Überarbeitung werden 2026 alle Vokabulare konsolidiert, logisch validiert und nach SKOS konvertiert. 
 
-Die einzelnen Vokabulare können als .xlsx gepflegt und mit einer Anwendung wie https://xls2rdf.sparna.fr/web/convert nach .ttl konvertiert werden. Über dieses Repositorium werden sie auf https://skohub.io veröffentlicht, wo sie programmatisch verfügbar sind.
+Die einzelnen Vokabulare können als .xlsx gepflegt und mit einer Anwendung wie https://xls2rdf.sparna.fr/web/convert nach .ttl konvertiert werden. Über dieses Repositorium werden sie auf https://vocabs.arkumu.nrw und https://skohub.io veröffentlicht, wo sie programmatisch verfügbar sind.
+
+Als PID redirect provider wird https://w3id.org/ benutzt, siehe weiteres Repositorium https://github.com/arkumu/vocab-pids.
 
 Hinweis: Die Aussage skos:exactMatch trifft nicht unbedingt immer zu. Bei einer redaktionellen Überarbeitung aller Einträge würde sich wahrscheinlich bei einzelnen zeigen, dass skos:closeMatch besser zutrifft.
 
 
 ## English
 
-vocabularies for https://arkumu.nrw
+Controlled vocabularies for https://arkumu.nrw
 
 As part of a restructuring process in 2026, all vocabularies will be consolidated, logically validated and converted to SKOS. 
 
-Vocabularies can be maintained as .xlsx files and converted to .ttl using a tool such as https://xls2rdf.sparna.fr/web/convert. They are published via this repository at https://skohub.io, where they are available for automated use.
+Vocabularies can be maintained as .xlsx files and converted to .ttl using a tool such as https://xls2rdf.sparna.fr/web/convert. They are published via this repository at https://vocabs.arkumu.nrw and https://skohub.io, where they are available for automated use.
+
+https://w3id.org/ is being used as  PID redirect provider, see https://github.com/arkumu/vocab-pids.
+
 
 NB: The skos:exactMatch property does not necessarily always apply. During an editorial review of all entries, it would likely become apparent that skos:closeMatch is a better fitfor some.
 
