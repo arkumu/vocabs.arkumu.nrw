@@ -25,7 +25,7 @@
     "Informationsträgertypen"@de;
   dct:description "Informationsträgertypen klassifizieren physische Informationsträger"@de,
     "Information Storage Medium Types classify physical Information Storage Media"@en;
-  dct:created "2026-06-10"^^xsd:date;
+  dct:created "2026-06-17"^^xsd:date;
   skos:editorialNote "URI noch zu klären"@de;
   dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 
